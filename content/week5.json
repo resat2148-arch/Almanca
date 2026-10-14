@@ -1,0 +1,315 @@
+{
+  "week": 5,
+  "title_de": "Notfälle & Konflikte",
+  "title_tr": "Acil durumlar ve çatışmalar",
+  "lessons": [
+    {
+      "id": "w5d1",
+      "day": 1,
+      "title_de": "Der Unfall",
+      "title_tr": "Kaza",
+      "goal_tr": "Küçük bir kazadan sonra ne yapman gerektiğini söyleyebilir ve kazayı 'war' ve 'hatte' ile kısaca anlatabilirsin.",
+      "words": [
+        {"de": "der Unfall", "pl": "die Unfälle", "tr": "kaza", "ex_de": "An der Kreuzung ist ein Unfall passiert.", "ex_tr": "Kavşakta bir kaza oldu."},
+        {"de": "der Zusammenstoß", "pl": "die Zusammenstöße", "tr": "çarpışma", "ex_de": "Es gab einen Zusammenstoß mit einem Lkw.", "ex_tr": "Bir kamyonla çarpışma oldu."},
+        {"de": "der Blechschaden", "pl": "die Blechschäden", "tr": "maddi hasar (kaporta hasarı)", "ex_de": "Zum Glück ist es nur ein Blechschaden.", "ex_tr": "Neyse ki sadece kaporta hasarı var."},
+        {"de": "der/die Verletzte", "pl": "die Verletzten", "tr": "yaralı", "ex_de": "Gibt es Verletzte im Bus?", "ex_tr": "Otobüste yaralı var mı?"},
+        {"de": "die Unfallstelle", "pl": "die Unfallstellen", "tr": "kaza yeri", "ex_de": "Zuerst sichere ich die Unfallstelle.", "ex_tr": "Önce kaza yerini güvenceye alıyorum."},
+        {"de": "der Warnblinker", "pl": "die Warnblinker", "tr": "dörtlü flaşör", "ex_de": "Ich schalte sofort den Warnblinker ein.", "ex_tr": "Hemen dörtlü flaşörü açıyorum."},
+        {"de": "der Zeuge", "pl": "die Zeugen", "tr": "tanık", "ex_de": "Zwei Fahrgäste waren Zeugen.", "ex_tr": "İki yolcu tanıktı."},
+        {"de": "das Warndreieck", "pl": "die Warndreiecke", "tr": "reflektör üçgen (uyarı üçgeni)", "ex_de": "Das Warndreieck steht jetzt hinter dem Bus.", "ex_tr": "Uyarı üçgeni şimdi otobüsün arkasında duruyor."},
+        {"de": "die Warnweste", "pl": "die Warnwesten", "tr": "reflektörlü yelek", "ex_de": "Vor dem Aussteigen ziehe ich die Warnweste an.", "ex_tr": "İnmeden önce reflektörlü yeleği giyiyorum."},
+        {"de": "bremsen", "pl": "", "tr": "fren yapmak", "ex_de": "Ich musste stark bremsen.", "ex_tr": "Sert fren yapmak zorunda kaldım."},
+        {"de": "ausweichen (ist ausgewichen)", "pl": "", "tr": "çarpmamak için kaçmak, manevra yapmak", "ex_de": "Ich bin dem Radfahrer ausgewichen.", "ex_tr": "Bisikletliye çarpmamak için manevra yaptım."},
+        {"de": "der Spiegel", "pl": "die Spiegel", "tr": "ayna", "ex_de": "Der rechte Spiegel ist beschädigt.", "ex_tr": "Sağ ayna hasarlı."}
+      ],
+      "phrases": [
+        {"de": "Ist jemand verletzt?", "tr": "Yaralanan var mı?"},
+        {"de": "Ist bei Ihnen alles in Ordnung?", "tr": "Sizde her şey yolunda mı?"},
+        {"de": "Bitte bleiben Sie im Bus.", "tr": "Lütfen otobüste kalın."},
+        {"de": "Haben Sie den Unfall gesehen?", "tr": "Kazayı gördünüz mü?"},
+        {"de": "Können Sie als Zeuge hierbleiben?", "tr": "Tanık olarak burada kalabilir misiniz?"},
+        {"de": "Die Fahrt kann leider nicht weitergehen.", "tr": "Maalesef yolculuk devam edemiyor."}
+      ],
+      "dialog": {
+        "title_tr": "Telsizle kaza bildirimi",
+        "lines": [
+          {"who": "Busfahrer", "de": "Moin, Leitstelle. Ich hatte gerade einen Unfall in Barmbek.", "tr": "Merhaba, kontrol merkezi. Az önce Barmbek'te bir kaza geçirdim."},
+          {"who": "Leitstelle", "de": "Verstanden. Gibt es Verletzte?", "tr": "Anlaşıldı. Yaralı var mı?"},
+          {"who": "Busfahrer", "de": "Nein, zum Glück nicht. Es war ein Zusammenstoß mit einem Auto, nur Blechschaden.", "tr": "Hayır, neyse ki yok. Bir arabayla çarpışma oldu, sadece kaporta hasarı var."},
+          {"who": "Leitstelle", "de": "Wo genau stehen Sie?", "tr": "Tam olarak nerede duruyorsunuz?"},
+          {"who": "Busfahrer", "de": "Kurz vor der Haltestelle, Richtung Wandsbek. Der Autofahrer war zu schnell und hatte keinen Abstand.", "tr": "Durağın biraz önünde, Wandsbek yönünde. Araba sürücüsü çok hızlıydı ve mesafe bırakmamıştı."},
+          {"who": "Leitstelle", "de": "Haben Sie die Unfallstelle gesichert?", "tr": "Kaza yerini güvenceye aldınız mı?"},
+          {"who": "Busfahrer", "de": "Ja, der Warnblinker ist an und das Warndreieck steht hinter dem Bus.", "tr": "Evet, dörtlüler açık ve uyarı üçgeni otobüsün arkasında duruyor."},
+          {"who": "Leitstelle", "de": "Gut. Gibt es Zeugen?", "tr": "İyi. Tanık var mı?"},
+          {"who": "Busfahrer", "de": "Ja, zwei Fahrgäste haben alles gesehen. Sie warten noch.", "tr": "Evet, iki yolcu her şeyi gördü. Hâlâ bekliyorlar."},
+          {"who": "Leitstelle", "de": "Sehr gut. Die Polizei ist informiert. Bleiben Sie bitte vor Ort.", "tr": "Çok iyi. Polise haber verildi. Lütfen olay yerinde kalın."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Präteritum: sein ve haben (geçmiş zaman)",
+        "explain_tr": "Konuşurken geçmiş zaman için çoğunlukla Perfekt kullanılır. Ama sein ve haben fiillerinde Präteritum daha yaygındır: war ve hatte. Çekim: ich war, du warst, er/sie/es war, wir waren, Sie/sie waren. Aynı şekilde: ich hatte, du hattest, er hatte, wir hatten, Sie hatten. Kazayı anlatırken çok işe yarar: Es war dunkel. Ich hatte grün.",
+        "examples": [
+          {"de": "Es war kurz nach sieben Uhr.", "tr": "Saat yediyi biraz geçiyordu."},
+          {"de": "Die Straße war nass und glatt.", "tr": "Yol ıslak ve kaygandı."},
+          {"de": "Ich hatte grün, der Autofahrer hatte rot.", "tr": "Bana yeşil yanıyordu, araba sürücüsüne kırmızı."},
+          {"de": "Wir hatten Glück: Niemand war verletzt.", "tr": "Şanslıydık: Kimse yaralanmamıştı."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Leitstelle",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Wandsbek'te bir araba otobüsün yanına sürttü ve sağ ayna kırıldı. Telsizle kontrol merkezine (Leitstelle) bildir: nerede olduğunu, ne olduğunu, yaralı olup olmadığını, kaza yerini nasıl güvenceye aldığını ve tanık olup olmadığını söyle. 'war' ve 'hatte' kullanmaya çalış.",
+        "ai_brief": "You are the radio dispatcher (Leitstelle) of a Hamburg bus company. You are calm, professional and speak in short, clear radio sentences (Sie form). The learner is a bus driver reporting a minor accident: a car scraped the side of the bus and broke the right mirror. Ask, one question at a time: exact location, what happened, whether anyone is injured, whether the scene is secured (hazard lights, warning triangle, high-visibility vest), whether there are witnesses, and whether the bus can still drive. Ask at least one question that invites the past tense of sein/haben, e.g. 'Wie war die Situation? Hatten Sie grün?'. Complications: 1) The radio connection is bad, so ask the driver to repeat the location. 2) Mention that passengers are probably asking questions and ask the driver what they will tell the passengers. 3) Ask whether the car driver is still there and seems calm. Gently correct serious German mistakes by repeating the correct sentence once. The scene ends when you have location, injuries, damage and witnesses; then say the police are informed and help is being organised, and close with 'Ende'.",
+        "opener_de": "Leitstelle hier, ich höre. Was ist passiert?"
+      }
+    },
+    {
+      "id": "w5d2",
+      "day": 2,
+      "title_de": "Erste Hilfe und Notruf",
+      "title_tr": "İlk yardım ve acil çağrı",
+      "goal_tr": "112'yi arayıp acil durumu kısa ve net anlatabilir, ilk yardımla ilgili temel kelimeleri anlayabilirsin.",
+      "words": [
+        {"de": "der Notruf", "pl": "die Notrufe", "tr": "acil çağrı, acil hat", "ex_de": "Bitte wählen Sie sofort den Notruf 112!", "ex_tr": "Lütfen hemen 112 acil hattını arayın!"},
+        {"de": "die Polizei", "pl": "", "tr": "polis", "ex_de": "Die Polizei erreichen Sie unter 110.", "ex_tr": "Polise 110'dan ulaşırsınız."},
+        {"de": "der Rettungswagen", "pl": "die Rettungswagen", "tr": "ambulans", "ex_de": "Der Rettungswagen ist schon unterwegs.", "ex_tr": "Ambulans yolda."},
+        {"de": "bewusstlos", "pl": "", "tr": "bilinçsiz, baygın", "ex_de": "Der Mann ist bewusstlos und reagiert nicht.", "ex_tr": "Adam baygın ve tepki vermiyor."},
+        {"de": "atmen", "pl": "", "tr": "nefes almak", "ex_de": "Atmet die Frau noch?", "ex_tr": "Kadın hâlâ nefes alıyor mu?"},
+        {"de": "Erste Hilfe leisten", "pl": "", "tr": "ilk yardım yapmak", "ex_de": "Im Notfall muss jeder Erste Hilfe leisten.", "ex_tr": "Acil durumda herkes ilk yardım yapmak zorundadır."},
+        {"de": "der Notarzt", "pl": "die Notärzte", "tr": "acil doktoru", "ex_de": "Der Notarzt kümmert sich jetzt um den Patienten.", "ex_tr": "Acil doktoru şimdi hastayla ilgileniyor."},
+        {"de": "die Wunde", "pl": "die Wunden", "tr": "yara", "ex_de": "Die Wunde am Kopf ist nicht groß.", "ex_tr": "Kafadaki yara büyük değil."},
+        {"de": "bluten", "pl": "", "tr": "kanamak", "ex_de": "Das Kind blutet an der Hand.", "ex_tr": "Çocuğun elinden kan geliyor."},
+        {"de": "die stabile Seitenlage", "pl": "", "tr": "stabil yan pozisyon (koma pozisyonu)", "ex_de": "Legen Sie ihn bitte in die stabile Seitenlage.", "ex_tr": "Lütfen onu koma pozisyonuna yatırın."},
+        {"de": "der Verbandskasten", "pl": "die Verbandskästen", "tr": "ilk yardım çantası", "ex_de": "Ich hole schnell den Verbandskasten.", "ex_tr": "Hemen ilk yardım çantasını getiriyorum."},
+        {"de": "die Herzdruckmassage", "pl": "die Herzdruckmassagen", "tr": "kalp masajı", "ex_de": "Er atmet nicht – wir beginnen mit der Herzdruckmassage.", "ex_tr": "Nefes almıyor – kalp masajına başlıyoruz."}
+      ],
+      "phrases": [
+        {"de": "Ich brauche einen Rettungswagen.", "tr": "Bir ambulansa ihtiyacım var."},
+        {"de": "Können Sie mich hören?", "tr": "Beni duyabiliyor musunuz?"},
+        {"de": "Ist hier ein Arzt oder eine Ärztin?", "tr": "Burada doktor var mı?"},
+        {"de": "Bitte machen Sie Platz!", "tr": "Lütfen yer açın!"},
+        {"de": "Bleiben Sie ruhig, Hilfe ist unterwegs.", "tr": "Sakin olun, yardım yolda."},
+        {"de": "Ich bleibe am Telefon.", "tr": "Telefonda kalıyorum (kapatmıyorum)."}
+      ],
+      "dialog": {
+        "title_tr": "112'yi aramak",
+        "lines": [
+          {"who": "Notrufzentrale", "de": "Notruf Feuerwehr und Rettungsdienst. Wo genau ist der Notfallort?", "tr": "İtfaiye ve acil sağlık hattı. Acil durum tam olarak nerede?"},
+          {"who": "Busfahrer", "de": "Ich bin Busfahrer. Ich stehe mit dem Bus an der Haltestelle Jungfernstieg.", "tr": "Ben otobüs şoförüyüm. Otobüsle Jungfernstieg durağında duruyorum."},
+          {"who": "Notrufzentrale", "de": "Was ist passiert?", "tr": "Ne oldu?"},
+          {"who": "Busfahrer", "de": "Ein älterer Mann ist plötzlich umgefallen. Er ist bewusstlos.", "tr": "Yaşlı bir adam aniden yere yığıldı. Bilinci kapalı."},
+          {"who": "Notrufzentrale", "de": "Wie viele Personen sind betroffen?", "tr": "Kaç kişi etkilendi?"},
+          {"who": "Busfahrer", "de": "Nur eine Person. Der Mann ist ungefähr siebzig.", "tr": "Sadece bir kişi. Adam yaklaşık yetmiş yaşında."},
+          {"who": "Notrufzentrale", "de": "Atmet er normal?", "tr": "Normal nefes alıyor mu?"},
+          {"who": "Busfahrer", "de": "Ja, er atmet, aber er reagiert nicht. Er blutet ein bisschen am Kopf.", "tr": "Evet, nefes alıyor ama tepki vermiyor. Kafasından biraz kan geliyor."},
+          {"who": "Notrufzentrale", "de": "Legen Sie ihn in die stabile Seitenlage. Ein Rettungswagen und ein Notarzt sind unterwegs.", "tr": "Onu koma pozisyonuna yatırın. Bir ambulans ve acil doktoru yolda."},
+          {"who": "Busfahrer", "de": "Verstanden. Ein Fahrgast leistet schon Erste Hilfe.", "tr": "Anlaşıldı. Bir yolcu zaten ilk yardım yapıyor."},
+          {"who": "Notrufzentrale", "de": "Gut. Legen Sie bitte nicht auf, ich habe noch Fragen.", "tr": "İyi. Lütfen telefonu kapatmayın, başka sorularım var."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Acil çağrıda W-sorularına cevap vermek",
+        "explain_tr": "112'yi aradığınızda görevli size kısa sorular sorar. Wo? (Nerede?) – Was ist passiert? (Ne oldu?) – Wie viele? (Kaç kişi?) – Welche Verletzungen? (Hangi yaralanmalar?). Önce yeri söyleyin, sonra olayı. Uzun cümle kurmayın, kısa ve net cevap verin. En önemlisi: telefonu siz kapatmayın, görevlinin başka sorularını bekleyin (Warten auf Rückfragen).",
+        "examples": [
+          {"de": "Wo ist der Notfall? – Im Bus an der Haltestelle Hauptbahnhof.", "tr": "Acil durum nerede? – Hauptbahnhof durağındaki otobüste."},
+          {"de": "Was ist passiert? – Eine Frau ist im Bus umgefallen.", "tr": "Ne oldu? – Otobüste bir kadın yere yığıldı."},
+          {"de": "Wie viele Personen sind verletzt? – Zwei Personen.", "tr": "Kaç kişi yaralı? – İki kişi."},
+          {"de": "Welche Verletzungen gibt es? – Ein Mann blutet am Kopf.", "tr": "Ne tür yaralanmalar var? – Bir adamın kafası kanıyor."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Notrufzentrale (112)",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Altona'da durağın yanında bir araba bir bisikletliye çarptı. Bisikletli yerde yatıyor ve bacağı kanıyor. 112'yi ara ve görevlinin W-sorularını kısa ve net cevapla; telefonu kapatma.",
+        "ai_brief": "You are the emergency call taker at the 112 fire and rescue control centre in Hamburg. You are calm, fast and structured, and you use Sie. The learner is a bus driver who saw a car hit a cyclist next to his bus stop in Altona. Ask the standard questions one by one: Wo? (exact place, street or stop), Was ist passiert?, Wie viele Verletzte?, Welche Verletzungen?, Is the person conscious and breathing?, and the caller's name. Complications: 1) Ask the driver to repeat or specify the location ('Welche Straße genau?'). 2) After a while say the cyclist's condition may change and ask the driver to check whether the person is still breathing and responding. 3) Give one simple first-aid instruction (e.g. press a cloth on the bleeding wound, do not move the person, keep them warm) and ask the driver to confirm. If the learner tries to hang up early, tell them not to hang up. Gently correct serious mistakes by repeating the correct sentence once. The scene ends when you have all the information and say 'Der Rettungswagen ist gleich da. Sie können jetzt auflegen.'",
+        "opener_de": "Notruf Feuerwehr und Rettungsdienst. Wo genau ist der Notfallort?"
+      }
+    },
+    {
+      "id": "w5d3",
+      "day": 3,
+      "title_de": "Unfallbericht und Polizei",
+      "title_tr": "Kaza raporu ve polis",
+      "goal_tr": "Polise kimlik bilgilerini verebilir ve kazanın nasıl olduğunu Perfekt ile sırayla anlatabilirsin.",
+      "words": [
+        {"de": "der Unfallbericht", "pl": "die Unfallberichte", "tr": "kaza raporu", "ex_de": "Nach dem Dienst schreibe ich einen Unfallbericht.", "ex_tr": "Mesaiden sonra bir kaza raporu yazıyorum."},
+        {"de": "die Aussage", "pl": "die Aussagen", "tr": "ifade", "ex_de": "Die Polizei nimmt jetzt Ihre Aussage auf.", "ex_tr": "Polis şimdi ifadenizi alıyor."},
+        {"de": "die Personalien (Pl.)", "pl": "", "tr": "kimlik bilgileri", "ex_de": "Darf ich bitte Ihre Personalien aufnehmen?", "ex_tr": "Kimlik bilgilerinizi alabilir miyim?"},
+        {"de": "das Kennzeichen", "pl": "die Kennzeichen", "tr": "plaka", "ex_de": "Haben Sie sich das Kennzeichen gemerkt?", "ex_tr": "Plakayı aklınızda tuttunuz mu?"},
+        {"de": "der Unfallhergang", "pl": "die Unfallhergänge", "tr": "kazanın oluş şekli", "ex_de": "Beschreiben Sie bitte den Unfallhergang.", "ex_tr": "Lütfen kazanın nasıl olduğunu anlatın."},
+        {"de": "schuld sein", "pl": "", "tr": "suçlu olmak, kabahatli olmak", "ex_de": "Wer war schuld an dem Unfall?", "ex_tr": "Kazada kim suçluydu?"},
+        {"de": "der Führerschein", "pl": "die Führerscheine", "tr": "ehliyet", "ex_de": "Zeigen Sie mir bitte Ihren Führerschein.", "ex_tr": "Lütfen bana ehliyetinizi gösterin."},
+        {"de": "der Ausweis", "pl": "die Ausweise", "tr": "kimlik kartı", "ex_de": "Haben Sie Ihren Ausweis dabei?", "ex_tr": "Kimliğiniz yanınızda mı?"},
+        {"de": "die Versicherung", "pl": "die Versicherungen", "tr": "sigorta", "ex_de": "Bei welcher Versicherung ist Ihr Auto?", "ex_tr": "Arabanız hangi sigortada?"},
+        {"de": "abbiegen (ist abgebogen)", "pl": "", "tr": "(bir yöne) dönmek", "ex_de": "Das Auto ist plötzlich rechts abgebogen.", "ex_tr": "Araba aniden sağa döndü."},
+        {"de": "die Vorfahrt", "pl": "", "tr": "geçiş üstünlüğü, yol hakkı", "ex_de": "Ich hatte Vorfahrt.", "ex_tr": "Yol hakkı bendeydi."},
+        {"de": "melden", "pl": "", "tr": "bildirmek", "ex_de": "Ich muss den Unfall sofort melden.", "ex_tr": "Kazayı hemen bildirmem lazım."}
+      ],
+      "phrases": [
+        {"de": "Ich möchte eine Aussage machen.", "tr": "İfade vermek istiyorum."},
+        {"de": "Das Auto kam von links.", "tr": "Araba soldan geldi."},
+        {"de": "Ich habe sofort gebremst.", "tr": "Hemen fren yaptım."},
+        {"de": "Das Auto hat mir die Vorfahrt genommen.", "tr": "Araba yol hakkımı vermedi."},
+        {"de": "Können Sie das bitte wiederholen?", "tr": "Bunu lütfen tekrarlayabilir misiniz?"},
+        {"de": "Brauchen Sie noch etwas von mir?", "tr": "Benden başka bir şey lazım mı?"}
+      ],
+      "dialog": {
+        "title_tr": "Polise ifade vermek",
+        "lines": [
+          {"who": "Polizist", "de": "Moin, Polizei Hamburg. Sind Sie der Busfahrer?", "tr": "Merhaba, Hamburg polisi. Otobüs şoförü siz misiniz?"},
+          {"who": "Busfahrer", "de": "Ja, genau. Ich habe den Unfall gemeldet.", "tr": "Evet, aynen. Kazayı ben bildirdim."},
+          {"who": "Polizist", "de": "Gut. Ich brauche zuerst Ihre Personalien und Ihren Führerschein.", "tr": "İyi. Önce kimlik bilgilerinize ve ehliyetinize ihtiyacım var."},
+          {"who": "Busfahrer", "de": "Hier, bitte. Meinen Ausweis habe ich auch dabei.", "tr": "Buyurun. Kimliğim de yanımda."},
+          {"who": "Polizist", "de": "Danke. Beschreiben Sie bitte den Unfallhergang.", "tr": "Teşekkürler. Lütfen kazanın nasıl olduğunu anlatın."},
+          {"who": "Busfahrer", "de": "Ich bin langsam zur Haltestelle gefahren. Dann ist plötzlich ein Auto von links gekommen.", "tr": "Durağa yavaşça gidiyordum. Sonra aniden soldan bir araba geldi."},
+          {"who": "Polizist", "de": "Und was haben Sie dann gemacht?", "tr": "Peki sonra ne yaptınız?"},
+          {"who": "Busfahrer", "de": "Als ich das Auto gesehen habe, habe ich sofort gebremst. Aber das Auto ist trotzdem gegen den Bus gefahren.", "tr": "Arabayı gördüğümde hemen fren yaptım. Ama araba yine de otobüse çarptı."},
+          {"who": "Polizist", "de": "Haben Sie das Kennzeichen?", "tr": "Plaka sizde var mı?"},
+          {"who": "Busfahrer", "de": "Ja, ich habe es notiert. Und ein Fahrgast hat alles gesehen. Er kann eine Aussage machen.", "tr": "Evet, not ettim. Ayrıca bir yolcu her şeyi gördü. O da ifade verebilir."},
+          {"who": "Polizist", "de": "Sehr gut. Dann spreche ich jetzt mit dem Zeugen.", "tr": "Çok iyi. O zaman şimdi tanıkla konuşuyorum."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Kazayı anlatmak: Perfekt ve bağlaçlar (als, dann, plötzlich)",
+        "explain_tr": "Kazanın nasıl olduğunu anlatırken Perfekt kullanın: haben/sein + Partizip II. Hareket bildiren fiiller (fahren, kommen, abbiegen) sein ile kurulur: Ich bin gefahren. 'dann' (sonra) ve 'plötzlich' (aniden) cümlenin başına gelirse çekimli fiil hemen arkasından gelir: Dann ist ein Auto gekommen. 'als' (-dığı zaman) yan cümle kurar ve çekimli fiil sona gider: Als ich das gesehen habe, ... Olayları sırayla anlatın: zuerst, dann, plötzlich, danach.",
+        "examples": [
+          {"de": "Zuerst bin ich an der Haltestelle losgefahren.", "tr": "Önce duraktan hareket ettim."},
+          {"de": "Dann ist plötzlich ein Radfahrer auf die Straße gefahren.", "tr": "Sonra aniden bir bisikletli yola çıktı."},
+          {"de": "Als ich den Radfahrer gesehen habe, habe ich sofort gebremst.", "tr": "Bisikletliyi gördüğümde hemen fren yaptım."},
+          {"de": "Danach habe ich die Leitstelle informiert.", "tr": "Ondan sonra kontrol merkezine haber verdim."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Polizist",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Eppendorf'ta bir araba sağa dönerken otobüsle çarpıştı. Polis memuru olay yerine geldi ve senin ifadeni alıyor. Kimlik bilgilerini ver ve kazanın nasıl olduğunu Perfekt ile, 'als', 'dann' ve 'plötzlich' kullanarak sırayla anlat.",
+        "ai_brief": "You are a Hamburg police officer taking the statement of a bus driver after a collision: a car turned right and hit the side of the bus. You are polite, neutral and professional, and you use Sie. First ask for Personalien, driving licence and ID. Then ask the driver to describe what happened step by step, and ask follow-up questions (time, speed, traffic light, direction, where exactly the car came from). Complications: 1) Say that the car driver claims the bus was too fast, and ask the bus driver to respond calmly. 2) Ask whether there are witnesses and whether anyone wrote down the licence plate. 3) Ask the driver to repeat one detail more precisely because it was unclear. Encourage the Perfekt with als/dann/plötzlich; if the learner uses only present tense, ask 'Und was ist dann passiert?'. Gently correct serious mistakes by repeating the correct sentence once. Do not blame anyone. The scene ends when you have the full statement; thank the driver and say you will now talk to the witnesses.",
+        "opener_de": "Moin, Polizei. Sind Sie der Fahrer von diesem Bus? Ich brauche bitte zuerst Ihre Personalien."
+      }
+    },
+    {
+      "id": "w5d4",
+      "day": 4,
+      "title_de": "Schwierige Fahrgäste",
+      "title_tr": "Zor yolcular ve yatıştırma",
+      "goal_tr": "Saldırgan veya sarhoş bir yolcuyla sakin ama net konuşabilir, sınır koyabilir ve gerekirse polisi arayacağını söyleyebilirsin.",
+      "words": [
+        {"de": "ruhig bleiben (ist ruhig geblieben)", "pl": "", "tr": "sakin kalmak", "ex_de": "Auch wenn jemand schreit, bleibe ich ruhig.", "ex_tr": "Biri bağırsa bile sakin kalırım."},
+        {"de": "der Abstand", "pl": "die Abstände", "tr": "mesafe", "ex_de": "Halten Sie bitte Abstand!", "ex_tr": "Lütfen mesafenizi koruyun!"},
+        {"de": "beleidigen", "pl": "", "tr": "hakaret etmek", "ex_de": "Sie dürfen andere Fahrgäste nicht beleidigen.", "ex_tr": "Diğer yolculara hakaret edemezsiniz."},
+        {"de": "bedrohen", "pl": "", "tr": "tehdit etmek", "ex_de": "Der Mann hat mich bedroht.", "ex_tr": "Adam beni tehdit etti."},
+        {"de": "das Hausrecht", "pl": "", "tr": "Hausrecht (mekânda kural koyma ve birini dışarı çıkarma hakkı)", "ex_de": "Im Bus habe ich das Hausrecht.", "ex_tr": "Otobüste Hausrecht bende (kuralları ben koyarım)."},
+        {"de": "jemanden des Busses verweisen (hat verwiesen)", "pl": "", "tr": "birini otobüsten çıkarmak", "ex_de": "Wer andere bedroht, wird des Busses verwiesen.", "ex_tr": "Başkalarını tehdit eden otobüsten çıkarılır."},
+        {"de": "betrunken", "pl": "", "tr": "sarhoş", "ex_de": "Der Fahrgast ist stark betrunken.", "ex_tr": "Yolcu çok sarhoş."},
+        {"de": "aggressiv", "pl": "", "tr": "saldırgan", "ex_de": "Er wird immer aggressiver.", "ex_tr": "Gittikçe daha saldırgan oluyor."},
+        {"de": "der Streit", "pl": "die Streitigkeiten", "tr": "kavga, tartışma", "ex_de": "Hinten im Bus gibt es Streit.", "ex_tr": "Otobüsün arkasında kavga var."},
+        {"de": "die Gewalt", "pl": "", "tr": "şiddet", "ex_de": "Bei Gewalt rufe ich sofort die Polizei.", "ex_tr": "Şiddet olursa hemen polisi ararım."},
+        {"de": "belästigen", "pl": "", "tr": "rahatsız etmek, taciz etmek", "ex_de": "Der Mann belästigt eine junge Frau.", "ex_tr": "Adam genç bir kadını rahatsız ediyor."},
+        {"de": "der Sicherheitsdienst", "pl": "die Sicherheitsdienste", "tr": "güvenlik servisi", "ex_de": "Ich frage die Leitstelle, ob der Sicherheitsdienst kommen kann.", "ex_tr": "Kontrol merkezine güvenlik ekibinin gelip gelemeyeceğini soruyorum."}
+      ],
+      "phrases": [
+        {"de": "Bitte hören Sie sofort auf!", "tr": "Lütfen hemen bırakın!"},
+        {"de": "Ich möchte keinen Streit.", "tr": "Kavga istemiyorum."},
+        {"de": "Bitte sprechen Sie in normaler Lautstärke.", "tr": "Lütfen normal ses tonuyla konuşun."},
+        {"de": "Ich lasse mich nicht beleidigen.", "tr": "Bana hakaret edilmesine izin vermem."},
+        {"de": "Ich fahre erst weiter, wenn Sie ausgestiegen sind.", "tr": "Siz inmeden yola devam etmeyeceğim."},
+        {"de": "Ich rufe jetzt die Polizei.", "tr": "Şimdi polisi arıyorum."}
+      ],
+      "dialog": {
+        "title_tr": "Sarhoş yolcu",
+        "lines": [
+          {"who": "Fahrgast", "de": "Ey, mach mal die Tür auf! Ich will hier raus!", "tr": "Hey, aç şu kapıyı! Burada inmek istiyorum!"},
+          {"who": "Busfahrer", "de": "Bitte bleiben Sie ruhig. Die nächste Haltestelle kommt gleich.", "tr": "Lütfen sakin olun. Bir sonraki durak birazdan geliyor."},
+          {"who": "Fahrgast", "de": "Du hast mir gar nichts zu sagen, du Idiot!", "tr": "Sen bana hiçbir şey söyleyemezsin, aptal!"},
+          {"who": "Busfahrer", "de": "Ich lasse mich nicht beleidigen. Bitte hören Sie auf und halten Sie Abstand.", "tr": "Bana hakaret edilmesine izin vermem. Lütfen bırakın ve mesafenizi koruyun."},
+          {"who": "Fahrgast", "de": "Und wenn nicht? Willst du Ärger?", "tr": "Ya bırakmazsam? Bela mı istiyorsun?"},
+          {"who": "Busfahrer", "de": "Ich möchte keinen Streit. Aber Sie sind betrunken und stören die anderen Fahrgäste.", "tr": "Kavga istemiyorum. Ama sarhoşsunuz ve diğer yolcuları rahatsız ediyorsunuz."},
+          {"who": "Fahrgast", "de": "Pass bloß auf, sonst passiert was!", "tr": "Dikkat et, yoksa bir şey olur!"},
+          {"who": "Busfahrer", "de": "Ich fühle mich bedroht. Im Bus habe ich das Hausrecht. Bitte steigen Sie an der nächsten Haltestelle aus.", "tr": "Kendimi tehdit altında hissediyorum. Otobüste Hausrecht bende. Lütfen bir sonraki durakta inin."},
+          {"who": "Fahrgast", "de": "Ich steige nicht aus!", "tr": "İnmiyorum!"},
+          {"who": "Busfahrer", "de": "Dann rufe ich jetzt die Polizei. Ich fahre erst weiter, wenn Sie ausgestiegen sind.", "tr": "O zaman şimdi polisi arıyorum. Siz inmeden yola devam etmeyeceğim."},
+          {"who": "Fahrgast", "de": "Ist ja gut, ist ja gut … ich gehe ja schon.", "tr": "Tamam, tamam … gidiyorum işte."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Emir kipi (Imperativ) ve net Ich-cümleleri",
+        "explain_tr": "Sie ile emir kipi: fiil başa gelir, arkasından 'Sie' gelir: Hören Sie auf! Bleiben Sie ruhig! 'bitte' eklerseniz kibar ama yine net olur. Ayrılabilen fiillerde ön ek cümlenin sonuna gider: Steigen Sie bitte aus! Ich-cümleleri karşı tarafı suçlamaz, kendi durumunuzu ve ne yapacağınızı söyler: Ich fühle mich bedroht. Ich rufe jetzt die Polizei. Kısa cümleler kurun, yavaş ve sakin konuşun.",
+        "examples": [
+          {"de": "Bitte hören Sie auf zu schreien.", "tr": "Lütfen bağırmayı bırakın."},
+          {"de": "Treten Sie bitte einen Schritt zurück.", "tr": "Lütfen bir adım geri çekilin."},
+          {"de": "Ich fühle mich von Ihnen bedroht.", "tr": "Sizin tarafınızdan tehdit edildiğimi hissediyorum."},
+          {"de": "Ich rufe jetzt die Polizei.", "tr": "Şimdi polisi arıyorum."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "betrunkener Fahrgast",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Gece geç saatte Reeperbahn'dan Altona'ya giden otobüste sarhoş bir yolcu bağırıyor ve diğer yolculara laf atıyor. Sakin kal; kısa emir cümleleri ve Ich-cümleleriyle sınır koy, gerekirse bir sonraki durakta inmesini iste ve polisi arayacağını söyle.",
+        "ai_brief": "You are a drunk male passenger, about 40, on a late-night bus from Reeperbahn to Altona in Hamburg. You are loud, a bit slurred, use du with the driver and are rude, but you never become physically violent; keep everything non-graphic. You want the bus to go faster or to stop where you want. Complications: 1) Insult the driver mildly (e.g. 'Du Penner', or 'Du verstehst doch eh kein Deutsch'). 2) Come too close to the driver's cab and refuse to step back the first time you are asked. 3) Annoy another passenger ('Die Frau da hinten guckt so blöd') and refuse to get off at first. React realistically: if the learner stays calm and uses short, clear Imperativ sentences and Ich-Botschaften (and mentions the police or the Hausrecht), slowly calm down; if the learner shouts or argues, become louder. Do not correct the learner's German during the scene. The scene ends when you get off the bus at the next stop or when the driver clearly says the police are being called; then end with one short line.",
+        "opener_de": "Ey, Chef! Warum fährst du so langsam? Mach mal schneller, ich will nach Hause!"
+      }
+    },
+    {
+      "id": "w5d5",
+      "day": 5,
+      "title_de": "Fundsachen und Notfälle im Bus",
+      "title_tr": "Kayıp eşyalar ve otobüste acil durumlar",
+      "goal_tr": "Düşen veya bayılan bir yolcuya yardım edebilir, kayıp eşya ve kayıp çocuk durumlarında doğru soruları sorabilirsin. Eşyaların yerini Wechselpräpositionen ile söyleyebilirsin.",
+      "words": [
+        {"de": "die Fundsache", "pl": "die Fundsachen", "tr": "bulunmuş eşya", "ex_de": "Die Fundsache gebe ich nach der Schicht ab.", "ex_tr": "Bulunan eşyayı vardiyadan sonra teslim ediyorum."},
+        {"de": "das Fundbüro", "pl": "die Fundbüros", "tr": "kayıp eşya bürosu", "ex_de": "Fragen Sie bitte beim Fundbüro nach.", "ex_tr": "Lütfen kayıp eşya bürosuna sorun."},
+        {"de": "stürzen (ist gestürzt)", "pl": "", "tr": "düşmek", "ex_de": "Eine ältere Dame ist beim Bremsen gestürzt.", "ex_tr": "Fren sırasında yaşlı bir kadın düştü."},
+        {"de": "ohnmächtig werden (ist ohnmächtig geworden)", "pl": "", "tr": "bayılmak", "ex_de": "Im vollen Bus ist ein Mädchen ohnmächtig geworden.", "ex_tr": "Kalabalık otobüste bir kız bayıldı."},
+        {"de": "vergessen (hat vergessen)", "pl": "", "tr": "unutmak", "ex_de": "Ich habe meinen Schirm im Bus vergessen.", "ex_tr": "Şemsiyemi otobüste unuttum."},
+        {"de": "liegen lassen (hat liegen lassen)", "pl": "", "tr": "(bir yerde) bırakıp unutmak", "ex_de": "Jemand hat eine Tasche auf dem Sitz liegen lassen.", "ex_tr": "Biri koltukta bir çanta unutmuş."},
+        {"de": "verlieren (hat verloren)", "pl": "", "tr": "kaybetmek", "ex_de": "Ich habe mein Kind im Gedränge verloren!", "ex_tr": "Kalabalıkta çocuğumu kaybettim!"},
+        {"de": "der Sitz", "pl": "die Sitze", "tr": "koltuk", "ex_de": "Unter dem Sitz liegt ein Handy.", "ex_tr": "Koltuğun altında bir cep telefonu var."},
+        {"de": "der Kinderwagen", "pl": "die Kinderwagen", "tr": "bebek arabası", "ex_de": "Der Kinderwagen steht neben der Tür.", "ex_tr": "Bebek arabası kapının yanında duruyor."},
+        {"de": "die Haltestange", "pl": "die Haltestangen", "tr": "tutunma direği", "ex_de": "Halten Sie sich bitte an der Haltestange fest.", "ex_tr": "Lütfen tutunma direğine tutunun."},
+        {"de": "der Rucksack", "pl": "die Rucksäcke", "tr": "sırt çantası", "ex_de": "Hinter dem letzten Sitz liegt ein Rucksack.", "ex_tr": "En arka koltuğun arkasında bir sırt çantası var."},
+        {"de": "der Gang", "pl": "die Gänge", "tr": "koridor (otobüs içi)", "ex_de": "Bitte stellen Sie den Koffer nicht in den Gang.", "ex_tr": "Lütfen bavulu koridora koymayın."}
+      ],
+      "phrases": [
+        {"de": "Haben Sie sich verletzt?", "tr": "Yaralandınız mı?"},
+        {"de": "Bleiben Sie bitte sitzen, Hilfe kommt.", "tr": "Lütfen oturduğunuz yerde kalın, yardım geliyor."},
+        {"de": "Wie sieht die Tasche aus?", "tr": "Çanta neye benziyor?"},
+        {"de": "Wie heißt Ihr Kind und was trägt es?", "tr": "Çocuğunuzun adı ne ve üzerinde ne var?"},
+        {"de": "Gehört dieser Rucksack jemandem?", "tr": "Bu sırt çantası kimin?"},
+        {"de": "Ich melde das der Leitstelle.", "tr": "Bunu kontrol merkezine bildiriyorum."}
+      ],
+      "dialog": {
+        "title_tr": "Unutulan çanta",
+        "lines": [
+          {"who": "Fahrgast", "de": "Entschuldigung, ich bin vorhin mit Ihnen gefahren. Ich glaube, ich habe meine Tasche im Bus liegen lassen!", "tr": "Affedersiniz, az önce sizinle yolculuk ettim. Sanırım çantamı otobüste unuttum!"},
+          {"who": "Busfahrer", "de": "Oh. Wo haben Sie denn gesessen?", "tr": "Ah. Nerede oturmuştunuz?"},
+          {"who": "Fahrgast", "de": "Hinten am Fenster. Ich habe die Tasche neben mich auf den Sitz gelegt.", "tr": "Arkada, cam kenarında. Çantayı yanıma, koltuğun üstüne koymuştum."},
+          {"who": "Busfahrer", "de": "Wie sieht die Tasche aus?", "tr": "Çanta neye benziyor?"},
+          {"who": "Fahrgast", "de": "Sie ist schwarz, aus Leder. Meine Geldbörse ist drin.", "tr": "Siyah, deri. İçinde cüzdanım var."},
+          {"who": "Busfahrer", "de": "Moment, ich schaue mal nach … Unter dem Sitz liegt eine schwarze Tasche.", "tr": "Bir dakika, bakayım … Koltuğun altında siyah bir çanta var."},
+          {"who": "Fahrgast", "de": "Ja, das ist bestimmt meine! Sie ist wohl auf den Boden gefallen.", "tr": "Evet, kesin benimki! Herhalde yere düşmüş."},
+          {"who": "Busfahrer", "de": "Was ist denn drin? Dann gebe ich sie Ihnen.", "tr": "İçinde ne var? O zaman size vereyim."},
+          {"who": "Fahrgast", "de": "Eine Geldbörse, ein Schlüssel und eine Brille.", "tr": "Bir cüzdan, bir anahtar ve bir gözlük."},
+          {"who": "Busfahrer", "de": "Stimmt. Bitte schön. Sonst wäre die Tasche heute Abend im Fundbüro gelandet.", "tr": "Doğru. Buyurun. Yoksa çanta bu akşam kayıp eşya bürosuna gidecekti."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Wechselpräpositionen: Nerede? (Dativ) – Nereye? (Akkusativ)",
+        "explain_tr": "in, an, auf, unter, über, neben, hinter, vor, zwischen iki hâl alabilir. 'Wo?' (nerede?) sorusunda, yani hareket yoksa Dativ kullanılır: auf dem Sitz, unter der Bank. 'Wohin?' (nereye?) sorusunda, yani bir yere hareket varsa Akkusativ kullanılır: auf den Sitz. Fiil çiftleri yardımcı olur: liegen/legen, stehen/stellen, sitzen/setzen. liegen, stehen, sitzen → Dativ; legen, stellen, setzen → Akkusativ.",
+        "examples": [
+          {"de": "Die Tasche liegt auf dem Sitz.", "tr": "Çanta koltuğun üstünde duruyor."},
+          {"de": "Ich lege die Tasche auf den Sitz.", "tr": "Çantayı koltuğun üstüne koyuyorum."},
+          {"de": "Das Handy ist unter den Sitz gefallen.", "tr": "Telefon koltuğun altına düştü."},
+          {"de": "Der Junge steht hinter der Tür, neben dem Kinderwagen.", "tr": "Çocuk kapının arkasında, bebek arabasının yanında duruyor."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast (Mutter)",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Hauptbahnhof durağı çok kalabalık. Panik içindeki bir anne sana koşuyor: küçük oğlunu kalabalıkta kaybetmiş ve otobüse binip binmediğini bilmiyor. Sakin ol, çocuğun adını, yaşını, kıyafetini ve en son nerede görüldüğünü sor, otobüse bak ve gerekirse kontrol merkezine bildir.",
+        "ai_brief": "You are a mother, about 35, at the crowded Hauptbahnhof bus stop in Hamburg. You are panicking because you lost your son Leon (6 years old, red jacket, blue backpack, blond hair) in the crowd and you don't know if he got on this bus. Use Sie with the driver. At first you speak fast and emotionally; calm down a little when the driver speaks calmly and asks clear questions. Answer the driver's questions (name, age, clothes, where you last saw him), using Wechselpräpositionen in your answers (e.g. 'Er stand neben dem Kinderwagen, vor der Tür'). Complications: 1) You are not sure whether Leon got on at the front or the back door. 2) Ask the driver not to drive away. 3) After the driver looks or asks passengers, say you see a red jacket 'da hinten, hinter dem letzten Sitz' and ask if that is him. If the driver suggests informing the Leitstelle, agree gratefully. Do not correct the learner's German during the scene. The scene ends when Leon is found sitting at the back of the bus and you thank the driver warmly.",
+        "opener_de": "Hilfe! Bitte warten Sie! Ich finde meinen Sohn nicht mehr! Ist er in Ihrem Bus?"
+      }
+    }
+  ]
+}

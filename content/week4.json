@@ -1,0 +1,302 @@
+{
+  "week": 4,
+  "title_de": "Leitstelle, Funk & Durchsagen",
+  "title_tr": "Merkez, telsiz ve anonslar",
+  "lessons": [
+    {
+      "id": "w4d1",
+      "day": 1,
+      "title_de": "Funk mit der Leitstelle",
+      "title_tr": "Merkezle telsiz konuşması",
+      "goal_tr": "Merkezle (Leitstelle) telsizden kısa ve net konuşabilirsin: araç numaranı, konumunu ve durumu bildirebilirsin. Talimatı anlayıp 'verstanden' ile onaylayabilirsin.",
+      "words": [
+        {"de": "die Leitstelle", "pl": "die Leitstellen", "tr": "merkez, kontrol merkezi", "ex_de": "Ich melde mich sofort bei der Leitstelle.", "ex_tr": "Hemen merkeze haber veriyorum."},
+        {"de": "der Funkspruch", "pl": "die Funksprüche", "tr": "telsiz mesajı", "ex_de": "Der Funkspruch war leider nicht klar.", "ex_tr": "Telsiz mesajı maalesef net değildi."},
+        {"de": "das Funkgerät", "pl": "die Funkgeräte", "tr": "telsiz (cihazı)", "ex_de": "Das Funkgerät funktioniert heute nicht richtig.", "ex_tr": "Telsiz bugün düzgün çalışmıyor."},
+        {"de": "melden (hat gemeldet)", "pl": "", "tr": "bildirmek, haber vermek", "ex_de": "Bitte melden Sie den Schaden sofort.", "ex_tr": "Lütfen hasarı hemen bildirin."},
+        {"de": "der Standort", "pl": "die Standorte", "tr": "konum, bulunulan yer", "ex_de": "Nennen Sie bitte Ihren Standort.", "ex_tr": "Lütfen konumunuzu söyleyin."},
+        {"de": "die Wagennummer", "pl": "die Wagennummern", "tr": "araç numarası", "ex_de": "Meine Wagennummer ist 7312.", "ex_tr": "Araç numaram 7312."},
+        {"de": "die Linie", "pl": "die Linien", "tr": "hat (otobüs hattı)", "ex_de": "Auf meiner Linie gibt es heute viel Verkehr.", "ex_tr": "Hattımda bugün çok trafik var."},
+        {"de": "verstanden", "pl": "", "tr": "anlaşıldı", "ex_de": "Verstanden, ich fahre weiter bis Barmbek.", "ex_tr": "Anlaşıldı, Barmbek'e kadar devam ediyorum."},
+        {"de": "Ende (im Funk)", "pl": "", "tr": "konuşma sonu (telsizde)", "ex_de": "Alles klar, danke. Ende.", "ex_tr": "Tamamdır, teşekkürler. Konuşma sonu."},
+        {"de": "durchgeben (hat durchgegeben)", "pl": "", "tr": "(bilgiyi) iletmek, bildirmek", "ex_de": "Ich gebe Ihnen gleich meinen Standort durch.", "ex_tr": "Size hemen konumumu bildiriyorum."},
+        {"de": "wiederholen (hat wiederholt)", "pl": "", "tr": "tekrarlamak", "ex_de": "Können Sie das bitte wiederholen?", "ex_tr": "Bunu lütfen tekrar eder misiniz?"},
+        {"de": "die Rückmeldung", "pl": "die Rückmeldungen", "tr": "geri dönüş, geri bildirim", "ex_de": "Ich warte auf Ihre Rückmeldung.", "ex_tr": "Dönüşünüzü bekliyorum."}
+      ],
+      "phrases": [
+        {"de": "Leitstelle, hier Wagen 7312, kommen.", "tr": "Merkez, burası 7312 numaralı araç, tamam."},
+        {"de": "Wagen 7312, Leitstelle hört.", "tr": "7312, merkez dinliyor."},
+        {"de": "Ich stehe an der Haltestelle Wandsbek Markt.", "tr": "Wandsbek Markt durağındayım."},
+        {"de": "Bitte wiederholen, die Verbindung ist schlecht.", "tr": "Lütfen tekrarlayın, bağlantı kötü."},
+        {"de": "Verstanden, ich melde mich wieder.", "tr": "Anlaşıldı, tekrar haber vereceğim."},
+        {"de": "Ich habe ein Problem mit einem Fahrgast.", "tr": "Bir yolcuyla sorunum var."}
+      ],
+      "dialog": {
+        "title_tr": "Konum ve durum bildirimi",
+        "lines": [
+          {"who": "Busfahrer", "de": "Leitstelle, hier Wagen 7312, kommen.", "tr": "Merkez, burası 7312 numaralı araç, tamam."},
+          {"who": "Leitstelle", "de": "Wagen 7312, Leitstelle hört. Wie ist Ihr Standort?", "tr": "7312, merkez dinliyor. Konumunuz nedir?"},
+          {"who": "Busfahrer", "de": "Ich bin kurz vor Barmbek. Vor mir blockiert ein Lkw die Straße.", "tr": "Barmbek'e az kaldı. Önümde bir kamyon yolu kapatıyor."},
+          {"who": "Leitstelle", "de": "Verstanden. Ist jemand verletzt?", "tr": "Anlaşıldı. Yaralı var mı?"},
+          {"who": "Busfahrer", "de": "Nein, niemand ist verletzt. Der Lkw liefert nur Waren aus.", "tr": "Hayır, yaralı yok. Kamyon sadece mal indiriyor."},
+          {"who": "Leitstelle", "de": "Gut. Bitte warten Sie fünf Minuten und geben Sie dann eine Rückmeldung durch.", "tr": "Tamam. Lütfen beş dakika bekleyin, sonra bize geri dönüş yapın."},
+          {"who": "Busfahrer", "de": "Verstanden. Ich warte fünf Minuten und melde mich wieder.", "tr": "Anlaşıldı. Beş dakika bekliyorum ve tekrar haber veriyorum."},
+          {"who": "Leitstelle", "de": "Danke, Wagen 7312. Ende.", "tr": "Teşekkürler 7312. Konuşma sonu."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Kısa telsiz dili ve düz cümlede fiilin yeri",
+        "explain_tr": "Almanca düz cümlede çekimli fiil her zaman 2. sıradadır. Cümle bir zaman veya yer ifadesiyle başlarsa özne fiilden sonra gelir: 'Jetzt fahre ich weiter.' Telsizde cümleler çok kısadır; bazen fiil veya özne hiç söylenmez: 'Wagen 7312, kommen.' Önce kim olduğunu, sonra nerede olduğunu, sonra sorunu söyle. Sonunda 'verstanden' veya 'Ende' de.",
+        "examples": [
+          {"de": "Ich stehe am Hauptbahnhof.", "tr": "Hauptbahnhof'tayım."},
+          {"de": "Am Hauptbahnhof stehe ich seit fünf Minuten.", "tr": "Beş dakikadır Hauptbahnhof'ta bekliyorum."},
+          {"de": "Jetzt fahre ich weiter Richtung Altona.", "tr": "Şimdi Altona yönünde devam ediyorum."},
+          {"de": "Wagen 7312 an Leitstelle: Fahrt läuft normal.", "tr": "7312'den merkeze: Sefer normal devam ediyor."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Leitstelle",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Wandsbek'te yola büyük bir ağaç dalı düşmüş ve otobüs geçemiyor. Telsizle merkezi ara, araç numaranı ve konumunu bildir, durumu anlat. Merkezin talimatını anla ve 'verstanden' ile onayla.",
+        "ai_brief": "You are the dispatcher at the control centre (Leitstelle) of a Hamburg bus company. Speak short, clear radio German at A2-B1 level and use Sie. The learner is a bus driver calling you by radio because a large branch is blocking the road in Wandsbek. Wait for them to give their vehicle number and location; if they forget, ask 'Wie ist Ihre Wagennummer?' or 'Wo genau sind Sie?'. Complications: 1) Once, pretend the connection is bad and ask them to repeat ('Bitte wiederholen, Verbindung schlecht.'). 2) Ask whether passengers are on board and whether anyone is hurt. 3) Give a clear instruction (e.g. wait ten minutes, then take a detour through the next side street) and make them confirm with 'verstanden' and repeat the key point. Keep company procedures generic. Finish with 'Ende' once they have confirmed correctly, then give one or two short tips about word order or radio style.",
+        "opener_de": "Leitstelle hört. Bitte Wagennummer und Standort."
+      }
+    },
+    {
+      "id": "w4d2",
+      "day": 2,
+      "title_de": "Verspätung & Stau",
+      "title_tr": "Gecikme ve trafik sıkışıklığı",
+      "goal_tr": "Merkeze gecikmeyi ve sebebini 'dass' cümlesiyle bildirebilirsin. Yolculara gecikme ve aktarma bağlantısı hakkında bilgi verebilirsin.",
+      "words": [
+        {"de": "der Stau", "pl": "die Staus", "tr": "trafik sıkışıklığı", "ex_de": "Auf der Wandsbeker Chaussee ist schon wieder Stau.", "ex_tr": "Wandsbeker Chaussee'de yine trafik sıkışıklığı var."},
+        {"de": "die Verspätung", "pl": "die Verspätungen", "tr": "gecikme, rötar", "ex_de": "Wir haben zurzeit etwa zehn Minuten Verspätung.", "ex_tr": "Şu anda yaklaşık on dakika gecikmemiz var."},
+        {"de": "die Fahrplanabweichung", "pl": "die Fahrplanabweichungen", "tr": "tarifeden sapma", "ex_de": "Ich habe eine Fahrplanabweichung von acht Minuten.", "ex_tr": "Tarifeden sekiz dakika sapmam var."},
+        {"de": "aufholen (hat aufgeholt)", "pl": "", "tr": "(gecikmeyi) kapatmak, telafi etmek", "ex_de": "Die Verspätung kann ich heute nicht mehr aufholen.", "ex_tr": "Bu gecikmeyi bugün artık kapatamam."},
+        {"de": "der Anschluss", "pl": "die Anschlüsse", "tr": "aktarma bağlantısı", "ex_de": "Erreiche ich in Barmbek noch den Anschluss an die U-Bahn?", "ex_tr": "Barmbek'te metro aktarmasına hâlâ yetişir miyim?"},
+        {"de": "verpassen (hat verpasst)", "pl": "", "tr": "kaçırmak", "ex_de": "Viele Fahrgäste verpassen heute ihren Zug.", "ex_tr": "Birçok yolcu bugün trenini kaçırıyor."},
+        {"de": "informieren (hat informiert)", "pl": "", "tr": "bilgilendirmek", "ex_de": "Ich informiere die Fahrgäste über die Verspätung.", "ex_tr": "Yolcuları gecikme hakkında bilgilendiriyorum."},
+        {"de": "der Berufsverkehr", "pl": "", "tr": "iş saatleri trafiği (sabah/akşam yoğunluğu)", "ex_de": "Im Berufsverkehr brauchen wir oft länger.", "ex_tr": "İş saatleri trafiğinde çoğu zaman daha uzun sürüyor."},
+        {"de": "der Unfall", "pl": "die Unfälle", "tr": "kaza", "ex_de": "Auf der Kennedybrücke gab es einen Unfall.", "ex_tr": "Kennedybrücke'de bir kaza oldu."},
+        {"de": "pünktlich", "pl": "", "tr": "dakik, zamanında", "ex_de": "Heute sind wir leider nicht pünktlich.", "ex_tr": "Bugün maalesef zamanında değiliz."},
+        {"de": "der Fahrplan", "pl": "die Fahrpläne", "tr": "sefer tarifesi", "ex_de": "Laut Fahrplan sind wir um 8:15 Uhr in Altona.", "ex_tr": "Tarifeye göre saat 8:15'te Altona'dayız."},
+        {"de": "voraussichtlich", "pl": "", "tr": "tahminen, muhtemelen", "ex_de": "Wir kommen voraussichtlich zehn Minuten später an.", "ex_tr": "Tahminen on dakika geç varacağız."}
+      ],
+      "phrases": [
+        {"de": "Ich melde, dass ich zehn Minuten Verspätung habe.", "tr": "On dakika gecikmem olduğunu bildiriyorum."},
+        {"de": "Wir stehen im Stau, es geht leider nicht weiter.", "tr": "Trafikte bekliyoruz, maalesef ilerlemiyor."},
+        {"de": "Es tut mir leid, schneller geht es leider nicht.", "tr": "Üzgünüm, maalesef daha hızlı olmuyor."},
+        {"de": "Ihren Anschluss erreichen Sie vielleicht nicht mehr.", "tr": "Aktarmanıza belki artık yetişemezsiniz."},
+        {"de": "Die nächste Verbindung finden Sie in der HVV-App.", "tr": "Bir sonraki bağlantıyı HVV uygulamasında bulabilirsiniz."},
+        {"de": "Gibt es eine Möglichkeit, den Anschluss zu halten?", "tr": "Aktarma bağlantısını bekletmek mümkün mü?"}
+      ],
+      "dialog": {
+        "title_tr": "Trafikte gecikme bildirimi",
+        "lines": [
+          {"who": "Busfahrer", "de": "Leitstelle, hier Wagen 5208. Ich melde, dass ich im Stau stehe.", "tr": "Merkez, burası 5208. Trafikte beklediğimi bildiriyorum."},
+          {"who": "Leitstelle", "de": "Verstanden. Wie groß ist Ihre Verspätung?", "tr": "Anlaşıldı. Gecikmeniz ne kadar?"},
+          {"who": "Busfahrer", "de": "Ich habe zurzeit zwölf Minuten Fahrplanabweichung. Auf der Kennedybrücke gab es einen Unfall.", "tr": "Şu anda tarifeden on iki dakika sapmam var. Kennedybrücke'de bir kaza olmuş."},
+          {"who": "Leitstelle", "de": "Danke. Bitte informieren Sie die Fahrgäste. Sie müssen nichts aufholen, fahren Sie sicher.", "tr": "Teşekkürler. Lütfen yolcuları bilgilendirin. Gecikmeyi kapatmanız gerekmiyor, güvenli sürün."},
+          {"who": "Fahrgast", "de": "Entschuldigung, schaffe ich in Barmbek noch meinen Anschluss?", "tr": "Affedersiniz, Barmbek'te aktarmama hâlâ yetişebilir miyim?"},
+          {"who": "Busfahrer", "de": "Leider nicht. Wir kommen voraussichtlich zehn Minuten später an.", "tr": "Maalesef hayır. Tahminen on dakika geç varacağız."},
+          {"who": "Fahrgast", "de": "Oh nein, dann verpasse ich meinen Termin.", "tr": "Olamaz, o zaman randevumu kaçıracağım."},
+          {"who": "Busfahrer", "de": "Das tut mir leid. Die nächste Verbindung finden Sie in der HVV-App.", "tr": "Üzgünüm. Bir sonraki bağlantıyı HVV uygulamasında bulabilirsiniz."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "'dass' ile yan cümle",
+        "explain_tr": "'dass' Türkçedeki '-dığını / -diğini' eki gibidir: 'Ich melde, dass …' = '… olduğunu bildiriyorum'. 'dass' ile başlayan yan cümlede çekimli fiil en sona gider. 'dass' kelimesinden önce her zaman virgül konur. Sık kullanılan başlangıçlar: 'Ich melde, dass …', 'Ich glaube, dass …', 'Es tut mir leid, dass …'.",
+        "examples": [
+          {"de": "Ich melde, dass ich im Stau stehe.", "tr": "Trafikte beklediğimi bildiriyorum."},
+          {"de": "Ich glaube, dass wir zehn Minuten später ankommen.", "tr": "On dakika geç varacağımızı düşünüyorum."},
+          {"de": "Es tut mir leid, dass Sie Ihren Anschluss verpassen.", "tr": "Aktarmanızı kaçıracağınız için üzgünüm."},
+          {"de": "Die Leitstelle sagt, dass die Straße bald wieder frei ist.", "tr": "Merkez, yolun yakında tekrar açılacağını söylüyor."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Sabah iş trafiğinde otobüs trafikte kaldı ve yaklaşık 15 dakika gecikmeli. Sinirli bir yolcu yanına geliyor. Ona gecikmenin sebebini sakin bir şekilde açıkla ('dass' cümleleri kullan) ve aktarma için bir çözüm göster.",
+        "ai_brief": "You are a passenger on a Hamburg city bus during morning rush hour. You are stressed and a bit annoyed because the bus is about 15 minutes late and you need to catch a train at Hauptbahnhof for an important appointment. Speak simple German (A2-B1) and use Sie with the driver. Complications: 1) Ask why the bus is so late and whether the driver can drive faster. 2) Ask whether you will still catch your train and what you should do if not. 3) Complain once ('Das passiert jeden Tag!') and see whether the driver stays polite and calm. Calm down if the driver explains politely, gives an estimated arrival time and suggests an alternative (e.g. checking the HVV app or the next train). End the scene by thanking the driver.",
+        "opener_de": "Entschuldigung! Warum stehen wir denn schon so lange hier? Ich muss dringend zum Hauptbahnhof!"
+      }
+    },
+    {
+      "id": "w4d3",
+      "day": 3,
+      "title_de": "Umleitung & Baustelle",
+      "title_tr": "Güzergah değişikliği ve yol çalışması",
+      "goal_tr": "Yolculara yol kapanmasını, geçici durağı ve güzergah değişikliğini açıklayabilirsin. 'wird bedient', 'ist gesperrt' gibi basit edilgen cümleleri anlayıp kullanabilirsin.",
+      "words": [
+        {"de": "die Umleitung", "pl": "die Umleitungen", "tr": "güzergah değişikliği, sapma yolu", "ex_de": "Heute fahren wir eine Umleitung.", "ex_tr": "Bugün farklı bir güzergahtan gidiyoruz."},
+        {"de": "die Baustelle", "pl": "die Baustellen", "tr": "yol çalışması, şantiye", "ex_de": "Die Baustelle am Jungfernstieg dauert noch zwei Wochen.", "ex_tr": "Jungfernstieg'deki yol çalışması iki hafta daha sürecek."},
+        {"de": "gesperrt", "pl": "", "tr": "(trafiğe) kapalı", "ex_de": "Die Mönckebergstraße ist heute gesperrt.", "ex_tr": "Mönckebergstraße bugün trafiğe kapalı."},
+        {"de": "die Ersatzhaltestelle", "pl": "die Ersatzhaltestellen", "tr": "geçici durak", "ex_de": "Die Ersatzhaltestelle ist hundert Meter weiter vorne.", "ex_tr": "Geçici durak yüz metre ileride."},
+        {"de": "entfallen (ist entfallen)", "pl": "", "tr": "yapılmamak, iptal olmak", "ex_de": "Die Haltestelle Rathausmarkt entfällt heute.", "ex_tr": "Rathausmarkt durağı bugün iptal."},
+        {"de": "verlegen (hat verlegt)", "pl": "", "tr": "(yerini) taşımak, değiştirmek", "ex_de": "Die Haltestelle ist vorübergehend verlegt.", "ex_tr": "Durak geçici olarak taşındı."},
+        {"de": "der Schienenersatzverkehr", "pl": "", "tr": "raylı sistem yerine çalışan otobüs seferi (SEV)", "ex_de": "Am Wochenende fahre ich Schienenersatzverkehr für die U-Bahn.", "ex_tr": "Hafta sonu metro yerine çalışan otobüs seferinde (SEV) görev yapıyorum."},
+        {"de": "bedienen (hat bedient)", "pl": "", "tr": "(durağa) uğramak, hizmet vermek", "ex_de": "Wir bedienen heute nicht alle Haltestellen.", "ex_tr": "Bugün tüm duraklara uğramıyoruz."},
+        {"de": "die Sperrung", "pl": "die Sperrungen", "tr": "(yolun) kapatılması", "ex_de": "Die Sperrung gilt bis Freitag.", "ex_tr": "Yol kapatması cumaya kadar geçerli."},
+        {"de": "die Strecke", "pl": "die Strecken", "tr": "güzergah, yol", "ex_de": "Diese Strecke kenne ich noch nicht gut.", "ex_tr": "Bu güzergahı henüz iyi bilmiyorum."},
+        {"de": "der Umweg", "pl": "die Umwege", "tr": "dolambaçlı yol", "ex_de": "Durch den Umweg brauchen wir zehn Minuten länger.", "ex_tr": "Dolambaçlı yol yüzünden on dakika daha fazla sürüyor."},
+        {"de": "der Aushang", "pl": "die Aushänge", "tr": "duyuru ilanı (asılı bilgi)", "ex_de": "Die Infos zur Umleitung stehen auf dem Aushang an der Haltestelle.", "ex_tr": "Güzergah değişikliğiyle ilgili bilgiler duraktaki duyuru ilanında yazıyor."}
+      ],
+      "phrases": [
+        {"de": "Diese Haltestelle wird heute nicht bedient.", "tr": "Bu durağa bugün uğranmıyor."},
+        {"de": "Die Straße ist wegen einer Baustelle gesperrt.", "tr": "Yol, bir yol çalışması nedeniyle kapalı."},
+        {"de": "Die Ersatzhaltestelle ist in der Nebenstraße.", "tr": "Geçici durak yan sokakta."},
+        {"de": "Ich sage Ihnen Bescheid, wo Sie aussteigen müssen.", "tr": "Nerede inmeniz gerektiğini size haber veririm."},
+        {"de": "Wir fahren heute eine Umleitung, bitte achten Sie auf die Ansagen.", "tr": "Bugün farklı güzergahtan gidiyoruz, lütfen anonslara dikkat edin."},
+        {"de": "Von hier sind es fünf Minuten zu Fuß.", "tr": "Buradan yürüyerek beş dakika."}
+      ],
+      "dialog": {
+        "title_tr": "Durak neden yok?",
+        "lines": [
+          {"who": "Fahrgast", "de": "Entschuldigung, halten Sie am Rathausmarkt?", "tr": "Affedersiniz, Rathausmarkt'ta duruyor musunuz?"},
+          {"who": "Busfahrer", "de": "Nein, leider nicht. Die Haltestelle Rathausmarkt entfällt heute.", "tr": "Hayır, maalesef. Rathausmarkt durağı bugün iptal."},
+          {"who": "Fahrgast", "de": "Warum denn das?", "tr": "Neden peki?"},
+          {"who": "Busfahrer", "de": "Die Straße ist wegen einer Baustelle gesperrt. Wir fahren eine Umleitung.", "tr": "Yol bir yol çalışması nedeniyle kapalı. Farklı güzergahtan gidiyoruz."},
+          {"who": "Fahrgast", "de": "Und wo kann ich dann aussteigen?", "tr": "Peki o zaman nerede inebilirim?"},
+          {"who": "Busfahrer", "de": "Es gibt eine Ersatzhaltestelle am Jungfernstieg. Von dort sind es nur fünf Minuten zu Fuß.", "tr": "Jungfernstieg'de geçici bir durak var. Oradan yürüyerek sadece beş dakika."},
+          {"who": "Fahrgast", "de": "Ah, gut. Wie lange dauert die Sperrung noch?", "tr": "Ah, iyi. Yol kapatması daha ne kadar sürecek?"},
+          {"who": "Busfahrer", "de": "Das weiß ich leider nicht genau. Die Infos stehen auf dem Aushang an der Haltestelle.", "tr": "Maalesef tam bilmiyorum. Bilgiler duraktaki duyuru ilanında yazıyor."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Kolay edilgen yapı (Passiv Präsens)",
+        "explain_tr": "Edilgen cümlede işi kimin yaptığı önemli değildir. Bir süreç için 'werden + Partizip II' kullanılır: 'Die Haltestelle wird nicht bedient.' (Durağa uğranmıyor.) Bir sonuç veya durum için 'sein + Partizip II' kullanılır: 'Die Straße ist gesperrt.' (Yol kapalı.) Partizip II cümlenin en sonuna gider. Anonslarda ve duyurularda bu yapı çok sık geçer.",
+        "examples": [
+          {"de": "Die Haltestelle Altona wird heute nicht bedient.", "tr": "Altona durağına bugün uğranmıyor."},
+          {"de": "Die Straße wird ab Montag gesperrt.", "tr": "Yol pazartesiden itibaren kapatılıyor."},
+          {"de": "Die Brücke ist zurzeit gesperrt.", "tr": "Köprü şu anda kapalı."},
+          {"de": "Die Fahrgäste werden über die Umleitung informiert.", "tr": "Yolcular güzergah değişikliği hakkında bilgilendiriliyor."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Bir yol çalışması yüzünden otobüs farklı güzergahtan gidiyor ve bazı duraklara uğranmıyor. Yaşlı bir yolcu her zamanki durağında inmek istiyor. Ona durumu açıkla, geçici durağı söyle ve oradan nasıl devam edeceğini anlat.",
+        "ai_brief": "You are an elderly Hamburg passenger (about 75), friendly but a little confused and hard of hearing. You always get off at your usual stop near the market to go to your doctor, but today that stop is not served because of a construction site and a detour. Speak simple German (A2-B1) and use Sie. Complications: 1) At first you do not understand why the bus is going a different way and ask the driver to repeat more slowly. 2) You worry that you cannot walk far and ask how far the replacement stop is from your doctor. 3) Ask whether the stop will be served again tomorrow. The scene ends when the driver has clearly explained where you should get off and how you get to your destination; then thank the driver warmly.",
+        "opener_de": "Entschuldigung, Moment mal – warum biegen wir hier denn ab? Ich muss doch zum Markt, zu meinem Arzt!"
+      }
+    },
+    {
+      "id": "w4d4",
+      "day": 4,
+      "title_de": "Durchsagen im Bus machen",
+      "title_tr": "Otobüste anons yapmak",
+      "goal_tr": "Mikrofonla kısa ve kibar anonslar yapabilirsin: hitap, sebep, bilgi ve rica. 'wegen' ile gecikmenin veya değişikliğin sebebini söyleyebilirsin.",
+      "words": [
+        {"de": "die Durchsage", "pl": "die Durchsagen", "tr": "anons", "ex_de": "Bitte achten Sie auf die Durchsagen.", "ex_tr": "Lütfen anonslara dikkat edin."},
+        {"de": "ansagen (hat angesagt)", "pl": "", "tr": "anons etmek, duyurmak", "ex_de": "Heute sage ich die Haltestellen selbst an.", "ex_tr": "Bugün durakları kendim anons ediyorum."},
+        {"de": "das Mikrofon", "pl": "die Mikrofone", "tr": "mikrofon", "ex_de": "Das Mikrofon ist zu leise, ich spreche lauter.", "ex_tr": "Mikrofonun sesi çok kısık, daha yüksek sesle konuşuyorum."},
+        {"de": "die Endstation", "pl": "die Endstationen", "tr": "son durak", "ex_de": "Wandsbek Markt, Endstation. Bitte alle aussteigen.", "ex_tr": "Wandsbek Markt, son durak. Lütfen herkes insin."},
+        {"de": "das Verständnis", "pl": "", "tr": "anlayış", "ex_de": "Vielen Dank für Ihr Verständnis.", "ex_tr": "Anlayışınız için çok teşekkürler."},
+        {"de": "wegen", "pl": "", "tr": "yüzünden, nedeniyle", "ex_de": "Wegen des Staus haben wir Verspätung.", "ex_tr": "Trafik sıkışıklığı yüzünden gecikmemiz var."},
+        {"de": "die Unannehmlichkeit", "pl": "die Unannehmlichkeiten", "tr": "rahatsızlık, sıkıntı", "ex_de": "Wir entschuldigen uns für die Unannehmlichkeiten.", "ex_tr": "Yaşanan rahatsızlıktan dolayı özür dileriz."},
+        {"de": "die Weiterfahrt", "pl": "", "tr": "yola devam etme", "ex_de": "Die Weiterfahrt verzögert sich um wenige Minuten.", "ex_tr": "Yola devam etmemiz birkaç dakika gecikecek."},
+        {"de": "der Hinweis", "pl": "die Hinweise", "tr": "bilgi notu, uyarı", "ex_de": "Ein wichtiger Hinweis: Dieser Bus endet heute am Hauptbahnhof.", "ex_tr": "Önemli bir bilgi: Bu otobüs bugün Hauptbahnhof'ta son buluyor."},
+        {"de": "sich festhalten (hat sich festgehalten)", "pl": "", "tr": "tutunmak", "ex_de": "Bitte halten Sie sich während der Fahrt fest.", "ex_tr": "Lütfen yolculuk sırasında tutunun."},
+        {"de": "der Gegenstand", "pl": "die Gegenstände", "tr": "eşya, nesne", "ex_de": "Bitte nehmen Sie alle persönlichen Gegenstände mit.", "ex_tr": "Lütfen tüm kişisel eşyalarınızı yanınıza alın."},
+        {"de": "der Aufenthalt", "pl": "die Aufenthalte", "tr": "(durakta) bekleme, kısa mola", "ex_de": "Wir haben hier einen kurzen Aufenthalt von drei Minuten.", "ex_tr": "Burada üç dakikalık kısa bir bekleme yapıyoruz."}
+      ],
+      "phrases": [
+        {"de": "Sehr geehrte Fahrgäste, …", "tr": "Sayın yolcular, …"},
+        {"de": "Wegen eines Unfalls fahren wir eine Umleitung.", "tr": "Bir kaza nedeniyle farklı güzergahtan gidiyoruz."},
+        {"de": "Bitte haben Sie Verständnis.", "tr": "Lütfen anlayışla karşılayın."},
+        {"de": "Dieser Bus endet hier. Endstation, bitte alle aussteigen.", "tr": "Bu otobüs burada son buluyor. Son durak, lütfen herkes insin."},
+        {"de": "Bitte gehen Sie durch, hinten ist noch Platz.", "tr": "Lütfen ilerleyin, arkada hâlâ yer var."},
+        {"de": "Bitte geben Sie die Tür frei, wir fahren weiter.", "tr": "Lütfen kapıyı serbest bırakın, yola devam ediyoruz."}
+      ],
+      "dialog": {
+        "title_tr": "Kaza sonrası anonslar",
+        "lines": [
+          {"who": "Busfahrer", "de": "Sehr geehrte Fahrgäste, hier spricht Ihr Busfahrer.", "tr": "Sayın yolcular, otobüs şoförünüz konuşuyor."},
+          {"who": "Busfahrer", "de": "Wegen eines Unfalls ist die Straße vor uns gesperrt. Wir haben einen kurzen Aufenthalt.", "tr": "Bir kaza nedeniyle önümüzdeki yol kapalı. Kısa bir süre bekleyeceğiz."},
+          {"who": "Busfahrer", "de": "Wir fahren in etwa zehn Minuten weiter. Bitte haben Sie Verständnis.", "tr": "Yaklaşık on dakika sonra yola devam ediyoruz. Lütfen anlayışla karşılayın."},
+          {"who": "Fahrgast", "de": "Entschuldigung, können wir hier aussteigen?", "tr": "Affedersiniz, burada inebilir miyiz?"},
+          {"who": "Busfahrer", "de": "Leider nein, hier ist keine Haltestelle. Bitte bleiben Sie im Bus.", "tr": "Maalesef hayır, burada durak yok. Lütfen otobüste kalın."},
+          {"who": "Busfahrer", "de": "Sehr geehrte Fahrgäste, die Straße ist wieder frei. Bitte halten Sie sich fest, wir fahren weiter.", "tr": "Sayın yolcular, yol tekrar açıldı. Lütfen tutunun, yola devam ediyoruz."},
+          {"who": "Busfahrer", "de": "Hauptbahnhof, Endstation. Bitte alle aussteigen und denken Sie an Ihre persönlichen Gegenstände.", "tr": "Hauptbahnhof, son durak. Lütfen herkes insin ve kişisel eşyalarınızı unutmayın."},
+          {"who": "Fahrgast", "de": "Danke für die Durchsagen, das war sehr klar!", "tr": "Anonslar için teşekkürler, çok netti!"}
+        ]
+      },
+      "grammar": {
+        "title_tr": "'wegen' ve anonsun yapısı",
+        "explain_tr": "'wegen' bir şeyin sebebini söyler. Resmi dilde ve anonslarda Genitiv ile kullanılır: 'wegen des Staus', 'wegen eines Unfalls', 'wegen einer Baustelle'. Günlük konuşmada çok kişi Dativ kullanır: 'wegen dem Stau'. Anonslarda Genitiv daha kibar ve doğru duyulur. İyi bir anons 4 adımdan oluşur: hitap ('Sehr geehrte Fahrgäste'), sebep ('Wegen …'), bilgi ('Wir fahren …'), rica ve teşekkür ('Bitte haben Sie Verständnis.').",
+        "examples": [
+          {"de": "Wegen des Staus haben wir zehn Minuten Verspätung.", "tr": "Trafik sıkışıklığı yüzünden on dakika gecikmemiz var."},
+          {"de": "Wegen einer Baustelle entfällt die Haltestelle Altona.", "tr": "Bir yol çalışması nedeniyle Altona durağı iptal."},
+          {"de": "Wegen dem Wetter ist es heute glatt. (umgangssprachlich)", "tr": "Hava yüzünden bugün yollar kaygan. (günlük konuşma)"},
+          {"de": "Sehr geehrte Fahrgäste, wegen einer Fahrzeugstörung endet die Fahrt hier. Vielen Dank für Ihr Verständnis.", "tr": "Sayın yolcular, bir araç arızası nedeniyle sefer burada sona eriyor. Anlayışınız için teşekkürler."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Ausbilderin",
+        "user_role_tr": "Otobüs şoförü (eğitimde)",
+        "scenario_tr": "Eğitmenin sana sırayla farklı durumlar veriyor: trafik sıkışıklığı, yol çalışması ve erken biten sefer. Her durum için mikrofondan kısa ve kibar bir anons yap: hitap, sebep ('wegen'), bilgi ve rica.",
+        "ai_brief": "You are a friendly but precise trainer (Ausbilderin) at a Hamburg bus company who trains new drivers. Use Sie. Give the learner one situation at a time and ask them to make a short passenger announcement in German (A2-B1). Situations: 1) Ten minutes delay because of a traffic jam. 2) A stop is not served because of a construction site; the replacement stop is around the corner. 3) The bus ends early at Hauptbahnhof and everyone must get off. After each announcement give short feedback: was there a greeting ('Sehr geehrte Fahrgäste'), a reason with 'wegen', clear information, and a request or thanks ('Bitte haben Sie Verständnis')? Correct 'wegen' + case gently (Genitive preferred in announcements, Dative is colloquial). Complication: once, ask them to repeat the announcement more slowly and clearly, as if into the microphone. End the scene after the three situations with a short, encouraging summary.",
+        "opener_de": "Moin! Heute üben wir Durchsagen. Erste Situation: Sie stehen im Stau und haben zehn Minuten Verspätung. Bitte machen Sie eine Durchsage."
+      }
+    },
+    {
+      "id": "w4d5",
+      "day": 5,
+      "title_de": "Störungen am Fahrzeug",
+      "title_tr": "Arızalar ve aksaklıklar",
+      "goal_tr": "Merkeze bir araç arızasını bildirebilir, yolculara yedek otobüs ve aktarma hakkında bilgi verebilirsin. Gelecekten Präsens ve 'werden' ile bahsedebilirsin.",
+      "words": [
+        {"de": "die Fahrzeugstörung", "pl": "die Fahrzeugstörungen", "tr": "araç arızası", "ex_de": "Ich melde eine Fahrzeugstörung.", "ex_tr": "Bir araç arızası bildiriyorum."},
+        {"de": "der Ausfall", "pl": "die Ausfälle", "tr": "(seferin) iptali, devre dışı kalma", "ex_de": "Durch den Ausfall dieses Busses warten die Fahrgäste länger.", "ex_tr": "Bu otobüsün devre dışı kalması yüzünden yolcular daha uzun bekliyor."},
+        {"de": "der Ersatzbus", "pl": "die Ersatzbusse", "tr": "yedek otobüs", "ex_de": "Ein Ersatzbus ist schon unterwegs.", "ex_tr": "Yedek bir otobüs yola çıktı bile."},
+        {"de": "abbrechen (hat abgebrochen)", "pl": "", "tr": "yarıda kesmek, sonlandırmak", "ex_de": "Ich muss die Fahrt hier leider abbrechen.", "ex_tr": "Seferi maalesef burada yarıda kesmem gerekiyor."},
+        {"de": "der Pannendienst", "pl": "die Pannendienste", "tr": "arıza servisi, yol yardımı", "ex_de": "Der Pannendienst ist in zwanzig Minuten da.", "ex_tr": "Arıza servisi yirmi dakika içinde burada."},
+        {"de": "umsteigen (ist umgestiegen)", "pl": "", "tr": "aktarma yapmak, başka araca geçmek", "ex_de": "Bitte steigen Sie in den Ersatzbus um.", "ex_tr": "Lütfen yedek otobüse geçin."},
+        {"de": "die Panne", "pl": "die Pannen", "tr": "(yolda) arıza", "ex_de": "Wir haben leider eine Panne.", "ex_tr": "Maalesef arızalandık."},
+        {"de": "die Warnleuchte", "pl": "die Warnleuchten", "tr": "uyarı lambası", "ex_de": "Eine rote Warnleuchte ist an.", "ex_tr": "Kırmızı bir uyarı lambası yanıyor."},
+        {"de": "die Warnblinkanlage", "pl": "die Warnblinkanlagen", "tr": "dörtlü flaşör", "ex_de": "Ich schalte sofort die Warnblinkanlage ein.", "ex_tr": "Hemen dörtlüleri yakıyorum."},
+        {"de": "die Werkstatt", "pl": "die Werkstätten", "tr": "tamirhane, atölye", "ex_de": "Der Bus muss heute noch in die Werkstatt.", "ex_tr": "Otobüsün bugün tamirhaneye gitmesi gerekiyor."},
+        {"de": "abschleppen (hat abgeschleppt)", "pl": "", "tr": "(aracı) çekmek", "ex_de": "Der Bus wird gleich abgeschleppt.", "ex_tr": "Otobüs birazdan çekiciyle çekilecek."},
+        {"de": "klemmen (hat geklemmt)", "pl": "", "tr": "sıkışmak, takılmak", "ex_de": "Die hintere Tür klemmt und schließt nicht.", "ex_tr": "Arka kapı sıkışıyor ve kapanmıyor."}
+      ],
+      "phrases": [
+        {"de": "Wagen 4417 an Leitstelle: Ich habe eine Fahrzeugstörung.", "tr": "4417'den merkeze: Araç arızam var."},
+        {"de": "Der Bus fährt leider nicht mehr weiter.", "tr": "Otobüs maalesef artık devam etmiyor."},
+        {"de": "Bitte bleiben Sie ruhig, ein Ersatzbus ist unterwegs.", "tr": "Lütfen sakin olun, yedek otobüs yolda."},
+        {"de": "Bitte steigen Sie hier aus und warten Sie an der Haltestelle.", "tr": "Lütfen burada inin ve durakta bekleyin."},
+        {"de": "Es wird etwas dauern, bitte haben Sie Geduld.", "tr": "Biraz sürecek, lütfen sabırlı olun."},
+        {"de": "Soll ich die Fahrgäste umsteigen lassen?", "tr": "Yolcuları başka otobüse aktarayım mı?"}
+      ],
+      "dialog": {
+        "title_tr": "Yolda arıza",
+        "lines": [
+          {"who": "Busfahrer", "de": "Leitstelle, hier Wagen 4417. Ich habe eine Fahrzeugstörung kurz vor den Landungsbrücken.", "tr": "Merkez, burası 4417. Landungsbrücken'e az kala araç arızam var."},
+          {"who": "Leitstelle", "de": "Verstanden, 4417. Was genau ist das Problem?", "tr": "Anlaşıldı 4417. Sorun tam olarak ne?"},
+          {"who": "Busfahrer", "de": "Eine rote Warnleuchte ist an und der Motor geht aus. Ich stehe sicher, die Warnblinkanlage ist an.", "tr": "Kırmızı bir uyarı lambası yanıyor ve motor stop ediyor. Güvenli bir yerde duruyorum, dörtlüler açık."},
+          {"who": "Leitstelle", "de": "Brechen Sie die Fahrt bitte ab. Der Pannendienst kommt, und ein Ersatzbus ist in etwa fünfzehn Minuten bei Ihnen.", "tr": "Lütfen seferi sonlandırın. Arıza servisi geliyor ve yaklaşık on beş dakika içinde yedek bir otobüs yanınızda olacak."},
+          {"who": "Busfahrer", "de": "Verstanden. Soll ich die Fahrgäste umsteigen lassen?", "tr": "Anlaşıldı. Yolcuları yedek otobüse aktarayım mı?"},
+          {"who": "Leitstelle", "de": "Ja, bitte. Informieren Sie die Fahrgäste. Ende.", "tr": "Evet, lütfen. Yolcuları bilgilendirin. Konuşma sonu."},
+          {"who": "Busfahrer", "de": "Sehr geehrte Fahrgäste, dieser Bus hat leider eine Panne. Ein Ersatzbus kommt in etwa fünfzehn Minuten.", "tr": "Sayın yolcular, bu otobüs maalesef arızalandı. Yaklaşık on beş dakika içinde yedek bir otobüs geliyor."},
+          {"who": "Fahrgast", "de": "Okay, dann warten wir. Hoffentlich dauert es nicht so lange.", "tr": "Tamam, o zaman bekleriz. Umarım çok uzun sürmez."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Gelecek zaman: Präsens ve Futur I",
+        "explain_tr": "Almancada gelecek için çoğu zaman şimdiki zaman (Präsens) ve bir zaman ifadesi yeterlidir: 'Der Ersatzbus kommt in 10 Minuten.' Futur I 'werden + mastar' ile kurulur; mastar cümlenin en sonuna gider. Futur özellikle tahmin ve söz vermek için kullanılır: 'Es wird etwas dauern.' Yolculara kesin olmayan bir şey söylerken 'wird … dauern', 'voraussichtlich' veya 'wahrscheinlich' işe yarar.",
+        "examples": [
+          {"de": "Der Ersatzbus kommt in zehn Minuten.", "tr": "Yedek otobüs on dakika içinde geliyor."},
+          {"de": "Es wird etwas dauern.", "tr": "Biraz sürecek."},
+          {"de": "Der Pannendienst wird gleich hier sein.", "tr": "Arıza servisi birazdan burada olacak."},
+          {"de": "Morgen fährt der Bus wieder ganz normal.", "tr": "Yarın otobüs yine normal şekilde çalışacak."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Otobüs Altona yakınında arızalandı ve seferi yarıda kesmen gerekiyor. Acelesi olan bir yolcu ne olacağını soruyor. Ona sakin bir şekilde durumu, yedek otobüsün ne zaman ve nereye geleceğini ve ne yapması gerektiğini açıkla.",
+        "ai_brief": "You are a passenger on a Hamburg bus that has just broken down (vehicle fault) between two stops near Altona. You are a young parent with a small child in a stroller (Kinderwagen) and you are worried about getting to the daycare (Kita) on time. Speak simple German (A2-B1) and use Sie. Complications: 1) Ask what is wrong and when the bus will continue. 2) Ask whether you can get out right now and walk, or whether you must wait. 3) Ask whether the replacement bus has space for the stroller and where exactly it will stop. Accept the driver's answers if they are clear and calm and use future time expressions (e.g. 'Der Ersatzbus kommt in 15 Minuten', 'Es wird etwas dauern'). End the scene when you know when and where the replacement bus comes, and thank the driver.",
+        "opener_de": "Entschuldigung, was ist denn los? Warum geht der Motor aus? Ich muss mein Kind pünktlich in die Kita bringen!"
+      }
+    }
+  ]
+}

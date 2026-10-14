@@ -1,0 +1,302 @@
+{
+  "week": 6,
+  "title_de": "Service & Barrierefreiheit",
+  "title_tr": "Hizmet ve engelsiz ulaşım",
+  "lessons": [
+    {
+      "id": "w6d1",
+      "day": 1,
+      "title_de": "Rollstuhl & Rampe",
+      "title_tr": "Tekerlekli sandalye ve rampa",
+      "goal_tr": "Tekerlekli sandalye kullanan bir yolcuya kibarca yardım teklif edebilir, rampayı açıp kapatırken ne yaptığınızı açıklayabilirsiniz. Yolcuyu çok amaçlı alana yönlendirip sandalyeyi sabitlemesini rica edebilirsiniz.",
+      "words": [
+        {"de": "der Rollstuhl", "pl": "die Rollstühle", "tr": "tekerlekli sandalye", "ex_de": "Ein Fahrgast im Rollstuhl möchte an der nächsten Haltestelle einsteigen.", "ex_tr": "Tekerlekli sandalyedeki bir yolcu bir sonraki durakta binmek istiyor."},
+        {"de": "der Rollstuhlfahrer", "pl": "die Rollstuhlfahrer", "tr": "tekerlekli sandalye kullanan kişi", "ex_de": "Der Rollstuhlfahrer wartet an der zweiten Tür.", "ex_tr": "Tekerlekli sandalye kullanan yolcu ikinci kapıda bekliyor."},
+        {"de": "die Rampe", "pl": "die Rampen", "tr": "rampa", "ex_de": "Die Rampe ist an der zweiten Tür.", "ex_tr": "Rampa ikinci kapıda."},
+        {"de": "ausklappen (hat ausgeklappt)", "pl": "", "tr": "(katlanır bir şeyi) açmak", "ex_de": "Einen Moment bitte, ich klappe die Rampe aus.", "ex_tr": "Bir dakika lütfen, rampayı açıyorum."},
+        {"de": "einklappen (hat eingeklappt)", "pl": "", "tr": "katlamak, (rampayı) kapatmak", "ex_de": "Bitte warten Sie kurz, ich klappe die Rampe wieder ein.", "ex_tr": "Lütfen biraz bekleyin, rampayı tekrar kapatıyorum."},
+        {"de": "die Mehrzweckfläche", "pl": "die Mehrzweckflächen", "tr": "çok amaçlı alan", "ex_de": "Bitte fahren Sie mit dem Rollstuhl auf die Mehrzweckfläche.", "ex_tr": "Lütfen tekerlekli sandalyeyle çok amaçlı alana geçin."},
+        {"de": "die Sondernutzungsfläche", "pl": "die Sondernutzungsflächen", "tr": "özel kullanım alanı", "ex_de": "Die Sondernutzungsfläche ist für Rollstühle und Kinderwagen da.", "ex_tr": "Özel kullanım alanı tekerlekli sandalyeler ve bebek arabaları içindir."},
+        {"de": "sichern (hat gesichert)", "pl": "", "tr": "sabitlemek, emniyete almak", "ex_de": "Bitte sichern Sie den Rollstuhl mit der Bremse.", "ex_tr": "Lütfen tekerlekli sandalyeyi frenle sabitleyin."},
+        {"de": "die Fahrtrichtung", "pl": "die Fahrtrichtungen", "tr": "gidiş yönü", "ex_de": "Bitte stellen Sie sich mit dem Rücken zur Fahrtrichtung.", "ex_tr": "Lütfen sırtınız gidiş yönüne gelecek şekilde durun."},
+        {"de": "Hilfe anbieten (hat angeboten)", "pl": "", "tr": "yardım teklif etmek", "ex_de": "Ich biete dem Fahrgast meine Hilfe an.", "ex_tr": "Yolcuya yardımımı teklif ediyorum."},
+        {"de": "barrierefrei", "pl": "", "tr": "engelsiz, engellilere uygun", "ex_de": "Die Haltestelle Rathausmarkt ist barrierefrei.", "ex_tr": "Rathausmarkt durağı engellilere uygundur."},
+        {"de": "absenken (hat abgesenkt)", "pl": "", "tr": "alçaltmak", "ex_de": "Ich senke den Bus ab, dann ist das Einsteigen leichter.", "ex_tr": "Otobüsü alçaltıyorum, böylece binmek daha kolay olur."}
+      ],
+      "phrases": [
+        {"de": "Soll ich Ihnen helfen?", "tr": "Size yardım edeyim mi?"},
+        {"de": "Einen Moment bitte, ich klappe die Rampe aus.", "tr": "Bir dakika lütfen, rampayı açıyorum."},
+        {"de": "Würden Sie bitte rückwärts auf die Mehrzweckfläche fahren?", "tr": "Lütfen geri geri çok amaçlı alana geçer misiniz?"},
+        {"de": "Könnten Sie bitte die Bremse anziehen?", "tr": "Lütfen freni çekebilir misiniz?"},
+        {"de": "Wo möchten Sie aussteigen?", "tr": "Nerede inmek istiyorsunuz?"},
+        {"de": "Stehen Sie sicher? Dann fahre ich jetzt los.", "tr": "Güvenli bir şekilde yerleştiniz mi? O zaman şimdi hareket ediyorum."}
+      ],
+      "dialog": {
+        "title_tr": "Rampa ile biniş",
+        "lines": [
+          {"who": "Fahrgast", "de": "Moin! Könnten Sie bitte die Rampe ausklappen?", "tr": "Merhaba! Rampayı açabilir misiniz lütfen?"},
+          {"who": "Busfahrer", "de": "Moin! Natürlich, einen Moment. Ich senke den Bus ab und klappe die Rampe aus.", "tr": "Merhaba! Tabii, bir dakika. Otobüsü alçaltıp rampayı açıyorum."},
+          {"who": "Fahrgast", "de": "Danke. Würden Sie mir kurz helfen? Die Rampe ist ein bisschen steil.", "tr": "Teşekkürler. Bana kısaca yardım eder misiniz? Rampa biraz dik."},
+          {"who": "Busfahrer", "de": "Gern. Soll ich Sie schieben, oder möchten Sie es zuerst allein versuchen?", "tr": "Memnuniyetle. Sizi iteyim mi, yoksa önce kendiniz mi denemek istersiniz?"},
+          {"who": "Fahrgast", "de": "Schieben Sie bitte nur ein bisschen. … So, ich bin drin.", "tr": "Lütfen sadece biraz itin. … Tamam, içerideyim."},
+          {"who": "Busfahrer", "de": "Prima. Ich klappe die Rampe jetzt ein. Bitte fahren Sie auf die Mehrzweckfläche, mit dem Rücken zur Fahrtrichtung, und sichern Sie den Rollstuhl mit der Bremse.", "tr": "Harika. Rampayı şimdi kapatıyorum. Lütfen sırtınız gidiş yönüne gelecek şekilde çok amaçlı alana geçin ve tekerlekli sandalyeyi frenle sabitleyin."},
+          {"who": "Fahrgast", "de": "Die Bremse ist fest. Ich möchte am Rathausmarkt aussteigen.", "tr": "Fren çekili. Rathausmarkt'ta inmek istiyorum."},
+          {"who": "Busfahrer", "de": "Alles klar. Drücken Sie bitte vorher den Knopf mit dem Rollstuhl, dann klappe ich dort die Rampe wieder aus.", "tr": "Tamamdır. Lütfen önceden tekerlekli sandalye işaretli düğmeye basın, orada rampayı tekrar açarım."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Konjunktiv II ile kibar rica ve teklif",
+        "explain_tr": "Almancada kibar rica için Konjunktiv II kullanılır: könnten, würden, hätten. 'Könnten Sie …?' Türkçede '…-abilir misiniz?' demektir. 'Würden Sie bitte …?' ise 'Lütfen … eder misiniz?' anlamına gelir. Asıl fiil mastar halinde cümlenin en sonuna gider. Yardım teklif ederken 'Soll ich Ihnen helfen?' dersiniz. Bu formlar yolculara emir cümlesinden çok daha kibar gelir.",
+        "examples": [
+          {"de": "Könnten Sie bitte die Bremse anziehen?", "tr": "Lütfen freni çekebilir misiniz?"},
+          {"de": "Würden Sie bitte an der zweiten Tür einsteigen?", "tr": "Lütfen ikinci kapıdan biner misiniz?"},
+          {"de": "Soll ich Ihnen mit dem Rollstuhl helfen?", "tr": "Tekerlekli sandalyeyle size yardım edeyim mi?"},
+          {"de": "Ich hätte eine Bitte: Warten Sie kurz, bis die Rampe unten ist.", "tr": "Bir ricam olacak: Rampa inene kadar biraz bekleyin."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast im Rollstuhl",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Durakta tekerlekli sandalyeli bir yolcu bekliyor ve binmek istiyor. Rampayı açtığınızı açıklayın, kibarca yardım teklif edin ve yolcuyu çok amaçlı alana yönlendirin. Sonunda yolcunun nerede ineceğini öğrenin.",
+        "ai_brief": "You are a friendly but independent wheelchair user in your 40s, waiting at a bus stop in Hamburg. You want to board and ride to Jungfernstieg. Speak simple, natural German (A2-B1). You only want help when you ask for it, so react a little sharply if the driver grabs your wheelchair without asking, and warmly if they politely offer help (Soll ich…? Könnten Sie…?). Complications to introduce, one at a time: (1) a stroller is already standing on the Mehrzweckfläche, so you ask where you should go; (2) you ask whether the stop where you get off is accessible (barrierefrei) and whether the driver will put the ramp out again there; (3) your brake is a bit stiff and you ask the driver to wait a moment before driving off. Accept any reasonable, polite solution. The scene is finished when you are inside, positioned on the multipurpose area with the wheelchair secured, and the driver knows your exit stop. Then thank the driver and end the scene.",
+        "opener_de": "Moin! Ich möchte gern mitfahren. Könnten Sie bitte die Rampe ausklappen?"
+      }
+    },
+    {
+      "id": "w6d2",
+      "day": 2,
+      "title_de": "Kinderwagen, Rollator & Co.",
+      "title_tr": "Bebek arabası, yürüteç ve diğerleri",
+      "goal_tr": "Bebek arabası, yürüteç veya bisikleti olan yolcular için yer açılmasını başka yolculardan kibarca rica edebilirsiniz. Yaşlı yolculara zaman tanıyıp güvenli bir şekilde hareket ettiğinizi söyleyebilirsiniz.",
+      "words": [
+        {"de": "der Kinderwagen", "pl": "die Kinderwagen", "tr": "bebek arabası", "ex_de": "Mit dem Kinderwagen steigen Sie bitte an der zweiten Tür ein.", "ex_tr": "Bebek arabasıyla lütfen ikinci kapıdan binin."},
+        {"de": "der Rollator", "pl": "die Rollatoren", "tr": "tekerlekli yürüteç", "ex_de": "Die Dame mit dem Rollator braucht etwas mehr Zeit.", "ex_tr": "Yürüteçli hanımefendinin biraz daha fazla zamana ihtiyacı var."},
+        {"de": "der Senior", "pl": "die Senioren", "tr": "yaşlı kişi, emekli", "ex_de": "Viele Senioren fahren lieber am Vormittag Bus.", "ex_tr": "Birçok yaşlı otobüse sabahları binmeyi tercih ediyor."},
+        {"de": "die Leine", "pl": "die Leinen", "tr": "(köpek) tasma kayışı", "ex_de": "Bitte nehmen Sie Ihren Hund an die kurze Leine.", "ex_tr": "Lütfen köpeğinizin kayışını kısa tutun."},
+        {"de": "mitnehmen (hat mitgenommen)", "pl": "", "tr": "yanına almak, götürmek", "ex_de": "Ich kann Ihr Fahrrad leider nicht mitnehmen, der Bus ist voll.", "ex_tr": "Maalesef bisikletinizi alamıyorum, otobüs dolu."},
+        {"de": "Platz machen (hat Platz gemacht)", "pl": "", "tr": "yer açmak", "ex_de": "Könnten Sie bitte für den Kinderwagen Platz machen?", "ex_tr": "Bebek arabası için lütfen yer açabilir misiniz?"},
+        {"de": "sich festhalten (hat sich festgehalten)", "pl": "", "tr": "tutunmak", "ex_de": "Bitte halten Sie sich gut fest, wir fahren los.", "ex_tr": "Lütfen sıkıca tutunun, hareket ediyoruz."},
+        {"de": "langsam anfahren (ist angefahren)", "pl": "", "tr": "(araçla) yavaşça kalkmak", "ex_de": "Ich fahre langsam an, damit niemand hinfällt.", "ex_tr": "Kimse düşmesin diye yavaşça kalkıyorum."},
+        {"de": "der Sitzplatz", "pl": "die Sitzplätze", "tr": "oturacak yer, koltuk", "ex_de": "Der ältere Herr braucht dringend einen Sitzplatz.", "ex_tr": "Yaşlı beyefendinin acilen oturacak bir yere ihtiyacı var."},
+        {"de": "aufstehen (ist aufgestanden)", "pl": "", "tr": "ayağa kalkmak", "ex_de": "Könnten Sie bitte kurz aufstehen?", "ex_tr": "Lütfen kısa bir süre kalkabilir misiniz?"},
+        {"de": "gehbehindert", "pl": "", "tr": "yürüme engelli", "ex_de": "Dieser Platz ist für gehbehinderte Fahrgäste.", "ex_tr": "Bu yer yürüme engelli yolcular için."},
+        {"de": "der Vorrang", "pl": "", "tr": "öncelik", "ex_de": "Ein Rollstuhl hat auf der Mehrzweckfläche Vorrang vor einem Fahrrad.", "ex_tr": "Çok amaçlı alanda tekerlekli sandalyenin bisiklete göre önceliği vardır."}
+      ],
+      "phrases": [
+        {"de": "Würden Sie bitte Platz machen?", "tr": "Lütfen yer açar mısınız?"},
+        {"de": "Könnten Sie kurz aufstehen? Die Dame braucht einen Sitzplatz.", "tr": "Kısa bir süre kalkabilir misiniz? Hanımefendinin oturması gerekiyor."},
+        {"de": "Würden Sie bitte ein Stück nach hinten durchgehen?", "tr": "Lütfen biraz arkaya doğru ilerler misiniz?"},
+        {"de": "Bitte halten Sie den Kinderwagen gut fest.", "tr": "Lütfen bebek arabasını sıkı tutun."},
+        {"de": "Lassen Sie sich Zeit, ich warte.", "tr": "Acele etmeyin, bekliyorum."},
+        {"de": "Leider ist kein Platz mehr für das Fahrrad.", "tr": "Maalesef bisiklet için yer kalmadı."}
+      ],
+      "dialog": {
+        "title_tr": "Dolu otobüste yer açmak",
+        "lines": [
+          {"who": "Mutter", "de": "Moin! Passt der Kinderwagen noch rein?", "tr": "Merhaba! Bebek arabası hâlâ sığar mı?"},
+          {"who": "Busfahrer", "de": "Moin! Einen Moment. – Entschuldigung, würden Sie bitte für den Kinderwagen Platz machen?", "tr": "Merhaba! Bir dakika. – Affedersiniz, bebek arabası için lütfen yer açar mısınız?"},
+          {"who": "Fahrgast", "de": "Ach so, klar. Ich gehe ein Stück nach hinten.", "tr": "Ha, tabii. Biraz arkaya geçiyorum."},
+          {"who": "Busfahrer", "de": "Vielen Dank! – Bitte stellen Sie den Kinderwagen auf die Fläche und halten Sie ihn gut fest.", "tr": "Çok teşekkürler! – Lütfen bebek arabasını alana koyun ve sıkı tutun."},
+          {"who": "Seniorin", "de": "Junger Mann, ich habe einen Rollator. Ich brauche etwas länger.", "tr": "Delikanlı, yürütecim var. Biraz daha uzun sürer."},
+          {"who": "Busfahrer", "de": "Kein Problem, lassen Sie sich Zeit. – Könnten Sie kurz aufstehen? Die Dame braucht einen Sitzplatz.", "tr": "Sorun değil, acele etmeyin. – Kısa bir süre kalkabilir misiniz? Hanımefendinin oturması gerekiyor."},
+          {"who": "Jugendlicher", "de": "Ja, natürlich. Setzen Sie sich ruhig hierhin.", "tr": "Evet, tabii ki. Buyurun, buraya oturun."},
+          {"who": "Busfahrer", "de": "Danke schön! Halten Sie sich bitte alle gut fest, ich fahre langsam an.", "tr": "Çok teşekkürler! Lütfen herkes sıkıca tutunsun, yavaşça kalkıyorum."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Başka yolculardan kibarca rica etmek",
+        "explain_tr": "Bir yolcudan başka biri için bir şey rica ederken de Konjunktiv II kullanılır: 'Würden Sie bitte …?' veya 'Könnten Sie …?'. Ricadan sonra kısa bir sebep söylemek çok kibar olur: '… Die Dame braucht einen Sitzplatz.' Ayrılabilen fiillerde ön ek cümlenin sonuna gider: 'Könnten Sie kurz aufstehen?' Kimin için olduğunu 'für + Akkusativ' ile söylersiniz: 'für den Kinderwagen'. Sonunda mutlaka teşekkür edin.",
+        "examples": [
+          {"de": "Würden Sie bitte Platz machen? Hier kommt ein Kinderwagen.", "tr": "Lütfen yer açar mısınız? Bir bebek arabası geliyor."},
+          {"de": "Könnten Sie kurz aufstehen? Der Herr kann nicht lange stehen.", "tr": "Kısa bir süre kalkabilir misiniz? Beyefendi uzun süre ayakta duramıyor."},
+          {"de": "Würden Sie bitte Ihren Hund an die Leine nehmen?", "tr": "Lütfen köpeğinizi tasmaya bağlar mısınız?"},
+          {"de": "Könnten Sie der Dame mit dem Rollator kurz helfen?", "tr": "Yürüteçli hanımefendiye kısaca yardım edebilir misiniz?"}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast mit Fahrrad",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Otobüs sabah saatlerinde çok dolu. Bisikletli bir yolcu çok amaçlı alanda duruyor, durakta ise bebek arabalı bir anne binmek istiyor. Bisikletli yolcuyu sakin ve kibar bir şekilde yer açmaya ikna edin.",
+        "ai_brief": "You are a man in your 30s standing with your bicycle on the multipurpose area of a crowded Hamburg bus in the morning rush. You are in a hurry to get to work in Altona and slightly impatient, but not rude. A mother with a stroller is waiting at the door and the driver will ask you to make room. Speak natural German (A2-B1). Complications, one at a time: (1) you say you were there first and ask where you should put the bike; (2) you say you only have three more stops; (3) you ask, a bit annoyed, whether you now have to get off. Become cooperative if the driver stays polite, uses Konjunktiv II requests (Würden Sie…? Könnten Sie…?) and gives a reason; the learner may mention that strollers and wheelchairs usually have priority over bikes. Do not ask about prices or rules in detail. The scene is finished when you agree to move or to take the next bus and the driver thanks you.",
+        "opener_de": "Moin! Wieso fahren wir denn nicht weiter? Ich muss um halb neun in Altona sein."
+      }
+    },
+    {
+      "id": "w6d3",
+      "day": 3,
+      "title_de": "Sehen, hören, verstehen",
+      "title_tr": "Görme, işitme ve anlama güçlüğü",
+      "goal_tr": "Görme veya işitme engelli yolculara ve az Almanca bilen yolculara yavaş, net ve basit cümlelerle yardım edebilirsiniz. Durakları anons edebilir ve kişileri ilgi cümleleriyle tarif edebilirsiniz.",
+      "words": [
+        {"de": "sehbehindert", "pl": "", "tr": "görme engelli", "ex_de": "Der sehbehinderte Fahrgast fragt, wohin der Bus fährt.", "ex_tr": "Görme engelli yolcu otobüsün nereye gittiğini soruyor."},
+        {"de": "der Blindenstock", "pl": "die Blindenstöcke", "tr": "beyaz baston", "ex_de": "Die Frau mit dem Blindenstock wartet an der Haltestelle.", "ex_tr": "Beyaz bastonlu kadın durakta bekliyor."},
+        {"de": "der Blindenhund", "pl": "die Blindenhunde", "tr": "rehber köpek", "ex_de": "Ein Blindenhund darf natürlich mitfahren.", "ex_tr": "Rehber köpek tabii ki yolculuk edebilir."},
+        {"de": "hörbehindert", "pl": "", "tr": "işitme engelli", "ex_de": "Der Herr ist hörbehindert, bitte schauen Sie ihn beim Sprechen an.", "ex_tr": "Beyefendi işitme engelli, lütfen konuşurken ona bakın."},
+        {"de": "ansagen (hat angesagt)", "pl": "", "tr": "anons etmek", "ex_de": "Ich sage die nächste Haltestelle laut an.", "ex_tr": "Bir sonraki durağı yüksek sesle anons ediyorum."},
+        {"de": "die Ansage", "pl": "die Ansagen", "tr": "anons", "ex_de": "Die Ansage im Bus funktioniert heute leider nicht.", "ex_tr": "Otobüsteki anons sistemi bugün maalesef çalışmıyor."},
+        {"de": "deutlich", "pl": "", "tr": "net, anlaşılır", "ex_de": "Ich spreche langsam und deutlich.", "ex_tr": "Yavaş ve net konuşuyorum."},
+        {"de": "wiederholen (hat wiederholt)", "pl": "", "tr": "tekrarlamak", "ex_de": "Können Sie das bitte noch einmal wiederholen?", "ex_tr": "Bunu lütfen bir kez daha tekrarlayabilir misiniz?"},
+        {"de": "zeigen (hat gezeigt)", "pl": "", "tr": "göstermek", "ex_de": "Zeigen Sie mir bitte die Adresse auf Ihrem Handy.", "ex_tr": "Lütfen adresi telefonunuzda bana gösterin."},
+        {"de": "die Anzeige", "pl": "die Anzeigen", "tr": "gösterge, ekran", "ex_de": "Auf der Anzeige sehen Sie die nächste Haltestelle.", "ex_tr": "Ekranda bir sonraki durağı görebilirsiniz."},
+        {"de": "der Netzplan", "pl": "die Netzpläne", "tr": "hat haritası, ağ planı", "ex_de": "Hier auf dem Netzplan ist Barmbek.", "ex_tr": "Burada, hat haritasında Barmbek var."},
+        {"de": "übersetzen (hat übersetzt)", "pl": "", "tr": "çevirmek, tercüme etmek", "ex_de": "Der Fahrgast übersetzt meine Antwort mit seinem Handy.", "ex_tr": "Yolcu cevabımı telefonuyla çeviriyor."}
+      ],
+      "phrases": [
+        {"de": "Dieser Bus fährt zum Hauptbahnhof.", "tr": "Bu otobüs Hauptbahnhof'a gidiyor."},
+        {"de": "Ich sage Ihnen Bescheid, wenn wir da sind.", "tr": "Vardığımızda size haber veririm."},
+        {"de": "Ich spreche langsam. Verstehen Sie mich?", "tr": "Yavaş konuşuyorum. Beni anlıyor musunuz?"},
+        {"de": "Möchten Sie meinen Arm nehmen?", "tr": "Koluma girmek ister misiniz?"},
+        {"de": "Die nächste Haltestelle ist Ihre.", "tr": "Bir sonraki durak sizin durağınız."},
+        {"de": "Können Sie es mir auf dem Handy zeigen?", "tr": "Bunu bana telefonda gösterebilir misiniz?"}
+      ],
+      "dialog": {
+        "title_tr": "Görme engelli bir yolcuya yardım",
+        "lines": [
+          {"who": "Fahrgast", "de": "Entschuldigung, welcher Bus ist das? Ich kann die Anzeige nicht lesen.", "tr": "Affedersiniz, bu hangi otobüs? Ekranı okuyamıyorum."},
+          {"who": "Busfahrer", "de": "Moin! Dieser Bus fährt über Barmbek nach Wandsbek. Wohin möchten Sie?", "tr": "Merhaba! Bu otobüs Barmbek üzerinden Wandsbek'e gidiyor. Nereye gitmek istiyorsunuz?"},
+          {"who": "Fahrgast", "de": "Zum Wandsbeker Markt. Ich bin sehbehindert. Können Sie mir sagen, wann ich aussteigen muss?", "tr": "Wandsbeker Markt'a. Görme engelliyim. Ne zaman inmem gerektiğini bana söyleyebilir misiniz?"},
+          {"who": "Busfahrer", "de": "Ja, gern. Ich sage Ihnen Bescheid. Direkt hinter der Tür ist ein Platz frei.", "tr": "Evet, memnuniyetle. Size haber veririm. Kapının hemen arkasında boş bir yer var."},
+          {"who": "Fahrgast", "de": "Danke. Die Ansage im Bus ist manchmal sehr leise.", "tr": "Teşekkürler. Otobüsteki anons bazen çok kısık oluyor."},
+          {"who": "Busfahrer", "de": "Kein Problem. Ich sage die Haltestellen heute selbst laut und deutlich an.", "tr": "Sorun değil. Bugün durakları kendim yüksek sesle ve net anons ederim."},
+          {"who": "Busfahrer", "de": "Für die Dame, die zum Wandsbeker Markt möchte: Die nächste Haltestelle ist Ihre!", "tr": "Wandsbeker Markt'a gitmek isteyen hanımefendi için: Bir sonraki durak sizin durağınız!"},
+          {"who": "Fahrgast", "de": "Vielen Dank! Das ist sehr nett von Ihnen.", "tr": "Çok teşekkür ederim! Çok naziksiniz."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Basit ilgi cümleleri (Relativsätze)",
+        "explain_tr": "İlgi cümlesi bir kişiyi veya şeyi daha ayrıntılı tanımlar. Türkçedeki '-en/-an' yapısına benzer: 'der Mann, der wartet' = 'bekleyen adam'. Yalın halde (Nominativ) eril için 'der', dişil için 'die', nötr için 'das', çoğul için 'die' kullanılır. Çekimli fiil ilgi cümlesinin en sonuna gider. İlgi cümlesi virgülle ayrılır.",
+        "examples": [
+          {"de": "Der Mann, der an der Tür steht, ist hörbehindert.", "tr": "Kapıda duran adam işitme engelli."},
+          {"de": "Die Frau, die einen Blindenstock hat, möchte zum Hauptbahnhof.", "tr": "Beyaz bastonu olan kadın Hauptbahnhof'a gitmek istiyor."},
+          {"de": "Das Kind, das allein fährt, steigt in Altona aus.", "tr": "Yalnız yolculuk eden çocuk Altona'da iniyor."},
+          {"de": "Fahrgäste, die wenig Deutsch sprechen, zeigen mir oft ihr Handy.", "tr": "Az Almanca konuşan yolcular bana sık sık telefonlarını gösteriyor."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast mit wenig Deutsch",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Çok az Almanca bilen bir turist otobüse biniyor ve Landungsbrücken'e gitmek istiyor. Yavaş, net ve kısa cümlelerle konuşun, gerekirse tekrarlayın ve göstererek anlatın. Ona nerede inmesi gerektiğini anlatın ve haber vereceğinizi söyleyin.",
+        "ai_brief": "You are a tourist who speaks only very little German (A1, broken sentences, sometimes an English word like 'sorry' or 'ticket'). You want to go to the Landungsbrücken. Be friendly but confused. Complications, one at a time: (1) you do not understand the first answer if it is long or fast, so ask 'Langsam, bitte?' or 'Noch einmal?'; (2) you mix up 'nächste' and 'übernächste' Haltestelle and ask again; (3) you say you will show the address on your phone and describe it in words ('Hier, auf Handy: Landungsbrücken'). Reward short, slow, clear sentences and simple relative clauses by understanding them. Accept any route the learner describes; do not test real HVV route knowledge and do not ask about prices. The scene is finished when you understand where to get off and that the driver will tell you; then thank the driver warmly.",
+        "opener_de": "Entschuldigung … ich … Landungsbrücken? Dieser Bus? Ich nicht gut Deutsch, sorry."
+      }
+    },
+    {
+      "id": "w6d4",
+      "day": 4,
+      "title_de": "Beschwerden & Kundenservice",
+      "title_tr": "Şikâyetler ve müşteri hizmetleri",
+      "goal_tr": "Kızgın bir yolcuya sakin kalarak özür dileyebilir ve anlayış gösterebilirsiniz. Yolcuyu şikâyeti için müşteri hizmetlerine yönlendirebilirsiniz.",
+      "words": [
+        {"de": "die Beschwerde", "pl": "die Beschwerden", "tr": "şikâyet", "ex_de": "Mit einer Beschwerde wenden Sie sich bitte an den Kundenservice.", "ex_tr": "Şikâyetiniz için lütfen müşteri hizmetlerine başvurun."},
+        {"de": "sich beschweren (hat sich beschwert)", "pl": "", "tr": "şikâyet etmek", "ex_de": "Der Fahrgast beschwert sich über die lange Wartezeit.", "ex_tr": "Yolcu uzun bekleme süresinden şikâyet ediyor."},
+        {"de": "das Kundenzentrum", "pl": "die Kundenzentren", "tr": "müşteri merkezi", "ex_de": "Im Kundenzentrum hilft man Ihnen gern weiter.", "ex_tr": "Müşteri merkezinde size memnuniyetle yardımcı olurlar."},
+        {"de": "der Kundenservice", "pl": "", "tr": "müşteri hizmetleri", "ex_de": "Sie können dem Kundenservice auch eine E-Mail schreiben.", "ex_tr": "Müşteri hizmetlerine e-posta da yazabilirsiniz."},
+        {"de": "sich entschuldigen (hat sich entschuldigt)", "pl": "", "tr": "özür dilemek", "ex_de": "Ich entschuldige mich für die Verspätung.", "ex_tr": "Gecikme için özür dilerim."},
+        {"de": "das Verständnis", "pl": "", "tr": "anlayış", "ex_de": "Vielen Dank für Ihr Verständnis.", "ex_tr": "Anlayışınız için çok teşekkürler."},
+        {"de": "weiterleiten (hat weitergeleitet)", "pl": "", "tr": "iletmek, aktarmak", "ex_de": "Ich leite die Information an die Leitstelle weiter.", "ex_tr": "Bilgiyi kontrol merkezine iletiyorum."},
+        {"de": "sich ärgern (hat sich geärgert)", "pl": "", "tr": "sinirlenmek, kızmak", "ex_de": "Ich verstehe, dass Sie sich ärgern.", "ex_tr": "Sinirlendiğinizi anlıyorum."},
+        {"de": "sich beeilen (hat sich beeilt)", "pl": "", "tr": "acele etmek", "ex_de": "Ich beeile mich, aber der Verkehr ist sehr dicht.", "ex_tr": "Acele ediyorum ama trafik çok yoğun."},
+        {"de": "der Ausfall", "pl": "die Ausfälle", "tr": "(sefer) iptal, aksama", "ex_de": "Wegen eines Ausfalls kommt der nächste Bus später.", "ex_tr": "Bir sefer iptali yüzünden bir sonraki otobüs daha geç geliyor."},
+        {"de": "unfreundlich", "pl": "", "tr": "kaba, nazik olmayan", "ex_de": "Der Fahrgast sagt, der Kollege war unfreundlich.", "ex_tr": "Yolcu, meslektaşın kaba davrandığını söylüyor."},
+        {"de": "das Formular", "pl": "die Formulare", "tr": "form", "ex_de": "Für Beschwerden gibt es meistens ein Formular im Internet.", "ex_tr": "Şikâyetler için genellikle internette bir form var."}
+      ],
+      "phrases": [
+        {"de": "Das tut mir leid. Ich verstehe Ihren Ärger.", "tr": "Üzgünüm. Kızgınlığınızı anlıyorum."},
+        {"de": "Ich entschuldige mich für die Wartezeit.", "tr": "Bekleme süresi için özür dilerim."},
+        {"de": "Dafür bin ich leider nicht zuständig.", "tr": "Maalesef bundan ben sorumlu değilim."},
+        {"de": "Bitte wenden Sie sich an den Kundenservice.", "tr": "Lütfen müşteri hizmetlerine başvurun."},
+        {"de": "Bitte bleiben Sie ruhig, wir finden eine Lösung.", "tr": "Lütfen sakin olun, bir çözüm bulacağız."},
+        {"de": "Ich gebe das gern weiter.", "tr": "Bunu memnuniyetle iletirim."}
+      ],
+      "dialog": {
+        "title_tr": "Geciken otobüs ve kızgın yolcu",
+        "lines": [
+          {"who": "Fahrgast", "de": "Endlich! Ich warte seit zwanzig Minuten. Das ist doch unmöglich!", "tr": "Nihayet! Yirmi dakikadır bekliyorum. Bu olacak şey değil!"},
+          {"who": "Busfahrer", "de": "Das tut mir leid, ich entschuldige mich für die Wartezeit. Es gab einen Unfall auf der Strecke.", "tr": "Üzgünüm, bekleme süresi için özür dilerim. Güzergâhta bir kaza oldu."},
+          {"who": "Fahrgast", "de": "Das passiert ständig! Ich komme schon wieder zu spät zur Arbeit. Ich will mich beschweren!", "tr": "Bu sürekli oluyor! Yine işe geç kalıyorum. Şikâyet etmek istiyorum!"},
+          {"who": "Busfahrer", "de": "Ich verstehe, dass Sie sich ärgern. Ich beeile mich, aber ich muss sicher fahren.", "tr": "Sinirlendiğinizi anlıyorum. Acele ediyorum ama güvenli sürmek zorundayım."},
+          {"who": "Fahrgast", "de": "Und wo kann ich mich beschweren?", "tr": "Peki nereye şikâyet edebilirim?"},
+          {"who": "Busfahrer", "de": "Am besten beim Kundenservice. Es gibt ein Formular im Internet, oder Sie gehen ins Kundenzentrum.", "tr": "En iyisi müşteri hizmetlerine. İnternette bir form var ya da müşteri merkezine gidebilirsiniz."},
+          {"who": "Fahrgast", "de": "Na gut. Sie können ja nichts dafür.", "tr": "Peki. Sizin bir suçunuz yok tabii."},
+          {"who": "Busfahrer", "de": "Vielen Dank für Ihr Verständnis. Ich leite die Information auch an die Leitstelle weiter.", "tr": "Anlayışınız için çok teşekkürler. Bilgiyi kontrol merkezine de iletiyorum."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Dönüşlü fiiller: sich entschuldigen, sich beschweren",
+        "explain_tr": "Dönüşlü fiiller 'sich' ile kullanılır; Türkçedeki '-in, -n' ekine benzer (sevinmek, giyinmek). 'sich' kişiye göre değişir: ich → mich, du → dich, er/sie/es → sich, wir → uns, ihr → euch, Sie → sich. Bu fiiller sık sık bir edatla gelir: sich beschweren über, sich entschuldigen für, sich ärgern über (hepsi + Akkusativ). Perfekt'te 'haben' kullanılır: Er hat sich beschwert.",
+        "examples": [
+          {"de": "Ich entschuldige mich für die Verspätung.", "tr": "Gecikme için özür dilerim."},
+          {"de": "Der Fahrgast beschwert sich über den kalten Bus.", "tr": "Yolcu soğuk otobüsten şikâyet ediyor."},
+          {"de": "Bitte beeilen Sie sich, wir fahren gleich ab.", "tr": "Lütfen acele edin, birazdan kalkıyoruz."},
+          {"de": "Ich habe mich heute über den Stau geärgert.", "tr": "Bugün trafik sıkışıklığına sinirlendim."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "verärgerter Fahrgast",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Bir yolcu çok kızgın biniyor: Bir önceki otobüs el sallamasına rağmen durmadan geçip gitmiş. Sakin kalın, özür dileyin, anlayış gösterin ve yolcuyu şikâyeti için müşteri hizmetlerine yönlendirin. Yapamayacağınız sözler vermeyin.",
+        "ai_brief": "You are an angry passenger in your 50s. The previous bus drove past you although you waved, and now you are late for a doctor's appointment. Speak natural, emotional German (B1), but no insults. You calm down step by step if the driver stays calm, apologizes (Ich entschuldige mich…), shows understanding (Ich verstehe, dass Sie sich ärgern) and explains where to complain. Complications, one at a time: (1) you demand the name of the other driver; (2) you demand that the driver call the boss right now; (3) you say you want your money back. The driver should not invent procedures or prices; referring you to the customer service (Kundenservice, Formular, Kundenzentrum) is the right answer. If the driver is rude or argues, get louder. The scene is finished when you accept the referral, say something like 'Na gut, Sie können ja nichts dafür', and sit down.",
+        "opener_de": "Also, das ist ja wohl eine Frechheit! Der Bus vorhin ist einfach an mir vorbeigefahren, obwohl ich gewunken habe!"
+      }
+    },
+    {
+      "id": "w6d5",
+      "day": 5,
+      "title_de": "Freundlicher Service im Alltag",
+      "title_tr": "Günlük hayatta güler yüzlü hizmet",
+      "goal_tr": "Turistlere ve yolculara kısa, güler yüzlü bilgiler verebilir, Hamburg'daki görülecek yerleri tavsiye edebilirsiniz. Karşılaştırma yaparak en iyi ve en hızlı yolu anlatabilirsiniz.",
+      "words": [
+        {"de": "die Auskunft", "pl": "die Auskünfte", "tr": "bilgi", "ex_de": "Darf ich Sie kurz um eine Auskunft bitten?", "ex_tr": "Sizden kısa bir bilgi rica edebilir miyim?"},
+        {"de": "der Tourist", "pl": "die Touristen", "tr": "turist", "ex_de": "Viele Touristen wollen zu den Landungsbrücken.", "ex_tr": "Birçok turist Landungsbrücken'e gitmek istiyor."},
+        {"de": "die Sehenswürdigkeit", "pl": "die Sehenswürdigkeiten", "tr": "görülmeye değer yer", "ex_de": "Die Elbphilharmonie ist eine bekannte Sehenswürdigkeit.", "ex_tr": "Elbphilharmonie ünlü bir turistik yerdir."},
+        {"de": "der Hafen", "pl": "die Häfen", "tr": "liman", "ex_de": "Zum Hafen fahren Sie am besten bis Landungsbrücken.", "ex_tr": "Limana gitmek için en iyisi Landungsbrücken'e kadar gidin."},
+        {"de": "das Rathaus", "pl": "die Rathäuser", "tr": "belediye binası", "ex_de": "Das Rathaus ist direkt am Rathausmarkt.", "ex_tr": "Belediye binası tam Rathausmarkt'ta."},
+        {"de": "beantworten (hat beantwortet)", "pl": "", "tr": "cevaplamak", "ex_de": "Ich beantworte Ihre Frage gern an der nächsten Haltestelle.", "ex_tr": "Sorunuzu bir sonraki durakta memnuniyetle cevaplarım."},
+        {"de": "empfehlen (hat empfohlen)", "pl": "", "tr": "tavsiye etmek", "ex_de": "Ich empfehle Ihnen einen Spaziergang an der Alster.", "ex_tr": "Size Alster kıyısında bir yürüyüş tavsiye ederim."},
+        {"de": "umsteigen (ist umgestiegen)", "pl": "", "tr": "aktarma yapmak", "ex_de": "Am Hauptbahnhof steigen Sie in die U-Bahn um.", "ex_tr": "Hauptbahnhof'ta metroya aktarma yaparsınız."},
+        {"de": "die Richtung", "pl": "die Richtungen", "tr": "yön", "ex_de": "Sie müssen in die andere Richtung fahren.", "ex_tr": "Diğer yöne gitmeniz gerekiyor."},
+        {"de": "geduldig", "pl": "", "tr": "sabırlı", "ex_de": "Danke, dass Sie so geduldig gewartet haben.", "ex_tr": "Bu kadar sabırla beklediğiniz için teşekkürler."},
+        {"de": "höflich", "pl": "", "tr": "kibar", "ex_de": "Ein Busfahrer sollte immer höflich bleiben.", "ex_tr": "Bir otobüs şoförü her zaman kibar kalmalı."},
+        {"de": "zu Fuß", "pl": "", "tr": "yürüyerek", "ex_de": "Von hier sind es nur fünf Minuten zu Fuß.", "ex_tr": "Buradan yürüyerek sadece beş dakika."}
+      ],
+      "phrases": [
+        {"de": "Danke fürs Warten!", "tr": "Beklediğiniz için teşekkürler!"},
+        {"de": "Schönen Tag noch!", "tr": "İyi günler!"},
+        {"de": "Gern geschehen.", "tr": "Rica ederim."},
+        {"de": "Da sind Sie hier richtig.", "tr": "Doğru yerdesiniz."},
+        {"de": "Am schnellsten geht es mit der U-Bahn.", "tr": "En hızlısı metroyla."},
+        {"de": "Steigen Sie am besten am Jungfernstieg aus.", "tr": "En iyisi Jungfernstieg'de inin."}
+      ],
+      "dialog": {
+        "title_tr": "Turistlere yol tarif etmek",
+        "lines": [
+          {"who": "Fahrgast", "de": "Moin! Wir möchten zur Elbphilharmonie. Fährt dieser Bus dorthin?", "tr": "Merhaba! Elbphilharmonie'ye gitmek istiyoruz. Bu otobüs oraya gidiyor mu?"},
+          {"who": "Busfahrer", "de": "Moin! Nicht direkt. Sie können bis Rathausmarkt fahren. Von dort sind es etwa zwanzig Minuten zu Fuß.", "tr": "Merhaba! Doğrudan değil. Rathausmarkt'a kadar gidebilirsiniz. Oradan yürüyerek yaklaşık yirmi dakika."},
+          {"who": "Fahrgast", "de": "Zu Fuß ist kein Problem. Ist das ein schöner Weg?", "tr": "Yürümek sorun değil. Güzel bir yol mu?"},
+          {"who": "Busfahrer", "de": "Ja, Sie gehen durch die Speicherstadt. Das ist viel schöner als mit der U-Bahn.", "tr": "Evet, Speicherstadt'tan geçiyorsunuz. Metrodan çok daha güzel."},
+          {"who": "Fahrgast", "de": "Super! Und was können Sie uns sonst noch empfehlen?", "tr": "Süper! Başka ne tavsiye edebilirsiniz?"},
+          {"who": "Busfahrer", "de": "Gehen Sie auch an die Alster. Im Sommer ist es dort am schönsten.", "tr": "Alster'e de gidin. Yazın orası en güzel hâlindedir."},
+          {"who": "Fahrgast", "de": "Vielen Dank für die Auskunft! Sie sind sehr nett.", "tr": "Bilgi için çok teşekkürler! Çok naziksiniz."},
+          {"who": "Busfahrer", "de": "Gern geschehen! Rathausmarkt ist die übernächste Haltestelle. Schönen Tag noch!", "tr": "Rica ederim! Rathausmarkt bir sonraki değil, ondan sonraki durak. İyi günler!"}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Karşılaştırma ve üstünlük (Komparativ & Superlativ)",
+        "explain_tr": "Karşılaştırma için sıfata '-er' eklenir: schnell → schneller (daha hızlı). Karşılaştırılan şeyden önce 'als' gelir: Die U-Bahn ist schneller als der Bus. Üstünlük için 'am …-sten' kullanılır: am schnellsten (en hızlı). Bazı kısa sıfatlarda ünlü değişir: nah → näher → am nächsten. Düzensiz olanlar: gut → besser → am besten, gern → lieber → am liebsten, viel → mehr → am meisten.",
+        "examples": [
+          {"de": "Mit der U-Bahn sind Sie schneller als mit dem Bus.", "tr": "Metroyla otobüsten daha hızlı gidersiniz."},
+          {"de": "Am besten steigen Sie an den Landungsbrücken aus.", "tr": "En iyisi Landungsbrücken'de inin."},
+          {"de": "Die Haltestelle Rathausmarkt ist näher am Rathaus als der Hauptbahnhof.", "tr": "Rathausmarkt durağı belediye binasına Hauptbahnhof'tan daha yakın."},
+          {"de": "Im Sommer ist es an der Alster am schönsten.", "tr": "Alster kıyısı en güzel yazın olur."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Tourist",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "İlk kez Hamburg'a gelen bir turist otobüse biniyor ve yol soruyor. Kısa ve güler yüzlü bilgi verin, karşılaştırma yaparak en iyi yolu anlatın ve bir yer tavsiye edin. Arkada bekleyen yolcular olduğunu unutmayın.",
+        "ai_brief": "You are a cheerful tourist from southern Germany visiting Hamburg for the first time, speaking clear, natural German (B1). You want to get to the Landungsbrücken and ask for tips. Complications, one at a time: (1) you ask whether the bus or the U-Bahn is faster or better (invite comparatives); (2) you ask how much a ticket costs; the learner should not state prices but may refer you to the ticket machine or the HVV app, which you accept; (3) you ask what the most beautiful sight in Hamburg is. Accept any plausible route or recommendation; do not test real route knowledge. Mention once that people behind you are waiting, so keep it friendly and quick. The scene is finished when you know where to get off and have one recommendation; then thank the driver and the driver wishes you a nice day.",
+        "opener_de": "Moin! Entschuldigung, wir sind zum ersten Mal in Hamburg. Wie kommen wir am besten zu den Landungsbrücken?"
+      }
+    }
+  ]
+}

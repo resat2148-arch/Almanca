@@ -1,0 +1,313 @@
+{
+  "week": 8,
+  "title_de": "Bewerbung & Vorstellungsgespräch",
+  "title_tr": "Başvuru ve iş görüşmesi",
+  "lessons": [
+    {
+      "id": "w8d1",
+      "day": 1,
+      "title_de": "Bewerbungsunterlagen & Online-Bewerbung",
+      "title_tr": "Başvuru belgeleri ve online başvuru",
+      "goal_tr": "Bu dersten sonra başvuru belgelerinizi (özgeçmiş, ön yazı, ehliyet, belgeler) Almanca adlandırabilir ve online başvuruyu adım adım yapabilirsiniz. Geçmişinizi Perfekt ve Präteritum ile kısa cümlelerle anlatabilirsiniz.",
+      "words": [
+        {"de": "sich bewerben (hat sich beworben)", "pl": "", "tr": "başvurmak", "ex_de": "Ich bewerbe mich bei der Hochbahn als Busfahrer.", "ex_tr": "Hochbahn'a otobüs şoförü olarak başvuruyorum."},
+        {"de": "die Bewerbung", "pl": "die Bewerbungen", "tr": "başvuru", "ex_de": "Ich habe meine Bewerbung gestern online abgeschickt.", "ex_tr": "Başvurumu dün internetten gönderdim."},
+        {"de": "der Lebenslauf", "pl": "die Lebensläufe", "tr": "özgeçmiş (CV)", "ex_de": "Im Lebenslauf steht, wo ich früher gearbeitet habe.", "ex_tr": "Özgeçmişte daha önce nerede çalıştığım yazıyor."},
+        {"de": "das Anschreiben", "pl": "die Anschreiben", "tr": "ön yazı, başvuru mektubu", "ex_de": "Im Anschreiben erkläre ich, warum ich Busfahrer werden möchte.", "ex_tr": "Ön yazıda neden otobüs şoförü olmak istediğimi açıklıyorum."},
+        {"de": "die Stellenanzeige", "pl": "die Stellenanzeigen", "tr": "iş ilanı", "ex_de": "Ich habe die Stellenanzeige im Internet gefunden.", "ex_tr": "İş ilanını internette buldum."},
+        {"de": "der Führerschein", "pl": "die Führerscheine", "tr": "ehliyet, sürücü belgesi", "ex_de": "Den Führerschein Klasse D habe ich seit letztem Monat.", "ex_tr": "D sınıfı ehliyetim geçen aydan beri var."},
+        {"de": "die Berufskraftfahrerqualifikation", "pl": "die Berufskraftfahrerqualifikationen", "tr": "mesleki sürücü yeterliliği (SRC belgesi)", "ex_de": "Die Berufskraftfahrerqualifikation steht als Schlüsselzahl 95 im Führerschein.", "ex_tr": "Mesleki sürücü yeterliliği ehliyette 95 kodu olarak yazılıdır."},
+        {"de": "das Zeugnis", "pl": "die Zeugnisse", "tr": "diploma, belge; iş referans belgesi", "ex_de": "Meine Zeugnisse aus der Türkei habe ich übersetzen lassen.", "ex_tr": "Türkiye'deki diplomalarımı tercüme ettirdim."},
+        {"de": "die Anlage", "pl": "die Anlagen", "tr": "ek (belge)", "ex_de": "Als Anlage schicke ich eine Kopie von meinem Führerschein.", "ex_tr": "Ek olarak ehliyetimin bir kopyasını gönderiyorum."},
+        {"de": "das Bewerbungsportal", "pl": "die Bewerbungsportale", "tr": "başvuru portalı", "ex_de": "Im Bewerbungsportal muss ich zuerst ein Konto anlegen.", "ex_tr": "Başvuru portalında önce bir hesap açmam gerekiyor."},
+        {"de": "hochladen (hat hochgeladen)", "pl": "", "tr": "(internete) yüklemek", "ex_de": "Ich habe den Lebenslauf und die Zeugnisse als PDF hochgeladen.", "ex_tr": "Özgeçmişi ve belgeleri PDF olarak yükledim."},
+        {"de": "die Berufserfahrung", "pl": "", "tr": "iş deneyimi", "ex_de": "Ich habe mehrere Jahre Berufserfahrung aus der Türkei.", "ex_tr": "Türkiye'den birkaç yıllık iş deneyimim var."}
+      ],
+      "phrases": [
+        {"de": "Hiermit bewerbe ich mich bei Ihnen als Busfahrer.", "tr": "Bu yazıyla size otobüs şoförü olarak başvuruyorum."},
+        {"de": "Ich habe Ihre Stellenanzeige im Internet gelesen.", "tr": "İş ilanınızı internette okudum."},
+        {"de": "In der Türkei habe ich … Jahre als … gearbeitet.", "tr": "Türkiye'de … yıl … olarak çalıştım."},
+        {"de": "Ich besitze den Führerschein Klasse D mit der Schlüsselzahl 95.", "tr": "95 kodlu D sınıfı ehliyetim var."},
+        {"de": "Meinen Lebenslauf und meine Zeugnisse finden Sie in der Anlage.", "tr": "Özgeçmişimi ve belgelerimi ekte bulabilirsiniz."},
+        {"de": "Über eine Einladung zum Vorstellungsgespräch freue ich mich sehr.", "tr": "Bir iş görüşmesine davet edilirsem çok sevinirim."}
+      ],
+      "dialog": {
+        "title_tr": "Danışmanla başvuru hazırlığı",
+        "lines": [
+          {"who": "Bewerber", "de": "Moin! Ich möchte mich als Busfahrer bewerben. Können Sie mir helfen?", "tr": "Merhaba! Otobüs şoförü olarak başvurmak istiyorum. Bana yardım edebilir misiniz?"},
+          {"who": "Beraterin", "de": "Gern. Wo haben Sie die Stellenanzeige gefunden?", "tr": "Memnuniyetle. İş ilanını nerede buldunuz?"},
+          {"who": "Bewerber", "de": "Im Internet. Man bewirbt sich dort online über ein Bewerbungsportal.", "tr": "İnternette. Orada bir başvuru portalı üzerinden online başvuruluyor."},
+          {"who": "Beraterin", "de": "Gut. Dann brauchen Sie einen Lebenslauf, ein Anschreiben und Ihre Zeugnisse.", "tr": "İyi. O zaman bir özgeçmiş, bir ön yazı ve belgeleriniz gerekiyor."},
+          {"who": "Bewerber", "de": "Den Lebenslauf habe ich schon geschrieben. Aber das Anschreiben finde ich schwer.", "tr": "Özgeçmişi zaten yazdım. Ama ön yazıyı zor buluyorum."},
+          {"who": "Beraterin", "de": "Schreiben Sie kurz: Was haben Sie früher gemacht, und warum wollen Sie Busfahrer werden?", "tr": "Kısaca yazın: Daha önce ne yaptınız ve neden otobüs şoförü olmak istiyorsunuz?"},
+          {"who": "Bewerber", "de": "In der Türkei war ich acht Jahre im Verkauf. Ich hatte jeden Tag Kontakt mit Kunden.", "tr": "Türkiye'de sekiz yıl satışta çalıştım. Her gün müşterilerle iletişim halindeydim."},
+          {"who": "Beraterin", "de": "Das ist gute Berufserfahrung. Haben Sie auch den Führerschein Klasse D und die Berufskraftfahrerqualifikation?", "tr": "Bu iyi bir iş deneyimi. D sınıfı ehliyetiniz ve mesleki sürücü yeterliliğiniz de var mı?"},
+          {"who": "Bewerber", "de": "Ja, beides habe ich letzten Monat bekommen. Die Kopien habe ich schon eingescannt.", "tr": "Evet, ikisini de geçen ay aldım. Kopyaları da zaten taradım."},
+          {"who": "Beraterin", "de": "Prima. Dann laden Sie alle Anlagen als PDF hoch und schicken die Bewerbung ab.", "tr": "Harika. O zaman bütün ekleri PDF olarak yükleyin ve başvuruyu gönderin."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Özgeçmiş cümleleri: Perfekt ve Präteritum",
+        "explain_tr": "Geçmişi anlatırken konuşmada çoğunlukla Perfekt kullanılır: haben/sein + Partizip II (Ich habe gearbeitet). Yer değiştirme bildiren fiiller sein alır: Ich bin nach Hamburg gekommen. sein ve haben fiillerinde ise Präteritum daha doğaldır: Ich war…, Ich hatte… Partizip II cümlenin en sonuna gider. Yıl veya süre eklerseniz anlatımınız daha net olur: von 2015 bis 2021, drei Jahre lang.",
+        "examples": [
+          {"de": "Ich habe zehn Jahre in der Türkei als … gearbeitet.", "tr": "Türkiye'de on yıl … olarak çalıştım."},
+          {"de": "Von 2015 bis 2021 war ich bei einer Firma in Istanbul angestellt.", "tr": "2015'ten 2021'e kadar İstanbul'da bir firmada çalışıyordum."},
+          {"de": "2022 bin ich nach Hamburg gekommen.", "tr": "2022'de Hamburg'a geldim."},
+          {"de": "Dieses Jahr habe ich den Führerschein Klasse D gemacht.", "tr": "Bu yıl D sınıfı ehliyetimi aldım."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Personalreferentin",
+        "user_role_tr": "Başvuru sahibi (otobüs şoförü adayı)",
+        "scenario_tr": "Online başvurunuzu gönderdiniz. Bir personel sorumlusu sizi telefonla arıyor ve özgeçmişinizdeki bazı bilgileri soruyor. Geçmişinizi Perfekt ve Präteritum ile anlatın ve eksik belgeyi ne zaman yükleyeceğinizi söyleyin.",
+        "ai_brief": "You are Frau Petersen, a friendly but thorough HR officer (Personalreferentin) at Hamburger Hochbahn AG. The learner has applied online for a bus driver position. You call them to check the application. Ask what they did in Turkey and for how long, when they came to Hamburg, and since when they have the Klasse D licence and the Schlüsselzahl 95. Complications: (1) there is a gap of about one year in the CV - ask politely what they did during that time; (2) one document is missing in the portal (e.g. a translated Zeugnis or the back side of the licence) - ask them to upload it and when they can do it; (3) ask one follow-up question about a previous job ('Was haben Sie dort genau gemacht?'). The learner's previous jobs are unknown - accept whatever they say. Speak simple A2-B1 German with short sentences and Sie. Do not invent internal company procedures, salaries or deadlines. If the learner uses a wrong Perfekt form, repeat the sentence correctly in your reply without lecturing. The scene is finished when the learner has described at least three past stations of their life in Perfekt/Präteritum and promised to upload the missing document; then thank them and say you will be in touch.",
+        "opener_de": "Moin, hier ist Petersen aus der Personalabteilung der Hochbahn. Sie haben sich online bei uns beworben – haben Sie kurz Zeit für ein paar Fragen?"
+      }
+    },
+    {
+      "id": "w8d2",
+      "day": 2,
+      "title_de": "Sich im Gespräch vorstellen",
+      "title_tr": "Görüşmede kendini tanıtmak",
+      "goal_tr": "Bu dersten sonra iş görüşmesinde kendinizi yaklaşık bir dakika boyunca tanıtabilirsiniz: geçmişiniz, aileniz, boş zamanınız ve neden Hamburg'da yaşadığınız. Anlatımınızı zuerst, danach, seit ve deshalb ile düzenli bir sıraya koyabilirsiniz.",
+      "words": [
+        {"de": "sich vorstellen (hat sich vorgestellt)", "pl": "", "tr": "kendini tanıtmak", "ex_de": "Darf ich mich kurz vorstellen?", "ex_tr": "Kendimi kısaca tanıtabilir miyim?"},
+        {"de": "das Vorstellungsgespräch", "pl": "die Vorstellungsgespräche", "tr": "iş görüşmesi, mülakat", "ex_de": "Morgen um zehn Uhr habe ich ein Vorstellungsgespräch.", "ex_tr": "Yarın saat onda bir iş görüşmem var."},
+        {"de": "der Werdegang", "pl": "die Werdegänge", "tr": "(mesleki) geçmiş, kariyer yolu", "ex_de": "Erzählen Sie uns bitte etwas über Ihren beruflichen Werdegang.", "ex_tr": "Lütfen bize mesleki geçmişinizden biraz bahsedin."},
+        {"de": "aufwachsen (ist aufgewachsen)", "pl": "", "tr": "büyümek, yetişmek", "ex_de": "Ich bin in einer kleinen Stadt in der Türkei aufgewachsen.", "ex_tr": "Türkiye'de küçük bir şehirde büyüdüm."},
+        {"de": "der Schulabschluss", "pl": "die Schulabschlüsse", "tr": "okul diploması, mezuniyet", "ex_de": "Meinen Schulabschluss habe ich in der Türkei gemacht.", "ex_tr": "Okulu Türkiye'de bitirdim."},
+        {"de": "die Ausbildung", "pl": "die Ausbildungen", "tr": "meslek eğitimi", "ex_de": "Nach der Schule habe ich eine Ausbildung als … gemacht.", "ex_tr": "Okuldan sonra … olarak meslek eğitimi aldım."},
+        {"de": "umziehen (ist umgezogen)", "pl": "", "tr": "taşınmak", "ex_de": "Vor drei Jahren bin ich nach Hamburg umgezogen.", "ex_tr": "Üç yıl önce Hamburg'a taşındım."},
+        {"de": "die Heimat", "pl": "", "tr": "memleket, vatan", "ex_de": "Meine Heimat ist die Türkei, aber Hamburg ist jetzt mein Zuhause.", "ex_tr": "Memleketim Türkiye ama Hamburg artık benim evim."},
+        {"de": "verheiratet", "pl": "", "tr": "evli", "ex_de": "Ich bin verheiratet und habe zwei Kinder.", "ex_tr": "Evliyim ve iki çocuğum var."},
+        {"de": "die Freizeit", "pl": "", "tr": "boş zaman", "ex_de": "In meiner Freizeit gehe ich gern an der Alster spazieren.", "ex_tr": "Boş zamanlarımda Alster kenarında yürüyüş yapmayı severim."},
+        {"de": "der Deutschkurs", "pl": "die Deutschkurse", "tr": "Almanca kursu", "ex_de": "Seit einem Jahr besuche ich abends einen Deutschkurs.", "ex_tr": "Bir yıldır akşamları Almanca kursuna gidiyorum."},
+        {"de": "anschließend", "pl": "", "tr": "ardından, sonrasında", "ex_de": "Anschließend habe ich in Hamburg den Busführerschein gemacht.", "ex_tr": "Ardından Hamburg'da otobüs ehliyetini aldım."}
+      ],
+      "phrases": [
+        {"de": "Darf ich mich kurz vorstellen? Mein Name ist …", "tr": "Kendimi kısaca tanıtabilir miyim? Adım …"},
+        {"de": "Ich bin … Jahre alt und komme aus der Türkei.", "tr": "… yaşındayım ve Türkiye'den geliyorum."},
+        {"de": "Ich lebe seit … Jahren in Hamburg.", "tr": "… yıldır Hamburg'da yaşıyorum."},
+        {"de": "Beruflich habe ich zuerst als … gearbeitet, danach als …", "tr": "Mesleki olarak önce … olarak, sonra … olarak çalıştım."},
+        {"de": "Meine Familie ist mir sehr wichtig.", "tr": "Ailem benim için çok önemli."},
+        {"de": "Hamburg gefällt mir sehr, deshalb möchte ich hier bleiben.", "tr": "Hamburg'u çok seviyorum, bu yüzden burada kalmak istiyorum."}
+      ],
+      "dialog": {
+        "title_tr": "Görüşmenin başında: Kendinizi tanıtın",
+        "lines": [
+          {"who": "Personalreferentin", "de": "Moin und herzlich willkommen! Bitte nehmen Sie Platz. Erzählen Sie doch mal etwas über sich.", "tr": "Merhaba, hoş geldiniz! Lütfen oturun. Bize biraz kendinizden bahsedin."},
+          {"who": "Bewerber", "de": "Gern. Ich bin 38 Jahre alt und in Izmir aufgewachsen. Dort habe ich auch meinen Schulabschluss gemacht.", "tr": "Memnuniyetle. 38 yaşındayım ve İzmir'de büyüdüm. Okulu da orada bitirdim."},
+          {"who": "Personalreferentin", "de": "Und wie sieht Ihr beruflicher Werdegang aus?", "tr": "Peki mesleki geçmişiniz nasıl?"},
+          {"who": "Bewerber", "de": "Zuerst habe ich in einem Hotel gearbeitet. Danach war ich acht Jahre im Verkauf.", "tr": "Önce bir otelde çalıştım. Sonra sekiz yıl satışta çalıştım."},
+          {"who": "Personalreferentin", "de": "Seit wann leben Sie in Hamburg?", "tr": "Ne zamandan beri Hamburg'da yaşıyorsunuz?"},
+          {"who": "Bewerber", "de": "Seit 2022. Mein Bruder wohnt hier, deshalb bin ich nach Hamburg umgezogen.", "tr": "2022'den beri. Erkek kardeşim burada oturuyor, bu yüzden Hamburg'a taşındım."},
+          {"who": "Personalreferentin", "de": "Und Ihr Deutsch? Sie sprechen schon gut.", "tr": "Peki Almancanız? Şimdiden iyi konuşuyorsunuz."},
+          {"who": "Bewerber", "de": "Zuerst habe ich einen Deutschkurs besucht, anschließend habe ich den Busführerschein gemacht. Und ich lerne jeden Tag weiter.", "tr": "Önce bir Almanca kursuna gittim, ardından otobüs ehliyetimi aldım. Ve her gün öğrenmeye devam ediyorum."},
+          {"who": "Personalreferentin", "de": "Toll. Und was machen Sie in Ihrer Freizeit?", "tr": "Harika. Peki boş zamanlarınızda ne yaparsınız?"},
+          {"who": "Bewerber", "de": "Ich bin verheiratet und habe zwei Kinder. In meiner Freizeit sind wir oft an der Elbe oder im Stadtpark.", "tr": "Evliyim ve iki çocuğum var. Boş zamanlarımızda sık sık Elbe kıyısında ya da Stadtpark'tayız."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Anlatımı sıralamak: zuerst, danach, seit, deshalb",
+        "explain_tr": "Kendinizi anlatırken olayları sırayla bağlayın: zuerst (önce), danach (sonra), anschließend (ardından). Bu kelimeler cümlenin başına gelince fiil hemen ikinci sıraya gelir, özne fiilden sonra gelir: Danach habe ich… Bugün de devam eden durumlar için seit + şimdiki zaman kullanılır: Seit 2022 wohne ich in Hamburg. deshalb (bu yüzden) bir sonucu bildirir ve aynı kuralı izler: …, deshalb bin ich… Kısa bir tanıtım için bu dört kelime yeterlidir.",
+        "examples": [
+          {"de": "Zuerst habe ich in der Türkei als … gearbeitet.", "tr": "Önce Türkiye'de … olarak çalıştım."},
+          {"de": "Danach bin ich mit meiner Familie nach Hamburg gekommen.", "tr": "Sonra ailemle Hamburg'a geldim."},
+          {"de": "Seit 2022 wohne ich in Barmbek.", "tr": "2022'den beri Barmbek'te oturuyorum."},
+          {"de": "Ich fahre gern und mag Menschen, deshalb möchte ich Busfahrer werden.", "tr": "Araç kullanmayı ve insanları severim, bu yüzden otobüs şoförü olmak istiyorum."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Personalreferentin",
+        "user_role_tr": "Başvuru sahibi (otobüs şoförü adayı)",
+        "scenario_tr": "İş görüşmesi başlıyor ve personel sorumlusu sizden kendinizi tanıtmanızı istiyor. Yaklaşık bir dakika boyunca geçmişinizi, ailenizi, boş zamanınızı ve neden Hamburg'da yaşadığınızı anlatın; zuerst, danach, seit ve deshalb kullanın.",
+        "ai_brief": "You are Frau Petersen, a friendly but attentive HR officer at Hamburger Hochbahn AG, at the very beginning of a job interview for a bus driver position. Ask the learner to introduce themselves ('Erzählen Sie etwas über sich'). Let them speak, then ask follow-up questions one at a time. Complications: (1) if the answer is very short, ask for more detail about their career ('Und was haben Sie danach gemacht?'); (2) ask 'Seit wann sind Sie in Hamburg?' and 'Warum gerade Hamburg?'; (3) ask briefly about free time and how they are learning German, and react with real interest. The learner's previous jobs are unknown - accept whatever they tell you. Keep family questions light and never push for private details. Use simple A2-B1 German and Sie. If the learner makes word-order mistakes after zuerst/danach/deshalb, model the correct sentence once in your reply. The scene is finished when the learner has given a structured self-introduction using at least three of: zuerst, danach, seit, deshalb, anschließend. Then say 'Vielen Dank, das war sehr interessant' and announce the next topic.",
+        "opener_de": "Moin, schön, dass Sie da sind! Bitte nehmen Sie Platz. Erzählen Sie doch zuerst ein bisschen über sich."
+      }
+    },
+    {
+      "id": "w8d3",
+      "day": 3,
+      "title_de": "Motivation & Stärken",
+      "title_tr": "Motivasyon ve güçlü yönler",
+      "goal_tr": "Bu dersten sonra neden bu işi ve bu işvereni istediğinizi açıklayabilir, güçlü yönlerinizi örneklerle anlatabilir ve bir zayıf yönünüzü olumlu bir şekilde ifade edebilirsiniz. Sebep bildirmek için weil, denn ve deshalb kullanırsınız.",
+      "words": [
+        {"de": "die Motivation", "pl": "", "tr": "motivasyon, istek", "ex_de": "Was ist Ihre Motivation für diesen Beruf?", "ex_tr": "Bu meslek için motivasyonunuz nedir?"},
+        {"de": "der Arbeitgeber", "pl": "die Arbeitgeber", "tr": "işveren", "ex_de": "Die Hochbahn ist ein großer Arbeitgeber in Hamburg.", "ex_tr": "Hochbahn, Hamburg'da büyük bir işveren."},
+        {"de": "der Arbeitsplatz", "pl": "die Arbeitsplätze", "tr": "iş yeri; iş, pozisyon", "ex_de": "Ich suche einen sicheren Arbeitsplatz für viele Jahre.", "ex_tr": "Uzun yıllar için güvenli bir iş arıyorum."},
+        {"de": "die Stärke", "pl": "die Stärken", "tr": "güçlü yön", "ex_de": "Meine größte Stärke ist meine Ruhe.", "ex_tr": "En büyük güçlü yönüm sakinliğim."},
+        {"de": "die Schwäche", "pl": "die Schwächen", "tr": "zayıf yön", "ex_de": "Eine Schwäche von mir: Mein Deutsch ist noch nicht perfekt.", "ex_tr": "Bir zayıf yönüm: Almancam henüz mükemmel değil."},
+        {"de": "pünktlich", "pl": "", "tr": "dakik, zamanında", "ex_de": "Ich bin immer pünktlich, auch früh am Morgen.", "ex_tr": "Sabahın erken saatinde bile her zaman dakikim."},
+        {"de": "zuverlässig", "pl": "", "tr": "güvenilir", "ex_de": "Meine Kollegen konnten sich immer auf mich verlassen – ich bin zuverlässig.", "ex_tr": "İş arkadaşlarım bana her zaman güvenebildi – ben güvenilir biriyim."},
+        {"de": "ruhig", "pl": "", "tr": "sakin", "ex_de": "Auch im Stau bleibe ich ruhig.", "ex_tr": "Trafik sıkışıklığında bile sakin kalırım."},
+        {"de": "kundenfreundlich", "pl": "", "tr": "müşteri dostu, müşteriye karşı nazik", "ex_de": "Als Busfahrer muss man kundenfreundlich sein.", "ex_tr": "Otobüs şoförü olarak müşteriye karşı nazik olmak gerekir."},
+        {"de": "geduldig", "pl": "", "tr": "sabırlı", "ex_de": "Mit älteren Fahrgästen bin ich geduldig.", "ex_tr": "Yaşlı yolculara karşı sabırlıyım."},
+        {"de": "belastbar", "pl": "", "tr": "strese dayanıklı", "ex_de": "Ich bin belastbar und arbeite auch unter Zeitdruck gut.", "ex_tr": "Strese dayanıklıyım ve zaman baskısı altında da iyi çalışırım."},
+        {"de": "die Verantwortung", "pl": "", "tr": "sorumluluk", "ex_de": "Ich trage gern Verantwortung für meine Fahrgäste.", "ex_tr": "Yolcularımın sorumluluğunu taşımaktan hoşlanırım."}
+      ],
+      "phrases": [
+        {"de": "Ich möchte gern bei Ihnen arbeiten, weil der Nahverkehr für Hamburg sehr wichtig ist.", "tr": "Sizde çalışmak istiyorum çünkü toplu taşıma Hamburg için çok önemli."},
+        {"de": "Ich fahre sehr gern und habe gern Kontakt mit Menschen.", "tr": "Araç kullanmayı çok severim ve insanlarla iletişim kurmaktan hoşlanırım."},
+        {"de": "Eine meiner Stärken ist, dass ich immer pünktlich bin.", "tr": "Güçlü yönlerimden biri her zaman dakik olmamdır."},
+        {"de": "Ein Beispiel: In meinem letzten Job war ich nie zu spät.", "tr": "Bir örnek: Son işimde hiç geç kalmadım."},
+        {"de": "Manchmal bin ich zu genau, aber so mache ich wenige Fehler.", "tr": "Bazen fazla titizim ama bu sayede az hata yaparım."},
+        {"de": "Mein Deutsch ist noch nicht perfekt, deshalb lerne ich jeden Tag.", "tr": "Almancam henüz mükemmel değil, bu yüzden her gün çalışıyorum."}
+      ],
+      "dialog": {
+        "title_tr": "Neden bu iş? Güçlü ve zayıf yönler",
+        "lines": [
+          {"who": "Personalreferentin", "de": "Warum möchten Sie gerade bei uns arbeiten?", "tr": "Neden özellikle bizde çalışmak istiyorsunuz?"},
+          {"who": "Bewerber", "de": "Sie sind ein großer Arbeitgeber in Hamburg, und ich suche einen sicheren Arbeitsplatz für viele Jahre.", "tr": "Siz Hamburg'da büyük bir işverensiniz ve ben uzun yıllar için güvenli bir iş arıyorum."},
+          {"who": "Personalreferentin", "de": "Und warum möchten Sie Busfahrer werden?", "tr": "Peki neden otobüs şoförü olmak istiyorsunuz?"},
+          {"who": "Bewerber", "de": "Weil ich gern fahre und gern mit Menschen arbeite. Das ist für mich eine schöne Verantwortung.", "tr": "Çünkü araç kullanmayı ve insanlarla çalışmayı seviyorum. Bu benim için güzel bir sorumluluk."},
+          {"who": "Personalreferentin", "de": "Was sind Ihre Stärken?", "tr": "Güçlü yönleriniz nelerdir?"},
+          {"who": "Bewerber", "de": "Ich bin pünktlich und zuverlässig. Im Verkauf war ich acht Jahre lang nie zu spät. Und ich bleibe ruhig, auch wenn Kunden unfreundlich sind.", "tr": "Dakik ve güvenilirim. Satışta sekiz yıl boyunca hiç geç kalmadım. Müşteriler kaba olsa bile sakin kalırım."},
+          {"who": "Personalreferentin", "de": "Das ist wichtig. Und haben Sie auch eine Schwäche?", "tr": "Bu önemli. Peki bir zayıf yönünüz de var mı?"},
+          {"who": "Bewerber", "de": "Mein Deutsch ist noch nicht perfekt. Deshalb lerne ich jeden Tag, denn ich möchte gut mit den Fahrgästen sprechen.", "tr": "Almancam henüz mükemmel değil. Bu yüzden her gün çalışıyorum, çünkü yolcularla iyi konuşabilmek istiyorum."},
+          {"who": "Personalreferentin", "de": "Das finde ich gut. Im Bus muss man auch geduldig und kundenfreundlich sein.", "tr": "Bunu iyi buluyorum. Otobüste sabırlı ve müşteriye karşı nazik olmak da gerekir."},
+          {"who": "Bewerber", "de": "Das stimmt. Geduld habe ich – ich habe zwei Kinder!", "tr": "Doğru. Sabrım var – iki çocuğum var!"}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Sebep ve sonuç: weil, denn, deshalb",
+        "explain_tr": "Üçü de sebep–sonuç ilişkisi kurar ama kelime sırası farklıdır. weil (çünkü): çekimli fiil cümlenin en sonuna gider: …, weil ich gern fahre. denn (çünkü): kelime sırası değişmez, fiil ikinci sırada kalır: …, denn ich fahre gern. deshalb (bu yüzden): sonucu bildirir ve hemen ardından fiil gelir: …, deshalb möchte ich Busfahrer werden. Görüşmede 'Warum…?' sorusuna en doğal cevap weil ile başlar.",
+        "examples": [
+          {"de": "Ich möchte Busfahrer werden, weil ich gern mit Menschen arbeite.", "tr": "Otobüs şoförü olmak istiyorum çünkü insanlarla çalışmayı seviyorum."},
+          {"de": "Ich bewerbe mich bei Ihnen, denn ich suche eine feste Stelle in Hamburg.", "tr": "Size başvuruyorum çünkü Hamburg'da kalıcı bir iş arıyorum."},
+          {"de": "Ich stehe gern früh auf, deshalb ist die Frühschicht kein Problem für mich.", "tr": "Erken kalkmayı severim, bu yüzden sabah vardiyası benim için sorun değil."},
+          {"de": "Ich bin immer pünktlich, weil ich zehn Minuten früher losgehe.", "tr": "Her zaman dakikim çünkü evden on dakika erken çıkarım."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Personalreferentin",
+        "user_role_tr": "Başvuru sahibi (otobüs şoförü adayı)",
+        "scenario_tr": "Görüşmeci neden Hochbahn'da ve neden otobüs şoförü olarak çalışmak istediğinizi soruyor. Motivasyonunuzu weil, denn ve deshalb ile açıklayın, iki güçlü yönünüzü birer örnekle anlatın ve bir zayıf yönünüzü olumlu bir şekilde ifade edin.",
+        "ai_brief": "You are Frau Petersen, HR officer at Hamburger Hochbahn AG, in the middle of a bus driver interview. You are friendly, but you dig deeper and do not accept empty phrases. Ask, one at a time: 'Warum möchten Sie bei uns arbeiten?', 'Warum möchten Sie Busfahrer werden?', 'Was sind Ihre Stärken?', 'Und Ihre Schwächen?'. Complications: (1) when the learner names a strength without proof, say 'Das sagen viele. Haben Sie ein konkretes Beispiel?'; (2) say 'Busfahren ist oft stressig – Stau, Zeitdruck, schwierige Fahrgäste. Wie gehen Sie damit um?'; (3) if the weakness sounds too negative, or the learner claims to have none, ask what they do to improve. The learner's previous jobs are unknown - accept whatever examples they give. You may react kindly to the learner's German level, but do not make it a problem. Use Sie, A2-B1 German, short questions. Do not invent concrete facts about the company (salary, benefits, numbers). The scene is finished when the learner has given reasons with weil/denn/deshalb, two strengths with examples and one positively framed weakness. Close with 'Gut, das hilft mir sehr. Kommen wir zu ein paar Fragen aus der Praxis.'",
+        "opener_de": "So, jetzt interessiert mich Ihre Motivation: Warum möchten Sie gerade bei uns im Busdienst arbeiten?"
+      }
+    },
+    {
+      "id": "w8d4",
+      "day": 4,
+      "title_de": "Situationsfragen",
+      "title_tr": "Durum soruları",
+      "goal_tr": "Bu dersten sonra görüşmedeki 'Ne yapardınız?' sorularına (hakaret eden yolcu, rötar, tekerlekli sandalyeli yolcu, vardiyalı çalışma) sakin ve güvenli cevaplar verebilirsiniz. Cevaplarınızda wenn + Konjunktiv II (Ich würde…) kullanırsınız.",
+      "words": [
+        {"de": "beleidigen (hat beleidigt)", "pl": "", "tr": "hakaret etmek", "ex_de": "Ein Fahrgast hat mich heute beleidigt, aber ich bin ruhig geblieben.", "ex_tr": "Bugün bir yolcu bana hakaret etti ama sakin kaldım."},
+        {"de": "deeskalieren (hat deeskaliert)", "pl": "", "tr": "gerginliği azaltmak, yatıştırmak", "ex_de": "Mit einer ruhigen Stimme kann man viele Konflikte deeskalieren.", "ex_tr": "Sakin bir ses tonuyla birçok tartışma yatıştırılabilir."},
+        {"de": "die Sicherheit", "pl": "", "tr": "güvenlik", "ex_de": "Die Sicherheit der Fahrgäste geht immer vor.", "ex_tr": "Yolcuların güvenliği her zaman önce gelir."},
+        {"de": "die Leitstelle", "pl": "die Leitstellen", "tr": "kontrol merkezi", "ex_de": "Bei einem Problem würde ich sofort die Leitstelle informieren.", "ex_tr": "Bir sorun olursa hemen kontrol merkezine haber verirdim."},
+        {"de": "die Verspätung", "pl": "die Verspätungen", "tr": "gecikme, rötar", "ex_de": "Wegen eines Unfalls habe ich zehn Minuten Verspätung.", "ex_tr": "Bir kaza yüzünden on dakika rötarım var."},
+        {"de": "die Durchsage", "pl": "die Durchsagen", "tr": "anons", "ex_de": "Ich mache eine kurze Durchsage: Wegen Stau haben wir leider Verspätung.", "ex_tr": "Kısa bir anons yapıyorum: Trafik sıkışıklığı nedeniyle maalesef gecikmemiz var."},
+        {"de": "der Rollstuhl", "pl": "die Rollstühle", "tr": "tekerlekli sandalye", "ex_de": "An der Haltestelle wartet ein Fahrgast im Rollstuhl.", "ex_tr": "Durakta tekerlekli sandalyeli bir yolcu bekliyor."},
+        {"de": "die Rampe", "pl": "die Rampen", "tr": "rampa", "ex_de": "An der mittleren Tür klappe ich die Rampe aus.", "ex_tr": "Orta kapıda rampayı açıyorum."},
+        {"de": "hilfsbereit", "pl": "", "tr": "yardımsever", "ex_de": "Ich bin hilfsbereit und helfe gern beim Einsteigen.", "ex_tr": "Yardımseverim ve binerken yardım etmeyi severim."},
+        {"de": "der Schichtdienst", "pl": "", "tr": "vardiyalı çalışma", "ex_de": "Im Schichtdienst arbeitet man auch am Wochenende und an Feiertagen.", "ex_tr": "Vardiyalı çalışmada hafta sonları ve tatil günlerinde de çalışılır."},
+        {"de": "die Frühschicht", "pl": "die Frühschichten", "tr": "sabah vardiyası", "ex_de": "Die Frühschicht beginnt sehr früh am Morgen.", "ex_tr": "Sabah vardiyası sabahın çok erken saatinde başlar."},
+        {"de": "die Spätschicht", "pl": "die Spätschichten", "tr": "akşam vardiyası", "ex_de": "Nach der Spätschicht komme ich erst nach Mitternacht nach Hause.", "ex_tr": "Akşam vardiyasından sonra eve ancak gece yarısından sonra varıyorum."}
+      ],
+      "phrases": [
+        {"de": "Ich würde zuerst ruhig bleiben und freundlich antworten.", "tr": "Önce sakin kalır ve kibarca cevap verirdim."},
+        {"de": "Ich würde nicht mit dem Fahrgast streiten.", "tr": "Yolcuyla tartışmazdım."},
+        {"de": "Wenn es gefährlich wird, würde ich die Leitstelle oder die Polizei unter 110 informieren.", "tr": "Durum tehlikeli hale gelirse kontrol merkezine ya da 110'dan polise haber verirdim."},
+        {"de": "Ich würde eine Durchsage machen und mich für die Verspätung entschuldigen.", "tr": "Bir anons yapar ve gecikme için özür dilerdim."},
+        {"de": "Ich würde die Rampe ausklappen und dem Fahrgast Zeit geben.", "tr": "Rampayı açar ve yolcuya zaman tanırdım."},
+        {"de": "Schichtdienst ist für mich in Ordnung, auch am Wochenende.", "tr": "Vardiyalı çalışma benim için sorun değil, hafta sonu da."}
+      ],
+      "dialog": {
+        "title_tr": "Ya şöyle olursa? Pratikten sorular",
+        "lines": [
+          {"who": "Ausbilder", "de": "Ich habe ein paar Fragen aus der Praxis. Was machen Sie, wenn ein Fahrgast Sie beleidigt?", "tr": "Size pratikten birkaç soru sormak istiyorum. Bir yolcu size hakaret ederse ne yaparsınız?"},
+          {"who": "Bewerber", "de": "Ich würde zuerst ruhig bleiben und nicht zurück schimpfen. Ich würde versuchen, die Situation zu deeskalieren.", "tr": "Önce sakin kalırdım ve karşılık vermezdim. Durumu yatıştırmaya çalışırdım."},
+          {"who": "Ausbilder", "de": "Und wenn er aggressiv wird?", "tr": "Peki saldırganlaşırsa?"},
+          {"who": "Bewerber", "de": "Dann würde ich sofort die Leitstelle informieren. Die Sicherheit der Fahrgäste ist am wichtigsten.", "tr": "O zaman hemen kontrol merkezine haber verirdim. Yolcuların güvenliği en önemlisi."},
+          {"who": "Ausbilder", "de": "Gut. Sie haben zehn Minuten Verspätung, und die Fahrgäste sind sauer. Was tun Sie?", "tr": "İyi. On dakika rötarınız var ve yolcular kızgın. Ne yaparsınız?"},
+          {"who": "Bewerber", "de": "Ich würde eine kurze Durchsage machen und erklären, warum wir Verspätung haben. Aber ich würde nicht schneller fahren.", "tr": "Kısa bir anons yapar ve neden rötar yaptığımızı açıklardım. Ama daha hızlı sürmezdim."},
+          {"who": "Ausbilder", "de": "Sehr richtig. An der Haltestelle wartet eine Frau im Rollstuhl.", "tr": "Çok doğru. Durakta tekerlekli sandalyeli bir kadın bekliyor."},
+          {"who": "Bewerber", "de": "Dann würde ich die Rampe ausklappen und fragen, ob sie Hilfe braucht. Das dauert vielleicht zwei Minuten länger, aber das ist wichtig.", "tr": "O zaman rampayı açar ve yardıma ihtiyacı olup olmadığını sorardım. Belki iki dakika daha uzun sürer ama bu önemli."},
+          {"who": "Ausbilder", "de": "Letzte Frage: Schichtdienst – Frühschicht sehr früh am Morgen, Spätschicht bis in die Nacht. Ist das okay für Sie?", "tr": "Son soru: Vardiyalı çalışma – sabah vardiyası çok erken, akşam vardiyası geceye kadar. Bu sizin için uygun mu?"},
+          {"who": "Bewerber", "de": "Ja, das ist für mich in Ordnung. Ich bin flexibel, und meine Familie unterstützt mich.", "tr": "Evet, benim için sorun değil. Esneğim ve ailem beni destekliyor."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Varsayımlı cevaplar: wenn + würde (Konjunktiv II)",
+        "explain_tr": "Görüşmede 'Was machen Sie, wenn…?' gibi varsayımlı sorular sorulur. Cevapta Konjunktiv II kullanılır: würde + mastar (mastar sona gider): Ich würde ruhig bleiben. sein ve haben için kısa formlar vardır: wäre (olsa/olurdu), hätte (olsa/olurdu). wenn yan cümlesinde çekimli fiil sona gider; wenn cümlesi başta ise ana cümle fiille başlar: Wenn ich Verspätung hätte, würde ich… Konuşmada cevaba kısaca 'Ich würde zuerst…' diye başlamak da yeterlidir.",
+        "examples": [
+          {"de": "Wenn mich ein Fahrgast beleidigen würde, würde ich ruhig bleiben.", "tr": "Bir yolcu bana hakaret etse sakin kalırdım."},
+          {"de": "Wenn ich Verspätung hätte, würde ich eine Durchsage machen.", "tr": "Rötarım olsa bir anons yapardım."},
+          {"de": "Wenn ein Fahrgast im Rollstuhl an der Haltestelle wäre, würde ich die Rampe ausklappen.", "tr": "Durakta tekerlekli sandalyeli bir yolcu olsa rampayı açardım."},
+          {"de": "Wenn die Situation gefährlich wäre, würde ich sofort die Leitstelle informieren.", "tr": "Durum tehlikeli olsa hemen kontrol merkezine haber verirdim."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Ausbilder",
+        "user_role_tr": "Başvuru sahibi (otobüs şoförü adayı)",
+        "scenario_tr": "Görüşmeye bir sürüş eğitmeni de katılıyor ve size pratikten durum soruları soruyor: hakaret eden yolcu, rötar, tekerlekli sandalyeli yolcu ve vardiyalı çalışma. Her soruya 'Ich würde zuerst…' veya 'Wenn…, würde ich…' ile sakin ve güvenli bir cevap verin.",
+        "ai_brief": "You are Herr Brandt, an experienced driving instructor (Ausbilder) in the bus service of Hamburger Hochbahn AG who joins the interview. You are friendly and direct, a bit challenging - you want to see whether the candidate stays calm and puts safety first. Ask situational questions one at a time: a passenger insults the driver; the bus is ten minutes late and passengers complain; a wheelchair user wants to board at a busy stop; shift work (early shifts, late shifts, weekends, public holidays). Complications: (1) escalate one scenario ('Der Fahrgast wird lauter und kommt nach vorne zu Ihnen. Und jetzt?'); (2) add time pressure ('Sie sind schon spät dran – fahren Sie dann einfach weiter?'); (3) ask how they would get to work for a very early shift. Accept any reasonable, safe answer (stay calm, do not argue, inform the Leitstelle, call 110 or 112 in an emergency, help passengers, never drive faster to make up time). Do not invent specific company rules or procedures; if the learner asks about them, say this is covered in the training. When the learner answers in the present tense, model the Konjunktiv II once ('Sie würden also…'). Use Sie and A2-B1 German. The scene is finished when all four topics have been answered with würde-sentences; close with 'Gute Antworten – Sie haben die richtige Einstellung.'",
+        "opener_de": "Moin, Brandt mein Name, ich bin Ausbilder im Fahrdienst. Ich stelle Ihnen ein paar Fragen aus der Praxis. Erste Frage: Was machen Sie, wenn ein Fahrgast Sie beleidigt?"
+      }
+    },
+    {
+      "id": "w8d5",
+      "day": 5,
+      "title_de": "Eigene Fragen & Gesprächsende",
+      "title_tr": "Kendi sorularınız ve görüşmenin sonu",
+      "goal_tr": "Bu dersten sonra görüşmenin sonunda işverene işe alıştırma, vardiya modeli, garaj ve ileri eğitim hakkında kibar sorular sorabilir ve görüşmeyi nazikçe bitirebilirsiniz. Ayrıca olası bir işe alım testinin (Almanca anlama, şehir bilgisi) ne olduğunu bilirsiniz.",
+      "words": [
+        {"de": "die Einarbeitung", "pl": "", "tr": "işe alıştırma, oryantasyon", "ex_de": "Wie lange dauert die Einarbeitung für neue Busfahrer?", "ex_tr": "Yeni otobüs şoförleri için işe alıştırma ne kadar sürüyor?"},
+        {"de": "das Schichtmodell", "pl": "die Schichtmodelle", "tr": "vardiya modeli", "ex_de": "Das Schichtmodell ist für meine Familie wichtig.", "ex_tr": "Vardiya modeli ailem için önemli."},
+        {"de": "der Dienstplan", "pl": "die Dienstpläne", "tr": "görev planı, vardiya çizelgesi", "ex_de": "Wann bekomme ich meinen Dienstplan für den nächsten Monat?", "ex_tr": "Gelecek ayın görev planını ne zaman alırım?"},
+        {"de": "der Betriebshof", "pl": "die Betriebshöfe", "tr": "otobüs garajı, depo", "ex_de": "Morgens hole ich meinen Bus auf dem Betriebshof ab.", "ex_tr": "Sabahları otobüsümü garajdan alıyorum."},
+        {"de": "die Weiterbildung", "pl": "die Weiterbildungen", "tr": "ileri eğitim, mesleki gelişim", "ex_de": "Gibt es bei Ihnen Möglichkeiten zur Weiterbildung?", "ex_tr": "Sizde ileri eğitim imkânları var mı?"},
+        {"de": "die Probezeit", "pl": "die Probezeiten", "tr": "deneme süresi", "ex_de": "In Deutschland dauert die Probezeit oft sechs Monate.", "ex_tr": "Almanya'da deneme süresi genellikle altı ay sürer."},
+        {"de": "der Arbeitsvertrag", "pl": "die Arbeitsverträge", "tr": "iş sözleşmesi", "ex_de": "Den Arbeitsvertrag lese ich zu Hause in Ruhe durch.", "ex_tr": "İş sözleşmesini evde sakin sakin okuyorum."},
+        {"de": "das Gehalt", "pl": "die Gehälter", "tr": "maaş", "ex_de": "Über das Gehalt sprechen wir am Ende des Gesprächs.", "ex_tr": "Maaş konusunu görüşmenin sonunda konuşalım."},
+        {"de": "der Einstellungstest", "pl": "die Einstellungstests", "tr": "işe alım testi", "ex_de": "Für den Einstellungstest übe ich Lesen und Hörverstehen.", "ex_tr": "İşe alım testi için okuma ve dinlediğini anlama çalışıyorum."},
+        {"de": "die Ortskenntnis", "pl": "die Ortskenntnisse", "tr": "yer bilgisi, şehri tanıma", "ex_de": "Gute Ortskenntnis ist für Busfahrer sehr wichtig.", "ex_tr": "İyi şehir bilgisi otobüs şoförleri için çok önemlidir."},
+        {"de": "die Rückmeldung", "pl": "die Rückmeldungen", "tr": "geri dönüş, geri bildirim", "ex_de": "Sie bekommen bis Ende nächster Woche eine Rückmeldung.", "ex_tr": "Gelecek haftanın sonuna kadar bir dönüş alacaksınız."},
+        {"de": "sich melden (hat sich gemeldet)", "pl": "", "tr": "haber vermek, (aramak/yazarak) ulaşmak", "ex_de": "Wir melden uns per E-Mail bei Ihnen.", "ex_tr": "Size e-postayla ulaşacağız."}
+      ],
+      "phrases": [
+        {"de": "Ich habe noch ein paar Fragen, wenn ich darf.", "tr": "İzin verirseniz birkaç sorum daha var."},
+        {"de": "Können Sie mir sagen, wie die Einarbeitung abläuft?", "tr": "İşe alıştırma sürecinin nasıl işlediğini söyleyebilir misiniz?"},
+        {"de": "Ich würde gern wissen, auf welchem Betriebshof ich arbeiten würde.", "tr": "Hangi garajda çalışacağımı öğrenmek isterim."},
+        {"de": "Bis wann bekomme ich eine Rückmeldung von Ihnen?", "tr": "Sizden ne zamana kadar dönüş alırım?"},
+        {"de": "Vielen Dank für das freundliche Gespräch.", "tr": "Bu güzel görüşme için çok teşekkür ederim."},
+        {"de": "Ich freue mich, von Ihnen zu hören.", "tr": "Sizden haber almayı dört gözle bekliyorum."}
+      ],
+      "dialog": {
+        "title_tr": "Görüşmenin sonu: Sorularınız ve vedalaşma",
+        "lines": [
+          {"who": "Personalreferentin", "de": "So, wir sind fast am Ende. Haben Sie noch Fragen an uns?", "tr": "Evet, sona geldik sayılır. Bize sormak istediğiniz bir şey var mı?"},
+          {"who": "Bewerber", "de": "Ja, gern. Können Sie mir sagen, wie lange die Einarbeitung dauert?", "tr": "Evet, memnuniyetle. İşe alıştırmanın ne kadar sürdüğünü söyleyebilir misiniz?"},
+          {"who": "Personalreferentin", "de": "Das besprechen wir genau beim nächsten Termin. Aber keine Sorge: Sie werden gut eingearbeitet.", "tr": "Bunu bir sonraki randevuda ayrıntılı konuşacağız. Ama merak etmeyin: İşe iyi bir şekilde alıştırılacaksınız."},
+          {"who": "Bewerber", "de": "Ich würde auch gern wissen, ob ich auf einem Betriebshof in der Nähe arbeiten kann. Ich wohne in Wandsbek.", "tr": "Yakın bir garajda çalışıp çalışamayacağımı da öğrenmek isterim. Wandsbek'te oturuyorum."},
+          {"who": "Personalreferentin", "de": "Das notiere ich mir. Versprechen kann ich aber noch nichts.", "tr": "Bunu not alıyorum. Ama şimdiden bir şey vaat edemem."},
+          {"who": "Bewerber", "de": "Kein Problem. Wissen Sie schon, wann ich eine Rückmeldung bekomme?", "tr": "Sorun değil. Ne zaman dönüş alacağımı biliyor musunuz?"},
+          {"who": "Personalreferentin", "de": "Wir melden uns in den nächsten zwei Wochen. Vielleicht laden wir Sie dann noch zu einem kurzen Einstellungstest ein – da geht es zum Beispiel um Deutsch und Ortskenntnis.", "tr": "Önümüzdeki iki hafta içinde size ulaşacağız. Belki sizi kısa bir işe alım testine de davet ederiz – orada örneğin Almanca ve şehir bilgisi önemli."},
+          {"who": "Bewerber", "de": "Gut, dann übe ich schon mal. Darf ich noch fragen, ob es später Weiterbildungen gibt?", "tr": "İyi, o zaman şimdiden çalışırım. Daha sonra ileri eğitimler olup olmadığını da sorabilir miyim?"},
+          {"who": "Personalreferentin", "de": "Ja, dazu gibt es verschiedene Möglichkeiten. Das erkläre ich Ihnen gern beim nächsten Termin.", "tr": "Evet, bunun için farklı imkânlar var. Bunu size bir sonraki randevuda memnuniyetle anlatırım."},
+          {"who": "Bewerber", "de": "Vielen Dank für das freundliche Gespräch. Ich freue mich, von Ihnen zu hören.", "tr": "Bu güzel görüşme için çok teşekkür ederim. Sizden haber almayı dört gözle bekliyorum."},
+          {"who": "Personalreferentin", "de": "Wir danken Ihnen auch. Kommen Sie gut nach Hause!", "tr": "Biz de teşekkür ederiz. Eve sağ salim varın!"}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Kibar sorular: dolaylı soru cümleleri (ob / wann / wie)",
+        "explain_tr": "Görüşmede doğrudan soru yerine kibar bir girişle sormak daha naziktir: Können Sie mir sagen, …? / Ich würde gern wissen, … / Wissen Sie schon, …? Evet/hayır sorularında ob (-ip -madığı) kullanılır. W-sorularında soru kelimesi (wann, wie, wo, welche…) bağlaç olur. İki durumda da çekimli fiil cümlenin sonuna gider. Örnek: Wann beginnt die Einarbeitung? → Können Sie mir sagen, wann die Einarbeitung beginnt?",
+        "examples": [
+          {"de": "Können Sie mir sagen, wann die Einarbeitung beginnt?", "tr": "İşe alıştırmanın ne zaman başladığını söyleyebilir misiniz?"},
+          {"de": "Ich würde gern wissen, ob ich auch in Teilzeit arbeiten kann.", "tr": "Yarı zamanlı da çalışıp çalışamayacağımı öğrenmek isterim."},
+          {"de": "Können Sie mir erklären, wie das Schichtmodell funktioniert?", "tr": "Vardiya modelinin nasıl işlediğini bana açıklayabilir misiniz?"},
+          {"de": "Wissen Sie schon, wann der Einstellungstest stattfindet?", "tr": "İşe alım testinin ne zaman yapılacağını biliyor musunuz?"}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Personalreferentin",
+        "user_role_tr": "Başvuru sahibi (otobüs şoförü adayı)",
+        "scenario_tr": "Görüşme bitmek üzere ve personel sorumlusu 'Haben Sie noch Fragen an uns?' diye soruyor. İşe alıştırma, vardiya modeli, garaj veya ileri eğitim hakkında en az üç kibar dolaylı soru sorun (Können Sie mir sagen, ob/wann/wie…?), işe alım testine nasıl hazırlanacağınızı söyleyin ve görüşmeyi nazikçe bitirin.",
+        "ai_brief": "You are Frau Petersen, HR officer at Hamburger Hochbahn AG, at the end of a bus driver interview. Warm and open, but you still test the candidate a little. Ask 'Haben Sie noch Fragen an uns?' and answer the learner's questions in a general, realistic way WITHOUT inventing concrete company facts: no exact salary, shift times, depot names, durations or numbers. If asked for details, say things like 'Das hängt vom Einsatz ab' or 'Das besprechen wir im nächsten Schritt genauer'. Complications: (1) if the learner only asks direct questions, answer normally but at one point model a polite indirect question ('Sie möchten also wissen, ob …'); (2) mention that a short Einstellungstest may follow (understanding German, Ortskenntnis in Hamburg) and ask how they will prepare; (3) ask 'Ab wann könnten Sie anfangen?'. Use Sie and A2-B1 German. The scene is finished when the learner has asked at least three questions (ideally indirect with ob/wann/wie), asked about the next steps or the Rückmeldung, and said goodbye politely. Close with 'Vielen Dank, wir melden uns bei Ihnen. Kommen Sie gut nach Hause!'",
+        "opener_de": "So, von meiner Seite war es das fast. Haben Sie noch Fragen an uns?"
+      }
+    }
+  ]
+}

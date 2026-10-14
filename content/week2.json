@@ -1,0 +1,311 @@
+{
+  "week": 2,
+  "title_de": "Fahrgäste & Fahrkarten",
+  "title_tr": "Yolcular ve biletler",
+  "lessons": [
+    {
+      "id": "w2d1",
+      "day": 1,
+      "title_de": "Fahrkarten & Tickets",
+      "title_tr": "Bilet çeşitleri",
+      "goal_tr": "Farklı bilet türlerini (tek yolculuk, günlük, aylık, Deutschlandticket) tanır ve yolcuya hangi bileti alabileceğini basitçe açıklarsın. Binişte bileti kibarca görmek isteyebilirsin.",
+      "words": [
+        {"de": "die Fahrkarte", "pl": "die Fahrkarten", "tr": "bilet", "ex_de": "Haben Sie schon eine Fahrkarte?", "ex_tr": "Biletinizi aldınız mı?"},
+        {"de": "die Einzelkarte", "pl": "die Einzelkarten", "tr": "tek yolculuk bileti", "ex_de": "Eine Einzelkarte gilt nur für eine Fahrt.", "ex_tr": "Tek yolculuk bileti sadece bir yolculuk için geçerlidir."},
+        {"de": "die Tageskarte", "pl": "die Tageskarten", "tr": "günlük bilet", "ex_de": "Mit der Tageskarte können Sie heute so oft fahren, wie Sie möchten.", "ex_tr": "Günlük biletle bugün istediğiniz kadar binebilirsiniz."},
+        {"de": "die Monatskarte", "pl": "die Monatskarten", "tr": "aylık bilet", "ex_de": "Viele Pendler haben eine Monatskarte.", "ex_tr": "İşe gidip gelen birçok yolcunun aylık bileti var."},
+        {"de": "das Deutschlandticket", "pl": "die Deutschlandtickets", "tr": "Almanya bileti (aylık abonman)", "ex_de": "Das Deutschlandticket ist persönlich und nicht übertragbar.", "ex_tr": "Deutschlandticket kişiye özeldir, başkasına verilemez."},
+        {"de": "die App", "pl": "die Apps", "tr": "uygulama", "ex_de": "Sie können das Ticket auch in der HVV-App kaufen.", "ex_tr": "Bileti HVV uygulamasından da alabilirsiniz."},
+        {"de": "das Handyticket", "pl": "die Handytickets", "tr": "cep telefonu bileti", "ex_de": "Zeigen Sie mir bitte Ihr Handyticket.", "ex_tr": "Lütfen telefondaki biletinizi bana gösterin."},
+        {"de": "der Einstieg", "pl": "die Einstiege", "tr": "biniş; biniş kapısı", "ex_de": "Der Einstieg ist vorne beim Fahrer.", "ex_tr": "Biniş öndeki kapıdan, şoförün yanından."},
+        {"de": "einsteigen (ist eingestiegen)", "pl": "", "tr": "(araca) binmek", "ex_de": "Bitte steigen Sie vorne ein.", "ex_tr": "Lütfen önden binin."},
+        {"de": "vorzeigen (hat vorgezeigt)", "pl": "", "tr": "göstermek, ibraz etmek", "ex_de": "Bitte zeigen Sie Ihr Ticket beim Einstieg vor.", "ex_tr": "Lütfen binerken biletinizi gösterin."},
+        {"de": "lösen (hat gelöst)", "pl": "", "tr": "(bilet) almak", "ex_de": "Sie müssen vor der Fahrt ein Ticket lösen.", "ex_tr": "Yolculuktan önce bilet almanız gerekiyor."},
+        {"de": "gelten (hat gegolten)", "pl": "", "tr": "geçerli olmak", "ex_de": "Gilt meine Tageskarte auch in der U-Bahn?", "ex_tr": "Günlük biletim metroda da geçerli mi?"}
+      ],
+      "phrases": [
+        {"de": "Moin! Ihr Ticket, bitte.", "tr": "Merhaba! Biletiniz, lütfen."},
+        {"de": "Bitte vorne einsteigen.", "tr": "Lütfen önden binin."},
+        {"de": "Haben Sie ein Ticket dabei?", "tr": "Yanınızda bilet var mı?"},
+        {"de": "Ich brauche eine Tageskarte.", "tr": "Bir günlük bilete ihtiyacım var."},
+        {"de": "Das Ticket können Sie in der HVV-App kaufen.", "tr": "Bileti HVV uygulamasından alabilirsiniz."},
+        {"de": "Gehen Sie bitte kurz zur Seite, damit die anderen einsteigen können.", "tr": "Diğerleri binebilsin diye lütfen kısa bir süre kenara çekilin."}
+      ],
+      "dialog": {
+        "title_tr": "Binişte bilet sorusu",
+        "lines": [
+          {"who": "Busfahrer", "de": "Moin! Bitte zeigen Sie mir Ihr Ticket.", "tr": "Merhaba! Lütfen biletinizi bana gösterin."},
+          {"who": "Fahrgast", "de": "Moin. Ich habe noch keine Fahrkarte. Ich brauche eine Tageskarte.", "tr": "Merhaba. Henüz biletim yok. Bir günlük bilete ihtiyacım var."},
+          {"who": "Busfahrer", "de": "Kein Problem. Sie können die Tageskarte in der HVV-App lösen.", "tr": "Sorun değil. Günlük bileti HVV uygulamasından alabilirsiniz."},
+          {"who": "Fahrgast", "de": "Ah, die App habe ich. Einen Moment, bitte.", "tr": "Ah, uygulama bende var. Bir dakika lütfen."},
+          {"who": "Busfahrer", "de": "Gerne. Gehen Sie bitte kurz zur Seite, dann können die anderen Fahrgäste einsteigen.", "tr": "Tabii. Lütfen biraz kenara çekilin, böylece diğer yolcular binebilir."},
+          {"who": "Fahrgast", "de": "So, jetzt habe ich ein Handyticket. Hier, bitte.", "tr": "Tamam, şimdi telefonda biletim var. Buyurun."},
+          {"who": "Busfahrer", "de": "Danke, alles in Ordnung. Die Tageskarte gilt heute den ganzen Tag.", "tr": "Teşekkürler, her şey yolunda. Günlük bilet bugün bütün gün geçerli."},
+          {"who": "Fahrgast", "de": "Super. Nächste Woche kaufe ich eine Monatskarte oder das Deutschlandticket.", "tr": "Süper. Gelecek hafta aylık bilet ya da Deutschlandticket alacağım."},
+          {"who": "Busfahrer", "de": "Gute Idee. Dann zeigen Sie beim Einstieg einfach kurz Ihr Ticket vor. Gute Fahrt!", "tr": "İyi fikir. O zaman binerken biletinizi kısaca göstermeniz yeterli. İyi yolculuklar!"}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Akkusativ: einen / eine / ein",
+        "explain_tr": "Akkusativ cümlenin nesnesidir ve 'neyi? kimi?' sorusuna cevap verir. brauchen, haben, kaufen, lösen, zeigen gibi fiillerden sonra Akkusativ gelir. Sadece eril (der) isimlerde artikel değişir: ein → einen, der → den. Dişil (eine) ve nötr (ein) isimler aynı kalır. Olumsuz cümlede kein kullanılır: keinen, keine, kein.",
+        "examples": [
+          {"de": "Ich brauche eine Tageskarte.", "tr": "Bir günlük bilete ihtiyacım var."},
+          {"de": "Haben Sie einen Fahrschein?", "tr": "Biletiniz var mı?"},
+          {"de": "Ich kaufe ein Handyticket in der App.", "tr": "Uygulamadan bir telefon bileti alıyorum."},
+          {"de": "Der Fahrgast hat keinen Fahrschein.", "tr": "Yolcunun bileti yok."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast (Tourist)",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Hamburg'a ilk kez gelen bir turist otobüse biniyor ve hangi bileti alması gerektiğini bilmiyor. Ona bilet türlerini basitçe açıkla ve binişte biletini göstermesini iste. Fiyat söyleme, onu HVV uygulamasına yönlendir.",
+        "ai_brief": "You are a friendly tourist from Spain who is in Hamburg for two days. You speak simple German (A2) and have just got on the bus at the front door. You want to see the city today and maybe tomorrow, but you don't know which ticket you need (Einzelkarte, Tageskarte, Deutschlandticket?). Use the Akkusativ naturally (Ich brauche einen/eine/ein ...). Complications: 1) Ask how much a Tageskarte costs; accept it when the driver refers you to the HVV-App or website instead of naming a price. 2) Ask whether you can use your friend's Deutschlandticket; the driver should explain that it is personal. 3) Ask whether the ticket also works in the U-Bahn. Keep your sentences short. The scene is finished when you have chosen a ticket, shown it to the driver and said goodbye.",
+        "opener_de": "Moin! Ich bin Tourist und bleibe zwei Tage in Hamburg. Welche Fahrkarte brauche ich?"
+      }
+    },
+    {
+      "id": "w2d2",
+      "day": 2,
+      "title_de": "Bezahlen & Fahrscheinkontrolle",
+      "title_tr": "Ödeme ve bilet kontrolü",
+      "goal_tr": "Nakit veya kartla ödeme hakkında konuşabilir, bir biletin geçerli olup olmadığını söyleyebilirsin. Yolculara kibar emir cümleleriyle talimat verebilirsin.",
+      "words": [
+        {"de": "bar", "pl": "", "tr": "nakit", "ex_de": "Möchten Sie bar bezahlen?", "ex_tr": "Nakit mi ödemek istiyorsunuz?"},
+        {"de": "die EC-Karte", "pl": "die EC-Karten", "tr": "banka kartı", "ex_de": "Kann ich auch mit EC-Karte bezahlen?", "ex_tr": "Banka kartıyla da ödeyebilir miyim?"},
+        {"de": "das Wechselgeld", "pl": "", "tr": "para üstü", "ex_de": "Hier ist Ihr Wechselgeld.", "ex_tr": "Buyurun, para üstünüz."},
+        {"de": "das Kleingeld", "pl": "", "tr": "bozuk para", "ex_de": "Haben Sie vielleicht Kleingeld?", "ex_tr": "Bozuk paranız var mı acaba?"},
+        {"de": "gültig", "pl": "", "tr": "geçerli", "ex_de": "Ihr Ticket ist noch gültig.", "ex_tr": "Biletiniz hâlâ geçerli."},
+        {"de": "ungültig", "pl": "", "tr": "geçersiz", "ex_de": "Leider ist dieses Ticket ungültig.", "ex_tr": "Maalesef bu bilet geçersiz."},
+        {"de": "abgelaufen", "pl": "", "tr": "süresi dolmuş", "ex_de": "Ihre Monatskarte ist seit gestern abgelaufen.", "ex_tr": "Aylık biletinizin süresi dün doldu."},
+        {"de": "die Kontrolle", "pl": "die Kontrollen", "tr": "kontrol", "ex_de": "Heute gibt es eine Kontrolle im Bus.", "ex_tr": "Bugün otobüste kontrol var."},
+        {"de": "der Fahrschein", "pl": "die Fahrscheine", "tr": "bilet (resmî dilde)", "ex_de": "Die Fahrscheine, bitte!", "ex_tr": "Biletler, lütfen!"},
+        {"de": "der Kontrolleur", "pl": "die Kontrolleure", "tr": "kontrolör, bilet kontrol görevlisi", "ex_de": "Der Kontrolleur prüft alle Tickets.", "ex_tr": "Kontrolör bütün biletleri kontrol ediyor."},
+        {"de": "prüfen (hat geprüft)", "pl": "", "tr": "kontrol etmek", "ex_de": "Ich prüfe kurz Ihr Ticket.", "ex_tr": "Biletinizi kısaca kontrol ediyorum."},
+        {"de": "der Ausweis", "pl": "die Ausweise", "tr": "kimlik kartı", "ex_de": "Bitte zeigen Sie mir auch Ihren Ausweis.", "ex_tr": "Lütfen bana kimliğinizi de gösterin."}
+      ],
+      "phrases": [
+        {"de": "Zahlen Sie bar oder mit Karte?", "tr": "Nakit mi, kartla mı ödüyorsunuz?"},
+        {"de": "Haben Sie es nicht kleiner?", "tr": "Daha küçük paranız yok mu?"},
+        {"de": "Ihr Ticket ist leider abgelaufen.", "tr": "Biletinizin süresi maalesef dolmuş."},
+        {"de": "Dieses Ticket ist hier nicht gültig.", "tr": "Bu bilet burada geçerli değil."},
+        {"de": "Fahrscheinkontrolle! Bitte halten Sie Ihre Tickets bereit.", "tr": "Bilet kontrolü! Lütfen biletlerinizi hazır tutun."},
+        {"de": "Heben Sie den Fahrschein bitte bis zum Ende der Fahrt auf.", "tr": "Lütfen bileti yolculuğun sonuna kadar saklayın."}
+      ],
+      "dialog": {
+        "title_tr": "Süresi dolmuş aylık bilet",
+        "lines": [
+          {"who": "Busfahrer", "de": "Moin! Ihr Ticket, bitte.", "tr": "Merhaba! Biletiniz, lütfen."},
+          {"who": "Fahrgast", "de": "Hier, meine Monatskarte.", "tr": "Buyurun, aylık biletim."},
+          {"who": "Busfahrer", "de": "Oh, die Monatskarte ist leider abgelaufen. Sie war nur bis gestern gültig.", "tr": "Ah, aylık biletin süresi maalesef dolmuş. Sadece düne kadar geçerliydi."},
+          {"who": "Fahrgast", "de": "Ach nein, das habe ich vergessen! Kann ich jetzt bei Ihnen eine Fahrkarte kaufen?", "tr": "Eyvah, bunu unuttum! Şimdi sizden bilet alabilir miyim?"},
+          {"who": "Busfahrer", "de": "Ja. Zahlen Sie bar oder mit Karte?", "tr": "Evet. Nakit mi, kartla mı ödüyorsunuz?"},
+          {"who": "Fahrgast", "de": "Bar. Ich habe aber nur einen Fünfzig-Euro-Schein.", "tr": "Nakit. Ama sadece elli euroluk banknotum var."},
+          {"who": "Busfahrer", "de": "Haben Sie es nicht kleiner? Ich habe nur wenig Wechselgeld.", "tr": "Daha küçük paranız yok mu? Çok az para üstüm var."},
+          {"who": "Fahrgast", "de": "Moment … doch, hier ist Kleingeld.", "tr": "Bir dakika … evet, işte bozuk para."},
+          {"who": "Busfahrer", "de": "Danke. Hier ist Ihr Fahrschein. Heben Sie ihn bitte auf, vielleicht gibt es heute eine Kontrolle.", "tr": "Teşekkürler. Buyurun biletiniz. Lütfen saklayın, belki bugün kontrol olur."},
+          {"who": "Fahrgast", "de": "Alles klar, mache ich.", "tr": "Tamam, saklarım."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Kibar emir: Zeigen Sie bitte …",
+        "explain_tr": "Sie ile kibar emir cümlesinde fiil başa gelir, sonra Sie, sonra bitte. Örnek: Zeigen Sie bitte Ihr Ticket. Ayrılabilen fiillerde ön ek cümlenin sonuna gider: Steigen Sie bitte hinten aus. sein fiili düzensizdir: Seien Sie bitte vorsichtig. bitte kelimesi cümleyi daha kibar yapar.",
+        "examples": [
+          {"de": "Zeigen Sie bitte Ihren Fahrschein.", "tr": "Lütfen biletinizi gösterin."},
+          {"de": "Steigen Sie bitte vorne ein.", "tr": "Lütfen önden binin."},
+          {"de": "Halten Sie bitte Ihr Ticket bereit.", "tr": "Lütfen biletinizi hazır tutun."},
+          {"de": "Seien Sie bitte vorsichtig beim Aussteigen.", "tr": "Lütfen inerken dikkatli olun."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Bir yolcu binerken sana dünkü tek yolculuk biletini gösteriyor ve biletin hâlâ geçerli olduğunu düşünüyor. Biletin geçersiz olduğunu kibarca açıkla, nasıl ödemek istediğini sor ve kibar emir cümleleri kullan (Zeigen Sie bitte …, Steigen Sie bitte …).",
+        "ai_brief": "You are a passenger in your forties, a little stressed because you are late for work. When boarding, you show an Einzelkarte from yesterday and believe it is still valid. Complications: 1) Insist at first ('Die habe ich doch gestern gekauft, die gilt noch!'), then accept it when the driver explains politely and clearly. 2) You want to pay for a new ticket with a large banknote; when the driver asks about Kleingeld or card, you find that you can pay with your EC-Karte. 3) Ask whether you have to keep the ticket and where you should stand, because the bus is full. Never mention or ask about concrete prices. The scene is finished when you have a valid ticket and the driver politely asks you to move into the bus.",
+        "opener_de": "Moin! Hier, mein Ticket. Das ist doch noch gültig, oder?"
+      }
+    },
+    {
+      "id": "w2d3",
+      "day": 3,
+      "title_de": "Auskunft geben",
+      "title_tr": "Yolculara bilgi vermek",
+      "goal_tr": "Yolculara hat, yön, aktarma ve son durak hakkında bilgi verebilirsin. W-sorularını anlayıp kısa ve net cevap verebilirsin.",
+      "words": [
+        {"de": "die Linie", "pl": "die Linien", "tr": "hat", "ex_de": "Diese Linie fährt nicht zum Flughafen.", "ex_tr": "Bu hat havalimanına gitmiyor."},
+        {"de": "die Richtung", "pl": "die Richtungen", "tr": "yön", "ex_de": "Dieser Bus fährt in Richtung Altona.", "ex_tr": "Bu otobüs Altona yönüne gidiyor."},
+        {"de": "die Haltestelle", "pl": "die Haltestellen", "tr": "durak", "ex_de": "An dieser Haltestelle können Sie umsteigen.", "ex_tr": "Bu durakta aktarma yapabilirsiniz."},
+        {"de": "umsteigen (ist umgestiegen)", "pl": "", "tr": "aktarma yapmak", "ex_de": "Am Hauptbahnhof müssen Sie umsteigen.", "ex_tr": "Merkez istasyonda aktarma yapmanız gerekiyor."},
+        {"de": "die Endhaltestelle", "pl": "die Endhaltestellen", "tr": "son durak", "ex_de": "Das ist die Endhaltestelle, bitte alle aussteigen.", "ex_tr": "Burası son durak, lütfen herkes insin."},
+        {"de": "der Anschluss", "pl": "die Anschlüsse", "tr": "bağlantı, aktarma imkânı", "ex_de": "In Wandsbek haben Sie Anschluss an die U-Bahn.", "ex_tr": "Wandsbek'te metroya bağlantınız var."},
+        {"de": "der Fahrplan", "pl": "die Fahrpläne", "tr": "sefer tarifesi", "ex_de": "Der Fahrplan hängt an der Haltestelle.", "ex_tr": "Sefer tarifesi durakta asılı."},
+        {"de": "die Auskunft", "pl": "die Auskünfte", "tr": "bilgi", "ex_de": "Darf ich Sie um eine Auskunft bitten?", "ex_tr": "Sizden bir bilgi rica edebilir miyim?"},
+        {"de": "dauern (hat gedauert)", "pl": "", "tr": "sürmek (zaman)", "ex_de": "Die Fahrt dauert ungefähr zwanzig Minuten.", "ex_tr": "Yolculuk yaklaşık yirmi dakika sürüyor."},
+        {"de": "die Abfahrt", "pl": "die Abfahrten", "tr": "kalkış", "ex_de": "Die nächste Abfahrt ist in zehn Minuten.", "ex_tr": "Bir sonraki kalkış on dakika sonra."},
+        {"de": "verpassen (hat verpasst)", "pl": "", "tr": "kaçırmak", "ex_de": "Beeilen Sie sich, sonst verpassen Sie den Anschluss.", "ex_tr": "Acele edin, yoksa aktarmayı kaçırırsınız."},
+        {"de": "der Bahnsteig", "pl": "die Bahnsteige", "tr": "peron", "ex_de": "Die U-Bahn fährt von diesem Bahnsteig ab.", "ex_tr": "Metro bu perondan kalkıyor."}
+      ],
+      "phrases": [
+        {"de": "Wohin möchten Sie fahren?", "tr": "Nereye gitmek istiyorsunuz?"},
+        {"de": "Da sind Sie hier richtig.", "tr": "Doğru otobüstesiniz."},
+        {"de": "Da müssen Sie in die andere Richtung fahren.", "tr": "O zaman diğer yöne gitmeniz gerekiyor."},
+        {"de": "Steigen Sie am Hauptbahnhof in die U-Bahn um.", "tr": "Merkez istasyonda metroya aktarma yapın."},
+        {"de": "Das kann ich Ihnen leider nicht genau sagen.", "tr": "Bunu size maalesef tam olarak söyleyemem."},
+        {"de": "Schauen Sie am besten in die HVV-App, da sehen Sie alle Verbindungen.", "tr": "En iyisi HVV uygulamasına bakın, orada bütün bağlantıları görürsünüz."}
+      ],
+      "dialog": {
+        "title_tr": "Landungsbrücken'e nasıl gidilir?",
+        "lines": [
+          {"who": "Fahrgast", "de": "Entschuldigung, fährt dieser Bus zum Rathausmarkt?", "tr": "Affedersiniz, bu otobüs Rathausmarkt'a gidiyor mu?"},
+          {"who": "Busfahrer", "de": "Nein, dieser Bus fährt bis zum Hauptbahnhof. Wohin möchten Sie genau?", "tr": "Hayır, bu otobüs merkez istasyona kadar gidiyor. Tam olarak nereye gitmek istiyorsunuz?"},
+          {"who": "Fahrgast", "de": "Ich möchte zu den Landungsbrücken.", "tr": "Landungsbrücken'e gitmek istiyorum."},
+          {"who": "Busfahrer", "de": "Dann fahren Sie mit mir bis zum Hauptbahnhof und steigen dort in die U-Bahn um.", "tr": "O zaman benimle merkez istasyona kadar gelin ve orada metroya aktarma yapın."},
+          {"who": "Fahrgast", "de": "Wo genau muss ich aussteigen? Und wie lange dauert die Fahrt?", "tr": "Tam olarak nerede inmem gerekiyor? Ve yolculuk ne kadar sürüyor?"},
+          {"who": "Busfahrer", "de": "Der Hauptbahnhof ist meine Endhaltestelle. Die Fahrt dauert ungefähr fünfzehn Minuten.", "tr": "Merkez istasyon benim son durağım. Yolculuk yaklaşık on beş dakika sürüyor."},
+          {"who": "Fahrgast", "de": "Habe ich dort direkt Anschluss?", "tr": "Orada hemen aktarma bağlantısı var mı?"},
+          {"who": "Busfahrer", "de": "Die U-Bahn fährt oft. Folgen Sie einfach den Schildern zum Bahnsteig.", "tr": "Metro sık geçiyor. Peronun tabelalarını takip etmeniz yeterli."},
+          {"who": "Fahrgast", "de": "Super, vielen Dank für die Auskunft!", "tr": "Süper, bilgi için çok teşekkürler!"},
+          {"who": "Busfahrer", "de": "Gern geschehen. Steigen Sie bitte ein, wir fahren gleich ab.", "tr": "Rica ederim. Lütfen binin, birazdan hareket ediyoruz."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "W-soruları ve cevaplar",
+        "explain_tr": "W-soruları bir soru kelimesiyle başlar: Wo (nerede), Wohin (nereye), Wann (ne zaman), Wie lange (ne kadar süre), Welcher/Welche (hangi). Çekimli fiil her zaman ikinci sıradadır: Wann fährt der Bus? Modal fiil varsa (müssen, können) asıl fiil sona gider: Wo muss ich umsteigen? Cevap kısa olabilir: Am Hauptbahnhof. Yolcuya cevap verirken kısa ve net konuş.",
+        "examples": [
+          {"de": "Wo muss ich umsteigen? – Am Hauptbahnhof.", "tr": "Nerede aktarma yapmam gerekiyor? – Merkez istasyonda."},
+          {"de": "Wie lange dauert die Fahrt? – Ungefähr zwanzig Minuten.", "tr": "Yolculuk ne kadar sürüyor? – Yaklaşık yirmi dakika."},
+          {"de": "Wohin fährt dieser Bus? – In Richtung Wandsbek.", "tr": "Bu otobüs nereye gidiyor? – Wandsbek yönüne."},
+          {"de": "Wann fährt der nächste Bus? – In zehn Minuten.", "tr": "Bir sonraki otobüs ne zaman kalkıyor? – On dakika sonra."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Yaşlı bir yolcu ön kapıda sana yol soruyor; Altona'ya gitmek istiyor. Ona hangi yöne gitmesi, nerede aktarma yapması ve yolculuğun yaklaşık ne kadar süreceği hakkında kısa ve net bilgi ver. Emin olmadığın bilgilerde onu sefer tarifesine veya HVV uygulamasına yönlendir.",
+        "ai_brief": "You are an older woman from Hamburg who rarely takes the bus. You are standing at the front door and want to get to Altona to visit your daughter. Ask with W-questions: Fährt dieser Bus nach Altona? Wo muss ich umsteigen? Wie lange dauert das? Complications: 1) You are about to take the bus in the wrong direction; the driver should explain where you need to go. 2) Ask when the last bus comes back in the evening; accept it if the driver tells you to check the Fahrplan or the HVV-App. 3) Once, ask the driver to repeat more slowly because you did not understand. Do not expect exact line numbers; any clear and reasonable directions are fine. The scene is finished when you know the direction, where to change and roughly how long the trip takes, and you thank the driver.",
+        "opener_de": "Entschuldigung, fährt dieser Bus nach Altona?"
+      }
+    },
+    {
+      "id": "w2d4",
+      "day": 4,
+      "title_de": "Haltestellen & Ansagen",
+      "title_tr": "Duraklar ve anonslar",
+      "goal_tr": "Otobüsteki anonsları anlayabilir, yolculara isteğe bağlı durağı ve durma düğmesini açıklayabilirsin. bis, zu, nach ve mit edatlarını doğru kullanırsın.",
+      "words": [
+        {"de": "die Ansage", "pl": "die Ansagen", "tr": "anons", "ex_de": "Bitte achten Sie auf die Ansage.", "ex_tr": "Lütfen anonsa dikkat edin."},
+        {"de": "der Ausstieg", "pl": "die Ausstiege", "tr": "iniş; iniş tarafı", "ex_de": "Ausstieg in Fahrtrichtung rechts.", "ex_tr": "İniş, gidiş yönüne göre sağ taraftan."},
+        {"de": "die Fahrtrichtung", "pl": "die Fahrtrichtungen", "tr": "gidiş yönü", "ex_de": "Die Türen öffnen sich in Fahrtrichtung links.", "ex_tr": "Kapılar gidiş yönüne göre sol tarafta açılıyor."},
+        {"de": "der Bedarfshalt", "pl": "die Bedarfshalte", "tr": "isteğe bağlı durak", "ex_de": "Das ist ein Bedarfshalt, bitte drücken Sie rechtzeitig.", "ex_tr": "Burası isteğe bağlı durak, lütfen zamanında düğmeye basın."},
+        {"de": "der Halteknopf", "pl": "die Halteknöpfe", "tr": "durma düğmesi", "ex_de": "Der Halteknopf ist an der Haltestange.", "ex_tr": "Durma düğmesi tutunma direğinin üzerinde."},
+        {"de": "drücken (hat gedrückt)", "pl": "", "tr": "basmak", "ex_de": "Drücken Sie bitte den Knopf, wenn Sie aussteigen möchten.", "ex_tr": "İnmek istiyorsanız lütfen düğmeye basın."},
+        {"de": "aussteigen (ist ausgestiegen)", "pl": "", "tr": "(araçtan) inmek", "ex_de": "Bitte steigen Sie hinten aus.", "ex_tr": "Lütfen arkadan inin."},
+        {"de": "nächste", "pl": "", "tr": "bir sonraki", "ex_de": "Nächste Haltestelle: Jungfernstieg.", "ex_tr": "Bir sonraki durak: Jungfernstieg."},
+        {"de": "die Anzeige", "pl": "die Anzeigen", "tr": "gösterge ekranı", "ex_de": "Auf der Anzeige sehen Sie die nächsten Haltestellen.", "ex_tr": "Ekranda sonraki durakları görürsünüz."},
+        {"de": "halten (hat gehalten)", "pl": "", "tr": "durmak", "ex_de": "An einem Bedarfshalt hält der Bus nur, wenn jemand drückt oder wartet.", "ex_tr": "İsteğe bağlı durakta otobüs sadece biri düğmeye basarsa ya da durakta bekleyen varsa durur."},
+        {"de": "die Verspätung", "pl": "die Verspätungen", "tr": "gecikme", "ex_de": "Wegen eines Staus haben wir zehn Minuten Verspätung.", "ex_tr": "Trafik sıkışıklığı yüzünden on dakika gecikmemiz var."},
+        {"de": "die Umleitung", "pl": "die Umleitungen", "tr": "güzergâh değişikliği", "ex_de": "Wegen einer Baustelle fahren wir heute eine Umleitung.", "ex_tr": "Bir inşaat çalışması yüzünden bugün farklı bir güzergâhtan gidiyoruz."}
+      ],
+      "phrases": [
+        {"de": "Nächste Haltestelle: Rathausmarkt.", "tr": "Bir sonraki durak: Rathausmarkt."},
+        {"de": "Ausstieg in Fahrtrichtung links.", "tr": "İniş, gidiş yönüne göre soldan."},
+        {"de": "Bitte drücken Sie rechtzeitig den Halteknopf.", "tr": "Lütfen zamanında durma düğmesine basın."},
+        {"de": "Bitte warten Sie, bis der Bus hält.", "tr": "Lütfen otobüs durana kadar bekleyin."},
+        {"de": "Diese Haltestelle entfällt wegen einer Umleitung.", "tr": "Güzergâh değişikliği nedeniyle bu durağa uğranmıyor."},
+        {"de": "Dieser Bus endet heute am Hauptbahnhof.", "tr": "Bu otobüs bugün merkez istasyonda son buluyor."}
+      ],
+      "dialog": {
+        "title_tr": "İsteğe bağlı durak",
+        "lines": [
+          {"who": "Fahrgast", "de": "Entschuldigung, ich möchte bis zum Stadtpark. Hält der Bus dort?", "tr": "Affedersiniz, Stadtpark'a kadar gitmek istiyorum. Otobüs orada duruyor mu?"},
+          {"who": "Busfahrer", "de": "Ja, aber das ist ein Bedarfshalt. Bitte drücken Sie rechtzeitig den Halteknopf.", "tr": "Evet, ama orası isteğe bağlı bir durak. Lütfen zamanında durma düğmesine basın."},
+          {"who": "Fahrgast", "de": "Woher weiß ich, wann ich drücken muss?", "tr": "Ne zaman basmam gerektiğini nereden bileceğim?"},
+          {"who": "Busfahrer", "de": "Achten Sie auf die Ansage und auf die Anzeige. Dort steht immer die nächste Haltestelle.", "tr": "Anonsa ve ekrana dikkat edin. Orada her zaman bir sonraki durak yazıyor."},
+          {"who": "Fahrgast", "de": "Und haben wir heute Verspätung?", "tr": "Peki bugün gecikmemiz var mı?"},
+          {"who": "Busfahrer", "de": "Ein bisschen. Wegen einer Baustelle fahren wir eine Umleitung, aber wir halten trotzdem am Stadtpark.", "tr": "Biraz. Bir inşaat çalışması yüzünden farklı güzergâhtan gidiyoruz ama yine de Stadtpark'ta duruyoruz."},
+          {"who": "Ansage", "de": "Nächste Haltestelle: Stadtpark. Ausstieg in Fahrtrichtung rechts.", "tr": "Bir sonraki durak: Stadtpark. İniş, gidiş yönüne göre sağdan."},
+          {"who": "Fahrgast", "de": "Das ist meine Haltestelle! Ich drücke jetzt.", "tr": "Bu benim durağım! Şimdi basıyorum."},
+          {"who": "Busfahrer", "de": "Gut. Bitte warten Sie, bis der Bus hält. Dann können Sie aussteigen.", "tr": "Tamam. Lütfen otobüs durana kadar bekleyin. Sonra inebilirsiniz."},
+          {"who": "Fahrgast", "de": "Danke! Und wie komme ich von hier zum Planetarium?", "tr": "Teşekkürler! Peki buradan planetaryuma nasıl giderim?"},
+          {"who": "Busfahrer", "de": "Folgen Sie einfach den Schildern. Schönen Tag noch!", "tr": "Tabelaları takip etmeniz yeterli. İyi günler!"}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Edatlar: bis, zu, nach, mit",
+        "explain_tr": "bis '…e kadar' demektir; artikelli yerlerde bis zum / bis zur kullanılır: bis zum Hauptbahnhof. zu bir yere gitmeyi anlatır: zum (zu dem) Bahnhof, zur (zu der) Haltestelle. nach artikelsiz şehir ve semt adlarıyla kullanılır: nach Altona, nach Wandsbek; ayrıca nach Hause, nach links. mit ulaşım aracını anlatır: mit dem Bus, mit der U-Bahn. zu, nach ve mit her zaman Dativ ister.",
+        "examples": [
+          {"de": "Dieser Bus fährt bis zum Hauptbahnhof.", "tr": "Bu otobüs merkez istasyona kadar gidiyor."},
+          {"de": "Wie komme ich zur Haltestelle Jungfernstieg?", "tr": "Jungfernstieg durağına nasıl giderim?"},
+          {"de": "Fährt dieser Bus nach Wandsbek?", "tr": "Bu otobüs Wandsbek'e gidiyor mu?"},
+          {"de": "Ich fahre jeden Tag mit der U3 zur Arbeit.", "tr": "Her gün U3 ile işe gidiyorum."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Yaşlı bir yolcu son anonsu duyamadı ve nerede inmesi gerektiğini bilmiyor. Ona isteğe bağlı durağı, durma düğmesini ve hangi taraftan ineceğini açıkla. Cevaplarında bis, zu, nach ve mit edatlarını kullan.",
+        "ai_brief": "You are an elderly man (about 75) who does not hear well. You want to go to the hospital (zum Krankenhaus) and you did not understand the last announcement. Speak politely and a little slowly. Complications: 1) Ask what the announcement said and whether your stop has already passed. 2) Ask whether you have to press a button, where the Halteknopf is, and on which side you get off (Fahrtrichtung links or rechts). 3) Say you may have to change to the U-Bahn later and ask: 'Bis wohin fahre ich mit dem Bus?' Once, ask the driver to speak louder or more slowly. The scene is finished when you understand when to press the button and where to get off, and you thank the driver.",
+        "opener_de": "Entschuldigung, was hat die Ansage gerade gesagt? Ich höre nicht mehr so gut."
+      }
+    },
+    {
+      "id": "w2d5",
+      "day": 5,
+      "title_de": "Schwierige Fahrgäste beim Ticket",
+      "title_tr": "Bilet konusunda zor yolcular",
+      "goal_tr": "Bileti olmayan ya da bahane bulan bir yolcuyla sakin ve kibar kalarak konuşabilirsin. weil ile kuralları ve kararını gerekçelendirebilirsin.",
+      "words": [
+        {"de": "schwarzfahren (ist schwarzgefahren)", "pl": "", "tr": "biletsiz (kaçak) yolculuk yapmak", "ex_de": "Schwarzfahren ist nicht erlaubt.", "ex_tr": "Biletsiz yolculuk yapmak yasak."},
+        {"de": "die Ausrede", "pl": "die Ausreden", "tr": "bahane", "ex_de": "Das ist leider keine gute Ausrede.", "ex_tr": "Bu maalesef iyi bir bahane değil."},
+        {"de": "die Regel", "pl": "die Regeln", "tr": "kural", "ex_de": "Die Regel gilt für alle Fahrgäste.", "ex_tr": "Kural bütün yolcular için geçerli."},
+        {"de": "erklären (hat erklärt)", "pl": "", "tr": "açıklamak", "ex_de": "Ich erkläre Ihnen kurz die Regel.", "ex_tr": "Size kuralı kısaca açıklayayım."},
+        {"de": "die Diskussion", "pl": "die Diskussionen", "tr": "tartışma", "ex_de": "Ich möchte keine lange Diskussion, der Bus muss weiterfahren.", "ex_tr": "Uzun bir tartışma istemiyorum, otobüsün yola devam etmesi lazım."},
+        {"de": "höflich", "pl": "", "tr": "kibar", "ex_de": "Bitte bleiben Sie höflich.", "ex_tr": "Lütfen kibar olun."},
+        {"de": "ruhig", "pl": "", "tr": "sakin", "ex_de": "Ich bleibe ruhig, auch wenn der Fahrgast laut wird.", "ex_tr": "Yolcu sesini yükseltse bile sakin kalıyorum."},
+        {"de": "vergessen (hat vergessen)", "pl": "", "tr": "unutmak", "ex_de": "Ich habe meine Monatskarte zu Hause vergessen.", "ex_tr": "Aylık biletimi evde unuttum."},
+        {"de": "die Ausnahme", "pl": "die Ausnahmen", "tr": "istisna", "ex_de": "Ich kann leider keine Ausnahme machen.", "ex_tr": "Maalesef istisna yapamam."},
+        {"de": "das Verständnis", "pl": "", "tr": "anlayış", "ex_de": "Vielen Dank für Ihr Verständnis.", "ex_tr": "Anlayışınız için çok teşekkürler."},
+        {"de": "sich beschweren (hat sich beschwert)", "pl": "", "tr": "şikâyet etmek", "ex_de": "Sie können sich gerne beim Kundenservice beschweren.", "ex_tr": "İsterseniz müşteri hizmetlerine şikâyette bulunabilirsiniz."},
+        {"de": "der Akku", "pl": "die Akkus", "tr": "şarj, batarya", "ex_de": "Mein Akku ist leer, ich kann das Ticket nicht zeigen.", "ex_tr": "Şarjım bitti, bileti gösteremiyorum."}
+      ],
+      "phrases": [
+        {"de": "Ich verstehe Sie, aber ohne Ticket geht es leider nicht.", "tr": "Sizi anlıyorum ama biletsiz maalesef olmaz."},
+        {"de": "Das ist die Regel für alle Fahrgäste.", "tr": "Bu, bütün yolcular için geçerli olan kural."},
+        {"de": "Bitte lassen Sie uns ruhig bleiben.", "tr": "Lütfen sakin kalalım."},
+        {"de": "Sie können jetzt ein Ticket kaufen, dann ist alles in Ordnung.", "tr": "Şimdi bilet alabilirsiniz, o zaman her şey yolunda."},
+        {"de": "Ich mache hier nur meine Arbeit.", "tr": "Ben burada sadece işimi yapıyorum."},
+        {"de": "Wenn Sie nicht einverstanden sind, können Sie sich beim Kundenservice melden.", "tr": "Kabul etmiyorsanız müşteri hizmetlerine başvurabilirsiniz."}
+      ],
+      "dialog": {
+        "title_tr": "Şarjı biten yolcu",
+        "lines": [
+          {"who": "Busfahrer", "de": "Moin! Ihr Ticket, bitte.", "tr": "Merhaba! Biletiniz, lütfen."},
+          {"who": "Fahrgast", "de": "Mein Akku ist leer, deshalb kann ich das Ticket nicht zeigen. Aber ich habe eins, ehrlich!", "tr": "Şarjım bitti, bu yüzden bileti gösteremiyorum. Ama biletim var, gerçekten!"},
+          {"who": "Busfahrer", "de": "Das verstehe ich. Aber ich muss das Ticket sehen, weil das die Regel ist.", "tr": "Anlıyorum. Ama bileti görmem gerekiyor, çünkü kural bu."},
+          {"who": "Fahrgast", "de": "Ach, kommen Sie! Ich fahre jeden Tag mit diesem Bus. Machen Sie doch eine Ausnahme!", "tr": "Hadi ama! Her gün bu otobüse biniyorum. Bir istisna yapın lütfen!"},
+          {"who": "Busfahrer", "de": "Tut mir leid, ich kann keine Ausnahme machen, weil die Regel für alle Fahrgäste gilt.", "tr": "Üzgünüm, istisna yapamam, çünkü kural bütün yolcular için geçerli."},
+          {"who": "Fahrgast", "de": "Das ist doch unfair! Ich will mich beschweren.", "tr": "Bu hiç adil değil! Şikâyet etmek istiyorum."},
+          {"who": "Busfahrer", "de": "Das können Sie gerne beim Kundenservice tun. Aber lassen Sie uns bitte ruhig bleiben. Sie können auch jetzt ein Ticket kaufen.", "tr": "Bunu müşteri hizmetlerine yapabilirsiniz. Ama lütfen sakin kalalım. Şimdi bilet de alabilirsiniz."},
+          {"who": "Fahrgast", "de": "Na gut. Dann kaufe ich eben eine Einzelkarte.", "tr": "Peki. O zaman bir tek yolculuk bileti alayım."},
+          {"who": "Busfahrer", "de": "Danke für Ihr Verständnis. Gute Fahrt!", "tr": "Anlayışınız için teşekkürler. İyi yolculuklar!"}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Gerekçe bildirmek: weil",
+        "explain_tr": "weil 'çünkü' demektir ve bir yan cümle başlatır. weil'den önce virgül konur. weil'den sonra çekimli fiil cümlenin en sonuna gider: …, weil das die Regel ist. Ayrılabilen fiiller sonda birleşir: …, weil ich am Hauptbahnhof umsteige. Soru Warum? ise cevap doğrudan Weil … ile başlayabilir. Yolcuya bir kuralı weil ile gerekçelendirmek daha kibar ve anlaşılır olur.",
+        "examples": [
+          {"de": "Sie brauchen ein Ticket, weil das die Regel für alle ist.", "tr": "Bilete ihtiyacınız var, çünkü bu herkes için geçerli kural."},
+          {"de": "Ich kann keine Ausnahme machen, weil ich mich an die Regeln halten muss.", "tr": "İstisna yapamam, çünkü kurallara uymak zorundayım."},
+          {"de": "Ich habe kein Ticket, weil mein Akku leer ist.", "tr": "Biletim yok, çünkü şarjım bitti."},
+          {"de": "Warum hält der Bus nicht? – Weil niemand den Halteknopf gedrückt hat.", "tr": "Otobüs neden durmuyor? – Çünkü kimse durma düğmesine basmadı."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Genç bir yolcu bilet göstermeden binmek istiyor ve art arda bahaneler buluyor. Sakin ve kibar kal, kuralı weil ile açıkla ve ona bir çözüm öner (örneğin uygulamadan veya senden bilet almak). Tartışmanın büyümesine izin verme.",
+        "ai_brief": "You are a young man (about 20) in a hurry, a bit annoyed but not aggressive. You want to ride without showing a ticket. Use your excuses one after another: 1) 'Mein Akku ist leer, aber ich habe ein Ticket, ehrlich!' 2) 'Ich fahre nur zwei Stationen, das ist doch egal.' 3) 'Gestern hat mich Ihr Kollege auch so mitfahren lassen. Machen Sie doch eine Ausnahme!' Get a little louder once ('Das ist doch unfair!') and say you want to complain. Calm down when the driver stays polite, explains the rule with clear reasons (weil ...) and offers a solution such as buying a ticket. Never become violent or insulting. Do not talk about concrete prices or fines. The scene is finished when you agree to buy a ticket (or to wait for the next bus) and the conversation ends politely.",
+        "opener_de": "Moin! Ich hab gerade kein Ticket dabei, mein Handy ist aus. Kann ich trotzdem schnell mitfahren?"
+      }
+    }
+  ]
+}

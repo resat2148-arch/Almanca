@@ -1,0 +1,302 @@
+{
+  "week": 3,
+  "title_de": "Der Bus & die Technik",
+  "title_tr": "Otobüs ve teknik",
+  "lessons": [
+    {
+      "id": "w3d1",
+      "day": 1,
+      "title_de": "Fahrzeugteile außen & innen",
+      "title_tr": "Aracın iç ve dış parçaları",
+      "goal_tr": "Otobüsün önemli parçalarını artikeli ve çoğuluyla söyleyebilirsin. Bir meslektaşına hangi parçanın nerede olduğunu sorabilir ve anlatabilirsin.",
+      "words": [
+        {"de": "der Spiegel", "pl": "die Spiegel", "tr": "ayna", "ex_de": "Der rechte Spiegel ist verstellt.", "ex_tr": "Sağ aynanın ayarı bozulmuş."},
+        {"de": "der Scheibenwischer", "pl": "die Scheibenwischer", "tr": "silecek", "ex_de": "Bei Regen schalte ich den Scheibenwischer ein.", "ex_tr": "Yağmurda sileceği açarım."},
+        {"de": "der Reifen", "pl": "die Reifen", "tr": "lastik", "ex_de": "Der linke Reifen sieht platt aus.", "ex_tr": "Sol lastik inik görünüyor."},
+        {"de": "das Lenkrad", "pl": "die Lenkräder", "tr": "direksiyon", "ex_de": "Halten Sie das Lenkrad mit beiden Händen.", "ex_tr": "Direksiyonu iki elinizle tutun."},
+        {"de": "die Bremse", "pl": "die Bremsen", "tr": "fren", "ex_de": "Vor der Haltestelle trete ich langsam auf die Bremse.", "ex_tr": "Duraktan önce frene yavaşça basarım."},
+        {"de": "das Gaspedal", "pl": "die Gaspedale", "tr": "gaz pedalı", "ex_de": "Im Stau nehme ich den Fuß vom Gaspedal.", "ex_tr": "Trafik sıkışıklığında ayağımı gaz pedalından çekerim."},
+        {"de": "der Blinker", "pl": "die Blinker", "tr": "sinyal (lambası)", "ex_de": "Vor dem Abfahren setze ich den Blinker.", "ex_tr": "Duraktan kalkmadan önce sinyal veririm."},
+        {"de": "der Scheinwerfer", "pl": "die Scheinwerfer", "tr": "far", "ex_de": "Ein Scheinwerfer ist kaputt.", "ex_tr": "Farlardan biri bozuk."},
+        {"de": "der Gelenkbus", "pl": "die Gelenkbusse", "tr": "körüklü otobüs", "ex_de": "Heute fahre ich einen Gelenkbus nach Altona.", "ex_tr": "Bugün Altona'ya körüklü otobüs kullanıyorum."},
+        {"de": "die Windschutzscheibe", "pl": "die Windschutzscheiben", "tr": "ön cam", "ex_de": "Die Windschutzscheibe ist beschlagen.", "ex_tr": "Ön cam buğulanmış."},
+        {"de": "das Armaturenbrett", "pl": "die Armaturenbretter", "tr": "gösterge paneli", "ex_de": "Am Armaturenbrett sehe ich die Geschwindigkeit.", "ex_tr": "Gösterge panelinde hızı görüyorum."},
+        {"de": "die Hupe", "pl": "die Hupen", "tr": "korna", "ex_de": "Ich benutze die Hupe nur bei Gefahr.", "ex_tr": "Kornayı sadece tehlike anında kullanırım."}
+      ],
+      "phrases": [
+        {"de": "Wie heißt das auf Deutsch?", "tr": "Bunun Almancası ne?"},
+        {"de": "Ist das der, die oder das?", "tr": "Bunun artikeli der mi, die mi, das mı?"},
+        {"de": "Wo ist der Schalter für den Scheibenwischer?", "tr": "Silecek düğmesi nerede?"},
+        {"de": "Kannst du mir das kurz zeigen?", "tr": "Bunu bana kısaca gösterebilir misin?"},
+        {"de": "Ich stelle zuerst die Spiegel ein.", "tr": "Önce aynaları ayarlıyorum."},
+        {"de": "Das ist vorne, hinten oder in der Mitte.", "tr": "Bu önde, arkada ya da ortada."}
+      ],
+      "dialog": {
+        "title_tr": "Betriebshof'ta körüklü otobüs tanıtımı",
+        "lines": [
+          {"who": "Kollege", "de": "Moin! Heute zeige ich dir unseren Gelenkbus. Komm mal mit nach vorne.", "tr": "Selam! Bugün sana körüklü otobüsümüzü göstereceğim. Hadi öne gel."},
+          {"who": "Busfahrer", "de": "Moin! Der ist ja richtig lang. Kann ich hinten alles im Spiegel sehen?", "tr": "Selam! Bu gerçekten çok uzun. Arkadaki her şeyi aynada görebiliyor muyum?"},
+          {"who": "Kollege", "de": "Ja, wenn du die Spiegel richtig einstellst. Das machst du vor jeder Fahrt.", "tr": "Evet, aynaları doğru ayarlarsan. Bunu her seferden önce yaparsın."},
+          {"who": "Busfahrer", "de": "Okay. Und wo sind die Schalter für den Blinker und den Scheibenwischer?", "tr": "Tamam. Peki sinyal ve silecek düğmeleri nerede?"},
+          {"who": "Kollege", "de": "Hier, direkt am Lenkrad. Die Scheinwerfer schaltest du am Armaturenbrett ein.", "tr": "Burada, direksiyonun hemen yanında. Farları gösterge panelinden açarsın."},
+          {"who": "Busfahrer", "de": "Und die Hupe ist in der Mitte vom Lenkrad, oder?", "tr": "Korna da direksiyonun ortasında, değil mi?"},
+          {"who": "Kollege", "de": "Richtig. Jetzt setz dich mal hin. Fuß auf die Bremse, nicht aufs Gaspedal!", "tr": "Doğru. Şimdi bir otur. Ayak frene, gaz pedalına değil!"},
+          {"who": "Busfahrer", "de": "Alles klar. Der Bus ist groß, aber das schaffe ich.", "tr": "Tamamdır. Otobüs büyük ama bunu başarırım."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Araç parçalarında artikel ve çoğul",
+        "explain_tr": "Almancada her ismin bir artikeli var: der, die veya das. Kelimeyi her zaman artikeli ve çoğuluyla birlikte öğren. Birleşik kelimelerde artikeli son kelime belirler: das Lenkrad (das Rad), der Scheibenwischer (der Wischer). -er veya -el ile biten der-kelimeleri çoğulda çoğunlukla değişmez: der Spiegel – die Spiegel. -e ile biten die-kelimeleri çoğulda -n alır: die Bremse – die Bremsen. Çoğulda artikel her zaman 'die' olur.",
+        "examples": [
+          {"de": "das Lenkrad → die Lenkräder", "tr": "direksiyon → direksiyonlar"},
+          {"de": "der Scheinwerfer → die Scheinwerfer: Beide Scheinwerfer funktionieren.", "tr": "far → farlar: İki far da çalışıyor."},
+          {"de": "die Bremse → die Bremsen: Die Bremsen sind in Ordnung.", "tr": "fren → frenler: Frenler sağlam."},
+          {"de": "das Gelenk + der Bus → der Gelenkbus", "tr": "mafsal + otobüs → körüklü otobüs (artikel son kelimeden gelir: der Bus)"}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Kollege",
+        "user_role_tr": "Yeni otobüs şoförü",
+        "scenario_tr": "Betriebshof'ta tecrübeli bir meslektaşın sana körüklü otobüsü tanıtıyor. Gösterdiği parçaların adını artikeliyle söyle ve en az iki parçanın ne işe yaradığını açıkla.",
+        "ai_brief": "You are Jan, an experienced and friendly bus driver who trains new colleagues at a bus depot in Hamburg. Speak simple German (A2-B1) and use 'du'. Point at parts of an articulated bus (Gelenkbus) and ask the learner what they are called WITH the article (e.g. 'Was ist das hier vorne?'); sometimes ask for the plural too. Complications: 1) ask about a part the learner may not know (e.g. das Armaturenbrett or die Windschutzscheibe) and give a hint if they struggle; 2) ask what they do with the Blinker or the Scheibenwischer in a concrete situation (rain, pulling out of a stop); 3) gently correct one wrong article and ask them to repeat the word correctly. Finish after about 6-8 parts with short praise and the line 'Morgen machen wir die Abfahrtskontrolle.'",
+        "opener_de": "Moin! Komm mal mit zum Gelenkbus. Ich zeige auf ein Teil und du sagst mir, wie es heißt – mit Artikel, okay? Was ist das hier an der Seite?"
+      }
+    },
+    {
+      "id": "w3d2",
+      "day": 2,
+      "title_de": "Die Abfahrtskontrolle",
+      "title_tr": "Sefer öncesi kontrol",
+      "goal_tr": "Sefer öncesi kontrolde neyi kontrol ettiğini anlatabilirsin. Eksik veya bozuk bir şeyi fark edip söyleyebilirsin.",
+      "words": [
+        {"de": "die Abfahrtskontrolle", "pl": "die Abfahrtskontrollen", "tr": "sefer öncesi kontrol", "ex_de": "Vor jeder Schicht mache ich die Abfahrtskontrolle.", "ex_tr": "Her vardiyadan önce sefer öncesi kontrolü yaparım."},
+        {"de": "prüfen (hat geprüft)", "pl": "", "tr": "kontrol etmek", "ex_de": "Ich prüfe die Bremsen vor der Abfahrt.", "ex_tr": "Kalkıştan önce frenleri kontrol ederim."},
+        {"de": "der Reifendruck", "pl": "", "tr": "lastik basıncı", "ex_de": "Der Reifendruck ist zu niedrig.", "ex_tr": "Lastik basıncı çok düşük."},
+        {"de": "das Reifenprofil", "pl": "die Reifenprofile", "tr": "lastik dişi", "ex_de": "Das Reifenprofil ist noch tief genug.", "ex_tr": "Lastik dişi hâlâ yeterince derin."},
+        {"de": "der Feuerlöscher", "pl": "die Feuerlöscher", "tr": "yangın söndürücü", "ex_de": "Ist der Feuerlöscher an seinem Platz?", "ex_tr": "Yangın söndürücü yerinde mi?"},
+        {"de": "der Verbandskasten", "pl": "die Verbandskästen", "tr": "ilk yardım çantası", "ex_de": "Der Verbandskasten ist vollständig.", "ex_tr": "İlk yardım çantası eksiksiz."},
+        {"de": "das Warndreieck", "pl": "die Warndreiecke", "tr": "reflektör (ikaz üçgeni)", "ex_de": "Bei einer Panne stelle ich das Warndreieck auf.", "ex_tr": "Arıza olunca reflektörü kurarım."},
+        {"de": "die Warnweste", "pl": "die Warnwesten", "tr": "reflektörlü yelek", "ex_de": "Ich ziehe die Warnweste an, bevor ich auf die Straße gehe.", "ex_tr": "Yola çıkmadan önce reflektörlü yeleği giyerim."},
+        {"de": "das Bremslicht", "pl": "die Bremslichter", "tr": "fren lambası", "ex_de": "Kannst du kurz schauen, ob das Bremslicht geht?", "ex_tr": "Fren lambasının yanıp yanmadığına bir bakabilir misin?"},
+        {"de": "der Ölstand", "pl": "die Ölstände", "tr": "yağ seviyesi", "ex_de": "Der Ölstand ist in Ordnung.", "ex_tr": "Yağ seviyesi normal."},
+        {"de": "funktionieren (hat funktioniert)", "pl": "", "tr": "çalışmak (cihaz, makine)", "ex_de": "Alle Türen funktionieren.", "ex_tr": "Bütün kapılar çalışıyor."},
+        {"de": "die Checkliste", "pl": "die Checklisten", "tr": "kontrol listesi", "ex_de": "Ich hake jeden Punkt auf der Checkliste ab.", "ex_tr": "Kontrol listesindeki her maddeyi işaretlerim."}
+      ],
+      "phrases": [
+        {"de": "Alles in Ordnung.", "tr": "Her şey yolunda."},
+        {"de": "Das muss noch geprüft werden.", "tr": "Bunun daha kontrol edilmesi lazım."},
+        {"de": "Kannst du mal hinten schauen?", "tr": "Arkaya bir bakabilir misin?"},
+        {"de": "Mach mal bitte das Licht an.", "tr": "Işıkları bir açar mısın?"},
+        {"de": "Hier fehlt etwas.", "tr": "Burada bir şey eksik."},
+        {"de": "Ich bin mit der Kontrolle fertig.", "tr": "Kontrolü bitirdim."}
+      ],
+      "dialog": {
+        "title_tr": "Meslektaşla birlikte sefer öncesi kontrol",
+        "lines": [
+          {"who": "Busfahrer", "de": "Moin! Kannst du mir kurz bei der Abfahrtskontrolle helfen?", "tr": "Selam! Sefer öncesi kontrolde bana biraz yardım edebilir misin?"},
+          {"who": "Kollege", "de": "Klar. Ich gehe nach hinten. Mach das Licht an und tritt auf die Bremse.", "tr": "Tabii. Ben arkaya gidiyorum. Işıkları aç ve frene bas."},
+          {"who": "Busfahrer", "de": "Okay, jetzt! Gehen die Bremslichter?", "tr": "Tamam, şimdi! Fren lambaları yanıyor mu?"},
+          {"who": "Kollege", "de": "Ja, beide funktionieren. Der Blinker links auch.", "tr": "Evet, ikisi de çalışıyor. Sol sinyal de."},
+          {"who": "Busfahrer", "de": "Gut. Der Reifendruck sieht auch normal aus. Jetzt prüfe ich die Türen.", "tr": "İyi. Lastik basıncı da normal görünüyor. Şimdi kapıları kontrol ediyorum."},
+          {"who": "Kollege", "de": "Und vergiss den Feuerlöscher und den Verbandskasten nicht.", "tr": "Yangın söndürücüyü ve ilk yardım çantasını da unutma."},
+          {"who": "Busfahrer", "de": "Der Feuerlöscher ist da. Aber das Warndreieck fehlt. Das muss gemeldet werden.", "tr": "Yangın söndürücü yerinde. Ama reflektör eksik. Bunun bildirilmesi lazım."},
+          {"who": "Kollege", "de": "Stimmt. Schreib es auf die Checkliste und sag in der Werkstatt Bescheid.", "tr": "Doğru. Kontrol listesine yaz ve atölyeye haber ver."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "'Ich prüfe…' ve '… muss geprüft werden'",
+        "explain_tr": "Kendi yaptığın işi anlatırken basit cümle kur: Ich prüfe die Bremsen. Kimin yaptığı önemli değilse 'muss + Partizip II + werden' kalıbını kullan: Die Bremsen müssen geprüft werden. Partizip II sona yakın, 'werden' en sona gelir. Bu kalıp kontrol listelerinde ve talimatlarda çok sık geçer. Konuşurken ilk kalıp yeterli, ikincisini anlaman önemli.",
+        "examples": [
+          {"de": "Ich prüfe den Reifendruck.", "tr": "Lastik basıncını kontrol ediyorum."},
+          {"de": "Der Reifendruck muss geprüft werden.", "tr": "Lastik basıncının kontrol edilmesi gerekiyor."},
+          {"de": "Der Verbandskasten muss kontrolliert werden.", "tr": "İlk yardım çantasının kontrol edilmesi gerekiyor."},
+          {"de": "Das Warndreieck muss ersetzt werden.", "tr": "Reflektörün yenisiyle değiştirilmesi gerekiyor."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrlehrer",
+        "user_role_tr": "Otobüs ehliyeti öğrencisi",
+        "scenario_tr": "Klasse D ehliyet derslerinde öğretmenin senden sefer öncesi kontrolü anlatmanı istiyor. Neyi nasıl kontrol ettiğini 'Ich prüfe…' cümleleriyle anlat ve eksik olan bir şeyi fark edip söyle.",
+        "ai_brief": "You are Herr Petersen, a calm but precise driving instructor for the bus licence (Klasse D) in Hamburg. Use 'Sie' and simple German (A2-B1). Ask the learner to walk you through the departure check (Abfahrtskontrolle) step by step: lights, brakes, tyres, doors, safety equipment. Complications: 1) ask 'Und wie prüfen Sie den Reifendruck und das Reifenprofil?' to get a concrete answer; 2) tell them the Warndreieck is missing and ask what has to happen now (expect something like 'Das muss gemeldet werden'); 3) ask what they put on before leaving the bus on the road (Warnweste). Correct mistakes gently by repeating the correct sentence. End when the main points are covered, with brief encouraging feedback in German.",
+        "opener_de": "Guten Morgen! Wir beginnen mit der Abfahrtskontrolle. Was prüfen Sie als Erstes?"
+      }
+    },
+    {
+      "id": "w3d3",
+      "day": 3,
+      "title_de": "Türen, Rampe & Klima",
+      "title_tr": "Kapılar, rampa ve klima",
+      "goal_tr": "Kapıları, rampayı ve otobüsü alçaltmayı yolculara açıklayabilirsin. Isıtma ve klima hakkındaki şikâyetlere kibarca cevap verebilirsin.",
+      "words": [
+        {"de": "die Vordertür", "pl": "die Vordertüren", "tr": "ön kapı", "ex_de": "An dieser Haltestelle öffne ich nur die Vordertür.", "ex_tr": "Bu durakta sadece ön kapıyı açıyorum."},
+        {"de": "die Rampe", "pl": "die Rampen", "tr": "rampa", "ex_de": "Für den Rollstuhl brauchen wir die Rampe.", "ex_tr": "Tekerlekli sandalye için rampaya ihtiyacımız var."},
+        {"de": "das Kneeling", "pl": "", "tr": "otobüsü kapı tarafına alçaltma", "ex_de": "Mit dem Kneeling wird der Einstieg niedriger.", "ex_tr": "Kneeling ile biniş basamağı alçalır."},
+        {"de": "absenken (hat abgesenkt)", "pl": "", "tr": "alçaltmak", "ex_de": "Moment, ich senke den Bus ab.", "ex_tr": "Bir dakika, otobüsü alçaltıyorum."},
+        {"de": "ausklappen (hat ausgeklappt)", "pl": "", "tr": "(katlanır bir şeyi) açmak", "ex_de": "Ich klappe die Rampe gleich aus.", "ex_tr": "Rampayı hemen açıyorum."},
+        {"de": "einklappen (hat eingeklappt)", "pl": "", "tr": "katlayıp kapatmak", "ex_de": "Bevor ich losfahre, klappe ich die Rampe wieder ein.", "ex_tr": "Hareket etmeden önce rampayı tekrar katlarım."},
+        {"de": "entriegeln (hat entriegelt)", "pl": "", "tr": "kilidini açmak", "ex_de": "Im Notfall kann man die Tür von innen entriegeln.", "ex_tr": "Acil durumda kapının kilidi içeriden açılabilir."},
+        {"de": "die Klimaanlage", "pl": "die Klimaanlagen", "tr": "klima", "ex_de": "Die Klimaanlage ist an, gleich wird es kühler.", "ex_tr": "Klima açık, birazdan serinler."},
+        {"de": "die Heizung", "pl": "die Heizungen", "tr": "ısıtma, kalorifer", "ex_de": "Im Winter stelle ich die Heizung höher.", "ex_tr": "Kışın ısıtmayı yükseltirim."},
+        {"de": "der Fahrgastraum", "pl": "die Fahrgasträume", "tr": "yolcu bölümü", "ex_de": "Im Fahrgastraum ist es zu warm.", "ex_tr": "Yolcu bölümünde hava çok sıcak."},
+        {"de": "die Haltewunschtaste", "pl": "die Haltewunschtasten", "tr": "durak isteği ('dur') düğmesi", "ex_de": "Bitte drücken Sie rechtzeitig die Haltewunschtaste.", "ex_tr": "Lütfen 'dur' düğmesine zamanında basın."},
+        {"de": "der Mehrzweckbereich", "pl": "die Mehrzweckbereiche", "tr": "çok amaçlı alan (bebek arabası, tekerlekli sandalye yeri)", "ex_de": "Mit dem Kinderwagen können Sie in den Mehrzweckbereich.", "ex_tr": "Bebek arabasıyla çok amaçlı alana geçebilirsiniz."}
+      ],
+      "phrases": [
+        {"de": "Einen Moment, ich klappe die Rampe aus.", "tr": "Bir saniye, rampayı açıyorum."},
+        {"de": "Achtung, der Bus senkt sich ab.", "tr": "Dikkat, otobüs alçalıyor."},
+        {"de": "Bitte treten Sie von der Tür zurück.", "tr": "Lütfen kapıdan geri çekilin."},
+        {"de": "Ist es Ihnen zu kalt oder zu warm?", "tr": "Size çok mu soğuk, yoksa çok mu sıcak?"},
+        {"de": "Brauchen Sie Hilfe beim Einsteigen?", "tr": "Binerken yardıma ihtiyacınız var mı?"},
+        {"de": "Vorsicht, die Türen schließen.", "tr": "Dikkat, kapılar kapanıyor."}
+      ],
+      "dialog": {
+        "title_tr": "Tekerlekli sandalyeli yolcuya yardım",
+        "lines": [
+          {"who": "Fahrgast", "de": "Entschuldigung! Ich sitze im Rollstuhl. Können Sie mir helfen?", "tr": "Afedersiniz! Tekerlekli sandalyedeyim. Bana yardım edebilir misiniz?"},
+          {"who": "Busfahrer", "de": "Natürlich. Einen Moment, ich senke den Bus ab und klappe die Rampe aus.", "tr": "Tabii ki. Bir dakika, otobüsü alçaltıp rampayı açıyorum."},
+          {"who": "Fahrgast", "de": "Vielen Dank. An welcher Tür?", "tr": "Çok teşekkürler. Hangi kapıdan?"},
+          {"who": "Busfahrer", "de": "An der zweiten Tür. Dort ist auch der Mehrzweckbereich.", "tr": "İkinci kapıdan. Çok amaçlı alan da orada."},
+          {"who": "Fahrgast", "de": "Super. Ich möchte am Hauptbahnhof aussteigen.", "tr": "Süper. Hauptbahnhof'ta inmek istiyorum."},
+          {"who": "Busfahrer", "de": "Kein Problem. Drücken Sie vorher einfach die Haltewunschtaste mit dem Rollstuhl-Symbol.", "tr": "Sorun değil. Önceden tekerlekli sandalye işaretli 'dur' düğmesine basmanız yeterli."},
+          {"who": "Fahrgast", "de": "Mache ich. Ach, hier im Fahrgastraum ist es sehr warm. Läuft die Klimaanlage?", "tr": "Tamam. Ah, yolcu bölümünde hava çok sıcak. Klima çalışıyor mu?"},
+          {"who": "Busfahrer", "de": "Ich stelle sie gleich kälter. So, die Rampe ist eingeklappt – Vorsicht, die Türen schließen.", "tr": "Hemen daha soğuğa ayarlıyorum. Tamam, rampa katlandı – dikkat, kapılar kapanıyor."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Ayrılabilen ve ayrılamayan fiiller",
+        "explain_tr": "absenken, ausklappen, einklappen gibi fiillerde ön ek (ab-, aus-, ein-) cümlede ayrılır ve en sona gider: Ich klappe die Rampe aus. Perfekt'te 'ge' ön ek ile kökün arasına girer: ausgeklappt, abgesenkt. ent-, ver-, be- gibi ön ekler ise ayrılmaz: Ich entriegle die Tür. Bu fiillerin Perfekt'inde 'ge' yoktur: entriegelt. öffnen ve schließen ön eksiz, normal fiillerdir: Ich öffne die Tür.",
+        "examples": [
+          {"de": "Ich senke den Bus ab.", "tr": "Otobüsü alçaltıyorum."},
+          {"de": "Ich habe die Rampe schon ausgeklappt.", "tr": "Rampayı çoktan açtım."},
+          {"de": "Der Fahrer entriegelt die Tür.", "tr": "Şoför kapının kilidini açıyor."},
+          {"de": "Ich öffne die Vordertür und schließe die hinteren Türen.", "tr": "Ön kapıyı açıyorum ve arka kapıları kapatıyorum."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Barmbek'te bebek arabalı bir anne otobüse binmek istiyor ve otobüsün içini çok soğuk buluyor. Otobüsü alçalt, ona çok amaçlı alanı göster ve ısıtma konusunda kibarca yardımcı ol.",
+        "ai_brief": "You are Frau Krüger, a young mother with a heavy pram (Kinderwagen) and a toddler, boarding a bus at Barmbek on a cold winter morning. You are a bit stressed and in a hurry. Use simple German (A2-B1) and address the driver with 'Sie'. You want help getting in, a safe place for the pram, and to know how to signal that you want to get off at Wandsbek Markt. Complications: 1) the pram is heavy, so you ask if the bus can go lower or if there is a ramp; 2) the Mehrzweckbereich is partly taken by a wheelchair user, so you ask where you should stand; 3) you complain that it is very cold inside and ask if the heating works. Accept reasonable, polite answers. End the scene when you are inside and the driver says the doors are closing.",
+        "opener_de": "Moin! Entschuldigung, der Kinderwagen ist so schwer. Können Sie den Bus ein bisschen tiefer machen?"
+      }
+    },
+    {
+      "id": "w3d4",
+      "day": 4,
+      "title_de": "Mängel und Schäden melden",
+      "title_tr": "Arıza ve hasar bildirmek",
+      "goal_tr": "Otobüsteki bir arızayı veya hasarı merkeze ya da atölyeye açıkça bildirebilirsin. Ne olduğunu Perfekt zamanıyla anlatabilirsin.",
+      "words": [
+        {"de": "der Mangel", "pl": "die Mängel", "tr": "kusur, eksiklik", "ex_de": "Wenn ich einen Mangel finde, melde ich ihn sofort.", "ex_tr": "Bir kusur bulursam hemen bildiririm."},
+        {"de": "der Schaden", "pl": "die Schäden", "tr": "hasar", "ex_de": "Am Spiegel ist ein kleiner Schaden.", "ex_tr": "Aynada küçük bir hasar var."},
+        {"de": "die Schadensmeldung", "pl": "die Schadensmeldungen", "tr": "hasar bildirimi", "ex_de": "Nach der Fahrt schreibe ich eine Schadensmeldung.", "ex_tr": "Seferden sonra bir hasar bildirimi yazarım."},
+        {"de": "die Werkstatt", "pl": "die Werkstätten", "tr": "atölye, tamirhane", "ex_de": "Der Bus muss heute in die Werkstatt.", "ex_tr": "Otobüsün bugün tamirhaneye gitmesi lazım."},
+        {"de": "die Warnleuchte", "pl": "die Warnleuchten", "tr": "uyarı lambası", "ex_de": "Eine rote Warnleuchte ist an.", "ex_tr": "Kırmızı bir uyarı lambası yanıyor."},
+        {"de": "leuchten (hat geleuchtet)", "pl": "", "tr": "yanmak (ışık)", "ex_de": "Die Warnleuchte leuchtet seit zehn Minuten.", "ex_tr": "Uyarı lambası on dakikadır yanıyor."},
+        {"de": "das Geräusch", "pl": "die Geräusche", "tr": "ses, gürültü", "ex_de": "Hinten links höre ich ein komisches Geräusch.", "ex_tr": "Arka solda garip bir ses duyuyorum."},
+        {"de": "klemmen (hat geklemmt)", "pl": "", "tr": "sıkışmak, takılmak", "ex_de": "Die hintere Tür klemmt.", "ex_tr": "Arka kapı sıkışıyor."},
+        {"de": "ausfallen (ist ausgefallen)", "pl": "", "tr": "bozulmak, çalışmaz hale gelmek", "ex_de": "Die Klimaanlage ist ausgefallen.", "ex_tr": "Klima bozuldu."},
+        {"de": "melden (hat gemeldet)", "pl": "", "tr": "bildirmek", "ex_de": "Ich habe den Schaden der Leitstelle gemeldet.", "ex_tr": "Hasarı merkeze bildirdim."},
+        {"de": "defekt", "pl": "", "tr": "arızalı", "ex_de": "Der Scheibenwischer ist defekt.", "ex_tr": "Silecek arızalı."},
+        {"de": "die Störung", "pl": "die Störungen", "tr": "arıza, aksaklık", "ex_de": "Wir haben eine technische Störung.", "ex_tr": "Teknik bir arızamız var."}
+      ],
+      "phrases": [
+        {"de": "Ich habe ein technisches Problem.", "tr": "Teknik bir sorunum var."},
+        {"de": "Seit wann ist das so?", "tr": "Ne zamandan beri böyle?"},
+        {"de": "Kann ich weiterfahren?", "tr": "Yola devam edebilir miyim?"},
+        {"de": "Der Bus ist nicht mehr fahrbereit.", "tr": "Otobüs artık yola çıkacak durumda değil."},
+        {"de": "Bitte schicken Sie einen Ersatzbus.", "tr": "Lütfen yedek bir otobüs gönderin."},
+        {"de": "Ich habe es schon gemeldet.", "tr": "Bunu zaten bildirdim."}
+      ],
+      "dialog": {
+        "title_tr": "Telsizle merkeze arıza bildirmek",
+        "lines": [
+          {"who": "Busfahrer", "de": "Leitstelle, bitte kommen. Ich habe eine technische Störung.", "tr": "Merkez, lütfen cevap verin. Teknik bir arızam var."},
+          {"who": "Leitstelle", "de": "Leitstelle hört. Wo sind Sie und was ist passiert?", "tr": "Merkez dinliyor. Neredesiniz ve ne oldu?"},
+          {"who": "Busfahrer", "de": "Ich stehe an der Haltestelle Wandsbek Markt. Die hintere Tür klemmt und schließt nicht mehr richtig.", "tr": "Wandsbek Markt durağındayım. Arka kapı sıkışıyor ve artık düzgün kapanmıyor."},
+          {"who": "Leitstelle", "de": "Leuchtet eine Warnleuchte?", "tr": "Bir uyarı lambası yanıyor mu?"},
+          {"who": "Busfahrer", "de": "Ja, die Warnleuchte für die Türen ist an. Und vorhin habe ich ein lautes Geräusch gehört.", "tr": "Evet, kapıların uyarı lambası yanıyor. Ayrıca az önce yüksek bir ses duydum."},
+          {"who": "Leitstelle", "de": "Verstanden. Bitte fahren Sie nicht weiter. Wir schicken einen Ersatzbus.", "tr": "Anlaşıldı. Lütfen devam etmeyin. Yedek bir otobüs gönderiyoruz."},
+          {"who": "Busfahrer", "de": "Alles klar. Ich informiere die Fahrgäste und schreibe nachher eine Schadensmeldung.", "tr": "Tamamdır. Yolculara bilgi veriyorum ve sonra bir hasar bildirimi yazacağım."},
+          {"who": "Leitstelle", "de": "Danke. Der Bus geht danach in die Werkstatt.", "tr": "Teşekkürler. Otobüs ondan sonra tamirhaneye gidecek."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Perfekt: haben mı, sein mi?",
+        "explain_tr": "Geçmişte olan bir şeyi konuşurken Perfekt kullanılır: haben veya sein + Partizip II. Çoğu fiil 'haben' alır: Ich habe den Schaden gemeldet. Hareket veya durum değişikliği anlatan fiiller 'sein' alır: Die Lampe ist ausgefallen. Der Bus ist stehen geblieben. Partizip II cümlenin en sonuna gider. Arıza bildirirken bu iki kalıp çok işine yarar.",
+        "examples": [
+          {"de": "Die Lampe ist ausgefallen.", "tr": "Lamba bozuldu."},
+          {"de": "Ich habe es gemeldet.", "tr": "Bunu bildirdim."},
+          {"de": "Der Bus ist plötzlich stehen geblieben.", "tr": "Otobüs aniden durdu."},
+          {"de": "Ich habe ein lautes Geräusch gehört.", "tr": "Yüksek bir ses duydum."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Leitstelle",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Seferdeyken gösterge panelinde bir uyarı lambası yanıyor ve otobüsten garip bir ses geliyor. Telsizle merkeze ulaş, sorunu Perfekt kullanarak anlat ve şimdi ne yapman gerektiğini öğren.",
+        "ai_brief": "You are a dispatcher at the bus control centre (Leitstelle) in Hamburg. Professional, calm, a little busy; use 'Sie' and short, clear radio-style German (A2-B1). You need: the exact location, what happened, since when, whether passengers are on board and whether anyone is hurt. Complications: 1) ask which warning light exactly (colour, symbol) and whether the bus still drives normally; 2) say the radio was unclear and ask the learner to repeat the location; 3) decide on next steps in a generic way (e.g. stop safely, inform the passengers and wait for a replacement bus). Encourage Perfekt sentences by asking 'Was ist passiert?' and 'Was haben Sie gehört?'. Do not invent company-specific rules. End when the learner has confirmed the next steps and said they will write a Schadensmeldung.",
+        "opener_de": "Leitstelle hört. Was ist bei Ihnen los?"
+      }
+    },
+    {
+      "id": "w3d5",
+      "day": 5,
+      "title_de": "Betriebshof & E-Bus laden",
+      "title_tr": "Garaj ve elektrikli otobüsü şarj etmek",
+      "goal_tr": "Vardiya sonunda garajda yaptığın işleri sırayla anlatabilirsin. Elektrikli otobüsün şarjı ve menzili hakkında bilgi verip otobüsü meslektaşına teslim edebilirsin.",
+      "words": [
+        {"de": "der Betriebshof", "pl": "die Betriebshöfe", "tr": "otobüs garajı, depo", "ex_de": "Nach der Schicht fahre ich zum Betriebshof.", "ex_tr": "Vardiyadan sonra garaja giderim."},
+        {"de": "tanken (hat getankt)", "pl": "", "tr": "yakıt almak", "ex_de": "Den Dieselbus muss ich heute noch tanken.", "ex_tr": "Dizel otobüse bugün daha yakıt almam lazım."},
+        {"de": "laden (hat geladen)", "pl": "", "tr": "şarj etmek", "ex_de": "Der E-Bus wird über Nacht geladen.", "ex_tr": "Elektrikli otobüs gece boyunca şarj edilir."},
+        {"de": "der E-Bus", "pl": "die E-Busse", "tr": "elektrikli otobüs", "ex_de": "Der E-Bus ist sehr leise.", "ex_tr": "Elektrikli otobüs çok sessiz."},
+        {"de": "der Akku", "pl": "die Akkus", "tr": "batarya", "ex_de": "Der Akku ist fast leer.", "ex_tr": "Batarya neredeyse boş."},
+        {"de": "die Ladestation", "pl": "die Ladestationen", "tr": "şarj istasyonu", "ex_de": "Alle Ladestationen sind gerade besetzt.", "ex_tr": "Bütün şarj istasyonları şu an dolu."},
+        {"de": "die Reichweite", "pl": "die Reichweiten", "tr": "menzil", "ex_de": "Im Winter ist die Reichweite geringer.", "ex_tr": "Kışın menzil daha kısa olur."},
+        {"de": "der Ladestand", "pl": "die Ladestände", "tr": "şarj seviyesi", "ex_de": "Der Ladestand liegt bei 30 Prozent.", "ex_tr": "Şarj seviyesi yüzde 30."},
+        {"de": "das Ladekabel", "pl": "die Ladekabel", "tr": "şarj kablosu", "ex_de": "Ich stecke das Ladekabel ein.", "ex_tr": "Şarj kablosunu takıyorum."},
+        {"de": "abstellen (hat abgestellt)", "pl": "", "tr": "(aracı) park edip bırakmak", "ex_de": "Ich stelle den Bus in der Halle ab.", "ex_tr": "Otobüsü hangara park edip bırakıyorum."},
+        {"de": "der Stellplatz", "pl": "die Stellplätze", "tr": "park yeri", "ex_de": "Mein Stellplatz ist ganz hinten links.", "ex_tr": "Park yerim en arkada, solda."},
+        {"de": "die Übergabe", "pl": "die Übergaben", "tr": "teslim, devir", "ex_de": "Bei der Übergabe sage ich dem Kollegen alles Wichtige.", "ex_tr": "Teslimde meslektaşıma önemli her şeyi söylerim."}
+      ],
+      "phrases": [
+        {"de": "Ich habe jetzt Feierabend.", "tr": "Benim mesaim şimdi bitti."},
+        {"de": "Wie viel Reichweite hat der Bus noch?", "tr": "Otobüsün daha ne kadar menzili var?"},
+        {"de": "Der Bus ist voll geladen.", "tr": "Otobüs tam şarjlı."},
+        {"de": "Ich übergebe dir jetzt den Bus.", "tr": "Otobüsü şimdi sana teslim ediyorum."},
+        {"de": "Gibt es etwas Besonderes?", "tr": "Özel bir durum var mı?"},
+        {"de": "Schönen Feierabend!", "tr": "İş çıkışı iyi dinlenmeler!"}
+      ],
+      "dialog": {
+        "title_tr": "Garajda elektrikli otobüsün teslimi",
+        "lines": [
+          {"who": "Kollege", "de": "Moin! Na, wie war die Schicht? Ich übernehme gleich den E-Bus.", "tr": "Selam! Vardiya nasıldı? Elektrikli otobüsü birazdan ben devralıyorum."},
+          {"who": "Busfahrer", "de": "Moin! Alles gut. Zuerst das Wichtigste: Der Ladestand ist nur noch bei 25 Prozent.", "tr": "Selam! Her şey yolunda. Önce en önemlisi: Şarj seviyesi sadece yüzde 25."},
+          {"who": "Kollege", "de": "Oh, das ist wenig. Wie weit komme ich damit?", "tr": "Oh, bu az. Bununla ne kadar gidebilirim?"},
+          {"who": "Busfahrer", "de": "Mit der Reichweite schaffst du keine ganze Schicht. Der Bus muss erst an die Ladestation.", "tr": "Bu menzille bütün bir vardiyayı çıkaramazsın. Otobüsün önce şarj istasyonuna gitmesi lazım."},
+          {"who": "Kollege", "de": "Okay. Gibt es sonst noch etwas?", "tr": "Tamam. Başka bir şey var mı?"},
+          {"who": "Busfahrer", "de": "Ja, die Heizung hinten war schwach. Das habe ich schon gemeldet.", "tr": "Evet, arkadaki ısıtma zayıftı. Bunu zaten bildirdim."},
+          {"who": "Kollege", "de": "Gut. Dann stecke ich zuerst das Ladekabel ein, und danach mache ich die Abfahrtskontrolle.", "tr": "İyi. O zaman önce şarj kablosunu takarım, ondan sonra sefer öncesi kontrolü yaparım."},
+          {"who": "Busfahrer", "de": "Genau. Dann wünsche ich dir eine gute Schicht. Ich habe jetzt Feierabend!", "tr": "Aynen. O zaman sana iyi bir vardiya dilerim. Benim mesaim bitti!"}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Sıralama: zuerst, dann, danach, zum Schluss",
+        "explain_tr": "İşleri sırayla anlatırken zuerst (önce), dann (sonra), danach (ondan sonra) ve zum Schluss (en sonunda) kullanılır. Bu kelimeler cümlenin başına gelince fiil yine ikinci sırada kalır, özne fiilin arkasına geçer: Zuerst fahre ich zum Betriebshof. 'Dann ich fahre' yanlıştır, doğrusu 'Dann fahre ich'. Saat için 'um' kullanılır: um 22 Uhr. Bir olaydan sonrası için 'nach' kullanılır: nach der Schicht.",
+        "examples": [
+          {"de": "Zuerst fahre ich zum Betriebshof.", "tr": "Önce garaja giderim."},
+          {"de": "Dann stelle ich den Bus an der Ladestation ab.", "tr": "Sonra otobüsü şarj istasyonuna park ederim."},
+          {"de": "Danach stecke ich das Ladekabel ein.", "tr": "Ondan sonra şarj kablosunu takarım."},
+          {"de": "Zum Schluss mache ich um 22 Uhr die Übergabe.", "tr": "En sonunda saat 22'de teslimi yaparım."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Kollege",
+        "user_role_tr": "Vardiyası biten otobüs şoförü",
+        "scenario_tr": "Vardiyan bitti ve elektrikli otobüsü garajda bir meslektaşına teslim ediyorsun. Şarj seviyesi, menzil ve küçük bir arıza hakkında bilgi ver; garaja geldikten sonra yaptıklarını 'zuerst, dann, danach, zum Schluss' ile sırayla anlat.",
+        "ai_brief": "You are Sven, a relaxed colleague who takes over the e-bus at the bus depot for the late shift. Use 'du' and a casual Hamburg tone ('Moin', 'Na?'), simple German (A2-B1). You want to know: the battery level (Ladestand), the expected range (Reichweite), whether the bus must be charged first, any defects, and where it is parked (Stellplatz). Complications: 1) ask the learner to tell you in order what they did after arriving at the depot (zuerst, dann, danach, zum Schluss); 2) say that all charging stations seem to be occupied and ask what you should do now; 3) ask about a defect and whether it was already reported. End when you have all the information, thank the learner and say 'Schönen Feierabend!'.",
+        "opener_de": "Moin! Na, Feierabend? Ich übernehme jetzt deinen E-Bus. Wie sieht's mit dem Akku aus?"
+      }
+    }
+  ]
+}

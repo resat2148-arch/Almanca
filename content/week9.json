@@ -1,0 +1,309 @@
+{
+  "week": 9,
+  "title_de": "Bonus: IHK-Prüfungswortschatz",
+  "title_tr": "Bonus: IHK sınavı kelimeleri",
+  "lessons": [
+    {
+      "id": "w9d1",
+      "day": 1,
+      "title_de": "Fahrphysik & Technik",
+      "title_tr": "Sürüş fiziği ve teknik",
+      "goal_tr": "Motor ve ekonomik sürüşle ilgili temel teknik terimleri anlayıp açıklayabilirsiniz. Tipik sınav sorularını (Welche Aussage ist richtig?) doğru okuyabilirsiniz.",
+      "words": [
+        {"de": "das Drehmoment", "pl": "die Drehmomente", "tr": "tork (dönme momenti)", "ex_de": "Ein hohes Drehmoment hilft beim Anfahren am Berg.", "ex_tr": "Yüksek tork, yokuşta kalkışta yardımcı olur."},
+        {"de": "die Leistung", "pl": "die Leistungen", "tr": "güç (motor gücü)", "ex_de": "Die Leistung des Motors wird in Kilowatt angegeben.", "ex_tr": "Motor gücü kilovat olarak belirtilir."},
+        {"de": "die Drehzahl", "pl": "die Drehzahlen", "tr": "devir (motor devri)", "ex_de": "Eine hohe Drehzahl kostet mehr Kraftstoff.", "ex_tr": "Yüksek devir daha fazla yakıta mal olur."},
+        {"de": "der Drehzahlmesser", "pl": "die Drehzahlmesser", "tr": "devir göstergesi (takometre)", "ex_de": "Der Drehzahlmesser zeigt die Umdrehungen pro Minute an.", "ex_tr": "Devir göstergesi dakikadaki devir sayısını gösterir."},
+        {"de": "der grüne Bereich", "pl": "", "tr": "yeşil bölge (ekonomik devir aralığı)", "ex_de": "Fahren Sie möglichst im grünen Bereich des Drehzahlmessers.", "ex_tr": "Mümkün olduğunca devir göstergesinin yeşil bölgesinde sürün."},
+        {"de": "das Getriebe", "pl": "die Getriebe", "tr": "şanzıman (vites kutusu)", "ex_de": "Die meisten Stadtbusse haben ein Automatikgetriebe.", "ex_tr": "Şehir otobüslerinin çoğunda otomatik şanzıman vardır."},
+        {"de": "der Kraftstoffverbrauch", "pl": "", "tr": "yakıt tüketimi", "ex_de": "Vorausschauendes Fahren senkt den Kraftstoffverbrauch.", "ex_tr": "İleriyi görerek sürmek yakıt tüketimini azaltır."},
+        {"de": "wirtschaftlich fahren", "pl": "", "tr": "ekonomik sürmek", "ex_de": "Wer wirtschaftlich fährt, schont den Motor und die Umwelt.", "ex_tr": "Ekonomik süren kişi motoru ve çevreyi korur."},
+        {"de": "vorausschauend", "pl": "", "tr": "ileriyi görerek, öngörülü", "ex_de": "Vorausschauend fahren heißt: den Verkehr früh beobachten.", "ex_tr": "Öngörülü sürmek, trafiği erkenden gözlemlemek demektir."},
+        {"de": "der Rollwiderstand", "pl": "die Rollwiderstände", "tr": "yuvarlanma direnci", "ex_de": "Zu niedriger Reifendruck erhöht den Rollwiderstand.", "ex_tr": "Çok düşük lastik basıncı yuvarlanma direncini artırır."},
+        {"de": "der Luftwiderstand", "pl": "", "tr": "hava direnci", "ex_de": "Bei hoher Geschwindigkeit steigt der Luftwiderstand stark an.", "ex_tr": "Yüksek hızda hava direnci çok artar."},
+        {"de": "die Fliehkraft", "pl": "die Fliehkräfte", "tr": "merkezkaç kuvveti", "ex_de": "In der Kurve drückt die Fliehkraft den Bus nach außen.", "ex_tr": "Virajda merkezkaç kuvveti otobüsü dışarı doğru iter."}
+      ],
+      "phrases": [
+        {"de": "Welche Aussage ist richtig?", "tr": "Hangi ifade doğrudur?"},
+        {"de": "Welche Aussagen treffen zu?", "tr": "Hangi ifadeler doğrudur (geçerlidir)?"},
+        {"de": "Kreuzen Sie die richtige Antwort an.", "tr": "Doğru cevabı işaretleyin."},
+        {"de": "Mehrere Antworten können richtig sein.", "tr": "Birden fazla cevap doğru olabilir."},
+        {"de": "Was müssen Sie beachten?", "tr": "Neye dikkat etmeniz gerekir?"},
+        {"de": "Wie verhalten Sie sich richtig?", "tr": "Nasıl doğru davranırsınız?"}
+      ],
+      "dialog": {
+        "title_tr": "Sözlü sınav: ekonomik sürüş",
+        "lines": [
+          {"who": "Prüfer", "de": "Wir beginnen mit Technik. Welche Aussage ist richtig: In welchem Bereich fahren Sie am wirtschaftlichsten?", "tr": "Teknikle başlıyoruz. Hangi ifade doğru: En ekonomik hangi bölgede sürersiniz?"},
+          {"who": "Prüfling", "de": "Im grünen Bereich des Drehzahlmessers.", "tr": "Devir göstergesinin yeşil bölgesinde."},
+          {"who": "Prüfer", "de": "Richtig. Warum ist dieser Bereich günstig?", "tr": "Doğru. Bu bölge neden avantajlı?"},
+          {"who": "Prüfling", "de": "Dort hat der Motor ein hohes Drehmoment und der Kraftstoffverbrauch ist niedrig.", "tr": "Orada motorun torku yüksek ve yakıt tüketimi düşüktür."},
+          {"who": "Prüfer", "de": "Trifft es zu, dass eine hohe Drehzahl Kraftstoff spart?", "tr": "Yüksek devrin yakıt tasarrufu sağladığı doğru mu?"},
+          {"who": "Prüfling", "de": "Nein, das trifft nicht zu. Eine hohe Drehzahl erhöht den Verbrauch.", "tr": "Hayır, bu doğru değil. Yüksek devir tüketimi artırır."},
+          {"who": "Prüfer", "de": "Gut. Und warum sollen Sie vorausschauend fahren?", "tr": "İyi. Peki neden ileriyi görerek sürmelisiniz?"},
+          {"who": "Prüfling", "de": "Ich muss weniger bremsen, schone das Getriebe und spare Kraftstoff.", "tr": "Daha az fren yaparım, şanzımanı korurum ve yakıt tasarrufu yaparım."},
+          {"who": "Prüfer", "de": "Sehr gut, das ist alles richtig.", "tr": "Çok iyi, hepsi doğru."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Sınav sorularını anlamak",
+        "explain_tr": "Sınav soruları çoğunlukla soru kelimesiyle başlar: Welche = hangi, Was = ne, Warum = neden, Wie = nasıl, Wann = ne zaman. 'trifft zu' = doğrudur / geçerlidir, 'trifft nicht zu' = doğru değildir. Soruda 'nicht', 'kein', 'immer', 'nie' gibi kelimelere çok dikkat edin, bunlar cevabı tamamen değiştirir. 'Welche Aussage ist falsch?' sorusunda yanlış olanı işaretlemelisiniz. Birden fazla cevap doğru olabilir, tüm seçenekleri okuyun.",
+        "examples": [
+          {"de": "Welche Aussage trifft zu?", "tr": "Hangi ifade doğrudur?"},
+          {"de": "Welche Aussage trifft nicht zu?", "tr": "Hangi ifade doğru değildir?"},
+          {"de": "Was bewirkt eine hohe Drehzahl?", "tr": "Yüksek devir neye yol açar?"},
+          {"de": "Warum sollten Sie vorausschauend fahren?", "tr": "Neden ileriyi görerek sürmelisiniz?"}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Prüfer",
+        "user_role_tr": "Sınav adayı (otobüs şoförü adayı)",
+        "scenario_tr": "IHK sözlü sınavındasınız. Sınav görevlisi size sürüş fiziği ve ekonomik sürüş hakkında sorular soruyor. Soruları dikkatle dinleyin, kısa ve net Almanca cümlelerle cevap verin ve terimleri doğru kullanın.",
+        "ai_brief": "You are a friendly but precise IHK examiner (Prüfer) for the Berufskraftfahrer-Grundqualifikation, bus (Klasse D). The candidate is a Turkish native speaker at A2-B1 level. Ask about 6 exam-style questions ONE AT A TIME about driving physics and technology: Drehmoment, Leistung, Drehzahl, green zone of the rev counter, Getriebe, Kraftstoffverbrauch, economical and anticipatory driving, Rollwiderstand, Luftwiderstand, Fliehkraft. Use typical exam wording ('Welche Aussage ist richtig?', 'Trifft es zu, dass ...?', 'Was müssen Sie beachten?'). Sometimes offer multiple-choice options A/B/C. After each answer say clearly 'Richtig' or 'Leider nicht ganz richtig', explain the correct answer in one or two simple German sentences, and gently correct important grammar or wrong terms. Complications: 1) ask one trick question containing 'nicht' (e.g. 'Welche Aussage trifft nicht zu?'), 2) ask the candidate to explain a term in their own words, 3) ask a 'Warum?' follow-up. Do not quote exact technical figures you are unsure of. Speak slowly and simply. Finish after about 6 questions with a short score (e.g. '5 von 6 richtig') and one tip.",
+        "opener_de": "Guten Tag! Ich bin heute Ihr Prüfer. Wir beginnen mit Fahrphysik. Erste Frage: Welche Aussage ist richtig – in welchem Drehzahlbereich fahren Sie am wirtschaftlichsten?"
+      }
+    },
+    {
+      "id": "w9d2",
+      "day": 2,
+      "title_de": "Bremsanlagen & Sicherheitssysteme",
+      "title_tr": "Fren sistemleri ve güvenlik sistemleri",
+      "goal_tr": "Otobüsteki fren türlerini ve ABS/ESP gibi güvenlik sistemlerini Almanca adlandırıp açıklayabilirsiniz. Reaksiyon, fren ve durma mesafesi arasındaki farkı anlatabilirsiniz.",
+      "words": [
+        {"de": "die Betriebsbremse", "pl": "die Betriebsbremsen", "tr": "servis freni (ayak freni)", "ex_de": "Mit der Betriebsbremse bremsen Sie im normalen Verkehr.", "ex_tr": "Normal trafikte servis freniyle fren yaparsınız."},
+        {"de": "die Dauerbremse", "pl": "die Dauerbremsen", "tr": "sürekli fren (yavaşlatıcı fren)", "ex_de": "Die Dauerbremse arbeitet verschleißfrei.", "ex_tr": "Sürekli fren aşınma olmadan çalışır."},
+        {"de": "der Retarder", "pl": "die Retarder", "tr": "retarder (yavaşlatıcı)", "ex_de": "Auf einer langen Gefällstrecke benutzen Sie den Retarder.", "ex_tr": "Uzun bir yokuş aşağı yolda retarderi kullanırsınız."},
+        {"de": "die Feststellbremse", "pl": "die Feststellbremsen", "tr": "park freni", "ex_de": "Betätigen Sie die Feststellbremse, bevor Sie den Fahrerplatz verlassen.", "ex_tr": "Sürücü yerini terk etmeden önce park frenini çekin."},
+        {"de": "das Antiblockiersystem (ABS)", "pl": "die Antiblockiersysteme", "tr": "ABS (kilitlenme önleyici fren sistemi)", "ex_de": "Das ABS verhindert, dass die Räder blockieren.", "ex_tr": "ABS tekerleklerin kilitlenmesini önler."},
+        {"de": "das elektronische Stabilitätsprogramm (ESP)", "pl": "", "tr": "ESP (elektronik denge programı)", "ex_de": "Das ESP hilft, ein Schleudern des Busses zu verhindern.", "ex_tr": "ESP otobüsün savrulmasını önlemeye yardımcı olur."},
+        {"de": "der Bremsweg", "pl": "die Bremswege", "tr": "fren mesafesi", "ex_de": "Auf nasser Fahrbahn wird der Bremsweg länger.", "ex_tr": "Islak yolda fren mesafesi uzar."},
+        {"de": "der Reaktionsweg", "pl": "die Reaktionswege", "tr": "reaksiyon mesafesi", "ex_de": "Der Reaktionsweg ist die Strecke, die Sie fahren, bevor Sie bremsen.", "ex_tr": "Reaksiyon mesafesi, fren yapmadan önce aldığınız yoldur."},
+        {"de": "der Anhalteweg", "pl": "die Anhaltewege", "tr": "durma mesafesi", "ex_de": "Der Anhalteweg ist Reaktionsweg plus Bremsweg.", "ex_tr": "Durma mesafesi, reaksiyon mesafesi artı fren mesafesidir."},
+        {"de": "blockieren (hat blockiert)", "pl": "", "tr": "kilitlenmek", "ex_de": "Ohne ABS können die Räder bei einer Vollbremsung blockieren.", "ex_tr": "ABS olmadan ani frende tekerlekler kilitlenebilir."},
+        {"de": "die Druckluftbremsanlage", "pl": "die Druckluftbremsanlagen", "tr": "havalı fren sistemi", "ex_de": "Vor der Abfahrt prüfen Sie den Druck in der Druckluftbremsanlage.", "ex_tr": "Hareketten önce havalı fren sistemindeki basıncı kontrol edersiniz."},
+        {"de": "der Bremsbelag", "pl": "die Bremsbeläge", "tr": "fren balatası", "ex_de": "Der Retarder schont die Bremsbeläge.", "ex_tr": "Retarder fren balatalarını korur."}
+      ],
+      "phrases": [
+        {"de": "Der Anhalteweg setzt sich aus Reaktionsweg und Bremsweg zusammen.", "tr": "Durma mesafesi reaksiyon mesafesi ve fren mesafesinden oluşur."},
+        {"de": "Die Dauerbremse entlastet die Betriebsbremse.", "tr": "Sürekli fren servis frenini rahatlatır."},
+        {"de": "Bei Glätte verlängert sich der Bremsweg.", "tr": "Kaygan yolda fren mesafesi uzar."},
+        {"de": "Das ABS erhält die Lenkfähigkeit beim Bremsen.", "tr": "ABS fren yaparken direksiyon hâkimiyetini korur."},
+        {"de": "Bei langer Talfahrt können die Bremsen überhitzen.", "tr": "Uzun yokuş inişinde frenler aşırı ısınabilir."},
+        {"de": "Was verlängert den Reaktionsweg?", "tr": "Reaksiyon mesafesini ne uzatır?"}
+      ],
+      "dialog": {
+        "title_tr": "Eğitmenle fren sistemleri üzerine konuşma",
+        "lines": [
+          {"who": "Ausbilder", "de": "Erklären Sie mir bitte: Woraus besteht der Anhalteweg?", "tr": "Lütfen açıklayın: Durma mesafesi nelerden oluşur?"},
+          {"who": "Fahrschüler", "de": "Der Anhalteweg besteht aus Reaktionsweg und Bremsweg.", "tr": "Durma mesafesi reaksiyon mesafesi ve fren mesafesinden oluşur."},
+          {"who": "Ausbilder", "de": "Richtig. Was verlängert den Reaktionsweg?", "tr": "Doğru. Reaksiyon mesafesini ne uzatır?"},
+          {"who": "Fahrschüler", "de": "Müdigkeit, Alkohol und Ablenkung, zum Beispiel durch das Handy.", "tr": "Yorgunluk, alkol ve dikkat dağınıklığı, örneğin cep telefonu yüzünden."},
+          {"who": "Ausbilder", "de": "Stellen Sie sich vor, wir fahren eine lange Gefällstrecke hinunter. Welche Bremse benutzen Sie?", "tr": "Uzun bir yokuştan aşağı indiğimizi düşünün. Hangi freni kullanırsınız?"},
+          {"who": "Fahrschüler", "de": "Vor allem die Dauerbremse, also den Retarder. So überhitzt die Betriebsbremse nicht.", "tr": "Özellikle sürekli freni, yani retarderi. Böylece servis freni aşırı ısınmaz."},
+          {"who": "Ausbilder", "de": "Gut. Und was macht das ABS bei einer Vollbremsung?", "tr": "İyi. Peki ani frende ABS ne yapar?"},
+          {"who": "Fahrschüler", "de": "Es verhindert, dass die Räder blockieren. Der Bus bleibt lenkbar.", "tr": "Tekerleklerin kilitlenmesini önler. Otobüs yönlendirilebilir kalır."},
+          {"who": "Ausbilder", "de": "Perfekt. Und was machen Sie am Ende der Fahrt?", "tr": "Mükemmel. Peki sürüşün sonunda ne yaparsınız?"},
+          {"who": "Fahrschüler", "de": "Ich betätige die Feststellbremse, bevor ich aussteige.", "tr": "İnmeden önce park frenini çekerim."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Birleşik kelimeleri (Komposita) parçalamak",
+        "explain_tr": "Almancada teknik terimler genellikle birkaç kelimenin birleşmesiyle oluşur. Kelimeyi sağdan sola okuyun: son kelime ana anlamı ve artikeli (der/die/das) belirler. Öndeki kelimeler bunu açıklar. Bazen araya bir bağlantı harfi gelir, örneğin 'Betrieb-s-bremse'. Uzun bir kelimeyi anlamazsanız, onu küçük parçalara ayırın.",
+        "examples": [
+          {"de": "die Feststellbremse = feststellen + die Bremse", "tr": "sabitlemek + fren = park freni"},
+          {"de": "der Bremsweg = bremsen + der Weg", "tr": "fren yapmak + yol = fren mesafesi"},
+          {"de": "das Antiblockiersystem = anti + blockieren + das System", "tr": "karşı + kilitlenmek + sistem = kilitlenme önleyici sistem"},
+          {"de": "die Druckluftbremsanlage = der Druck + die Luft + die Bremse + die Anlage", "tr": "basınç + hava + fren + tesisat = havalı fren sistemi"}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Ausbilder",
+        "user_role_tr": "Sınav adayı (otobüs şoförü adayı)",
+        "scenario_tr": "Eğitmeniniz sizi IHK sınavına hazırlıyor ve fren sistemleri ile güvenlik sistemleri hakkında sözlü sorular soruyor. Terimleri doğru kullanarak cevap verin ve gerekirse uzun kelimeleri parçalarına ayırarak açıklayın.",
+        "ai_brief": "You are an experienced driving instructor (Ausbilder) preparing a bus driver candidate (Turkish native speaker, A2-B1 German) for the IHK Berufskraftfahrer exam. Ask about 6 exam-style questions ONE AT A TIME on brake systems and safety systems: Betriebsbremse, Dauerbremse/Retarder (wear-free, relieves the service brake, use on long downhill sections), Feststellbremse, Druckluftbremsanlage, ABS (prevents wheel lock, keeps steering ability), ESP (helps prevent skidding), Reaktionsweg, Bremsweg, Anhalteweg (= Reaktionsweg + Bremsweg), what lengthens them (tiredness, alcohol, distraction, wet or icy road, overload). Use exam wording ('Welche Aussage trifft zu?', 'Was müssen Sie beachten?'), sometimes with options A/B/C. After each answer say 'Richtig' or 'Nicht ganz', give the correct answer briefly in simple German and gently correct key mistakes. Complications: 1) ask the candidate to split a compound word (e.g. 'Was bedeutet Druckluftbremsanlage? Zerlegen Sie das Wort.'), 2) give a false statement like 'Das ABS verkürzt immer den Bremsweg. Stimmt das?' (correct: not always; its main job is keeping the vehicle steerable), 3) ask a 'Warum?' follow-up. Avoid exact distances or formulas you are unsure of. End after about 6 questions with short feedback and a score.",
+        "opener_de": "Moin! Heute wiederholen wir Bremsanlagen. Erste Frage: Welche Bremsen hat ein Bus, und wofür benutzen Sie die Dauerbremse?"
+      }
+    },
+    {
+      "id": "w9d3",
+      "day": 3,
+      "title_de": "Lenk- und Ruhezeiten",
+      "title_tr": "Sürüş ve dinlenme süreleri",
+      "goal_tr": "Lenkzeit, Ruhezeit, Arbeitszeit ve takograf gibi kavramları Almanca açıklayabilirsiniz. Kurallardaki 'muss', 'darf nicht' ve 'ist verpflichtet' ifadelerini doğru anlayabilirsiniz.",
+      "words": [
+        {"de": "die Lenkzeit", "pl": "die Lenkzeiten", "tr": "direksiyon (sürüş) süresi", "ex_de": "Die Lenkzeit ist die Zeit, in der Sie den Bus fahren.", "ex_tr": "Direksiyon süresi, otobüsü sürdüğünüz zamandır."},
+        {"de": "die Ruhezeit", "pl": "die Ruhezeiten", "tr": "dinlenme süresi", "ex_de": "In der Ruhezeit können Sie frei über Ihre Zeit verfügen.", "ex_tr": "Dinlenme süresinde zamanınızı serbestçe kullanabilirsiniz."},
+        {"de": "die Fahrtunterbrechung", "pl": "die Fahrtunterbrechungen", "tr": "sürüş molası", "ex_de": "Nach einer bestimmten Lenkzeit ist eine Fahrtunterbrechung vorgeschrieben.", "ex_tr": "Belirli bir sürüş süresinden sonra mola zorunludur."},
+        {"de": "die Arbeitszeit", "pl": "die Arbeitszeiten", "tr": "çalışma süresi", "ex_de": "Auch die Abfahrtkontrolle gehört zur Arbeitszeit.", "ex_tr": "Hareket öncesi kontrol de çalışma süresine dahildir."},
+        {"de": "die Bereitschaftszeit", "pl": "die Bereitschaftszeiten", "tr": "hazır bekleme süresi", "ex_de": "Während der Bereitschaftszeit müssen Sie erreichbar sein.", "ex_tr": "Hazır bekleme süresinde ulaşılabilir olmalısınız."},
+        {"de": "der Fahrtenschreiber", "pl": "die Fahrtenschreiber", "tr": "takograf (sürüş kayıt cihazı)", "ex_de": "Der Fahrtenschreiber zeichnet Lenk- und Ruhezeiten auf.", "ex_tr": "Takograf sürüş ve dinlenme sürelerini kaydeder."},
+        {"de": "der Tachograf", "pl": "die Tachografen", "tr": "takograf", "ex_de": "Der digitale Tachograf speichert die Daten im Gerät und auf der Fahrerkarte.", "ex_tr": "Dijital takograf verileri cihazda ve sürücü kartında saklar."},
+        {"de": "die Fahrerkarte", "pl": "die Fahrerkarten", "tr": "sürücü kartı", "ex_de": "Die Fahrerkarte ist persönlich und darf nicht weitergegeben werden.", "ex_tr": "Sürücü kartı kişiseldir ve başkasına verilemez."},
+        {"de": "aufzeichnen (hat aufgezeichnet)", "pl": "", "tr": "kaydetmek", "ex_de": "Das Gerät zeichnet auch die Geschwindigkeit auf.", "ex_tr": "Cihaz hızı da kaydeder."},
+        {"de": "das Bußgeld", "pl": "die Bußgelder", "tr": "para cezası", "ex_de": "Bei Verstößen können der Fahrer und der Unternehmer ein Bußgeld bekommen.", "ex_tr": "İhlallerde hem sürücü hem de işletme sahibi para cezası alabilir."},
+        {"de": "der Ausdruck", "pl": "die Ausdrucke", "tr": "çıktı (yazıcı çıktısı)", "ex_de": "Bei einer Kontrolle kann die Polizei einen Ausdruck verlangen.", "ex_tr": "Bir kontrolde polis çıktı isteyebilir."},
+        {"de": "der Linienverkehr", "pl": "", "tr": "hat taşımacılığı (düzenli hat seferleri)", "ex_de": "Im Linienverkehr bis 50 Kilometer gelten zum Teil besondere Regeln.", "ex_tr": "50 kilometreye kadar olan hat taşımacılığında kısmen özel kurallar geçerlidir."}
+      ],
+      "phrases": [
+        {"de": "Der Fahrer ist verpflichtet, die Lenk- und Ruhezeiten einzuhalten.", "tr": "Sürücü, sürüş ve dinlenme sürelerine uymakla yükümlüdür."},
+        {"de": "Sie dürfen die Fahrerkarte eines Kollegen nicht benutzen.", "tr": "Bir meslektaşınızın sürücü kartını kullanamazsınız."},
+        {"de": "Die Fahrerkarte muss vor Fahrtantritt eingesteckt werden.", "tr": "Sürücü kartı yola çıkmadan önce takılmalıdır."},
+        {"de": "Ein Verstoß gegen die Lenkzeiten ist eine Ordnungswidrigkeit.", "tr": "Sürüş sürelerinin ihlali bir kabahattir (idari suçtur)."},
+        {"de": "Wann müssen Sie eine Pause einlegen?", "tr": "Ne zaman mola vermeniz gerekir?"},
+        {"de": "Die Arbeitszeiten müssen dokumentiert werden.", "tr": "Çalışma sürelerinin belgelenmesi gerekir."}
+      ],
+      "dialog": {
+        "title_tr": "Sözlü sınav: sosyal mevzuat",
+        "lines": [
+          {"who": "Prüfer", "de": "Kommen wir zu den Sozialvorschriften. Was ist der Unterschied zwischen Lenkzeit und Arbeitszeit?", "tr": "Sosyal mevzuata geçelim. Direksiyon süresi ile çalışma süresi arasındaki fark nedir?"},
+          {"who": "Prüfling", "de": "Lenkzeit ist nur die Zeit am Steuer. Zur Arbeitszeit gehören auch andere Arbeiten, zum Beispiel die Abfahrtkontrolle.", "tr": "Direksiyon süresi sadece direksiyonda geçen zamandır. Çalışma süresine başka işler de dahildir, örneğin hareket öncesi kontrol."},
+          {"who": "Prüfer", "de": "Richtig. Was zeichnet der Fahrtenschreiber auf?", "tr": "Doğru. Takograf neleri kaydeder?"},
+          {"who": "Prüfling", "de": "Er zeichnet Lenkzeiten, andere Arbeiten, Pausen, Ruhezeiten und die Geschwindigkeit auf.", "tr": "Sürüş sürelerini, diğer işleri, molaları, dinlenme sürelerini ve hızı kaydeder."},
+          {"who": "Prüfer", "de": "Darf ein Kollege Ihre Fahrerkarte benutzen?", "tr": "Bir meslektaşınız sürücü kartınızı kullanabilir mi?"},
+          {"who": "Prüfling", "de": "Nein, die Fahrerkarte ist persönlich. Jeder Fahrer darf nur seine eigene Karte benutzen.", "tr": "Hayır, sürücü kartı kişiseldir. Her sürücü sadece kendi kartını kullanabilir."},
+          {"who": "Prüfer", "de": "Und was passiert bei einem Verstoß gegen die Lenk- und Ruhezeiten?", "tr": "Peki sürüş ve dinlenme sürelerinin ihlalinde ne olur?"},
+          {"who": "Prüfling", "de": "Dann droht ein Bußgeld, für den Fahrer und auch für den Unternehmer.", "tr": "O zaman hem sürücüye hem de işletme sahibine para cezası verilebilir."},
+          {"who": "Prüfer", "de": "Sehr gut, das trifft zu.", "tr": "Çok iyi, bu doğru."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Kurallarda modal fiiller",
+        "explain_tr": "Kurallarda en sık bu ifadeler kullanılır. 'muss' = zorunda (zorunluluk). 'darf nicht' = yasak. 'ist verpflichtet, ... zu + fiil' = yükümlüdür (resmi dil). Dikkat: 'muss nicht' yasak demek DEĞİLDİR, 'zorunda değil' demektir. 'darf' tek başına 'izin var' anlamına gelir. Modal fiil ikinci sırada, asıl fiil cümlenin sonunda mastar hâlinde durur.",
+        "examples": [
+          {"de": "Der Fahrer muss die Ruhezeiten einhalten.", "tr": "Sürücü dinlenme sürelerine uymak zorundadır."},
+          {"de": "Sie dürfen die Fahrerkarte nicht weitergeben.", "tr": "Sürücü kartını başkasına veremezsiniz (yasak)."},
+          {"de": "Der Unternehmer ist verpflichtet, die Arbeitszeiten zu kontrollieren.", "tr": "İşletme sahibi çalışma sürelerini kontrol etmekle yükümlüdür."},
+          {"de": "Während der Ruhezeit müssen Sie nicht erreichbar sein.", "tr": "Dinlenme süresinde ulaşılabilir olmak zorunda değilsiniz."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Prüfer",
+        "user_role_tr": "Sınav adayı (otobüs şoförü adayı)",
+        "scenario_tr": "IHK sözlü sınavında sınav görevlisi size sürüş ve dinlenme süreleri, takograf ve sürücü kartı hakkında sorular soruyor. Kavramları açıklayın ve kuralları 'muss', 'darf nicht', 'ist verpflichtet' ile doğru ifade edin.",
+        "ai_brief": "You are an IHK examiner (Prüfer) for the Berufskraftfahrer-Grundqualifikation, bus. The candidate is a Turkish native speaker (A2-B1 German). Ask about 6 questions ONE AT A TIME on: Lenkzeit vs. Arbeitszeit vs. Bereitschaftszeit vs. Ruhezeit, Fahrtunterbrechung, Fahrtenschreiber/digitaler Tachograf (what it records), Fahrerkarte (personal, not transferable, must be inserted before driving), Ausdruck at roadside checks, consequences of violations (Bußgeld for driver and company), and that scheduled urban bus services (Linienverkehr up to 50 km) partly follow special national rules. IMPORTANT: do not test or state exact legal hour/minute figures; focus on the concepts and the vocabulary. If the candidate gives numbers, do not confirm or reject specific figures - say they should check them in the current course material. Use exam wording ('Welche Aussage trifft zu?', 'Was müssen Sie beachten?'). After each answer say 'Richtig' or 'Nicht ganz', explain briefly in simple German, and correct modal verbs gently (especially 'muss nicht' vs. 'darf nicht'). Complications: 1) ask 'Ein Kollege hat seine Fahrerkarte vergessen und möchte Ihre benutzen. Was sagen Sie?', 2) ask the candidate to formulate a rule with 'ist verpflichtet, ... zu', 3) a trick question with 'nicht'. Finish after about 6 questions with a short score and one tip.",
+        "opener_de": "Guten Tag! Heute geht es um die Sozialvorschriften. Erste Frage: Erklären Sie bitte den Unterschied zwischen Lenkzeit und Ruhezeit."
+      }
+    },
+    {
+      "id": "w9d4",
+      "day": 4,
+      "title_de": "Fahrgastsicherheit, Maße & Gewichte",
+      "title_tr": "Yolcu güvenliği, ölçüler ve ağırlıklar",
+      "goal_tr": "Otobüsteki güvenlik donanımını ve ağırlıkla ilgili terimleri Almanca söyleyebilirsiniz. Edilgen (Passiv) yapıdaki kuralları anlayıp kendiniz kurabilirsiniz.",
+      "words": [
+        {"de": "die Achslast", "pl": "die Achslasten", "tr": "dingil yükü", "ex_de": "Die zulässige Achslast darf nicht überschritten werden.", "ex_tr": "İzin verilen dingil yükü aşılmamalıdır."},
+        {"de": "das zulässige Gesamtgewicht", "pl": "", "tr": "izin verilen azami toplam ağırlık", "ex_de": "Das zulässige Gesamtgewicht steht in den Fahrzeugpapieren.", "ex_tr": "İzin verilen azami toplam ağırlık araç belgelerinde yazar."},
+        {"de": "die Fahrzeughöhe", "pl": "die Fahrzeughöhen", "tr": "araç yüksekliği", "ex_de": "Achten Sie bei Brücken und Durchfahrten auf die Fahrzeughöhe.", "ex_tr": "Köprülerde ve geçitlerde araç yüksekliğine dikkat edin."},
+        {"de": "der Sicherheitsgurt", "pl": "die Sicherheitsgurte", "tr": "emniyet kemeri", "ex_de": "Im Reisebus müssen die Fahrgäste die Sicherheitsgurte anlegen.", "ex_tr": "Tur otobüsünde yolcular emniyet kemerlerini takmak zorundadır."},
+        {"de": "sich anschnallen (hat sich angeschnallt)", "pl": "", "tr": "kemer takmak", "ex_de": "Bitte schnallen Sie sich vor der Abfahrt an.", "ex_tr": "Lütfen hareketten önce kemerinizi takın."},
+        {"de": "der Notausstieg", "pl": "die Notausstiege", "tr": "acil çıkış", "ex_de": "Der Notausstieg muss immer frei bleiben.", "ex_tr": "Acil çıkış her zaman boş kalmalıdır."},
+        {"de": "der Nothammer", "pl": "die Nothämmer", "tr": "acil durum çekici", "ex_de": "Mit dem Nothammer kann man im Notfall eine Scheibe einschlagen.", "ex_tr": "Acil durumda acil durum çekiciyle cam kırılabilir."},
+        {"de": "der Feuerlöscher", "pl": "die Feuerlöscher", "tr": "yangın söndürücü", "ex_de": "Der Feuerlöscher muss regelmäßig geprüft werden.", "ex_tr": "Yangın söndürücü düzenli olarak kontrol edilmelidir."},
+        {"de": "der Verbandkasten", "pl": "die Verbandkästen", "tr": "ilk yardım çantası", "ex_de": "Prüfen Sie, ob der Verbandkasten vollständig ist.", "ex_tr": "İlk yardım çantasının eksiksiz olup olmadığını kontrol edin."},
+        {"de": "die Ladung", "pl": "die Ladungen", "tr": "yük", "ex_de": "Die Ladung muss so gesichert sein, dass sie nicht verrutscht.", "ex_tr": "Yük kaymayacak şekilde sabitlenmiş olmalıdır."},
+        {"de": "das Gepäck", "pl": "", "tr": "bagaj, valiz", "ex_de": "Schweres Gepäck gehört in den Gepäckraum.", "ex_tr": "Ağır bagaj bagaj bölümüne konur."},
+        {"de": "sichern (hat gesichert)", "pl": "", "tr": "sabitlemek, emniyete almak", "ex_de": "Der Kinderwagen muss mit der Bremse gesichert werden.", "ex_tr": "Bebek arabası freniyle sabitlenmelidir."}
+      ],
+      "phrases": [
+        {"de": "Die Notausstiege müssen freigehalten werden.", "tr": "Acil çıkışlar boş tutulmalıdır."},
+        {"de": "Das zulässige Gesamtgewicht darf nicht überschritten werden.", "tr": "İzin verilen azami toplam ağırlık aşılmamalıdır."},
+        {"de": "Vor der Fahrt wird geprüft, ob Nothammer und Feuerlöscher vorhanden sind.", "tr": "Sürüşten önce acil durum çekici ve yangın söndürücünün olup olmadığı kontrol edilir."},
+        {"de": "Die Fahrgäste müssen auf die Gurtpflicht hingewiesen werden.", "tr": "Yolculara kemer takma zorunluluğu hatırlatılmalıdır."},
+        {"de": "Der Gang muss frei bleiben.", "tr": "Koridor boş kalmalıdır."},
+        {"de": "Bei Überladung verlängert sich der Bremsweg.", "tr": "Aşırı yüklemede fren mesafesi uzar."}
+      ],
+      "dialog": {
+        "title_tr": "Tur otobüsünde hareket öncesi kontrol",
+        "lines": [
+          {"who": "Ausbilder", "de": "Wir machen jetzt die Abfahrtkontrolle im Fahrgastraum. Was prüfen Sie zuerst?", "tr": "Şimdi yolcu bölümünde hareket öncesi kontrol yapıyoruz. Önce neyi kontrol edersiniz?"},
+          {"who": "Fahrschüler", "de": "Ich prüfe, ob alle Notausstiege frei und gut gekennzeichnet sind.", "tr": "Tüm acil çıkışların boş ve iyi işaretlenmiş olup olmadığını kontrol ederim."},
+          {"who": "Ausbilder", "de": "Gut. Was muss außerdem an Bord sein?", "tr": "İyi. Başka neler araçta bulunmalı?"},
+          {"who": "Fahrschüler", "de": "Die Nothämmer, der Feuerlöscher und der Verbandkasten.", "tr": "Acil durum çekiçleri, yangın söndürücü ve ilk yardım çantası."},
+          {"who": "Ausbilder", "de": "Am Feuerlöscher ist eine Prüfplakette. Worauf achten Sie?", "tr": "Yangın söndürücünün üzerinde bir kontrol etiketi var. Neye dikkat edersiniz?"},
+          {"who": "Fahrschüler", "de": "Ich achte darauf, dass der Prüftermin nicht abgelaufen ist.", "tr": "Kontrol tarihinin geçmemiş olmasına dikkat ederim."},
+          {"who": "Ausbilder", "de": "Die Reisegruppe hat viel Gepäck. Was ist wichtig?", "tr": "Tur grubunun çok bagajı var. Ne önemli?"},
+          {"who": "Fahrschüler", "de": "Schweres Gepäck wird im Gepäckraum gesichert. Der Gang muss frei bleiben, und das zulässige Gesamtgewicht darf nicht überschritten werden.", "tr": "Ağır bagaj bagaj bölümünde sabitlenir. Koridor boş kalmalı ve izin verilen azami toplam ağırlık aşılmamalıdır."},
+          {"who": "Ausbilder", "de": "Sehr gut. Und direkt vor der Abfahrt?", "tr": "Çok iyi. Peki hareketten hemen önce?"},
+          {"who": "Fahrschüler", "de": "Ich weise die Fahrgäste darauf hin, dass sie sich anschnallen müssen.", "tr": "Yolculara kemer takmaları gerektiğini hatırlatırım."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Kurallarda edilgen yapı (Passiv)",
+        "explain_tr": "Kurallarda ve yönetmeliklerde çoğunlukla edilgen yapı (Passiv) kullanılır, çünkü işi kimin yaptığı değil, ne yapılması gerektiği önemlidir. Passiv: werden + Partizip II, örneğin 'wird geprüft' (kontrol edilir). Modal fiille: muss / darf nicht + Partizip II + werden, örneğin 'muss freigehalten werden' (boş tutulmalıdır). 'werden' ve modal fiil çekimlenir, diğerleri cümlenin sonuna gider.",
+        "examples": [
+          {"de": "Der Notausstieg muss freigehalten werden.", "tr": "Acil çıkış boş tutulmalıdır."},
+          {"de": "Der Feuerlöscher wird regelmäßig geprüft.", "tr": "Yangın söndürücü düzenli olarak kontrol edilir."},
+          {"de": "Das Gepäck muss gesichert werden.", "tr": "Bagaj sabitlenmelidir."},
+          {"de": "Die Achslast darf nicht überschritten werden.", "tr": "Dingil yükü aşılmamalıdır."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Prüfer",
+        "user_role_tr": "Sınav adayı (otobüs şoförü adayı)",
+        "scenario_tr": "IHK sözlü sınavında sınav görevlisi size yolcu güvenliği, güvenlik donanımı ve araç ağırlıkları hakkında sorular soruyor. Cevaplarınızda mümkün olduğunca Passiv kullanın (örneğin 'muss freigehalten werden').",
+        "ai_brief": "You are an IHK examiner (Prüfer) for the Berufskraftfahrer-Grundqualifikation, bus. The candidate is a Turkish native speaker (A2-B1 German). Ask about 6 questions ONE AT A TIME on passenger safety and vehicle dimensions/weights: Achslast, zulässiges Gesamtgewicht (where to find it, consequences of overloading such as longer braking distance and worse handling), Fahrzeughöhe at bridges, Sicherheitsgurt and informing passengers about the obligation to wear belts where fitted, Notausstieg (must be kept free, marked), Nothammer, Feuerlöscher (inspection label), Verbandkasten, securing luggage/load and keeping the aisle free, securing a pram. Do not state exact legal weights or dimensions. Use exam wording ('Was müssen Sie vor der Abfahrt prüfen?', 'Welche Aussage trifft zu?'). Encourage the candidate to answer with passive rules ('... muss geprüft werden'); if they use active voice, accept it but show the passive version. After each answer say 'Richtig' or 'Nicht ganz', explain briefly in simple German. Complications: 1) 'Ein Fahrgast stellt einen großen Koffer in den Gang. Was tun Sie?', 2) 'Der Feuerlöscher hat eine abgelaufene Prüfplakette. Dürfen Sie losfahren? Was tun Sie?' (correct direction: report it to the company/workshop and do not ignore it), 3) a trick question with 'nicht'. Finish after about 6 questions with a short score and one tip.",
+        "opener_de": "Guten Tag! Wir sprechen heute über Fahrgastsicherheit. Erste Frage: Welche Sicherheitsausrüstung muss im Bus vorhanden sein, und was prüfen Sie daran?"
+      }
+    },
+    {
+      "id": "w9d5",
+      "day": 5,
+      "title_de": "Recht, Gesundheit & Gefahren",
+      "title_tr": "Hukuk, sağlık ve tehlikeler",
+      "goal_tr": "Yolcu taşımacılığı hukuku, sağlık ve acil durumlarla ilgili temel terimleri Almanca kullanabilirsiniz. 'Wenn ..., dann ...' yapısıyla kuralları ve sonuçlarını anlatabilirsiniz.",
+      "words": [
+        {"de": "das Personenbeförderungsgesetz (PBefG)", "pl": "", "tr": "Yolcu Taşımacılığı Kanunu", "ex_de": "Das Personenbeförderungsgesetz regelt die gewerbliche Beförderung von Fahrgästen.", "ex_tr": "Yolcu Taşımacılığı Kanunu yolcuların ticari taşınmasını düzenler."},
+        {"de": "die Beförderungspflicht", "pl": "", "tr": "taşıma yükümlülüğü", "ex_de": "Im Linienverkehr gibt es grundsätzlich eine Beförderungspflicht.", "ex_tr": "Hat taşımacılığında prensip olarak taşıma yükümlülüğü vardır."},
+        {"de": "die Haftung", "pl": "", "tr": "(hukuki) sorumluluk", "ex_de": "Nach einem Unfall wird die Haftung geklärt.", "ex_tr": "Bir kazadan sonra sorumluluk netleştirilir."},
+        {"de": "fahrlässig", "pl": "", "tr": "ihmalkâr, dikkatsiz", "ex_de": "Wer mit dem Handy am Steuer fährt, handelt fahrlässig.", "ex_tr": "Direksiyonda cep telefonuyla süren kişi ihmalkâr davranır."},
+        {"de": "das Medikament", "pl": "die Medikamente", "tr": "ilaç", "ex_de": "Manche Medikamente machen müde.", "ex_tr": "Bazı ilaçlar yorgunluk yapar."},
+        {"de": "die Fahrtüchtigkeit", "pl": "", "tr": "araç kullanabilme durumu (sürüşe elverişlilik)", "ex_de": "Alkohol und Müdigkeit verringern die Fahrtüchtigkeit.", "ex_tr": "Alkol ve yorgunluk araç kullanabilme yeteneğini azaltır."},
+        {"de": "die Müdigkeit", "pl": "", "tr": "yorgunluk, uykulu olma", "ex_de": "Gegen Müdigkeit hilft nur eine Pause oder Schlaf.", "ex_tr": "Yorgunluğa karşı sadece mola veya uyku yardımcı olur."},
+        {"de": "der Sekundenschlaf", "pl": "", "tr": "mikro uyku (saniyelik uyuklama)", "ex_de": "Sekundenschlaf ist eine häufige Unfallursache.", "ex_tr": "Mikro uyku sık görülen bir kaza nedenidir."},
+        {"de": "die Ernährung", "pl": "", "tr": "beslenme", "ex_de": "Eine leichte Ernährung und viel Wasser halten Sie im Dienst fit.", "ex_tr": "Hafif beslenme ve bol su sizi işte zinde tutar."},
+        {"de": "der Brand", "pl": "die Brände", "tr": "yangın", "ex_de": "Bei einem Brand im Bus müssen alle Fahrgäste sofort aussteigen.", "ex_tr": "Otobüste yangın çıktığında tüm yolcular hemen inmelidir."},
+        {"de": "evakuieren (hat evakuiert)", "pl": "", "tr": "tahliye etmek", "ex_de": "Der Fahrer evakuiert den Bus und ruft die Feuerwehr unter 112.", "ex_tr": "Sürücü otobüsü tahliye eder ve 112'den itfaiyeyi arar."},
+        {"de": "deeskalieren (hat deeskaliert)", "pl": "", "tr": "gerginliği azaltmak, yatıştırmak", "ex_de": "Bleiben Sie ruhig und versuchen Sie zu deeskalieren.", "ex_tr": "Sakin kalın ve gerginliği azaltmaya çalışın."}
+      ],
+      "phrases": [
+        {"de": "Während des Dienstes ist Alkohol verboten.", "tr": "Görev sırasında alkol yasaktır."},
+        {"de": "Wenn Sie Medikamente nehmen, lesen Sie den Beipackzettel.", "tr": "İlaç alıyorsanız prospektüsü okuyun."},
+        {"de": "Bei Bedrohung informieren Sie die Leitstelle oder die Polizei unter 110.", "tr": "Tehdit durumunda kontrol merkezine veya 110'dan polise haber verin."},
+        {"de": "Anhalten, Motor abstellen, Türen öffnen, Fahrgäste aussteigen lassen.", "tr": "Durmak, motoru kapatmak, kapıları açmak, yolcuları indirmek."},
+        {"de": "Sichern Sie die Unfallstelle ab.", "tr": "Kaza yerini emniyete alın."},
+        {"de": "Wer grob fahrlässig handelt, muss mit Konsequenzen rechnen.", "tr": "Ağır ihmalle davranan kişi sonuçlarına katlanmak zorunda kalır."}
+      ],
+      "dialog": {
+        "title_tr": "Sözlü sınav: acil durumlar ve sağlık",
+        "lines": [
+          {"who": "Prüfer", "de": "Letztes Thema: Gefahren. Was tun Sie, wenn während der Fahrt Rauch aus dem Motorraum kommt?", "tr": "Son konu: tehlikeler. Sürüş sırasında motor bölümünden duman çıkarsa ne yaparsınız?"},
+          {"who": "Prüfling", "de": "Ich halte sofort an einer sicheren Stelle an, stelle den Motor ab und öffne alle Türen.", "tr": "Hemen güvenli bir yerde dururum, motoru kapatırım ve tüm kapıları açarım."},
+          {"who": "Prüfer", "de": "Und dann?", "tr": "Peki sonra?"},
+          {"who": "Prüfling", "de": "Ich evakuiere den Bus und rufe die Feuerwehr unter 112. Wenn es ohne Gefahr möglich ist, lösche ich den Brand mit dem Feuerlöscher.", "tr": "Otobüsü tahliye ederim ve 112'den itfaiyeyi ararım. Tehlikesizse yangını yangın söndürücüyle söndürürüm."},
+          {"who": "Prüfer", "de": "Gut. Welche Aussage trifft zu: Gegen Sekundenschlaf hilft lautes Radio.", "tr": "İyi. Bu ifade doğru mu: Mikro uykuya karşı yüksek sesli radyo yardımcı olur."},
+          {"who": "Prüfling", "de": "Das trifft nicht zu. Wenn ich müde bin, hilft nur eine Pause oder Schlaf.", "tr": "Bu doğru değil. Yorgunsam sadece mola veya uyku yardımcı olur."},
+          {"who": "Prüfer", "de": "Richtig. Ein Fahrgast wird aggressiv und bedroht andere. Wie verhalten Sie sich?", "tr": "Doğru. Bir yolcu saldırganlaşıyor ve başkalarını tehdit ediyor. Nasıl davranırsınız?"},
+          {"who": "Prüfling", "de": "Ich bleibe ruhig, versuche zu deeskalieren und informiere die Leitstelle. Wenn nötig, rufe ich die Polizei unter 110.", "tr": "Sakin kalırım, gerginliği azaltmaya çalışırım ve kontrol merkezine haber veririm. Gerekirse 110'dan polisi ararım."},
+          {"who": "Prüfer", "de": "Sehr gut. Damit sind wir am Ende der Prüfung.", "tr": "Çok iyi. Böylece sınavın sonuna geldik."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Wenn-dann kuralları ve sonuçlar",
+        "explain_tr": "'Wenn' (eğer / -dığında) bir koşul bildirir ve fiil yan cümlenin sonuna gider. Ana cümle fiille başlar: 'Wenn Sie müde sind, machen Sie eine Pause.' 'dann' kelimesi isteğe bağlıdır. 'Wer ..., (der) ...' yapısı da kurallarda sık kullanılır: 'Wer ... verstößt, muss ... rechnen' = '... ihlal eden kişi ... beklemelidir'. Bu yapıyla bir kuralı ve sonucunu kolayca anlatabilirsiniz.",
+        "examples": [
+          {"de": "Wenn Sie müde sind, machen Sie eine Pause.", "tr": "Yorgunsanız mola verin."},
+          {"de": "Wenn der Bus brennt, müssen alle Fahrgäste sofort aussteigen.", "tr": "Otobüs yanarsa tüm yolcular hemen inmelidir."},
+          {"de": "Wenn Sie Alkohol getrunken haben, dürfen Sie nicht fahren.", "tr": "Alkol içtiyseniz araç kullanamazsınız."},
+          {"de": "Wer gegen die Vorschriften verstößt, muss mit einem Bußgeld rechnen.", "tr": "Kurallara aykırı davranan kişi para cezası beklemelidir."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Prüfer",
+        "user_role_tr": "Sınav adayı (otobüs şoförü adayı)",
+        "scenario_tr": "IHK sözlü sınavının son bölümündesiniz. Sınav görevlisi size hukuk, sağlık ve acil durumlar hakkında sorular soruyor. Cevaplarınızda 'Wenn ..., dann ...' yapısını kullanarak kuralları ve sonuçlarını açıklayın.",
+        "ai_brief": "You are an IHK examiner (Prüfer) for the Berufskraftfahrer-Grundqualifikation, bus. The candidate is a Turkish native speaker (A2-B1 German). Ask about 6 questions ONE AT A TIME on law, health and dangers: Personenbeförderungsgesetz (regulates commercial passenger transport), Beförderungspflicht in scheduled services, Haftung and gross negligence, alcohol ban on duty, medication (read the leaflet, ask a doctor), tiredness and microsleep (only a break or sleep helps; radio or open window do not), healthy diet and drinking enough water, crime and aggression on the bus (stay calm, de-escalate, no violence, inform the control centre, police 110), fire in the bus (stop safely, engine off, open doors, evacuate, call 112, fight the fire only without danger), securing an accident scene. Do not state exact legal limits (per mille values, fines). Use exam wording ('Welche Aussage trifft zu?', 'Wie verhalten Sie sich richtig?'), sometimes with options A/B/C. Encourage answers with 'Wenn ..., dann ...'. After each answer say 'Richtig' or 'Nicht ganz', explain briefly in simple German, gently correct word order in wenn-clauses. Complications: 1) a false statement such as 'Kaffee und lautes Radio helfen sicher gegen Müdigkeit. Stimmt das?', 2) 'Ein Fahrgast ist betrunken und beleidigt Sie. Was tun Sie?', 3) ask the order of steps for a bus fire. Finish after about 6 questions with a short score, praise, and one tip for the real exam.",
+        "opener_de": "Guten Tag! Das ist der letzte Teil der Prüfung: Recht, Gesundheit und Gefahren. Erste Frage: Was tun Sie, wenn Sie während der Fahrt merken, dass Sie sehr müde werden?"
+      }
+    }
+  ]
+}

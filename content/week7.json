@@ -1,0 +1,307 @@
+{
+  "week": 7,
+  "title_de": "Arbeitsalltag",
+  "title_tr": "Günlük iş hayatı",
+  "lessons": [
+    {
+      "id": "w7d1",
+      "day": 1,
+      "title_de": "Dienstplan und Schichten",
+      "title_tr": "Görev planı ve vardiyalar",
+      "goal_tr": "Kendi görev planını okuyup vardiyalarını (erken, geç, gece) Almanca anlatabilirsin. Gün ve saatleri doğru edatlarla (am, um, von…bis, ab, im) söyleyebilirsin.",
+      "words": [
+        {"de": "der Dienstplan", "pl": "die Dienstpläne", "tr": "görev planı, vardiya çizelgesi", "ex_de": "Hast du schon den neuen Dienstplan gesehen?", "ex_tr": "Yeni görev planını gördün mü?"},
+        {"de": "die Schicht", "pl": "die Schichten", "tr": "vardiya", "ex_de": "Meine Schicht dauert heute acht Stunden.", "ex_tr": "Bugün vardiyam sekiz saat sürüyor."},
+        {"de": "der Frühdienst", "pl": "die Frühdienste", "tr": "erken vardiya, sabah vardiyası", "ex_de": "Im Frühdienst muss ich um vier Uhr aufstehen.", "ex_tr": "Erken vardiyada saat dörtte kalkmam gerekiyor."},
+        {"de": "der Spätdienst", "pl": "die Spätdienste", "tr": "geç vardiya, akşam vardiyası", "ex_de": "Diese Woche habe ich Spätdienst bis kurz nach Mitternacht.", "ex_tr": "Bu hafta gece yarısından biraz sonrasına kadar geç vardiyam var."},
+        {"de": "der Nachtdienst", "pl": "die Nachtdienste", "tr": "gece vardiyası", "ex_de": "Am Wochenende habe ich Nachtdienst und fahre einen Nachtbus.", "ex_tr": "Hafta sonu gece vardiyam var ve bir gece otobüsü sürüyorum."},
+        {"de": "der geteilte Dienst", "pl": "die geteilten Dienste", "tr": "bölünmüş vardiya (arada uzun boşluk olan)", "ex_de": "Beim geteilten Dienst arbeite ich morgens und nachmittags, mittags habe ich frei.", "ex_tr": "Bölünmüş vardiyada sabah ve öğleden sonra çalışıyorum, öğlen boşum."},
+        {"de": "der Dienstbeginn", "pl": "", "tr": "işbaşı, vardiya başlangıcı", "ex_de": "Mein Dienstbeginn ist morgen um 5:40 Uhr auf dem Betriebshof.", "ex_tr": "Yarın işbaşım saat 5:40'ta garajda."},
+        {"de": "das Dienstende", "pl": "", "tr": "vardiya bitişi, mesai sonu", "ex_de": "Nach Dienstende fahre ich mit der U-Bahn nach Hause.", "ex_tr": "Mesai bitince metroyla eve gidiyorum."},
+        {"de": "die Ablösung", "pl": "die Ablösungen", "tr": "nöbet devri; beni devralan şoför", "ex_de": "Meine Ablösung kommt um 10:15 Uhr an die Haltestelle Wandsbek Markt.", "ex_tr": "Beni devralacak şoför saat 10:15'te Wandsbek Markt durağına geliyor."},
+        {"de": "ablösen (hat abgelöst)", "pl": "", "tr": "(birinin) yerine geçmek, nöbeti devralmak", "ex_de": "Ich löse dich um halb zwei in Barmbek ab.", "ex_tr": "Saat bir buçukta Barmbek'te seni devralıyorum."},
+        {"de": "die Pause", "pl": "die Pausen", "tr": "mola", "ex_de": "An der Endhaltestelle mache ich zehn Minuten Pause.", "ex_tr": "Son durakta on dakika mola veriyorum."},
+        {"de": "die Wendezeit", "pl": "die Wendezeiten", "tr": "son durakta dönüşten önceki bekleme süresi", "ex_de": "Wegen des Staus ist meine Wendezeit heute sehr kurz.", "ex_tr": "Trafik sıkışıklığı yüzünden bugün son duraktaki bekleme sürem çok kısa."}
+      ],
+      "phrases": [
+        {"de": "Wann fängt mein Dienst an?", "tr": "Görevim ne zaman başlıyor?"},
+        {"de": "Ich habe diese Woche Frühdienst.", "tr": "Bu hafta erken vardiyadayım."},
+        {"de": "Wer löst mich ab?", "tr": "Beni kim devralıyor?"},
+        {"de": "Wo findet die Ablösung statt?", "tr": "Devir nerede yapılıyor?"},
+        {"de": "Ab wann gilt der neue Dienstplan?", "tr": "Yeni görev planı ne zamandan itibaren geçerli?"},
+        {"de": "Ich bin pünktlich zur Ablösung da.", "tr": "Devir için zamanında orada olacağım."}
+      ],
+      "dialog": {
+        "title_tr": "Görev planına bakarken",
+        "lines": [
+          {"who": "Kollege", "de": "Moin! Hast du schon den neuen Dienstplan gesehen?", "tr": "Selam! Yeni görev planını gördün mü?"},
+          {"who": "Busfahrer", "de": "Ja, gerade eben. Ab Montag habe ich Frühdienst.", "tr": "Evet, az önce. Pazartesiden itibaren erken vardiyadayım."},
+          {"who": "Kollege", "de": "Um wie viel Uhr ist dein Dienstbeginn?", "tr": "İşbaşın saat kaçta?"},
+          {"who": "Busfahrer", "de": "Um 5:10 Uhr auf dem Betriebshof. Und am Donnerstag habe ich einen geteilten Dienst.", "tr": "Saat 5:10'da garajda. Perşembe günü de bölünmüş vardiyam var."},
+          {"who": "Kollege", "de": "Oh, das ist anstrengend. Von wann bis wann?", "tr": "Of, bu yorucu. Saat kaçtan kaça?"},
+          {"who": "Busfahrer", "de": "Von sechs bis zehn und dann von 15 bis 19 Uhr.", "tr": "Altıdan ona kadar, sonra da 15'ten 19'a kadar."},
+          {"who": "Kollege", "de": "Am Freitag löse ich dich übrigens in Barmbek ab, um halb zwölf.", "tr": "Bu arada cuma günü saat on bir buçukta Barmbek'te seni devralıyorum."},
+          {"who": "Busfahrer", "de": "Super. Meine Wendezeit dort ist kurz, also sei bitte pünktlich!", "tr": "Süper. Oradaki bekleme sürem kısa, o yüzden lütfen zamanında gel!"},
+          {"who": "Kollege", "de": "Klar, ich bin fünf Minuten vorher da.", "tr": "Tabii, beş dakika önceden orada olurum."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Zaman edatları: am, um, von…bis, ab, im",
+        "explain_tr": "Günler ve tarihler için 'am' kullanılır: am Montag, am 3. Mai. Saatler için 'um' kullanılır: um 6 Uhr. Bir zaman aralığı için 'von … bis' kullanılır: von 6 bis 14 Uhr. 'ab' bir şeyin başladığı zamanı gösterir: ab Montag (pazartesiden itibaren). Aylar ve mevsimler için 'im' kullanılır: im Juli, im Winter.",
+        "examples": [
+          {"de": "Am Montag habe ich Frühdienst.", "tr": "Pazartesi erken vardiyam var."},
+          {"de": "Mein Dienst beginnt um 5:30 Uhr.", "tr": "Görevim saat 5:30'da başlıyor."},
+          {"de": "Ich arbeite heute von 14 bis 22 Uhr.", "tr": "Bugün saat 14'ten 22'ye kadar çalışıyorum."},
+          {"de": "Ab nächster Woche habe ich Spätdienst, und im Juli habe ich Urlaub.", "tr": "Gelecek haftadan itibaren geç vardiyam var, temmuzda da iznim var."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Disponentin",
+        "user_role_tr": "Otobüs şoförü (yeni)",
+        "scenario_tr": "Planlama görevlisi (Disponentin) seninle gelecek haftanın görev planını konuşuyor. Her günün vardiyasını, başlangıç saatini ve devir yerini doğru anla ve saatleri tekrar ederek onayla. Anlamadığın bir şey olursa sor.",
+        "ai_brief": "You are Frau Krüger, a friendly but busy dispatcher (Disponentin) at a Hamburg bus depot. Speak simple German (A2-B1) and use Sie. Go through next week's roster with the new driver day by day: Monday and Tuesday early shift (Frühdienst) starting around 5 a.m. at the depot, Wednesday a free day, Thursday a split shift (geteilter Dienst) with two parts, Friday a late shift (Spätdienst) that starts with a handover (Ablösung) at a stop such as Wandsbek Markt. Complications: 1) say one time quickly or unclearly so the learner has to ask again; 2) mention that Friday's start time has changed by 30 minutes; 3) ask whether the learner could work on Wednesday instead of having the free day (they may accept or politely decline). Gently correct wrong time prepositions (am/um/von...bis/ab/im) by repeating the correct form. The scene is finished when the learner has repeated the main times correctly and confirmed the roster; then say goodbye.",
+        "opener_de": "Moin! Haben Sie kurz Zeit? Ich möchte mit Ihnen Ihren Dienstplan für nächste Woche durchgehen."
+      }
+    },
+    {
+      "id": "w7d2",
+      "day": 2,
+      "title_de": "Urlaub und Krankmeldung",
+      "title_tr": "İzin ve hastalık bildirimi",
+      "goal_tr": "Telefonla hasta olduğunu bildirebilir, izin talep edebilir ve bir iş arkadaşınla vardiya değişimini konuşabilirsin. 'wenn' ile koşul cümleleri kurabilirsin.",
+      "words": [
+        {"de": "sich krankmelden (hat sich krankgemeldet)", "pl": "", "tr": "hasta olduğunu bildirmek", "ex_de": "Ich muss mich vor Dienstbeginn krankmelden.", "ex_tr": "İşbaşından önce hasta olduğumu bildirmem gerekiyor."},
+        {"de": "die Krankmeldung", "pl": "die Krankmeldungen", "tr": "hastalık bildirimi", "ex_de": "Bitte machen Sie Ihre Krankmeldung so früh wie möglich.", "ex_tr": "Lütfen hastalık bildiriminizi mümkün olduğunca erken yapın."},
+        {"de": "die Krankschreibung", "pl": "die Krankschreibungen", "tr": "doktor raporu, hastalık raporu", "ex_de": "Die Ärztin hat mir eine Krankschreibung für drei Tage gegeben.", "ex_tr": "Doktor bana üç günlük rapor verdi."},
+        {"de": "die AU (Arbeitsunfähigkeitsbescheinigung)", "pl": "die AUs", "tr": "iş göremezlik belgesi, rapor", "ex_de": "Ab wann brauche ich eine AU vom Arzt?", "ex_tr": "Doktordan rapor (AU) ne zamandan itibaren gerekiyor?"},
+        {"de": "der Urlaub", "pl": "die Urlaube", "tr": "yıllık izin, tatil", "ex_de": "Im Sommer möchte ich zwei Wochen Urlaub nehmen.", "ex_tr": "Yazın iki hafta izin almak istiyorum."},
+        {"de": "der Urlaubsantrag", "pl": "die Urlaubsanträge", "tr": "izin talebi, izin dilekçesi", "ex_de": "Ich habe meinen Urlaubsantrag letzte Woche abgegeben.", "ex_tr": "İzin talebimi geçen hafta verdim."},
+        {"de": "beantragen (hat beantragt)", "pl": "", "tr": "talep etmek, başvurmak", "ex_de": "Ich möchte für Oktober eine Woche Urlaub beantragen.", "ex_tr": "Ekim için bir haftalık izin talep etmek istiyorum."},
+        {"de": "genehmigen (hat genehmigt)", "pl": "", "tr": "onaylamak, izin vermek", "ex_de": "Mein Urlaub ist schon genehmigt.", "ex_tr": "İznim çoktan onaylandı."},
+        {"de": "der freie Tag", "pl": "die freien Tage", "tr": "boş gün, izinli gün", "ex_de": "Am Mittwoch habe ich meinen freien Tag.", "ex_tr": "Çarşamba benim boş günüm."},
+        {"de": "die Überstunde", "pl": "die Überstunden", "tr": "fazla mesai (saati)", "ex_de": "Diesen Monat habe ich schon zehn Überstunden gemacht.", "ex_tr": "Bu ay şimdiden on saat fazla mesai yaptım."},
+        {"de": "den Dienst tauschen (hat getauscht)", "pl": "", "tr": "vardiya değiştirmek (takas etmek)", "ex_de": "Kannst du am Samstag mit mir den Dienst tauschen?", "ex_tr": "Cumartesi benimle vardiya değiştirebilir misin?"},
+        {"de": "die Vertretung", "pl": "die Vertretungen", "tr": "vekil, birinin yerine bakan kişi", "ex_de": "Wenn ich krank bin, braucht die Disposition schnell eine Vertretung.", "ex_tr": "Ben hasta olduğumda planlama biriminin hızlıca yerime birini bulması gerekiyor."}
+      ],
+      "phrases": [
+        {"de": "Ich bin leider krank und kann heute nicht fahren.", "tr": "Maalesef hastayım ve bugün araç süremem."},
+        {"de": "Ich gehe heute noch zum Arzt.", "tr": "Bugün doktora gideceğim."},
+        {"de": "Ich melde mich, sobald ich wieder gesund bin.", "tr": "İyileşir iyileşmez haber veririm."},
+        {"de": "Ich möchte gern Urlaub beantragen.", "tr": "İzin talep etmek istiyorum."},
+        {"de": "Würdest du mit mir den Dienst tauschen?", "tr": "Benimle vardiya değiştirir misin?"},
+        {"de": "Muss ich den Tausch bei der Disposition melden?", "tr": "Değişikliği planlama birimine bildirmem gerekiyor mu?"}
+      ],
+      "dialog": {
+        "title_tr": "Sabah erkenden hastalık bildirimi",
+        "lines": [
+          {"who": "Disponent", "de": "Disposition, Schneider, guten Morgen.", "tr": "Planlama birimi, Schneider, günaydın."},
+          {"who": "Busfahrer", "de": "Guten Morgen, hier ist Kaya. Ich muss mich leider krankmelden.", "tr": "Günaydın, ben Kaya. Maalesef hasta olduğumu bildirmem gerekiyor."},
+          {"who": "Disponent", "de": "Oh, das tut mir leid. Was haben Sie denn?", "tr": "Ah, geçmiş olsun. Neyiniz var?"},
+          {"who": "Busfahrer", "de": "Ich habe Fieber und starke Halsschmerzen. Mein Dienstbeginn wäre um 6 Uhr.", "tr": "Ateşim ve şiddetli boğaz ağrım var. İşbaşım saat 6'da olacaktı."},
+          {"who": "Disponent", "de": "Danke, dass Sie so früh anrufen. Dann suche ich jetzt eine Vertretung.", "tr": "Bu kadar erken aradığınız için teşekkürler. O zaman şimdi yerinize birini arıyorum."},
+          {"who": "Busfahrer", "de": "Ich gehe heute zum Arzt und hole mir eine Krankschreibung.", "tr": "Bugün doktora gidip rapor alacağım."},
+          {"who": "Disponent", "de": "Gut. Wenn der Arzt Sie länger krankschreibt, rufen Sie uns bitte wieder an.", "tr": "Tamam. Doktor size daha uzun rapor verirse lütfen bizi tekrar arayın."},
+          {"who": "Busfahrer", "de": "Mache ich. Am Freitag habe ich übrigens meinen freien Tag.", "tr": "Ararım. Bu arada cuma günü benim boş günüm."},
+          {"who": "Disponent", "de": "Alles klar. Gute Besserung, Herr Kaya!", "tr": "Tamamdır. Geçmiş olsun, Kaya Bey!"}
+        ]
+      },
+      "grammar": {
+        "title_tr": "'wenn' ile yan cümle (eğer / -dığında)",
+        "explain_tr": "'wenn' ile başlayan yan cümlede çekimli fiil en sona gider: Wenn ich krank bin… Yan cümle başta ise ana cümle fiille başlar: Wenn ich krank bin, rufe ich an. Yan cümle sonda da olabilir: Ich rufe an, wenn ich krank bin. 'wenn' hem 'eğer' hem de 'her …dığında' anlamına gelir. İki cümlenin arasına her zaman virgül konur.",
+        "examples": [
+          {"de": "Wenn ich krank bin, muss ich mich vor Dienstbeginn krankmelden.", "tr": "Hasta olduğumda işbaşından önce hastalık bildirmem gerekir."},
+          {"de": "Wenn du am Samstag frei hast, können wir den Dienst tauschen.", "tr": "Cumartesi boşsan vardiya değiştirebiliriz."},
+          {"de": "Ich rufe sofort an, wenn ich zu spät zum Dienst komme.", "tr": "İşe geç kalırsam hemen ararım."},
+          {"de": "Wenn mein Urlaub genehmigt ist, fliege ich nach Izmir.", "tr": "İznim onaylanırsa İzmir'e uçacağım."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Kollege",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Bir iş arkadaşın senden vardiya değiştirmeni istiyor. Hangi gün ve saatlerin değişeceğini netleştir, kendi planına uyup uymadığını kontrol et ve değişikliğin kim tarafından ve nasıl bildirileceği konusunda anlaş.",
+        "ai_brief": "You are Jonas, a fellow bus driver, about 35, relaxed and friendly; you use du. You want to swap shifts: you have Frühdienst next Saturday but your daughter has her birthday party, so you ask the learner to take your Saturday shift, and in return you take one of the learner's shifts (e.g. Sunday Spätdienst). First ask about the learner's plans for the weekend. Complications: 1) at first you mix up the dates, then correct yourself; 2) if the learner says they have a Urlaubsantrag or a free day planned, react and look for another solution; 3) ask who reports the swap to the Disposition, and agree that it must be approved there before it counts (do not describe a specific company procedure). Use and encourage sentences with 'wenn' (e.g. 'Wenn du Samstag übernimmst, ...'). Speak simple German (A2-B1). The scene is finished when both know exactly which shifts are swapped and who reports it; then thank the learner warmly.",
+        "opener_de": "Moin! Du, ich hab mal eine Frage: Kannst du vielleicht am Samstag mit mir den Dienst tauschen?"
+      }
+    },
+    {
+      "id": "w7d3",
+      "day": 3,
+      "title_de": "Kollegen und Vorgesetzte",
+      "title_tr": "İş arkadaşları ve amirler",
+      "goal_tr": "Yeni iş yerinde kendini tanıtabilir, iş arkadaşlarına 'du', amirlere 'Sie' ile hitap edebilirsin. İyelik sözcüklerini (mein, dein, Ihr, unser) doğru kullanabilirsin.",
+      "words": [
+        {"de": "der Kollege / die Kollegin", "pl": "die Kollegen / die Kolleginnen", "tr": "iş arkadaşı, meslektaş", "ex_de": "Mein Kollege zeigt mir heute die Strecke nach Altona.", "ex_tr": "İş arkadaşım bugün bana Altona güzergâhını gösteriyor."},
+        {"de": "der Vorgesetzte / die Vorgesetzte", "pl": "die Vorgesetzten", "tr": "amir, üst", "ex_de": "Bei Problemen spreche ich zuerst mit meinem Vorgesetzten.", "ex_tr": "Sorun olursa önce amirimle konuşurum."},
+        {"de": "der Verkehrsmeister / die Verkehrsmeisterin", "pl": "die Verkehrsmeister / die Verkehrsmeisterinnen", "tr": "trafik şefi, sahadaki amir", "ex_de": "Der Verkehrsmeister hilft uns, wenn es auf der Strecke ein Problem gibt.", "ex_tr": "Güzergâhta bir sorun olduğunda trafik şefi bize yardım ediyor."},
+        {"de": "der Disponent / die Disponentin", "pl": "die Disponenten / die Disponentinnen", "tr": "sevk ve planlama görevlisi", "ex_de": "Die Disponentin plant, wer welchen Bus fährt.", "ex_tr": "Planlama görevlisi kimin hangi otobüsü süreceğini planlıyor."},
+        {"de": "der Teamleiter / die Teamleiterin", "pl": "die Teamleiter / die Teamleiterinnen", "tr": "ekip lideri", "ex_de": "Unsere Teamleiterin ist für zwanzig Fahrer zuständig.", "ex_tr": "Ekip liderimiz yirmi şoförden sorumlu."},
+        {"de": "die Besprechung", "pl": "die Besprechungen", "tr": "toplantı", "ex_de": "Die Besprechung beginnt um 9 Uhr im Schulungsraum.", "ex_tr": "Toplantı saat 9'da eğitim odasında başlıyor."},
+        {"de": "die Schulung", "pl": "die Schulungen", "tr": "eğitim, kurs", "ex_de": "Nächste Woche habe ich eine Schulung zum Thema Fahrgastservice.", "ex_tr": "Gelecek hafta yolcu hizmetleri konusunda bir eğitimim var."},
+        {"de": "das Feedback", "pl": "die Feedbacks", "tr": "geri bildirim", "ex_de": "Danke für Ihr Feedback, das hilft mir sehr.", "ex_tr": "Geri bildiriminiz için teşekkürler, bana çok yardımcı oluyor."},
+        {"de": "der Ansprechpartner / die Ansprechpartnerin", "pl": "die Ansprechpartner / die Ansprechpartnerinnen", "tr": "muhatap, irtibat kişisi", "ex_de": "Wer ist mein Ansprechpartner, wenn ich Fragen zum Dienstplan habe?", "ex_tr": "Görev planıyla ilgili sorularım olursa muhatabım kim?"},
+        {"de": "die Einarbeitung", "pl": "die Einarbeitungen", "tr": "işe alıştırma, oryantasyon", "ex_de": "In der Einarbeitung lerne ich die Strecken und den Betriebshof kennen.", "ex_tr": "Oryantasyonda güzergâhları ve garajı tanıyorum."},
+        {"de": "duzen (hat geduzt)", "pl": "", "tr": "'sen' diye hitap etmek", "ex_de": "Unter Busfahrern duzt man sich meistens.", "ex_tr": "Otobüs şoförleri arasında genellikle 'sen' diye konuşulur."},
+        {"de": "siezen (hat gesiezt)", "pl": "", "tr": "'siz' diye hitap etmek", "ex_de": "Fahrgäste siezen wir immer.", "ex_tr": "Yolculara her zaman 'siz' diye hitap ederiz."}
+      ],
+      "phrases": [
+        {"de": "Darf ich mich kurz vorstellen? Ich bin neu hier.", "tr": "Kendimi kısaca tanıtabilir miyim? Burada yeniyim."},
+        {"de": "Wollen wir uns duzen?", "tr": "Birbirimize 'sen' diyelim mi?"},
+        {"de": "Sag ruhig du zu mir.", "tr": "Bana rahatça 'sen' diyebilirsin."},
+        {"de": "Wer ist hier für die Dienstplanung zuständig?", "tr": "Burada görev planlamasından kim sorumlu?"},
+        {"de": "Können Sie mir bitte ein kurzes Feedback geben?", "tr": "Bana lütfen kısa bir geri bildirim verebilir misiniz?"},
+        {"de": "Wann und wo ist die nächste Besprechung?", "tr": "Bir sonraki toplantı ne zaman ve nerede?"}
+      ],
+      "dialog": {
+        "title_tr": "İlk iş günü: tanışma",
+        "lines": [
+          {"who": "Teamleiterin", "de": "Guten Morgen, Herr Yılmaz. Willkommen in unserem Team! Ich bin Frau Hansen, Ihre Teamleiterin.", "tr": "Günaydın Yılmaz Bey. Ekibimize hoş geldiniz! Ben Hansen Hanım, ekip lideriniz."},
+          {"who": "Busfahrer", "de": "Guten Morgen, Frau Hansen. Vielen Dank, ich freue mich sehr auf die Arbeit.", "tr": "Günaydın Hansen Hanım. Çok teşekkürler, işe başlamayı dört gözle bekliyorum."},
+          {"who": "Teamleiterin", "de": "In den ersten Wochen haben Sie Ihre Einarbeitung. Das ist Tobias, er ist Ihr Ansprechpartner.", "tr": "İlk haftalarda oryantasyonunuz var. Bu Tobias, o sizin muhatabınız."},
+          {"who": "Kollege", "de": "Moin! Bei uns Fahrern duzen sich eigentlich alle. Ich bin Tobias.", "tr": "Selam! Biz şoförler arasında aslında herkes birbirine 'sen' der. Ben Tobias."},
+          {"who": "Busfahrer", "de": "Freut mich, Tobias! Ich bin Emre. Wer ist eigentlich heute der Verkehrsmeister?", "tr": "Memnun oldum Tobias! Ben Emre. Peki bugün trafik şefi kim?"},
+          {"who": "Kollege", "de": "Heute ist das Herr Wolf. Ihn siezen wir lieber.", "tr": "Bugün Wolf Bey. Ona 'siz' diye hitap etmeyi tercih ediyoruz."},
+          {"who": "Teamleiterin", "de": "Am Donnerstag haben wir eine Besprechung. Dann können Sie mir Ihr erstes Feedback geben.", "tr": "Perşembe günü bir toplantımız var. O zaman bana ilk geri bildiriminizi verebilirsiniz."},
+          {"who": "Busfahrer", "de": "Gern. Um wie viel Uhr beginnt die Besprechung?", "tr": "Memnuniyetle. Toplantı saat kaçta başlıyor?"},
+          {"who": "Teamleiterin", "de": "Um 13 Uhr, im Schulungsraum.", "tr": "Saat 13'te, eğitim odasında."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "İş yerinde 'du' ve 'Sie' – iyelik sözcükleri",
+        "explain_tr": "Yolculara ve amirlere 'Sie' (siz), şoförler arasında çoğu zaman 'du' (sen) denir. 'du' teklifini genellikle amir ya da yaşça büyük olan yapar. 'du' ile 'dein', 'Sie' ile büyük harfle 'Ihr' kullanılır: dein Bus / Ihr Bus. Diğerleri: mein (benim), sein (onun, erkek), ihr (onun, kadın), unser (bizim), euer (sizin, çoğul). Dişil ve çoğul isimlerde -e eklenir (meine Schicht); Akkusativ'deki eril isimlerde -en eklenir (meinen Schlüssel).",
+        "examples": [
+          {"de": "Ist das dein Bus, Tobias?", "tr": "Bu senin otobüsün mü, Tobias?"},
+          {"de": "Frau Hansen, ist das Ihr Schlüssel?", "tr": "Hansen Hanım, bu sizin anahtarınız mı?"},
+          {"de": "Unsere Besprechung ist am Donnerstag.", "tr": "Toplantımız perşembe günü."},
+          {"de": "Ich habe meinen Dienstausweis im Spind vergessen.", "tr": "Personel kartımı dolabımda unuttum."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Teamleiterin",
+        "user_role_tr": "Yeni otobüs şoförü",
+        "scenario_tr": "İlk haftalarının sonunda ekip liderin seninle bir geri bildirim görüşmesi yapıyor. 'Sie' kullanarak nasıl geçtiğini anlat, eleştirilere kibarca cevap ver ve sonraki adımları (örneğin bir eğitim) kararlaştır.",
+        "ai_brief": "You are Frau Hansen, team leader (Teamleiterin) of a group of bus drivers in Hamburg: professional, warm and direct. Use Sie and expect Sie back; if the learner uses du, point it out kindly. Hold a short feedback talk after the learner's first weeks. Ask how the Einarbeitung went and how they get along with colleagues. Give positive feedback (friendly with passengers) and one or two points to improve (e.g. was late once for a handover, should brake more smoothly at stops). Complications: 1) ask the learner to explain what happened when they were late; 2) offer a Schulung (e.g. on smooth, fuel-saving driving) and ask when they have time; 3) near the end offer to switch to du ('Wir können uns auch duzen, wenn Sie möchten') and see how the learner reacts. Do not invent internal company rules or job titles. Speak simple German (A2-B1). The scene is finished when a date for the Schulung or the next meeting is agreed and the learner says goodbye politely.",
+        "opener_de": "Guten Tag, schön, dass Sie da sind! Nehmen Sie doch Platz. Wie waren Ihre ersten Wochen bei uns?"
+      }
+    },
+    {
+      "id": "w7d4",
+      "day": 4,
+      "title_de": "Vertrag, Lohn und Rechte",
+      "title_tr": "Sözleşme, maaş ve haklar",
+      "goal_tr": "İş sözleşmesindeki önemli kelimeleri anlayabilir; ücret, deneme süresi ve ek ödemeler hakkında soru sorabilirsin. Uzun bileşik kelimeleri parçalarına ayırarak anlayabilirsin.",
+      "words": [
+        {"de": "der Arbeitsvertrag", "pl": "die Arbeitsverträge", "tr": "iş sözleşmesi", "ex_de": "Bitte lesen Sie den Arbeitsvertrag in Ruhe durch.", "ex_tr": "Lütfen iş sözleşmesini acele etmeden okuyun."},
+        {"de": "unterschreiben (hat unterschrieben)", "pl": "", "tr": "imzalamak", "ex_de": "Wo muss ich unterschreiben?", "ex_tr": "Nereyi imzalamam gerekiyor?"},
+        {"de": "die Probezeit", "pl": "die Probezeiten", "tr": "deneme süresi", "ex_de": "Wie lange dauert die Probezeit?", "ex_tr": "Deneme süresi ne kadar sürüyor?"},
+        {"de": "das Gehalt", "pl": "die Gehälter", "tr": "maaş (aylık)", "ex_de": "Das Gehalt kommt jeden Monat auf mein Konto.", "ex_tr": "Maaş her ay hesabıma yatıyor."},
+        {"de": "der Lohn", "pl": "die Löhne", "tr": "ücret (işçi ücreti)", "ex_de": "Im Tarifvertrag steht, wie hoch der Lohn ist.", "ex_tr": "Ücretin ne kadar olduğu toplu sözleşmede yazıyor."},
+        {"de": "die Gehaltsabrechnung", "pl": "die Gehaltsabrechnungen", "tr": "maaş bordrosu", "ex_de": "Auf der Gehaltsabrechnung sehe ich auch meine Zuschläge.", "ex_tr": "Maaş bordrosunda ek ödemelerimi de görüyorum."},
+        {"de": "brutto / netto", "pl": "", "tr": "brüt / net", "ex_de": "Brutto ist vor Steuern und Abgaben – netto ist das, was ich wirklich bekomme.", "ex_tr": "Brüt, vergi ve kesintilerden öncesidir; net ise gerçekten elime geçendir."},
+        {"de": "der Zuschlag", "pl": "die Zuschläge", "tr": "ek ödeme, zam (gece, pazar vb. için)", "ex_de": "Für Nachtdienste und Feiertage gibt es oft einen Zuschlag.", "ex_tr": "Gece vardiyaları ve resmi tatiller için çoğu zaman ek ödeme var."},
+        {"de": "der Tarifvertrag", "pl": "die Tarifverträge", "tr": "toplu iş sözleşmesi", "ex_de": "Der Tarifvertrag regelt Lohn, Urlaub und Arbeitszeit.", "ex_tr": "Toplu sözleşme ücreti, izni ve çalışma süresini düzenler."},
+        {"de": "der Betriebsrat", "pl": "die Betriebsräte", "tr": "işyeri çalışan temsilciliği", "ex_de": "Bei Problemen mit dem Dienstplan kann ich auch zum Betriebsrat gehen.", "ex_tr": "Görev planıyla ilgili sorunlarda çalışan temsilciliğine de gidebilirim."},
+        {"de": "die Kündigung", "pl": "die Kündigungen", "tr": "fesih, işten çıkarma / istifa", "ex_de": "Eine Kündigung muss immer schriftlich sein.", "ex_tr": "Fesih her zaman yazılı olmalıdır."},
+        {"de": "die Kündigungsfrist", "pl": "die Kündigungsfristen", "tr": "ihbar süresi", "ex_de": "In der Probezeit ist die Kündigungsfrist kürzer.", "ex_tr": "Deneme süresinde ihbar süresi daha kısadır."}
+      ],
+      "phrases": [
+        {"de": "Könnten Sie mir das bitte noch einmal erklären?", "tr": "Bunu bana lütfen bir kez daha açıklayabilir misiniz?"},
+        {"de": "Was bedeutet dieses Wort im Vertrag?", "tr": "Sözleşmedeki bu kelime ne anlama geliyor?"},
+        {"de": "Gilt für mich ein Tarifvertrag?", "tr": "Benim için bir toplu sözleşme geçerli mi?"},
+        {"de": "Gibt es einen Zuschlag für Nacht- und Sonntagsdienste?", "tr": "Gece ve pazar vardiyaları için ek ödeme var mı?"},
+        {"de": "Darf ich den Vertrag mit nach Hause nehmen?", "tr": "Sözleşmeyi eve götürebilir miyim?"},
+        {"de": "Wann bekomme ich meine erste Gehaltsabrechnung?", "tr": "İlk maaş bordromu ne zaman alacağım?"}
+      ],
+      "dialog": {
+        "title_tr": "Personel bölümünde sözleşme görüşmesi",
+        "lines": [
+          {"who": "Personalreferentin", "de": "So, Herr Demir, hier ist Ihr Arbeitsvertrag. Haben Sie noch Fragen?", "tr": "Evet Demir Bey, işte iş sözleşmeniz. Sorunuz var mı?"},
+          {"who": "Busfahrer", "de": "Ja, bitte. Wie lange dauert die Probezeit?", "tr": "Evet, lütfen. Deneme süresi ne kadar sürüyor?"},
+          {"who": "Personalreferentin", "de": "Das steht hier unter Punkt 2. Während der Probezeit ist die Kündigungsfrist kürzer.", "tr": "Burada 2. maddede yazıyor. Deneme süresi boyunca ihbar süresi daha kısadır."},
+          {"who": "Busfahrer", "de": "Verstehe. Und gilt für mich ein Tarifvertrag?", "tr": "Anladım. Peki benim için bir toplu sözleşme geçerli mi?"},
+          {"who": "Personalreferentin", "de": "Ja, Ihr Lohn richtet sich nach dem Tarifvertrag. Für Nachtdienste bekommen Sie einen Zuschlag.", "tr": "Evet, ücretiniz toplu sözleşmeye göre belirlenir. Gece vardiyaları için ek ödeme alırsınız."},
+          {"who": "Busfahrer", "de": "Steht der Zuschlag dann auf der Gehaltsabrechnung?", "tr": "Ek ödeme o zaman maaş bordrosunda görünüyor mu?"},
+          {"who": "Personalreferentin", "de": "Genau. Dort sehen Sie brutto, netto und alle Zuschläge.", "tr": "Aynen. Orada brüt ve net tutarı ve tüm ek ödemeleri görürsünüz."},
+          {"who": "Busfahrer", "de": "Gut. Und an wen kann ich mich wenden, wenn es Probleme gibt?", "tr": "İyi. Sorun olursa kime başvurabilirim?"},
+          {"who": "Personalreferentin", "de": "An Ihre Teamleitung oder an den Betriebsrat. So, dann unterschreiben Sie bitte hier.", "tr": "Ekip liderinize ya da çalışan temsilciliğine. Evet, o zaman lütfen burayı imzalayın."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Bileşik kelimeleri (Komposita) anlamak",
+        "explain_tr": "Almancada iki ya da daha fazla kelime birleşerek yeni bir kelime oluşturur. Asıl anlam ve artikel her zaman son kelimeden gelir: die Arbeit + der Vertrag = der Arbeitsvertrag. Kelimeyi sondan başa doğru okumak işini kolaylaştırır: Nachtzuschlag = gece için ek ödeme. Bazen araya bir -s- girer: Arbeits-, Sonntags-, Kündigungs-. Uzun bir kelimeyi anlamadığında onu parçalara ayır.",
+        "examples": [
+          {"de": "die Arbeit + s + der Vertrag = der Arbeitsvertrag", "tr": "iş + sözleşme = iş sözleşmesi (artikel son kelimeden: der)"},
+          {"de": "die Nacht + der Zuschlag = der Nachtzuschlag", "tr": "gece + ek ödeme = gece zammı (artikel: der)"},
+          {"de": "die Kündigung + s + die Frist = die Kündigungsfrist", "tr": "fesih + süre = ihbar süresi (artikel: die)"},
+          {"de": "Ich bekomme einen Sonntagszuschlag, weil ich am Sonntag arbeite.", "tr": "Pazar günü çalıştığım için pazar zammı alıyorum. (der Sonntag + s + der Zuschlag)"}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Personalreferentin",
+        "user_role_tr": "Yeni işe başlayan otobüs şoförü",
+        "scenario_tr": "Personel bölümünde iş sözleşmeni imzalamak üzeresin. İmzalamadan önce deneme süresi, ücret, ek ödemeler ve izin hakkında sorular sor; anlamadığın uzun kelimeleri açıklamasını iste.",
+        "ai_brief": "You are Frau Lange, an HR officer (Personalreferentin) at a Hamburg public transport company: friendly, efficient, speaks a bit fast. Use Sie and typical HR compound words (Arbeitszeitkonto, Nachtzuschlag, Urlaubsanspruch, Lohnsteuerbescheinigung). Go through the contract with the new bus driver and invite questions. NEVER state concrete salary amounts, percentages, numbers of vacation days or exact durations; say things like 'Das regelt der Tarifvertrag' or 'Das sehen Sie hier unter Punkt 3'. Complications: 1) use at least two long compound words and explain them only if the learner asks (then split them into parts); 2) ask the learner for missing documents (Steuer-ID, Sozialversicherungsnummer, Bankverbindung); 3) when asked about Zuschläge, ask back which shifts they expect to work. Keep your German at A2-B1 level when explaining. The scene is finished when the learner has asked at least three relevant questions and either signs or politely asks to take the contract home to read it; then close the meeting kindly.",
+        "opener_de": "Guten Tag, kommen Sie rein! Hier ist Ihr Arbeitsvertrag. Lesen Sie ihn ruhig durch – haben Sie schon Fragen?"
+      }
+    },
+    {
+      "id": "w7d5",
+      "day": 5,
+      "title_de": "Sicherheit und Gesundheit",
+      "title_tr": "İş güvenliği ve sağlık",
+      "goal_tr": "Yorgunluk, sırt ağrısı ve molalar hakkında konuşabilir, güvenli çalışmak için ne yaptığını açıklayabilirsin. 'als' ile 'wenn' farkını ve 'um…zu / damit' ile amaç cümlelerini kullanabilirsin.",
+      "words": [
+        {"de": "der Arbeitsschutz", "pl": "", "tr": "iş sağlığı ve güvenliği", "ex_de": "Arbeitsschutz ist für Fahrer und Fahrgäste wichtig.", "ex_tr": "İş güvenliği şoförler ve yolcular için önemlidir."},
+        {"de": "die Sicherheitsschulung", "pl": "die Sicherheitsschulungen", "tr": "güvenlik eğitimi", "ex_de": "In der Sicherheitsschulung üben wir, was bei einem Brand im Bus zu tun ist.", "ex_tr": "Güvenlik eğitiminde otobüste yangın çıkınca ne yapılacağını çalışıyoruz."},
+        {"de": "die Lenkzeit", "pl": "die Lenkzeiten", "tr": "direksiyon (sürüş) süresi", "ex_de": "Ich achte immer auf meine Lenkzeit.", "ex_tr": "Sürüş süreme her zaman dikkat ederim."},
+        {"de": "die Ruhezeit", "pl": "die Ruhezeiten", "tr": "dinlenme süresi", "ex_de": "Zwischen Spätdienst und Frühdienst brauche ich genug Ruhezeit.", "ex_tr": "Geç vardiya ile erken vardiya arasında yeterli dinlenme süresine ihtiyacım var."},
+        {"de": "die Pausenregel", "pl": "die Pausenregeln", "tr": "mola kuralı", "ex_de": "Kennst du die Pausenregeln für den Linienverkehr?", "ex_tr": "Hat taşımacılığı için mola kurallarını biliyor musun?"},
+        {"de": "die Müdigkeit", "pl": "", "tr": "yorgunluk", "ex_de": "Gegen Müdigkeit hilft am besten genug Schlaf.", "ex_tr": "Yorgunluğa karşı en iyi şey yeterli uykudur."},
+        {"de": "sich konzentrieren (hat sich konzentriert)", "pl": "", "tr": "konsantre olmak, dikkatini toplamak", "ex_de": "Im dichten Verkehr am Jungfernstieg muss ich mich gut konzentrieren.", "ex_tr": "Jungfernstieg'deki yoğun trafikte iyi konsantre olmam gerekiyor."},
+        {"de": "der Rücken", "pl": "die Rücken", "tr": "sırt", "ex_de": "Nach acht Stunden Fahren tut mir der Rücken weh.", "ex_tr": "Sekiz saat araç kullandıktan sonra sırtım ağrıyor."},
+        {"de": "der Fahrersitz", "pl": "die Fahrersitze", "tr": "şoför koltuğu", "ex_de": "Der Fahrersitz muss zu meinem Körper passen.", "ex_tr": "Şoför koltuğu vücuduma uygun olmalı."},
+        {"de": "einstellen (hat eingestellt)", "pl": "", "tr": "ayarlamak", "ex_de": "Vor jeder Fahrt stelle ich die Spiegel neu ein.", "ex_tr": "Her sürüşten önce aynaları yeniden ayarlıyorum."},
+        {"de": "der Betriebsarzt / die Betriebsärztin", "pl": "die Betriebsärzte / die Betriebsärztinnen", "tr": "işyeri hekimi", "ex_de": "Wegen meiner Rückenschmerzen habe ich einen Termin beim Betriebsarzt.", "ex_tr": "Sırt ağrılarım yüzünden işyeri hekiminde randevum var."},
+        {"de": "der Arbeitsunfall", "pl": "die Arbeitsunfälle", "tr": "iş kazası", "ex_de": "Jeden Arbeitsunfall muss ich sofort melden.", "ex_tr": "Her iş kazasını hemen bildirmem gerekiyor."}
+      ],
+      "phrases": [
+        {"de": "Ich fühle mich nicht fit genug zum Fahren.", "tr": "Araç kullanmak için kendimi yeterince iyi hissetmiyorum."},
+        {"de": "Ich brauche dringend eine kurze Pause.", "tr": "Acilen kısa bir molaya ihtiyacım var."},
+        {"de": "Mir tut seit gestern der Rücken weh.", "tr": "Dünden beri sırtım ağrıyor."},
+        {"de": "Ich habe letzte Nacht schlecht geschlafen.", "tr": "Dün gece kötü uyudum."},
+        {"de": "Sicherheit geht vor.", "tr": "Önce güvenlik."},
+        {"de": "Wann ist die nächste Sicherheitsschulung?", "tr": "Bir sonraki güvenlik eğitimi ne zaman?"}
+      ],
+      "dialog": {
+        "title_tr": "Mola odasında sağlık sohbeti",
+        "lines": [
+          {"who": "Kollegin", "de": "Du siehst müde aus. Alles in Ordnung?", "tr": "Yorgun görünüyorsun. Her şey yolunda mı?"},
+          {"who": "Busfahrer", "de": "Ich hatte gestern Spätdienst und heute Frühdienst. Die Ruhezeit war echt kurz.", "tr": "Dün geç vardiyam, bugün erken vardiyam vardı. Dinlenme süresi gerçekten kısaydı."},
+          {"who": "Kollegin", "de": "Das kenne ich. Als ich neu war, hatte ich auch oft solche Wechsel.", "tr": "Bilirim. Ben yeniyken ben de sık sık böyle geçişler yaşıyordum."},
+          {"who": "Busfahrer", "de": "Und mein Rücken tut auch weh.", "tr": "Bir de sırtım ağrıyor."},
+          {"who": "Kollegin", "de": "Stell den Fahrersitz richtig ein, um den Rücken zu schonen. Und sprich mal mit dem Betriebsarzt.", "tr": "Sırtını korumak için şoför koltuğunu doğru ayarla. Bir de işyeri hekimiyle konuş."},
+          {"who": "Busfahrer", "de": "Gute Idee. Was machst du, wenn du beim Fahren müde wirst?", "tr": "İyi fikir. Sürerken yorulursan ne yapıyorsun?"},
+          {"who": "Kollegin", "de": "Wenn ich merke, dass ich mich nicht mehr konzentrieren kann, melde ich mich sofort bei der Leitstelle.", "tr": "Artık konsantre olamadığımı fark edince hemen merkeze (Leitstelle) haber veriyorum."},
+          {"who": "Busfahrer", "de": "Richtig. Müdigkeit am Steuer ist gefährlich – Sicherheit geht vor.", "tr": "Doğru. Direksiyonda yorgunluk tehlikelidir – önce güvenlik."},
+          {"who": "Kollegin", "de": "Genau. Und nimm deine Pausen ernst, damit du fit bleibst.", "tr": "Aynen. Molalarını da ciddiye al ki zinde kalasın."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "'als' mı 'wenn' mi? – 'um…zu' ve 'damit'",
+        "explain_tr": "Geçmişte bir kez olan bir olay ya da geçmişteki bir dönem için 'als' kullanılır: Als ich gestern müde war… Şimdiki zaman, gelecek ve tekrar eden olaylar için 'wenn' kullanılır: Wenn ich müde bin… Amaç bildirmek için 'um … zu' veya 'damit' kullanılır. İki cümlenin öznesi aynıysa 'um … zu + mastar' daha kısadır: Ich mache Pause, um fit zu bleiben. Özneler farklıysa 'damit' gerekir: Ich fahre vorsichtig, damit die Fahrgäste nicht fallen.",
+        "examples": [
+          {"de": "Als ich gestern Nachtdienst hatte, war ich am Ende sehr müde.", "tr": "Dün gece vardiyam olduğunda, sonunda çok yorgundum."},
+          {"de": "Wenn ich müde werde, sage ich der Leitstelle Bescheid.", "tr": "Yorulduğumda merkeze haber veririm."},
+          {"de": "Ich stelle den Sitz richtig ein, um meinen Rücken zu schonen.", "tr": "Sırtımı korumak için koltuğu doğru ayarlıyorum."},
+          {"de": "Ich bremse sanft, damit die Fahrgäste nicht stürzen.", "tr": "Yolcular düşmesin diye yumuşak fren yapıyorum."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Verkehrsmeister",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Gece vardiyası başlamadan önce kendini çok yorgun hissediyorsun ve sırtın ağrıyor. Trafik şefine durumu dürüstçe anlat, nedenini açıkla ve güvenli bir çözüm üzerinde anlaş.",
+        "ai_brief": "You are Herr Petersen, a Verkehrsmeister (traffic supervisor) at a Hamburg bus depot, in your 50s, calm but under staff pressure tonight. Use Sie and simple German (A2-B1). The driver comes to you just before a night shift. Ask what is wrong and since when. Complications: 1) at first ask 'Schaffen Sie nicht wenigstens die erste Runde?' – the learner should explain clearly why driving while tired is unsafe; 2) ask about the reasons (short rest between shifts, bad sleep, back pain) and when it started – encourage 'als' sentences about the past and 'wenn' sentences about what usually happens; 3) say you need some time to find a replacement and ask what the learner can do meanwhile. In the end always put safety first: never insist that an unfit driver drives. Do not cite specific legal limits or internal company procedures. The scene is finished when you agree on a solution (e.g. a replacement takes over, the learner goes home and sees a doctor or the Betriebsarzt) and wish them well.",
+        "opener_de": "Moin! Ihr Nachtdienst fängt gleich an. Aber Sie sehen nicht gut aus – ist alles in Ordnung?"
+      }
+    }
+  ]
+}

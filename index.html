@@ -1,0 +1,762 @@
+<title>Linie B1</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Doto:wght@700;900&display=swap">
+<style>
+/* Layout: one phone column. A bus destination sign on top, the 8-week course drawn as a bus route below, a fixed tab bar at the bottom. */
+:root{
+  --bg:#EDF1EF; --surface:#FFFFFF; --sunk:#E2E8E5; --ink:#14201B; --muted:#56655E; --line:#CDD6D1;
+  --accent:#0D6C78; --accent-ink:#FFFFFF; --accent-soft:#D3EBEE;
+  --led-bg:#17130B; --led:#FFB21A; --led-dim:#4A3812;
+  --ok:#25744A; --ok-soft:#DBEFE2; --bad:#AE372B; --bad-soft:#F6E1DD; --warn-soft:#FBEFD2; --warn:#7A5300;
+  --der:#2453B0; --die:#BC3434; --das:#25804D;
+  --f-display:"Doto", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-body:"Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --r:14px;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0E1412; --surface:#17201C; --sunk:#111915; --ink:#E4ECE8; --muted:#94A39C; --line:#29352F;
+  --accent:#4FB8C4; --accent-ink:#061315; --accent-soft:#16353A;
+  --led-bg:#090704; --led:#FFB21A; --led-dim:#3A2C0E;
+  --ok:#62C98F; --ok-soft:#173326; --bad:#F08074; --bad-soft:#3A1E1A; --warn-soft:#3A2E12; --warn:#F3C766;
+  --der:#86AAF3; --die:#F39191; --das:#74D29C; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0E1412; --surface:#17201C; --sunk:#111915; --ink:#E4ECE8; --muted:#94A39C; --line:#29352F;
+  --accent:#4FB8C4; --accent-ink:#061315; --accent-soft:#16353A;
+  --led-bg:#090704; --led:#FFB21A; --led-dim:#3A2C0E;
+  --ok:#62C98F; --ok-soft:#173326; --bad:#F08074; --bad-soft:#3A1E1A; --warn-soft:#3A2E12; --warn:#F3C766;
+  --der:#86AAF3; --die:#F39191; --das:#74D29C; color-scheme:dark }
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.5;-webkit-text-size-adjust:100%}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,textarea:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+h1,h2,h3{line-height:1.2;text-wrap:balance;margin:0}
+p{margin:0}
+.wrap{max-width:640px;margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:16px calc(92px + env(safe-area-inset-bottom, 0px));display:flex;flex-direction:column;gap:20px}
+.muted{color:var(--muted)}
+.small{font-size:14px}
+.kicker{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
+
+/* destination sign */
+.sign{background:var(--led-bg);border-radius:var(--r);padding:16px 18px 14px;color:var(--led);
+  background-image:radial-gradient(circle, var(--led-dim) 1px, transparent 1.4px);background-size:6px 6px;display:flex;flex-direction:column;gap:10px}
+.sign-row{display:flex;align-items:center;gap:14px;min-width:0}
+.sign-line{font-family:var(--f-display);font-weight:900;font-size:40px;line-height:1;border:3px solid var(--led);border-radius:8px;padding:4px 8px 2px;text-shadow:0 0 10px rgba(255,178,26,.45)}
+.sign-dest{font-family:var(--f-display);font-weight:900;font-size:34px;line-height:1;letter-spacing:.02em;text-shadow:0 0 10px rgba(255,178,26,.45);overflow:hidden;white-space:nowrap;text-overflow:ellipsis;min-width:0}
+.sign-meta{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:#F7D9A0;font-variant-numeric:tabular-nums}
+.sign-meta b{color:var(--led);font-weight:700}
+
+/* cards & buttons */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px;display:flex;flex-direction:column;gap:12px}
+.btn{border:0;border-radius:12px;padding:13px 18px;font-weight:700;background:var(--accent);color:var(--accent-ink);min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:8px;text-align:center}
+.btn.ghost{background:transparent;color:var(--accent);border:1.5px solid var(--accent)}
+.btn.quiet{background:var(--sunk);color:var(--ink)}
+.btn.ok{background:var(--ok);color:var(--accent-ink)}
+.btn.bad{background:var(--bad-soft);color:var(--bad)}
+.btn[disabled]{opacity:.5;cursor:default}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.row>.btn{flex:1 1 140px}
+.linkbtn{background:none;border:0;padding:6px 0;color:var(--accent);font-weight:700;text-align:left}
+.segbar{display:flex;gap:4px}
+.segbar i{flex:1;height:6px;border-radius:3px;background:var(--sunk)}
+.segbar i.on{background:var(--accent)}
+.say{border:0;background:var(--accent-soft);color:var(--accent);width:40px;height:40px;border-radius:50%;flex:none;display:inline-grid;place-items:center}
+.say svg{width:20px;height:20px}
+.tts-off .say,.tts-off [data-act="playDialog"]{display:none}
+
+/* route */
+.route{display:flex;flex-direction:column}
+.stop{display:grid;grid-template-columns:34px 1fr;gap:0 12px;position:relative}
+.stop::before{content:"";position:absolute;left:15px;top:0;bottom:0;width:4px;background:var(--line)}
+.stop:first-child::before{top:14px}
+.stop:last-child::before{bottom:auto;height:14px}
+.stop.passed::before{background:var(--accent)}
+.node{position:relative;z-index:1;width:34px;height:34px;border-radius:50%;background:var(--surface);border:4px solid var(--line);display:grid;place-items:center;font-weight:700;font-size:14px;color:var(--muted)}
+.stop.passed .node{border-color:var(--accent);background:var(--accent);color:var(--accent-ink)}
+.stop.here .node{border-color:var(--accent);color:var(--accent)}
+.stop-body{padding:4px 0 22px;min-width:0;display:flex;flex-direction:column;gap:4px}
+.stop-body h3{font-size:19px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.chip{min-width:44px;height:40px;padding:0 12px;border-radius:20px;border:1.5px solid var(--line);background:var(--surface);font-weight:700;font-size:15px;font-variant-numeric:tabular-nums}
+.chip.done{background:var(--ok-soft);border-color:var(--ok);color:var(--ok)}
+.chip.next{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.branch-title{display:flex;align-items:center;gap:10px}
+.tag{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:6px;background:var(--warn-soft);color:var(--warn)}
+
+/* lesson */
+.back{align-self:flex-start}
+.steps{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}
+.steps::-webkit-scrollbar{display:none}
+.step{flex:none;border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 14px;font-size:15px;font-weight:700;white-space:nowrap}
+.step.cur{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.step.done::before{content:"✓ ";color:var(--ok)}
+.art-der{color:var(--der)} .art-die{color:var(--die)} .art-das{color:var(--das)}
+.flash{min-height:260px;justify-content:center;text-align:center;align-items:center;cursor:pointer}
+.flash .de{font-size:30px;font-weight:700;line-height:1.2;overflow-wrap:anywhere}
+.flash .tr{font-size:22px;color:var(--accent);font-weight:700}
+.flash .ex{font-size:16px;text-align:left;width:100%;border-top:1px solid var(--line);padding-top:12px;display:flex;gap:10px;align-items:flex-start}
+.list{display:flex;flex-direction:column;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.li{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-top:1px solid var(--line)}
+.li:first-child{border-top:0}
+.li .txt{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.li .de{font-weight:700}
+.li .tr{color:var(--muted)}
+.hide-tr .li .tr,.hide-tr .bub .tr{filter:blur(6px);cursor:pointer}
+.hide-tr .li .tr.show,.hide-tr .bub .tr.show{filter:none}
+.toggles{display:flex;gap:8px;flex-wrap:wrap}
+.tog{border:1.5px solid var(--line);background:var(--surface);border-radius:10px;padding:8px 12px;font-size:15px}
+.tog[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+
+/* dialog bubbles & chat */
+.thread{display:flex;flex-direction:column;gap:10px}
+.bub{max-width:88%;padding:10px 12px;border-radius:14px;background:var(--surface);border:1px solid var(--line);display:flex;flex-direction:column;gap:4px;align-self:flex-start;min-width:0}
+.bub.me{align-self:flex-end;background:var(--accent-soft);border-color:transparent}
+.bub .who{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.bub .line{display:flex;gap:8px;align-items:flex-start}
+.bub .line .de{flex:1;min-width:0;overflow-wrap:anywhere}
+.bub .tr{color:var(--muted);font-size:15px}
+.bub .say{width:34px;height:34px}
+.masked .de{color:transparent;background:var(--sunk);border-radius:6px;cursor:pointer}
+.fb{align-self:flex-end;max-width:88%;font-size:15px;padding:8px 12px;border-radius:12px;background:var(--warn-soft);color:var(--ink);white-space:pre-wrap;overflow-wrap:anywhere}
+.fb.good{background:var(--ok-soft)}
+.composer{display:flex;gap:8px;align-items:flex-end}
+.composer textarea{flex:1;min-width:0;resize:none;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);border-radius:12px;padding:12px;font:inherit;min-height:52px;max-height:140px}
+.scenario{background:var(--sunk);border-radius:var(--r);padding:14px 16px;display:flex;flex-direction:column;gap:6px}
+.eval{white-space:pre-wrap;overflow-wrap:anywhere}
+.notice{background:var(--warn-soft);color:var(--ink);border-radius:12px;padding:12px 14px;font-size:15px}
+.copybox{width:100%;min-height:120px;border:1px solid var(--line);border-radius:10px;padding:10px;font:13px/1.4 ui-monospace,Menlo,monospace;background:var(--surface);color:var(--ink)}
+
+/* quiz */
+.q-prompt{font-size:24px;font-weight:700;overflow-wrap:anywhere}
+.opts{display:flex;flex-direction:column;gap:8px}
+.opt{border:1.5px solid var(--line);background:var(--surface);border-radius:12px;padding:13px 14px;text-align:left;min-height:50px}
+.opt.right{border-color:var(--ok);background:var(--ok-soft)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.score{font-family:var(--f-display);font-weight:900;font-size:56px;line-height:1;color:var(--accent)}
+.boxes{display:flex;gap:6px;align-items:flex-end;height:60px}
+.boxes div{flex:1;background:var(--accent);border-radius:4px 4px 0 0;min-height:3px;opacity:.85}
+.boxlbl{display:flex;gap:6px;font-size:12px;color:var(--muted)}
+.boxlbl span{flex:1;text-align:center}
+.modes{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.mode{border:1.5px solid var(--line);background:var(--surface);border-radius:var(--r);padding:14px;text-align:left;display:flex;flex-direction:column;gap:4px}
+.mode b{font-size:17px}
+.mode span{font-size:14px;color:var(--muted)}
+
+/* tab bar */
+.tabs{position:fixed;left:0;right:0;bottom:0;z-index:5;background:var(--surface);border-top:1px solid var(--line);display:flex;justify-content:center;padding-left:max(8px, env(safe-area-inset-left, 0px));padding-right:max(8px, env(safe-area-inset-right, 0px));padding-bottom:env(safe-area-inset-bottom, 0px)}
+.tabs-in{display:flex;max-width:640px;width:100%}
+.tab{flex:1;border:0;background:none;padding:10px 4px 12px;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:13px;font-weight:700;color:var(--muted)}
+.tab svg{width:24px;height:24px}
+.tab[aria-current="page"]{color:var(--accent)}
+.badge{font-size:11px;background:var(--bad);color:#fff;border-radius:9px;padding:0 6px;margin-left:2px}
+.settings{display:flex;flex-direction:column;gap:10px;border-top:1px solid var(--line);padding-top:16px}
+.confirm{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+@media (prefers-reduced-motion: no-preference){ .flash{transition:transform .15s} .flash:active{transform:scale(.99)} }
+</style>
+
+<div id="app" class="wrap"><div class="sign"><div class="sign-row"><span class="sign-line">B1</span><span class="sign-dest">Hochbahn</span></div><div class="sign-meta">Dersler yükleniyor…</div></div></div>
+<nav class="tabs" aria-label="Bölümler"><div class="tabs-in">
+  <button class="tab" data-act="tab" data-v="home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="5" r="2"/><circle cx="18" cy="19" r="2"/><path d="M6 7v4a4 4 0 0 0 4 4h4a4 4 0 0 1 4 4"/></svg>Rota</button>
+  <button class="tab" data-act="tab" data-v="review"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg><span>Tekrar<span id="dueBadge"></span></span></button>
+  <button class="tab" data-act="tab" data-v="talk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>Konuş</button>
+</div></nav>
+
+<script>
+(() => {
+"use strict";
+/* ---------- helpers ---------- */
+const $app = document.getElementById("app");
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const pad = n => String(n).padStart(2, "0");
+const iso = d => d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
+const today = () => iso(new Date());
+const addDays = (s, n) => { const d = new Date(s + "T12:00:00"); d.setDate(d.getDate() + n); return iso(d); };
+const daysBetween = (a, b) => Math.round((new Date(b + "T12:00:00") - new Date(a + "T12:00:00")) / 864e5);
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const SPEAK_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
+const sayBtn = text => `<button class="say" data-act="say" data-t="${esc(text)}" aria-label="Dinle">${SPEAK_ICON}</button>`;
+const artHtml = de => { const m = /^(der|die|das)\s/.exec(de); return m ? `<span class="art-${m[1]}">${m[1]}</span>${esc(de.slice(3))}` : esc(de); };
+const lsGet = (k, d) => { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } };
+const lsSet = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
+
+/* ---------- preferences (this device only) ---------- */
+const prefs = Object.assign({ slow: false, hideTr: false }, lsGet("linieB1.prefs", {}));
+const savePrefs = () => lsSet("linieB1.prefs", prefs);
+
+/* ---------- speech ---------- */
+const TTS = { ok: "speechSynthesis" in window && typeof SpeechSynthesisUtterance !== "undefined", voice: null, run: 0 };
+function pickVoice() { try { const vs = speechSynthesis.getVoices(); TTS.voice = vs.find(v => /^de[-_]DE/i.test(v.lang)) || vs.find(v => /^de/i.test(v.lang)) || null; } catch (e) {} }
+if (TTS.ok) { pickVoice(); try { speechSynthesis.onvoiceschanged = pickVoice; } catch (e) {} } else document.documentElement.classList.add("tts-off");
+function speakOne(text, pitch) {
+  return new Promise(res => {
+    try {
+      const u = new SpeechSynthesisUtterance(String(text).replace(/\([^)]*\)/g, "").replace(/\s+/g, " ").trim());
+      u.lang = "de-DE"; if (TTS.voice) u.voice = TTS.voice;
+      u.rate = prefs.slow ? 0.72 : 0.95; if (pitch) u.pitch = pitch;
+      u.onend = u.onerror = () => res();
+      speechSynthesis.speak(u);
+    } catch (e) { res(); }
+  });
+}
+function say(text) { if (!TTS.ok) return; TTS.run++; try { speechSynthesis.cancel(); } catch (e) {} speakOne(text); }
+async function sayAll(lines) {
+  if (!TTS.ok) return; const run = ++TTS.run; try { speechSynthesis.cancel(); } catch (e) {}
+  const pitches = {}; let n = 0;
+  for (const l of lines) {
+    if (run !== TTS.run) return;
+    if (!(l.who in pitches)) pitches[l.who] = [1, 0.8, 1.2, 0.9][n++ % 4];
+    await speakOne(l.de, pitches[l.who]);
+  }
+}
+
+/* ---------- content ---------- */
+const MAIN_WEEKS = 8, BONUS_WEEK = 9;
+const W = [];
+const STEPS = [
+  { k: "words", tr: "Kelimeler", min: 15 },
+  { k: "phrases", tr: "Cümleler", min: 5 },
+  { k: "dialog", tr: "Diyalog", min: 10 },
+  { k: "grammar", tr: "Gramer", min: 10 },
+  { k: "talk", tr: "Konuşma", min: 15 },
+  { k: "test", tr: "Test", min: 5 }
+];
+const REVIEW_STEPS = [
+  { k: "wtest", tr: "Hafta testi", min: 20 },
+  { k: "wtalk", tr: "Konuşma", min: 25 },
+  { k: "wrecap", tr: "Haftanın cümleleri", min: 15 }
+];
+const ORDER = [];
+for (let w = 1; w <= MAIN_WEEKS; w++) { for (let d = 1; d <= 5; d++) ORDER.push(`w${w}d${d}`); ORDER.push(`w${w}r`); }
+const BONUS = [1, 2, 3, 4, 5].map(d => `w${BONUS_WEEK}d${d}`);
+const COURSE_DAYS = 56;
+
+function unit(id) {
+  let m = /^w(\d+)d(\d+)$/.exec(id);
+  if (m) { const wk = W[+m[1]]; const l = wk && wk.lessons.find(x => x.day === +m[2]); return l ? { id, kind: "lesson", week: +m[1], day: +m[2], wk, l } : null; }
+  m = /^w(\d+)r$/.exec(id);
+  if (m) { const wk = W[+m[1]]; return wk ? { id, kind: "review", week: +m[1], wk } : null; }
+  return null;
+}
+function wordByKey(k) { const [id, i] = k.split(":"); const u = unit(id); return u && u.l ? u.l.words[+i] : null; }
+
+/* ---------- progress (cloud via db, cached on this device) ---------- */
+const LS_KEY = "linieB1.progress";
+const blank = () => ({ v: 1, start: today(), done: {}, steps: {}, srs: {}, days: [], updatedAt: 0 });
+let P = (() => { const x = lsGet(LS_KEY, null); return x && x.v === 1 ? Object.assign(blank(), x) : blank(); })();
+let docRef = null, saving = false, dirty = false, saveTimer = null, sync = "local";
+function touch() {
+  P.updatedAt = Date.now(); lsSet(LS_KEY, P);
+  dirty = true; clearTimeout(saveTimer); saveTimer = setTimeout(flush, 1200);
+}
+async function flush() {
+  if (!docRef || saving || !dirty) return;
+  saving = true; dirty = false;
+  try { await docRef.set(JSON.parse(JSON.stringify(P))); sync = "cloud"; }
+  catch (e) {
+    if (e && e.code === "unavailable") { dirty = true; setTimeout(flush, 3000 + Math.random() * 2000); }
+    else { docRef = null; sync = "local"; }
+  }
+  saving = false; if (dirty && docRef) flush(); paintSync();
+}
+function adopt(r) {
+  P = Object.assign(blank(), JSON.parse(JSON.stringify(r))); lsSet(LS_KEY, P);
+  if (S.view === "home" || (S.view === "review" && !S.rv)) render(); else paintBadge();
+}
+async function initDb() {
+  if (!window.claude || !window.claude.use) return;
+  let db = null; try { db = await window.claude.use("db"); } catch (e) {}
+  if (!db) return;
+  try { docRef = db.doc("progress/main"); } catch (e) { return; }
+  let first = true;
+  docRef.onSnapshot(snap => {
+    if (snap.metadata && snap.metadata.hasPendingWrites) return;
+    const r = snap.exists ? snap.data() : null;
+    if (first) {
+      first = false; sync = "cloud";
+      if (r && (r.updatedAt || 0) > (P.updatedAt || 0)) adopt(r);
+      else if (P.updatedAt > 0 && (!r || (r.updatedAt || 0) < P.updatedAt)) { dirty = true; flush(); }
+      paintSync(); return;
+    }
+    if (r && (r.updatedAt || 0) > (P.updatedAt || 0)) adopt(r);
+  }, () => { sync = "local"; docRef = null; paintSync(); });
+}
+function paintSync() { const el = document.getElementById("syncState"); if (el) el.textContent = sync === "cloud" ? "İlerlemen hesabına kaydediliyor." : "İlerlemen bu cihazda kaydediliyor."; }
+
+function markDay() { const t = today(); if (!P.days.includes(t)) { P.days.push(t); if (P.days.length > 120) P.days = P.days.slice(-120); } }
+function stepDone(id, k) { P.steps[id] = P.steps[id] || []; if (!P.steps[id].includes(k)) P.steps[id].push(k); markDay(); touch(); }
+function isStepDone(id, k) { return (P.steps[id] || []).includes(k); }
+function streak() {
+  const set = new Set(P.days); let d = today(), n = 0;
+  if (!set.has(d)) d = addDays(d, -1);
+  while (set.has(d)) { n++; d = addDays(d, -1); }
+  return n;
+}
+function addToSrs(id) {
+  const u = unit(id); if (!u || !u.l) return;
+  u.l.words.forEach((w, i) => { const k = id + ":" + i; if (!P.srs[k]) P.srs[k] = { b: 1, due: addDays(today(), 1) }; });
+}
+function dueKeys() { const t = today(); return Object.keys(P.srs).filter(k => P.srs[k].due <= t && wordByKey(k)); }
+function nextId() { return ORDER.find(id => !P.done[id] && unit(id)) || BONUS.find(id => !P.done[id] && unit(id)) || null; }
+function unitTitle(u) { return u.kind === "review" ? { de: "Wochenrückblick", tr: `${u.week}. hafta tekrarı ve testi` } : { de: u.l.title_de, tr: u.l.title_tr }; }
+
+/* ---------- Claude (sample) ---------- */
+let samplePromise = null;
+function getSample() {
+  if (!samplePromise) samplePromise = (window.claude && window.claude.use) ? window.claude.use("sample").catch(() => null) : Promise.resolve(null);
+  return samplePromise;
+}
+const SAMPLE_HIDE = ["not_granted", "sampling_disabled", "not_declared", "capability_disabled", "capability_removed"];
+function sampleError(e) {
+  const c = e && e.code;
+  if (SAMPLE_HIDE.includes(c)) return { hide: true, msg: "Claude ile konuşma bu görünümde açık değil." };
+  if (c === "rate_limited") return { msg: "Çok fazla mesaj gönderildi ya da kullanım sınırına ulaşıldı. Biraz bekleyip tekrar gönder." };
+  if (c === "session_expired") return { msg: "Claude oturumun kapanmış. Tekrar giriş yapıp yeniden gönder." };
+  if (c === "cancelled") return { msg: "" };
+  return { msg: "Cevap alınamadı. Mesajını tekrar göndermeyi dene." };
+}
+
+/* ---------- app state ---------- */
+const S = { view: "home", uid: null, step: 0, fc: null, quiz: null, chat: null, rv: null, confirmReset: false, wordMode: "cards", maskDriver: false };
+
+/* ---------- rendering ---------- */
+function render() {
+  document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-current", (t.dataset.v === S.view || (S.view === "lesson" && t.dataset.v === "home")) ? "page" : "false"));
+  paintBadge();
+  if (S.view === "home") $app.innerHTML = homeHtml();
+  else if (S.view === "lesson") $app.innerHTML = lessonHtml();
+  else if (S.view === "review") $app.innerHTML = reviewHtml();
+  else if (S.view === "talk") $app.innerHTML = talkHtml();
+  $app.classList.toggle("hide-tr", !!prefs.hideTr);
+  paintSync();
+}
+function paintBadge() { const n = dueKeys().length; const b = document.getElementById("dueBadge"); if (b) b.innerHTML = n ? ` <span class="badge">${n}</span>` : ""; }
+
+function signHtml() {
+  const day = Math.min(COURSE_DAYS, Math.max(1, daysBetween(P.start, today()) + 1));
+  const doneCount = ORDER.filter(id => P.done[id]).length;
+  return `<div class="sign" role="img" aria-label="Hat B1, yön Hochbahn">
+    <div class="sign-row"><span class="sign-line">B1</span><span class="sign-dest">Hochbahn</span></div>
+    <div class="sign-meta"><span>Gün <b>${day}</b>/${COURSE_DAYS}</span><span>Seri <b>${streak()}</b> gün</span><span>Durak <b>${doneCount}</b>/${ORDER.length}</span></div>
+  </div>`;
+}
+
+function homeHtml() {
+  if (!W[1]) return signHtml() + `<div class="card"><p>Dersler yüklenemedi. İnternet bağlantını kontrol edip sayfayı yenile.</p></div>`;
+  const nid = nextId(); const u = nid && unit(nid);
+  let today_ = "";
+  if (u) {
+    const t = unitTitle(u); const steps = u.kind === "review" ? REVIEW_STEPS : STEPS;
+    const nd = steps.filter(s => isStepDone(nid, s.k)).length;
+    today_ = `<section class="card" aria-labelledby="todayH">
+      <div class="kicker">Bugünkü durak · ${u.week === BONUS_WEEK ? "Bonus IHK" : u.week + ". hafta"}${u.kind === "lesson" ? " · " + u.day + ". ders" : ""}</div>
+      <h2 id="todayH" style="font-size:24px">${esc(t.de)}</h2>
+      <p class="muted">${esc(t.tr)}</p>
+      ${u.l ? `<p>${esc(u.l.goal_tr)}</p>` : `<p>Haftanın bütün kelimelerinden test, bir konuşma pratiği ve haftanın önemli cümleleri.</p>`}
+      <div class="segbar" aria-label="${nd}/${steps.length} adım bitti">${steps.map(s => `<i class="${isStepDone(nid, s.k) ? "on" : ""}"></i>`).join("")}</div>
+      <p class="small muted">${steps.map(s => `${s.tr} ${s.min} dk`).join(" · ")}</p>
+      <button class="btn" data-act="open" data-id="${nid}">${nd ? "Devam et" : "Derse başla"}</button>
+    </section>`;
+  } else today_ = `<section class="card"><h2>Bütün dersleri bitirdin!</h2><p>Tekrar ve Konuş bölümleriyle mülakata kadar pratik yapmaya devam et. Başarılar!</p></section>`;
+  const due = dueKeys().length;
+  const dueCard = due ? `<button class="card" style="text-align:left;flex-direction:row;align-items:center;justify-content:space-between" data-act="tab" data-v="review"><span><b>${due} kelime</b> tekrar bekliyor</span><span class="linkbtn">Tekrar et →</span></button>` : "";
+
+  let route = "";
+  for (let w = 1; w <= MAIN_WEEKS; w++) route += stopHtml(w, nid);
+  const bonus = W[BONUS_WEEK] ? `<section class="card"><div class="branch-title"><span class="tag">Bonus</span><h3 style="font-size:19px">${esc(W[BONUS_WEEK].title_de.replace(/^Bonus:\s*/, ""))}</h3></div>
+    <p class="muted">${esc(W[BONUS_WEEK].title_tr)}. IHK sınavına hazırlık için. Pazar günleri ya da sınavdan önce yap.</p>
+    <div class="chips">${BONUS.map((id, i) => chipHtml(id, String(i + 1), nid)).join("")}</div></section>` : "";
+
+  return signHtml() + today_ + dueCard + `
+  <section aria-labelledby="routeH" style="display:flex;flex-direction:column;gap:12px">
+    <div><h2 id="routeH" style="font-size:22px">Güzergâh</h2><p class="small muted">Pazartesi–cuma her gün 1 ders · Cumartesi hafta tekrarı (T) · Pazar serbest tekrar ve konuşma</p></div>
+    <div class="route">${route}</div>
+  </section>${bonus}
+  <section class="settings">
+    <label class="row" style="align-items:center;gap:10px"><input type="checkbox" id="slowPref" data-act="slow" ${prefs.slow ? "checked" : ""} style="width:22px;height:22px"> Almancayı yavaş oku</label>
+    <p class="small muted" id="syncState"></p>
+    ${S.confirmReset ? `<div class="confirm"><span class="small">Bütün ilerlemen silinsin mi?</span><button class="btn bad" data-act="resetYes">Evet, sil</button><button class="btn quiet" data-act="resetNo">Vazgeç</button></div>` : `<button class="linkbtn small" data-act="reset" style="color:var(--muted)">İlerlemeyi sıfırla</button>`}
+  </section>`;
+}
+function chipHtml(id, label, nid) {
+  const cls = P.done[id] ? "done" : id === nid ? "next" : "";
+  return `<button class="chip ${cls}" data-act="open" data-id="${id}" aria-label="${esc(label === "T" ? "Hafta tekrarı" : label + ". ders")}${P.done[id] ? ", bitti" : ""}">${label}</button>`;
+}
+function stopHtml(w, nid) {
+  const wk = W[w];
+  const ids = [1, 2, 3, 4, 5].map(d => `w${w}d${d}`).concat(`w${w}r`);
+  const passed = ids.every(id => P.done[id]);
+  const here = nid && nid.startsWith(`w${w}`) && /^w\d+(d|r)/.test(nid) && +nid.match(/^w(\d+)/)[1] === w;
+  return `<div class="stop ${passed ? "passed" : ""} ${here ? "here" : ""}">
+    <div class="node">${w}</div>
+    <div class="stop-body">
+      <div class="kicker">${w}. hafta</div>
+      <h3>${esc(wk ? wk.title_de : "Yükleniyor…")}</h3>
+      <p class="small muted">${esc(wk ? wk.title_tr : "")}</p>
+      ${wk ? `<div class="chips">${[1, 2, 3, 4, 5].map(d => chipHtml(`w${w}d${d}`, String(d), nid)).join("")}${chipHtml(`w${w}r`, "T", nid)}</div>` : ""}
+    </div></div>`;
+}
+
+/* ----- lesson ----- */
+function lessonHtml() {
+  const u = unit(S.uid); if (!u) { S.view = "home"; return homeHtml(); }
+  const steps = u.kind === "review" ? REVIEW_STEPS : STEPS;
+  const st = steps[S.step]; const t = unitTitle(u);
+  const head = `<button class="linkbtn back" data-act="home">← Rota</button>
+    <header style="display:flex;flex-direction:column;gap:4px">
+      <div class="kicker">${u.week === BONUS_WEEK ? "Bonus IHK" : u.week + ". hafta"}${u.kind === "lesson" ? " · " + u.day + ". ders" : ""}</div>
+      <h1 style="font-size:28px">${esc(t.de)}</h1><p class="muted">${esc(t.tr)}</p>
+    </header>
+    <div class="steps" role="tablist">${steps.map((s, i) => `<button role="tab" aria-selected="${i === S.step}" class="step ${i === S.step ? "cur" : ""} ${isStepDone(S.uid, s.k) ? "done" : ""}" data-act="step" data-i="${i}">${s.tr}</button>`).join("")}</div>
+    <p class="small muted">Önerilen süre: ${st.min} dk</p>`;
+  let body = "";
+  const L = u.l;
+  switch (st.k) {
+    case "words": body = wordsHtml(L); break;
+    case "phrases": body = phrasesHtml(L.phrases); break;
+    case "dialog": body = dialogHtml(L.dialog); break;
+    case "grammar": body = grammarHtml(L.grammar); break;
+    case "talk": body = lessonTalkHtml(L.roleplay); break;
+    case "test": body = quizHtml(); break;
+    case "wtest": body = quizHtml(); break;
+    case "wtalk": body = weekTalkHtml(u); break;
+    case "wrecap": body = phrasesHtml(u.wk.lessons.flatMap(l => l.phrases)); break;
+  }
+  const finishable = !["test", "wtest"].includes(st.k);
+  const last = S.step === steps.length - 1;
+  const foot = finishable ? `<button class="btn ${isStepDone(S.uid, st.k) ? "quiet" : ""}" data-act="stepDone">${last ? "Adımı bitir" : "Tamam, sonraki adım →"}</button>` : "";
+  return head + body + foot;
+}
+
+function wordsHtml(L) {
+  const toggle = `<div class="toggles"><button class="tog" aria-pressed="${S.wordMode === "cards"}" data-act="wordMode" data-m="cards">Kartlar</button><button class="tog" aria-pressed="${S.wordMode === "list"}" data-act="wordMode" data-m="list">Liste</button></div>`;
+  if (S.wordMode === "list") return toggle + `<div class="list">${L.words.map(w => `<div class="li">${sayBtn(w.de)}<div class="txt"><span class="de">${artHtml(w.de)}${w.pl ? ` <span class="small muted">· ${esc(w.pl)}</span>` : ""}</span><span class="tr">${esc(w.tr)}</span><span class="small">${esc(w.ex_de)}</span><span class="small tr">${esc(w.ex_tr)}</span></div></div>`).join("")}</div>`;
+  if (!S.fc) S.fc = { q: shuffle(L.words.map((_, i) => i)), flip: false, known: 0, total: L.words.length, src: "lesson" };
+  return toggle + flashHtml(L.words);
+}
+function flashHtml(words, labelFn) {
+  const f = S.fc;
+  if (!f.q.length) return `<div class="card" style="text-align:center;align-items:center"><div class="score">${f.total}/${f.total}</div><p>Hepsini bildin. Kelimeler tekrar listene eklendi, yarın yeniden sorulacak.</p></div>`;
+  const w = words[f.q[0]];
+  return `<p class="small muted">${f.known}/${f.total} biliniyor · Karta dokun, arkasını gör</p>
+  <div class="card flash" data-act="flip" role="button" tabindex="0" aria-label="Kartı çevir">
+    <div class="row" style="align-items:center;justify-content:center;gap:12px"><span class="de">${artHtml(w.de)}</span>${sayBtn(w.de)}</div>
+    ${w.pl ? `<div class="small muted">Çoğul: ${esc(w.pl)}</div>` : ""}
+    ${f.flip ? `<div class="tr">${esc(w.tr)}</div>
+      ${w.ex_de ? `<div class="ex">${sayBtn(w.ex_de)}<div><div>${esc(w.ex_de)}</div><div class="muted small">${esc(w.ex_tr)}</div></div></div>` : ""}` : `<div class="small muted">Türkçesi ne?</div>`}
+  </div>
+  <div class="row"><button class="btn bad" data-act="fcNo">Tekrar göster</button><button class="btn ok" data-act="fcYes">Biliyorum</button></div>`;
+}
+function phrasesHtml(list) {
+  return `<div class="toggles"><button class="tog" aria-pressed="${!!prefs.hideTr}" data-act="hideTr">Türkçeyi gizle</button></div>
+  <div class="list">${list.map(p => `<div class="li">${sayBtn(p.de)}<div class="txt"><span class="de">${esc(p.de)}</span><span class="tr" data-act="reveal">${esc(p.tr)}</span></div></div>`).join("")}</div>`;
+}
+function dialogHtml(d) {
+  const driverish = who => /fahrer/i.test(who) || /bewerber/i.test(who);
+  return `<p class="small muted">${esc(d.title_tr)}</p>
+  <div class="toggles">
+    <button class="tog" data-act="playDialog">▶ Hepsini dinle</button>
+    <button class="tog" aria-pressed="${!!prefs.hideTr}" data-act="hideTr">Türkçeyi gizle</button>
+    <button class="tog" aria-pressed="${S.maskDriver}" data-act="maskDriver">Şoför satırlarını sen söyle</button>
+  </div>
+  <div class="thread">${d.lines.map(l => {
+    const me = driverish(l.who); const masked = me && S.maskDriver;
+    return `<div class="bub ${me ? "me" : ""} ${masked ? "masked" : ""}"><span class="who">${esc(l.who)}</span>
+      <div class="line"><span class="de" ${masked ? 'data-act="unmask"' : ""}>${esc(l.de)}</span>${sayBtn(l.de)}</div>
+      <span class="tr" data-act="reveal">${esc(l.tr)}</span></div>`;
+  }).join("")}</div>`;
+}
+function grammarHtml(g) {
+  return `<section class="card"><h2 style="font-size:20px">${esc(g.title_tr)}</h2><p>${esc(g.explain_tr)}</p></section>
+  <div class="list">${g.examples.map(p => `<div class="li">${sayBtn(p.de)}<div class="txt"><span class="de">${esc(p.de)}</span><span class="tr">${esc(p.tr)}</span></div></div>`).join("")}</div>`;
+}
+
+/* ----- quiz ----- */
+function optionsFor(ans, all) { return shuffle([ans, ...shuffle([...new Set(all.filter(x => x && x !== ans))]).slice(0, 3)]); }
+function makeQuiz(words, phrases, n) {
+  const qs = [];
+  for (const w of shuffle(words)) {
+    const m = /^(der|die|das)\s/.exec(w.de); const r = Math.random();
+    if (m && r < 0.25) qs.push({ label: "Artikeli hangisi?", prompt: w.de.slice(4).replace(/\s*\(.*\)/, ""), sub: w.tr, answer: m[1], options: ["der", "die", "das"] });
+    else if (r < 0.62) qs.push({ label: "Türkçesi nedir?", prompt: w.de, say: w.de, answer: w.tr, options: optionsFor(w.tr, words.map(x => x.tr)) });
+    else qs.push({ label: "Almancası nedir?", prompt: w.tr, answer: w.de, options: optionsFor(w.de, words.map(x => x.de)) });
+  }
+  const ph = shuffle(phrases).slice(0, Math.max(3, Math.round(n / 4))).map(p => ({ label: "Bu cümle ne demek?", prompt: p.de, say: p.de, answer: p.tr, options: optionsFor(p.tr, phrases.map(x => x.tr)) }));
+  return shuffle(qs.slice(0, n - ph.length).concat(ph));
+}
+function ensureQuiz() {
+  if (S.quiz && S.quiz.uid === S.uid) return;
+  const u = unit(S.uid);
+  if (u.kind === "review") {
+    const ls = u.wk.lessons;
+    S.quiz = { uid: S.uid, qs: makeQuiz(ls.flatMap(l => l.words), ls.flatMap(l => l.phrases), 20), i: 0, right: 0, picked: null };
+  } else S.quiz = { uid: S.uid, qs: makeQuiz(u.l.words, u.l.phrases, 10), i: 0, right: 0, picked: null };
+}
+function quizHtml() {
+  ensureQuiz(); const z = S.quiz;
+  if (z.i >= z.qs.length) {
+    const pct = Math.round(z.right / z.qs.length * 100); const pass = pct >= 70;
+    return `<div class="card" style="align-items:center;text-align:center"><div class="score">${pct}%</div>
+      <p>${z.right}/${z.qs.length} doğru. ${pass ? "Tebrikler, bu durak tamam!" : "Durağı geçmek için %70 gerekiyor. Kelimelere bir kez daha bakıp tekrar dene."}</p>
+      <div class="row" style="width:100%">${pass ? `<button class="btn" data-act="home">Rotaya dön</button>` : `<button class="btn" data-act="quizAgain">Testi tekrarla</button>`}</div></div>`;
+  }
+  const q = z.qs[z.i];
+  return `<p class="small muted">Soru ${z.i + 1}/${z.qs.length} · ${z.right} doğru</p>
+  <section class="card"><div class="kicker">${esc(q.label)}</div>
+    <div class="row" style="align-items:center;gap:12px"><div class="q-prompt" style="flex:1;min-width:0">${esc(q.prompt)}</div>${q.say ? sayBtn(q.say) : ""}</div>
+    ${q.sub ? `<p class="muted">${esc(q.sub)}</p>` : ""}
+    <div class="opts">${q.options.map((o, i) => {
+      let cls = ""; if (z.picked !== null) { if (o === q.answer) cls = "right"; else if (i === z.picked) cls = "wrong"; }
+      return `<button class="opt ${cls}" data-act="pick" data-i="${i}" ${z.picked !== null ? "disabled" : ""}>${esc(o)}</button>`;
+    }).join("")}</div>
+  </section>
+  ${z.picked !== null ? `<button class="btn" data-act="quizNext">${z.i + 1 < z.qs.length ? "Sonraki soru →" : "Sonucu gör"}</button>` : ""}`;
+}
+
+/* ----- conversation with Claude ----- */
+function rulesFor(cfg) {
+  return `Du bist Sprachtrainer und Rollenspielpartner für einen türkischen Muttersprachler (Deutsch A2, Ziel B1). Er macht in Hamburg den Busführerschein und bewirbt sich bald als Busfahrer bei der Hamburger Hochbahn.
+
+ROLLENSPIEL
+Deine Rolle: ${cfg.aiRole}
+Rolle des Lernenden: ${cfg.userRole}
+Situation und Anweisungen: ${cfg.brief}
+
+REGELN
+- Bleib in deiner Rolle. Sprich natürliches, einfaches Deutsch (A2–B1), 1–3 kurze Sätze pro Antwort. Bring die Szene Schritt für Schritt voran und reagiere genau auf das, was der Lernende sagt.
+- Antworte IMMER genau in diesem Format, ohne Markdown:
+<deine Antwort auf Deutsch>
+---
+TR: <türkische Übersetzung deiner Antwort>
+FEEDBACK: <auf Türkisch zur LETZTEN Nachricht des Lernenden. Hatte sie Fehler: schreibe „Daha doğru: <korrigierter deutscher Satz>“ und eine sehr kurze türkische Erklärung. War sie korrekt: „Doğru 👍“ und wenn hilfreich eine natürlichere Alternative.>
+- Schreibt der Lernende Türkisch oder weiß er nicht weiter, bleib freundlich und gib ihm im FEEDBACK einen deutschen Beispielsatz, den er sagen kann.
+- Ist die Szene natürlich zu Ende, sag das kurz in deiner Rolle und schlage im FEEDBACK vor, auf „Bitir ve değerlendir“ zu tippen.`;
+}
+function parseReply(text) {
+  const parts = text.split(/\n\s*-{3,}\s*\n/);
+  const de = parts[0].trim(); const rest = parts.slice(1).join("\n");
+  const tr = (/TR:\s*([\s\S]*?)(?:\n\s*FEEDBACK:|$)/.exec(rest) || [])[1] || "";
+  const fb = (/FEEDBACK:\s*([\s\S]*)$/.exec(rest) || [])[1] || "";
+  return { de: de || text.trim(), tr: tr.trim(), fb: fb.trim() };
+}
+function startChat(cfg) { S.chat = { cfg, turns: [{ role: "ai", raw: cfg.opener, de: cfg.opener, tr: "" }], busy: false, live: "", err: "", evalText: "", evaluating: false, hidden: false, draft: "" }; }
+function lessonCfg(rp, key) { return { key, aiRole: rp.ai_role_de, userRole: rp.user_role_tr, brief: rp.ai_brief, opener: rp.opener_de, scenario: rp.scenario_tr }; }
+function lessonTalkHtml(rp) {
+  if (!S.chat || S.chat.cfg.key !== S.uid) startChat(lessonCfg(rp, S.uid));
+  return `<div class="scenario"><div class="kicker">Senaryo</div><p>${esc(rp.scenario_tr)}</p><p class="small muted">Sen: ${esc(rp.user_role_tr)} · Claude: ${esc(rp.ai_role_de)}</p></div>` + chatHtml();
+}
+function weekTalkHtml(u) {
+  const key = S.uid + ":" + (S.weekPick ?? -1);
+  if (S.weekPick == null || !u.wk.lessons[S.weekPick]) {
+    return `<p>Bu haftanın senaryolarından birini seç ve baştan sona Almanca konuş. Bu kez Türkçe ipucu kullanmamaya çalış.</p>
+    <div class="modes">${u.wk.lessons.map((l, i) => `<button class="mode" data-act="weekPick" data-i="${i}"><b>${esc(l.title_de)}</b><span>${esc(l.roleplay.scenario_tr)}</span></button>`).join("")}</div>`;
+  }
+  const rp = u.wk.lessons[S.weekPick].roleplay;
+  if (!S.chat || S.chat.cfg.key !== key) startChat(lessonCfg(rp, key));
+  return `<div class="scenario"><div class="kicker">Senaryo</div><p>${esc(rp.scenario_tr)}</p><button class="linkbtn small" data-act="weekPick" data-i="-1">Başka senaryo seç</button></div>` + chatHtml();
+}
+function chatHtml() {
+  const c = S.chat;
+  if (c.hidden) return fallbackHtml(c.cfg);
+  const items = c.turns.map(t => t.role === "user"
+    ? `<div class="bub me"><span class="de">${esc(t.text)}</span></div>${t.fb ? `<div class="fb ${/^Doğru/.test(t.fb) ? "good" : ""}">${esc(t.fb)}</div>` : ""}`
+    : `<div class="bub"><span class="who">${esc(c.cfg.aiRole)}</span><div class="line"><span class="de">${esc(t.de)}</span>${sayBtn(t.de)}</div>${t.tr ? `<span class="tr" data-act="reveal">${esc(t.tr)}</span>` : ""}</div>`).join("");
+  const live = c.busy ? `<div class="bub" id="liveBub"><span class="who">${esc(c.cfg.aiRole)}</span><span class="de" id="liveText">${esc(c.live || "Yazıyor…")}</span></div>` : "";
+  return `<div class="thread" id="thread">${items}${live}</div>
+  ${c.err ? `<div class="notice">${esc(c.err)}</div>` : ""}
+  ${c.evalText || c.evaluating ? `<section class="card"><div class="kicker">Değerlendirme</div><div class="eval" id="evalText">${esc(c.evalText || "Konuşman değerlendiriliyor…")}</div></section>` : ""}
+  <div class="composer"><textarea id="chatIn" rows="2" placeholder="Almanca yaz…" aria-label="Mesajın">${esc(c.draft)}</textarea>
+    ${c.busy ? `<button class="btn quiet" data-act="stopChat">Durdur</button>` : `<button class="btn" data-act="sendChat">Gönder</button>`}</div>
+  <p class="small muted">İpucu: Klavyende Almanca dilini ekle ve mikrofon tuşuna basarak konuş. Böylece telaffuzunu da çalışırsın.</p>
+  ${c.turns.length > 3 && !c.busy ? `<button class="btn ghost" data-act="evalChat" ${c.evaluating ? "disabled" : ""}>Bitir ve değerlendir</button>` : ""}`;
+}
+function fallbackHtml(cfg) {
+  const prompt = rulesFor(cfg) + `\n\nBeginne jetzt die Szene mit: „${cfg.opener}“`;
+  return `<div class="notice">Bu sayfada Claude ile konuşma şu an açık değil. Aşağıdaki metni kopyalayıp Claude uygulamasında yeni bir sohbete yapıştır, aynı pratiği orada yap.</div>
+  <textarea class="copybox" id="copyBox" readonly>${esc(prompt)}</textarea>
+  <button class="btn quiet" data-act="copy">Metni kopyala</button>`;
+}
+async function sendChat() {
+  const c = S.chat; const box = document.getElementById("chatIn"); const txt = (box ? box.value : "").trim();
+  if (!txt || c.busy) return;
+  c.draft = ""; c.err = ""; c.turns.push({ role: "user", text: txt }); c.busy = true; c.live = ""; c.ctl = new AbortController();
+  render(); scrollChat();
+  const msgs = [{ role: "user", content: rulesFor(c.cfg) }, { role: "assistant", content: c.cfg.opener }];
+  for (const t of c.turns.slice(1).slice(-24)) msgs.push(t.role === "user" ? { role: "user", content: t.text } : { role: "assistant", content: t.raw });
+  try {
+    const sample = await getSample();
+    if (!sample) throw { code: "not_granted" };
+    const { text } = await sample(msgs, { cache: false, modelTier: "quick", signal: c.ctl.signal, onText: ({ text }) => {
+      c.live = text.split(/\n\s*-{3,}/)[0]; const el = document.getElementById("liveText"); if (el) el.textContent = c.live; } });
+    const p = parseReply(text);
+    c.turns[c.turns.length - 1].fb = p.fb;
+    c.turns.push({ role: "ai", raw: text, de: p.de, tr: p.tr });
+    markDay(); touch();
+  } catch (e) {
+    const info = sampleError(e); const lastUser = c.turns.pop(); c.draft = lastUser ? lastUser.text : "";
+    if (info.hide) c.hidden = true; c.err = info.msg;
+  }
+  c.busy = false; if (S.chat === c) { render(); scrollChat(); }
+}
+async function evalChat() {
+  const c = S.chat; if (c.evaluating) return;
+  c.evaluating = true; c.evalText = ""; render();
+  const transcript = c.turns.map(t => t.role === "user" ? "Lernender: " + t.text : c.cfg.aiRole + ": " + t.de).join("\n");
+  const prompt = `Du bist Deutschlehrer für einen türkischen Lernenden (A2, Ziel B1), der Busfahrer in Hamburg wird. Bewerte dieses Rollenspiel (Rolle des Lernenden: ${c.cfg.userRole}; Situation: ${c.cfg.brief}).
+
+Antworte komplett auf TÜRKISCH (deutsche Beispielsätze auf Deutsch), ohne Markdown-Zeichen wie ** oder #, in genau dieser Form:
+Puan: x/10
+İyi yaptıkların:
+- …
+- …
+Düzeltmen gerekenler:
+- <dein Fehler> → <richtig auf Deutsch> (kısa açıklama)
+(höchstens 4)
+Ezberle (bu durumda işine yarayacak 5 cümle):
+- <Deutsch> = <Türkçe>
+
+Gespräch:
+${transcript}`;
+  try {
+    const sample = await getSample(); if (!sample) throw { code: "not_granted" };
+    const { text } = await sample(prompt, { cache: false, onText: ({ text }) => { c.evalText = text; const el = document.getElementById("evalText"); if (el) el.textContent = text; } });
+    c.evalText = text;
+    const k = S.view === "lesson" ? (unit(S.uid).kind === "review" ? "wtalk" : "talk") : null;
+    if (k) stepDone(S.uid, k); else { markDay(); touch(); }
+  } catch (e) { const info = sampleError(e); c.evalText = ""; c.err = info.msg || ""; if (info.hide) c.hidden = true; }
+  c.evaluating = false; if (S.chat === c) render();
+}
+function scrollChat() { const t = document.getElementById("chatIn"); if (t) t.scrollIntoView({ block: "end", behavior: "smooth" }); }
+
+/* ----- spaced review tab ----- */
+const INTERVALS = [0, 1, 2, 4, 8, 16];
+function reviewHtml() {
+  const keys = Object.keys(P.srs).filter(k => wordByKey(k));
+  const boxes = [1, 2, 3, 4, 5].map(b => keys.filter(k => P.srs[k].b === b).length);
+  const mx = Math.max(1, ...boxes);
+  const head = `<header style="display:flex;flex-direction:column;gap:4px"><div class="kicker">Tekrar</div><h1 style="font-size:28px">Kelime tekrarı</h1>
+    <p class="muted">Öğrendiğin kelimeler doğru aralıklarla tekrar karşına çıkar. Bildikçe kutu yükselir ve kelime daha seyrek gelir.</p></header>`;
+  const chart = keys.length ? `<section class="card"><div class="kicker">${keys.length} kelime · kutulara göre</div>
+    <div class="boxes" aria-hidden="true">${boxes.map(n => `<div style="height:${Math.round(n / mx * 100)}%"></div>`).join("")}</div>
+    <div class="boxlbl">${boxes.map((n, i) => `<span>${i + 1}. kutu<br><b style="color:var(--ink)">${n}</b></span>`).join("")}</div></section>` : "";
+  if (S.rv) {
+    const r = S.rv;
+    if (!r.q.length) return head + `<div class="card" style="align-items:center;text-align:center"><div class="score">${r.right}/${r.total}</div><p>Tekrar bitti. Yarın yeni kelimeler gelecek.</p><button class="btn" data-act="rvEnd">Tamam</button></div>`;
+    const w = wordByKey(r.q[0]);
+    return head + `<p class="small muted">${r.total - r.q.length}/${r.total} · Karta dokun, arkasını gör</p>
+    <div class="card flash" data-act="rvFlip" role="button" tabindex="0" aria-label="Kartı çevir">
+      <div class="row" style="align-items:center;justify-content:center;gap:12px"><span class="de">${artHtml(w.de)}</span>${sayBtn(w.de)}</div>
+      ${r.flip ? `<div class="tr">${esc(w.tr)}</div>${w.ex_de ? `<div class="ex">${sayBtn(w.ex_de)}<div><div>${esc(w.ex_de)}</div><div class="muted small">${esc(w.ex_tr)}</div></div></div>` : ""}` : `<div class="small muted">Türkçesi ne?</div>`}
+    </div>
+    <div class="row"><button class="btn bad" data-act="rvNo">Bilmedim</button><button class="btn ok" data-act="rvYes">Bildim</button></div>`;
+  }
+  const due = dueKeys();
+  if (!keys.length) return head + `<div class="card"><p>Henüz kelime yok. İlk dersin kelime kartlarını bitirdiğinde kelimeler buraya gelir.</p><button class="btn" data-act="tab" data-v="home">Derse git</button></div>`;
+  const nextDue = keys.map(k => P.srs[k].due).sort()[0];
+  return head + chart + (due.length
+    ? `<button class="btn" data-act="rvStart">${Math.min(due.length, 30)} kelimeyi tekrar et</button>`
+    : `<div class="card"><p>Bugün tekrar edilecek kelime yok. Sıradaki tekrar: <b>${esc(nextDue)}</b></p><button class="btn quiet" data-act="rvFree">Yine de 10 kelime çalış</button></div>`);
+}
+
+/* ----- free talk tab ----- */
+const MODES = [
+  { k: "fahrgast", b: "Yolcu", s: "Otobüste gerçekçi yolcu durumları", aiRole: "Fahrgast", userRole: "Otobüs şoförü", opener: "Moin! Entschuldigung, fährt dieser Bus zum Hauptbahnhof?",
+    brief: "Du bist ein Fahrgast in einem Hamburger Stadtbus. Spiele nacheinander verschiedene realistische Situationen: Ticketfrage, Umsteigen, Weg zu einer Haltestelle, Beschwerde über Verspätung, Kinderwagen oder Rollstuhl, Tourist mit wenig Deutsch, vergessene Tasche. Wenn eine Situation gelöst ist, starte als neuer Fahrgast eine neue." },
+  { k: "leitstelle", b: "Leitstelle", s: "Telsizle merkezle konuşma", aiRole: "Leitstelle", userRole: "Otobüs şoförü (telsizde)", opener: "Leitstelle hört. Wagen 7421, bitte kommen.",
+    brief: "Du bist Mitarbeiter der Leitstelle eines Hamburger Busbetriebs am Funk. Sprich kurz und sachlich in Funksprache. Spiele Situationen wie Stau und Verspätung, Umleitung wegen Baustelle, Fahrzeugstörung, Unfall mit Blechschaden, aggressiver Fahrgast, medizinischer Notfall im Bus. Frag nach Standort, Linie und Lage und gib klare Anweisungen." },
+  { k: "interview", b: "Mülakat", s: "Hochbahn iş görüşmesi provası", aiRole: "Personalreferentin", userRole: "Busfahrer-Bewerber", opener: "Guten Tag und herzlich willkommen! Schön, dass Sie da sind. Bitte erzählen Sie mir zuerst ein bisschen über sich.",
+    brief: "Du führst ein Vorstellungsgespräch für eine Stelle als Busfahrer/in bei der Hamburger Hochbahn. Sei freundlich, aber frage nach. Stelle eine Frage nach der anderen: über die Person, Berufserfahrung, Führerschein Klasse D und Qualifikation, Motivation (warum Busfahrer, warum Hochbahn, warum Hamburg), Stärken und Schwächen, Schichtdienst und Wochenenden, Situationsfragen (beleidigender Fahrgast, Verspätung, Rollstuhlfahrer, Unfall), Deutschkenntnisse, eigene Fragen des Bewerbers. Erfinde keine internen Firmendetails." },
+  { k: "alltag", b: "Günlük hayat", s: "Komşu, iş arkadaşı, resmî daire", aiRole: "Gesprächspartner", userRole: "Kendin", opener: "Moin! Na, wie geht's? Wie war Ihr Wochenende?",
+    brief: "Du bist abwechselnd ein freundlicher Nachbar, ein Kollege in der Pause oder eine Person bei Arzt, Behörde oder Vermieter in Hamburg. Führe Alltagsgespräche: Wochenende, Familie, Wetter, Einkaufen, Termin machen, Wohnung, Formulare. Sag kurz an, wenn du die Rolle wechselst." },
+  { k: "ihk", b: "IHK sınavı", s: "Sınav sorularıyla sözlü pratik", aiRole: "Prüfer", userRole: "Sınava giren şoför adayı", opener: "Guten Tag. Wir beginnen mit der Technik. Erste Frage: Wozu dient eine Dauerbremse, zum Beispiel ein Retarder?",
+    brief: "Du bist Prüfer für die IHK-Prüfung Berufskraftfahrer-Grundqualifikation (Bus, Klasse D). Stelle eine Prüfungsfrage nach der anderen aus: Fahrphysik und Technik, Bremsen, wirtschaftliches Fahren, Lenk- und Ruhezeiten, Fahrgastsicherheit, Notfälle und Brand im Bus, Recht, Gesundheit. Prüfe jede Antwort kurz (richtig/teilweise/falsch) und erkläre die richtige Lösung in einfachem Deutsch, bevor du die nächste Frage stellst. Nenne keine Zahlen, bei denen du dir nicht sicher bist." }
+];
+function talkHtml() {
+  if (S.chat && S.chat.cfg.key && S.chat.cfg.key.startsWith("mode:")) {
+    const m = MODES.find(x => "mode:" + x.k === S.chat.cfg.key);
+    return `<button class="linkbtn back" data-act="talkMenu">← Konular</button>
+    <header><div class="kicker">Serbest konuşma</div><h1 style="font-size:26px">${esc(m.b)}</h1><p class="muted">${esc(m.s)}</p></header>` + chatHtml();
+  }
+  return `<header style="display:flex;flex-direction:column;gap:4px"><div class="kicker">Konuş</div><h1 style="font-size:28px">Claude ile konuşma pratiği</h1>
+    <p class="muted">Bir konu seç ve Almanca yaz. Claude rolünü oynar, her mesajından sonra hatalarını Türkçe düzeltir. Pazar günleri ve mülakattan önce bol bol kullan.</p></header>
+  <div class="modes">${MODES.map(m => `<button class="mode" data-act="mode" data-k="${m.k}"><b>${esc(m.b)}</b><span>${esc(m.s)}</span></button>`).join("")}</div>`;
+}
+
+/* ---------- events ---------- */
+document.addEventListener("click", e => {
+  const el = e.target.closest("[data-act]"); if (!el) return;
+  const a = el.dataset.act;
+  if (a === "say") { e.stopPropagation(); say(el.dataset.t); return; }
+  if (a === "reveal") { el.classList.toggle("show"); return; }
+  if (a === "unmask") { el.closest(".bub").classList.remove("masked"); return; }
+  if (a === "slow") return;
+  const box = document.getElementById("chatIn"); if (box && S.chat) S.chat.draft = box.value;
+  switch (a) {
+    case "tab": S.view = el.dataset.v; if (S.view !== "review") S.rv = null; if (S.view === "talk" && S.chat && !String(S.chat.cfg.key).startsWith("mode:")) S.chat = null; break;
+    case "home": S.view = "home"; break;
+    case "open": S.uid = el.dataset.id; S.view = "lesson"; S.fc = null; S.quiz = null; S.chat = null; S.weekPick = null;
+      { const u = unit(S.uid); const steps = u.kind === "review" ? REVIEW_STEPS : STEPS; const i = steps.findIndex(s => !isStepDone(S.uid, s.k)); S.step = i < 0 ? 0 : i; } break;
+    case "step": S.step = +el.dataset.i; break;
+    case "stepDone": {
+      const u = unit(S.uid); const steps = u.kind === "review" ? REVIEW_STEPS : STEPS; const st = steps[S.step];
+      if (st.k === "words") { addToSrs(S.uid); }
+      stepDone(S.uid, st.k);
+      if (S.step < steps.length - 1) S.step++;
+      else S.view = "home";
+      break; }
+    case "wordMode": S.wordMode = el.dataset.m; break;
+    case "flip": S.fc.flip = !S.fc.flip; break;
+    case "fcYes": S.fc.q.shift(); S.fc.known++; S.fc.flip = false; if (!S.fc.q.length) { addToSrs(S.uid); stepDone(S.uid, "words"); } break;
+    case "fcNo": S.fc.q.push(S.fc.q.shift()); S.fc.flip = false; break;
+    case "hideTr": prefs.hideTr = !prefs.hideTr; savePrefs(); break;
+    case "maskDriver": S.maskDriver = !S.maskDriver; break;
+    case "playDialog": { const u = unit(S.uid); sayAll(u.l.dialog.lines); return; }
+    case "pick": { const z = S.quiz; if (z.picked !== null) return; z.picked = +el.dataset.i; const q = z.qs[z.i]; if (q.options[z.picked] === q.answer) z.right++; else if (q.say) {} break; }
+    case "quizNext": { const z = S.quiz; z.i++; z.picked = null;
+      if (z.i >= z.qs.length) { const pct = Math.round(z.right / z.qs.length * 100); const k = unit(S.uid).kind === "review" ? "wtest" : "test";
+        if (pct >= 70) { const prev = P.done[S.uid]; P.done[S.uid] = { score: Math.max(pct, prev ? prev.score : 0), at: today() }; if (k === "test") addToSrs(S.uid); stepDone(S.uid, k); } else { markDay(); touch(); } }
+      break; }
+    case "quizAgain": S.quiz = null; break;
+    case "sendChat": sendChat(); return;
+    case "stopChat": if (S.chat && S.chat.ctl) S.chat.ctl.abort(); return;
+    case "evalChat": evalChat(); return;
+    case "weekPick": S.weekPick = +el.dataset.i < 0 ? null : +el.dataset.i; S.chat = null; break;
+    case "copy": { const t = document.getElementById("copyBox"); const done = () => { el.textContent = "Kopyalandı"; };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t.value).then(done, () => { t.focus(); t.select(); });
+      else { t.focus(); t.select(); } return; }
+    case "mode": { const m = MODES.find(x => x.k === el.dataset.k); startChat({ key: "mode:" + m.k, aiRole: m.aiRole, userRole: m.userRole, brief: m.brief, opener: m.opener }); break; }
+    case "talkMenu": if (S.chat && S.chat.ctl) S.chat.ctl.abort(); S.chat = null; break;
+    case "rvStart": { const q = shuffle(dueKeys()).slice(0, 30); S.rv = { q, total: q.length, right: 0, flip: false, missed: new Set(), free: false }; break; }
+    case "rvFree": { const q = shuffle(Object.keys(P.srs).filter(k => wordByKey(k))).slice(0, 10); S.rv = { q, total: q.length, right: 0, flip: false, missed: new Set(), free: true }; break; }
+    case "rvFlip": S.rv.flip = !S.rv.flip; break;
+    case "rvYes": { const r = S.rv; const k = r.q.shift(); r.flip = false;
+      if (!r.missed.has(k)) { r.right++; if (!r.free) { const s = P.srs[k]; s.b = Math.min(5, s.b + 1); s.due = addDays(today(), INTERVALS[s.b]); } }
+      else if (!r.free) { P.srs[k].due = addDays(today(), 1); }
+      markDay(); touch(); break; }
+    case "rvNo": { const r = S.rv; const k = r.q.shift(); r.flip = false; r.missed.add(k); r.q.push(k);
+      if (!r.free) { P.srs[k].b = 1; } touch(); break; }
+    case "rvEnd": S.rv = null; break;
+    case "reset": S.confirmReset = true; break;
+    case "resetNo": S.confirmReset = false; break;
+    case "resetYes": S.confirmReset = false; P = blank(); touch(); break;
+    default: return;
+  }
+  render();
+  if (["open", "step", "stepDone", "tab", "home", "mode", "talkMenu", "weekPick"].includes(a)) window.scrollTo(0, 0);
+});
+document.addEventListener("change", e => { if (e.target.id === "slowPref") { prefs.slow = e.target.checked; savePrefs(); } });
+document.addEventListener("keydown", e => {
+  if (e.target.id === "chatIn" && e.key === "Enter" && !e.shiftKey && !e.isComposing && window.matchMedia("(hover: hover)").matches) { e.preventDefault(); if (S.chat) S.chat.draft = e.target.value; sendChat(); }
+  if ((e.key === "Enter" || e.key === " ") && e.target.matches(".flash")) { e.preventDefault(); e.target.click(); }
+});
+
+/* ---------- boot ---------- */
+(async () => {
+  await Promise.all(Array.from({ length: BONUS_WEEK }, (_, i) =>
+    fetch(`content/week${i + 1}.json`).then(r => r.ok ? r.json() : null).catch(() => null).then(j => { W[i + 1] = j; })));
+  render();
+  initDb();
+})();
+})();
+</script>

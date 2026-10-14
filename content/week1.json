@@ -1,0 +1,312 @@
+{
+  "week": 1,
+  "title_de": "Grundlagen für den Job",
+  "title_tr": "İş için temel Almanca",
+  "lessons": [
+    {
+      "id": "w1d1",
+      "day": 1,
+      "title_de": "Sich vorstellen & Höflichkeit",
+      "title_tr": "Kendini tanıtma ve nezaket",
+      "goal_tr": "Kendini iş yerinde kibarca tanıtabilir, yolcuları ve amirleri doğru selamlayabilirsin. 'Sie' ile 'du' arasındaki farkı bilir ve kibar sorular sorabilirsin.",
+      "words": [
+        {"de": "die Begrüßung", "pl": "die Begrüßungen", "tr": "selamlama, karşılama", "ex_de": "Eine freundliche Begrüßung ist im Bus sehr wichtig.", "ex_tr": "Otobüste güler yüzlü bir selamlama çok önemlidir."},
+        {"de": "sich vorstellen (hat sich vorgestellt)", "pl": "", "tr": "kendini tanıtmak", "ex_de": "Darf ich mich kurz vorstellen? Ich bin der neue Fahrer.", "ex_tr": "Kendimi kısaca tanıtabilir miyim? Ben yeni şoförüm."},
+        {"de": "höflich", "pl": "", "tr": "kibar, nazik", "ex_de": "Ein Busfahrer muss auch bei Stress höflich bleiben.", "ex_tr": "Bir otobüs şoförü stresli anlarda da kibar kalmalıdır."},
+        {"de": "freundlich", "pl": "", "tr": "güler yüzlü, cana yakın", "ex_de": "Die meisten Fahrgäste sind sehr freundlich.", "ex_tr": "Yolcuların çoğu çok güler yüzlü."},
+        {"de": "siezen", "pl": "", "tr": "'Sie' diye hitap etmek (siz demek)", "ex_de": "Fahrgäste siezen wir immer.", "ex_tr": "Yolculara her zaman 'Sie' diye hitap ederiz."},
+        {"de": "duzen", "pl": "", "tr": "'du' diye hitap etmek (sen demek)", "ex_de": "Unter Kollegen duzt man sich oft.", "ex_tr": "İş arkadaşları arasında genellikle 'du' denir."},
+        {"de": "der Kollege", "pl": "die Kollegen", "tr": "iş arkadaşı (erkek)", "ex_de": "Mein Kollege zeigt mir heute den Betriebshof.", "ex_tr": "İş arkadaşım bugün bana otobüs garajını gösteriyor."},
+        {"de": "der/die Vorgesetzte", "pl": "die Vorgesetzten", "tr": "amir, üst", "ex_de": "Mit dem Vorgesetzten spricht man mit Sie.", "ex_tr": "Amirle 'Sie' kullanılarak konuşulur."},
+        {"de": "die Entschuldigung", "pl": "die Entschuldigungen", "tr": "özür; affedersiniz", "ex_de": "Entschuldigung, ist dieser Platz noch frei?", "ex_tr": "Affedersiniz, bu yer hâlâ boş mu?"},
+        {"de": "der Nachname", "pl": "die Nachnamen", "tr": "soyadı", "ex_de": "Wie ist Ihr Nachname, bitte?", "ex_tr": "Soyadınız nedir, lütfen?"},
+        {"de": "die Erfahrung", "pl": "die Erfahrungen", "tr": "deneyim, tecrübe", "ex_de": "Ich habe schon Erfahrung als Fahrer.", "ex_tr": "Şoför olarak zaten deneyimim var."},
+        {"de": "sich bedanken (bei + Dat.)", "pl": "", "tr": "teşekkür etmek", "ex_de": "Ich bedanke mich für Ihre Geduld.", "ex_tr": "Sabrınız için teşekkür ederim."}
+      ],
+      "phrases": [
+        {"de": "Moin! / Moin moin!", "tr": "Merhaba! (Hamburg'da sabah, öğle, akşam her zaman kullanılır)"},
+        {"de": "Guten Tag, kann ich Ihnen helfen?", "tr": "İyi günler, size yardımcı olabilir miyim?"},
+        {"de": "Bitte schön!", "tr": "Buyurun! / Rica ederim!"},
+        {"de": "Freut mich, Sie kennenzulernen.", "tr": "Tanıştığımıza memnun oldum."},
+        {"de": "Wollen wir uns duzen?", "tr": "Birbirimize 'sen' diyelim mi?"},
+        {"de": "Einen schönen Tag noch!", "tr": "İyi günler dilerim!"}
+      ],
+      "dialog": {
+        "title_tr": "Garajda ilk gün",
+        "lines": [
+          {"who": "Kollege", "de": "Moin! Sind Sie neu hier?", "tr": "Merhaba! Burada yeni misiniz?"},
+          {"who": "Busfahrer", "de": "Moin! Ja, darf ich mich kurz vorstellen? Mein Name ist Emre Yılmaz.", "tr": "Merhaba! Evet, kendimi kısaca tanıtabilir miyim? Adım Emre Yılmaz."},
+          {"who": "Kollege", "de": "Freut mich! Ich bin Jan Petersen. Unter Kollegen duzen wir uns hier. Ich bin Jan.", "tr": "Memnun oldum! Ben Jan Petersen. Burada iş arkadaşları arasında 'sen' diyoruz. Ben Jan."},
+          {"who": "Busfahrer", "de": "Gern, ich bin Emre. Kannst du mir bitte zeigen, wo der Aufenthaltsraum ist?", "tr": "Memnuniyetle, ben Emre. Bana dinlenme odasının nerede olduğunu gösterebilir misin?"},
+          {"who": "Kollege", "de": "Klar, komm mit. Hast du schon Erfahrung als Busfahrer?", "tr": "Tabii, gel benimle. Otobüs şoförü olarak deneyimin var mı?"},
+          {"who": "Busfahrer", "de": "Ein bisschen. In der Türkei habe ich schon als Fahrer gearbeitet.", "tr": "Biraz. Türkiye'de şoför olarak çalıştım."},
+          {"who": "Kollege", "de": "Super. Aber die Fahrgäste und unseren Vorgesetzten, Herrn Schulz, siezt du immer.", "tr": "Süper. Ama yolculara ve amirimiz Bay Schulz'a her zaman 'Sie' diye hitap edersin."},
+          {"who": "Busfahrer", "de": "Alles klar. Immer höflich und freundlich bleiben.", "tr": "Anlaşıldı. Her zaman kibar ve güler yüzlü kalmak."},
+          {"who": "Chef", "de": "Guten Tag, Herr Yılmaz. Herzlich willkommen bei uns!", "tr": "İyi günler, Bay Yılmaz. Aramıza hoş geldiniz!"},
+          {"who": "Busfahrer", "de": "Guten Tag, Herr Schulz. Vielen Dank, ich freue mich auf die Arbeit.", "tr": "İyi günler, Bay Schulz. Çok teşekkür ederim, işe başlamak için sabırsızlanıyorum."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Sie-Form ve kibar sorular",
+        "explain_tr": "Yolcularla ve amirlerle her zaman 'Sie' kullanılır. 'Sie' büyük harfle yazılır ve fiil çoğul gibi çekimlenir: Sie haben, Sie sind, Sie möchten. Kibar bir rica için 'Können Sie …?' (… yapabilir misiniz?) kullanılır. İzin istemek için 'Darf ich …?' (… yapabilir miyim?) kullanılır. Asıl fiil mastar halinde cümlenin sonuna gider. 'bitte' eklemek cümleyi daha da kibar yapar.",
+        "examples": [
+          {"de": "Können Sie bitte nach hinten durchgehen?", "tr": "Lütfen arkaya doğru ilerleyebilir misiniz?"},
+          {"de": "Darf ich Ihr Ticket sehen?", "tr": "Biletinizi görebilir miyim?"},
+          {"de": "Würden Sie bitte den Kinderwagen festhalten?", "tr": "Lütfen bebek arabasını tutar mısınız?"},
+          {"de": "Haben Sie einen Moment Zeit, Herr Schulz?", "tr": "Bir dakikanız var mı, Bay Schulz?"}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Vorgesetzte",
+        "user_role_tr": "Yeni otobüs şoförü",
+        "scenario_tr": "Bugün otobüs garajında (Betriebshof) ilk günün. Amirin Frau Hansen seni karşılıyor. Kendini 'Sie' kullanarak kibarca tanıt, deneyimini kısaca anlat ve en az iki kibar soru sor (Können Sie …? / Darf ich …?).",
+        "ai_brief": "You are Frau Hansen, a friendly but busy supervisor (Vorgesetzte) at a Hamburg bus depot. The learner is a new bus driver (Turkish native speaker, German level A2) on their first day. Speak simple, clear German (A2-B1), short sentences, and always use 'Sie'. Ask the learner to introduce themselves: name, where they come from, driving experience. Complications: 1) Pronounce or repeat the learner's name slightly wrong so they have to correct you politely. 2) Your phone rings in the middle: say 'Einen Moment, bitte' and then 'So, wo waren wir?'. 3) If the learner uses 'du' with you, gently remind them that with supervisors we use 'Sie'. If the learner makes a big mistake, repeat the correct sentence naturally without lecturing. The scene is finished when the learner has introduced themselves and asked at least two polite questions (Können Sie …? / Darf ich …?). End with 'Einen schönen ersten Tag!'.",
+        "opener_de": "Moin! Sie sind bestimmt neu hier, oder? Ich bin Frau Hansen, Ihre Vorgesetzte. Wie heißen Sie?"
+      }
+    },
+    {
+      "id": "w1d2",
+      "day": 2,
+      "title_de": "Zahlen, Uhrzeit & Fahrplan",
+      "title_tr": "Sayılar, saat ve sefer tarifesi",
+      "goal_tr": "Kalkış ve varış saatlerini hem resmi (14:45) hem de günlük dille (Viertel vor drei) söyleyebilirsin. Yolculara sefer sıklığını ve gecikmeleri açıklayabilirsin.",
+      "words": [
+        {"de": "der Fahrplan", "pl": "die Fahrpläne", "tr": "sefer tarifesi, hareket çizelgesi", "ex_de": "Laut Fahrplan fährt der Bus um 14:45 Uhr ab.", "ex_tr": "Tarifeye göre otobüs 14:45'te kalkıyor."},
+        {"de": "die Abfahrt", "pl": "die Abfahrten", "tr": "kalkış", "ex_de": "Die Abfahrt am Hauptbahnhof ist um 7:10 Uhr.", "ex_tr": "Hauptbahnhof'tan kalkış saat 7:10'da."},
+        {"de": "die Ankunft", "pl": "die Ankünfte", "tr": "varış", "ex_de": "Die Ankunft in Wandsbek ist um 8:05 Uhr.", "ex_tr": "Wandsbek'e varış saat 8:05'te."},
+        {"de": "der Takt", "pl": "die Takte", "tr": "sefer aralığı, sıklık", "ex_de": "Tagsüber fährt der Bus im 10-Minuten-Takt.", "ex_tr": "Gündüz otobüs 10 dakikada bir kalkıyor."},
+        {"de": "pünktlich", "pl": "", "tr": "dakik, tam zamanında", "ex_de": "Heute sind wir pünktlich am Rathausmarkt.", "ex_tr": "Bugün Rathausmarkt'a tam zamanında vardık."},
+        {"de": "verspätet", "pl": "", "tr": "gecikmeli", "ex_de": "Wegen eines Staus ist der Bus zehn Minuten verspätet.", "ex_tr": "Trafik sıkışıklığı yüzünden otobüs on dakika gecikmeli."},
+        {"de": "der Berufsverkehr", "pl": "", "tr": "iş saati trafiği, yoğun saat", "ex_de": "Im Berufsverkehr ist der Bus oft sehr voll.", "ex_tr": "Yoğun saatlerde otobüs genellikle çok dolu olur."},
+        {"de": "die Viertelstunde", "pl": "die Viertelstunden", "tr": "çeyrek saat", "ex_de": "Der nächste Bus kommt in einer Viertelstunde.", "ex_tr": "Bir sonraki otobüs çeyrek saat sonra geliyor."},
+        {"de": "abfahren (ist abgefahren)", "pl": "", "tr": "kalkmak, hareket etmek", "ex_de": "Der Bus ist gerade abgefahren.", "ex_tr": "Otobüs az önce kalktı."},
+        {"de": "ankommen (ist angekommen)", "pl": "", "tr": "varmak, ulaşmak", "ex_de": "Wann kommen wir in Altona an?", "ex_tr": "Altona'ya ne zaman varıyoruz?"},
+        {"de": "die Fahrzeit", "pl": "die Fahrzeiten", "tr": "yolculuk süresi", "ex_de": "Die Fahrzeit bis Barmbek ist ungefähr 20 Minuten.", "ex_tr": "Barmbek'e kadar yolculuk süresi yaklaşık 20 dakika."},
+        {"de": "der Werktag", "pl": "die Werktage", "tr": "iş günü, hafta içi gün", "ex_de": "An Werktagen fährt der Bus alle 10 Minuten.", "ex_tr": "Hafta içi otobüs her 10 dakikada bir kalkıyor."}
+      ],
+      "phrases": [
+        {"de": "Der Bus fährt alle 10 Minuten.", "tr": "Otobüs her 10 dakikada bir kalkıyor."},
+        {"de": "Wie spät ist es?", "tr": "Saat kaç?"},
+        {"de": "Um wie viel Uhr fährt der nächste Bus?", "tr": "Bir sonraki otobüs saat kaçta kalkıyor?"},
+        {"de": "Wir haben leider ein paar Minuten Verspätung.", "tr": "Maalesef birkaç dakika gecikmemiz var."},
+        {"de": "Der Bus kommt gleich.", "tr": "Otobüs birazdan gelir."},
+        {"de": "Die Abfahrtszeiten finden Sie auch in der HVV-App.", "tr": "Kalkış saatlerini HVV uygulamasında da bulabilirsiniz."}
+      ],
+      "dialog": {
+        "title_tr": "Hauptbahnhof'ta saat sorusu",
+        "lines": [
+          {"who": "Fahrgast", "de": "Entschuldigung, fährt dieser Bus nach Barmbek?", "tr": "Affedersiniz, bu otobüs Barmbek'e gidiyor mu?"},
+          {"who": "Busfahrer", "de": "Ja, genau. Wir fahren um 14:45 Uhr ab.", "tr": "Evet, aynen öyle. Saat 14:45'te kalkıyoruz."},
+          {"who": "Fahrgast", "de": "Also um Viertel vor drei. Und wann kommen wir in Barmbek an?", "tr": "Yani üçe çeyrek kala. Peki Barmbek'e ne zaman varıyoruz?"},
+          {"who": "Busfahrer", "de": "Laut Fahrplan um 15:10 Uhr. Die Fahrzeit ist ungefähr 25 Minuten.", "tr": "Tarifeye göre 15:10'da. Yolculuk süresi yaklaşık 25 dakika."},
+          {"who": "Fahrgast", "de": "Ich habe um halb vier einen Termin. Ist der Bus normalerweise pünktlich?", "tr": "Üç buçukta randevum var. Otobüs genelde dakik midir?"},
+          {"who": "Busfahrer", "de": "Meistens ja. Aber im Berufsverkehr sind wir manchmal verspätet.", "tr": "Çoğunlukla evet. Ama yoğun saatlerde bazen gecikiyoruz."},
+          {"who": "Fahrgast", "de": "Und wenn ich den Bus verpasse?", "tr": "Peki otobüsü kaçırırsam?"},
+          {"who": "Busfahrer", "de": "Kein Problem. An Werktagen fahren wir im 10-Minuten-Takt.", "tr": "Sorun değil. Hafta içi 10 dakikada bir sefer yapıyoruz."},
+          {"who": "Fahrgast", "de": "Super, vielen Dank!", "tr": "Süper, çok teşekkürler!"},
+          {"who": "Busfahrer", "de": "Bitte schön. Steigen Sie ein, wir fahren gleich ab.", "tr": "Rica ederim. Binin, birazdan kalkıyoruz."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Resmi ve günlük dilde saat",
+        "explain_tr": "Almancada saat iki şekilde söylenir. Resmi saat tarifede, anonslarda ve iş yerinde kullanılır: 14:45 = 'vierzehn Uhr fünfundvierzig'. Günlük dilde 12 saatlik sistem kullanılır: 14:45 = 'Viertel vor drei' (üçe çeyrek var). 'Viertel nach' çeyrek geçiyor, 'Viertel vor' çeyrek var demektir. Dikkat: 'halb drei' 2:30 demektir, yani bir sonraki saate göre söylenir! 'Saat kaçta?' sorusuna 'um' ile cevap verilir: um 7 Uhr.",
+        "examples": [
+          {"de": "Der Bus fährt um 6:15 Uhr ab – um Viertel nach sechs.", "tr": "Otobüs 6:15'te kalkıyor – altıyı çeyrek geçe."},
+          {"de": "Meine Schicht beginnt um 13:30 Uhr – also um halb zwei.", "tr": "Vardiyam 13:30'da başlıyor – yani bir buçukta."},
+          {"de": "Ankunft am Hauptbahnhof: 14:45 Uhr – Viertel vor drei.", "tr": "Hauptbahnhof'a varış: 14:45 – üçe çeyrek var."},
+          {"de": "Mein letzter Bus fährt um 23:50 Uhr – um zehn vor zwölf.", "tr": "Son otobüsüm 23:50'de kalkıyor – on ikiye on var."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Hauptbahnhof'tasın ve otobüsün birazdan kalkacak. Yaşlı bir yolcu kalkış ve varış saatlerini soruyor. Bu (hayali) tarifeyi kullan: kalkış 14:45, Wandsbek Markt'a varış 15:12, hafta içi her 10 dakikada bir, akşam 20 dakikada bir. Saatleri hem resmi hem de günlük dille söyle.",
+        "ai_brief": "You are Frau Krüger, an elderly passenger at Hamburg Hauptbahnhof, a bit hard of hearing and slightly nervous because you have a doctor's appointment in Wandsbek at half past three (halb vier). Speak simple German (A2-B1), always use 'Sie'. Use this fictional timetable as the truth: departure 14:45, arrival Wandsbek Markt 15:12, on weekdays every 10 minutes, in the evening every 20 minutes. Complications: 1) Mix up the times: ask 'Ist das halb drei oder Viertel vor drei?' and make the learner say it in everyday German. 2) Ask what happens if the bus is late because of traffic. 3) Ask how often the bus goes back in the evening. If the learner gives a wrong time, ask again in a confused but friendly way. The scene is finished when you clearly understand departure, arrival and frequency, thank the driver and get on the bus.",
+        "opener_de": "Entschuldigen Sie, fährt dieser Bus nach Wandsbek? Und wann kommen wir da an?"
+      }
+    },
+    {
+      "id": "w1d3",
+      "day": 3,
+      "title_de": "Wegbeschreibung in der Stadt",
+      "title_tr": "Şehirde yol tarifi",
+      "goal_tr": "Yolculara basit bir yol tarifi verebilirsin: düz git, sola dön, trafik ışığında, kavşakta. Yer bildirirken Dativ edatlarını doğru kullanabilirsin.",
+      "words": [
+        {"de": "geradeaus", "pl": "", "tr": "dümdüz, doğru", "ex_de": "Gehen Sie hier immer geradeaus bis zur Ampel.", "ex_tr": "Buradan trafik ışığına kadar hep düz gidin."},
+        {"de": "abbiegen (ist abgebogen)", "pl": "", "tr": "dönmek, sapmak", "ex_de": "An der nächsten Kreuzung biegen Sie links ab.", "ex_tr": "Bir sonraki kavşakta sola dönün."},
+        {"de": "die Kreuzung", "pl": "die Kreuzungen", "tr": "kavşak", "ex_de": "Die Haltestelle ist direkt nach der Kreuzung.", "ex_tr": "Durak kavşağın hemen arkasında."},
+        {"de": "die Ampel", "pl": "die Ampeln", "tr": "trafik ışığı", "ex_de": "An der Ampel gehen Sie nach rechts.", "ex_tr": "Trafik ışığında sağa gidin."},
+        {"de": "die Ecke", "pl": "die Ecken", "tr": "köşe", "ex_de": "Die Apotheke ist gleich um die Ecke.", "ex_tr": "Eczane hemen köşeyi dönünce."},
+        {"de": "gegenüber (+ Dat.)", "pl": "", "tr": "karşısında", "ex_de": "Der Taxistand ist gegenüber dem Bahnhof.", "ex_tr": "Taksi durağı garın karşısında."},
+        {"de": "die Richtung", "pl": "die Richtungen", "tr": "yön", "ex_de": "Dieser Bus fährt in Richtung Altona.", "ex_tr": "Bu otobüs Altona yönüne gidiyor."},
+        {"de": "die Straßenseite", "pl": "die Straßenseiten", "tr": "yolun/caddenin tarafı", "ex_de": "Der Bus in die Gegenrichtung hält auf der anderen Straßenseite.", "ex_tr": "Ters yöne giden otobüs yolun karşı tarafında duruyor."},
+        {"de": "der Fußweg", "pl": "die Fußwege", "tr": "yürüme mesafesi; yaya yolu", "ex_de": "Zum Jungfernstieg sind es nur fünf Minuten Fußweg.", "ex_tr": "Jungfernstieg'e sadece beş dakikalık yürüme mesafesi var."},
+        {"de": "die Nähe", "pl": "", "tr": "yakınlık, yakın çevre", "ex_de": "Gibt es hier in der Nähe ein Krankenhaus?", "ex_tr": "Buralarda yakında bir hastane var mı?"},
+        {"de": "der Kreisverkehr", "pl": "die Kreisverkehre", "tr": "göbekli kavşak, döner kavşak", "ex_de": "Im Kreisverkehr nehmen Sie die zweite Ausfahrt.", "ex_tr": "Göbekli kavşakta ikinci çıkışı alın."},
+        {"de": "die Brücke", "pl": "die Brücken", "tr": "köprü", "ex_de": "Nach der Brücke biegen Sie rechts ab.", "ex_tr": "Köprüden sonra sağa dönün."}
+      ],
+      "phrases": [
+        {"de": "Wie komme ich zum Rathausmarkt?", "tr": "Rathausmarkt'a nasıl giderim?"},
+        {"de": "Gehen Sie hier geradeaus und dann die zweite Straße links.", "tr": "Buradan düz gidin, sonra ikinci sokaktan sola dönün."},
+        {"de": "Das ist gleich um die Ecke.", "tr": "Hemen köşeyi dönünce."},
+        {"de": "Steigen Sie am besten an der nächsten Haltestelle aus.", "tr": "En iyisi bir sonraki durakta inin."},
+        {"de": "Das liegt leider nicht auf meiner Strecke.", "tr": "Maalesef orası benim güzergâhımda değil."},
+        {"de": "Da müssen Sie auf der anderen Straßenseite einsteigen.", "tr": "Oradan binmek için yolun karşı tarafına geçmeniz gerekiyor."}
+      ],
+      "dialog": {
+        "title_tr": "Postaneye giden yol",
+        "lines": [
+          {"who": "Fahrgast", "de": "Entschuldigung, ich suche die Post. Muss ich hier aussteigen?", "tr": "Affedersiniz, postaneyi arıyorum. Burada mı inmem gerekiyor?"},
+          {"who": "Busfahrer", "de": "Nein, steigen Sie besser an der nächsten Haltestelle aus. Da ist es näher.", "tr": "Hayır, bir sonraki durakta inseniz daha iyi. Oradan daha yakın."},
+          {"who": "Fahrgast", "de": "Gut. Und wie gehe ich dann weiter?", "tr": "Tamam. Peki sonra nasıl devam edeceğim?"},
+          {"who": "Busfahrer", "de": "Gehen Sie zuerst geradeaus bis zur Ampel.", "tr": "Önce trafik ışığına kadar düz gidin."},
+          {"who": "Fahrgast", "de": "Bis zur Ampel, okay. Und dann?", "tr": "Trafik ışığına kadar, tamam. Sonra?"},
+          {"who": "Busfahrer", "de": "An der Kreuzung biegen Sie links ab. Die Post ist an der Ecke, gegenüber der Apotheke.", "tr": "Kavşakta sola dönün. Postane köşede, eczanenin karşısında."},
+          {"who": "Fahrgast", "de": "Ist das weit?", "tr": "Uzak mı?"},
+          {"who": "Busfahrer", "de": "Nein, das sind nur drei Minuten Fußweg.", "tr": "Hayır, sadece üç dakikalık yürüme mesafesi."},
+          {"who": "Fahrgast", "de": "Und zurück? Wo hält der Bus in Richtung Hauptbahnhof?", "tr": "Peki dönüşte? Hauptbahnhof yönüne giden otobüs nerede duruyor?"},
+          {"who": "Busfahrer", "de": "Auf der anderen Straßenseite, direkt gegenüber der Haltestelle.", "tr": "Yolun karşı tarafında, durağın tam karşısında."}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Dativ ile kullanılan edatlar",
+        "explain_tr": "'Wo?' (Nerede?) sorusuna cevap verirken an, in, neben, vor, hinter edatlarından sonra Dativ kullanılır. Bazı edatlar her zaman Dativ ister: zu, bei, nach, mit, von, aus, gegenüber. Dativde der → dem, die → der, das → dem, çoğulda die → den olur. Sık kısaltmalar: an dem = am, zu dem = zum, zu der = zur, bei dem = beim. Örnek: an der Ampel, am Bahnhof, bis zur Kreuzung.",
+        "examples": [
+          {"de": "An der Ampel biegen Sie rechts ab.", "tr": "Trafik ışığında sağa dönün."},
+          {"de": "Die Haltestelle ist direkt an der Kreuzung.", "tr": "Durak tam kavşakta."},
+          {"de": "Das Café ist gegenüber dem Bahnhof.", "tr": "Kafe garın karşısında."},
+          {"de": "Fahren Sie mit dem Bus bis zum Jungfernstieg.", "tr": "Otobüsle Jungfernstieg'e kadar gidin."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Tourist",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Durakta bekliyorsun ve Hamburg'a ilk kez gelen bir turist sana yol soruyor. Hayali harita: duraktan düz git, ikinci kavşakta sola dön, trafik ışığından sonra köprüyü geç; otel köşede, bankanın karşısında. Yolu açık ve kibar şekilde tarif et.",
+        "ai_brief": "You are Herr Huber, a friendly tourist from Munich, visiting Hamburg for the first time and a bit in a hurry. You are looking for the (fictional) 'Hotel Möwe'. Speak simple German (A2-B1), use 'Sie'. The truth (fictional map): from the stop go straight on, turn left at the second crossing, after the traffic light cross the bridge; the hotel is on the corner, opposite the bank, about 7 minutes on foot. Complications: 1) Ask the learner to repeat one part of the route. 2) Repeat the route back with one mistake (say 'rechts' instead of 'links') so the learner must correct you. 3) Ask whether it is better to stay on the bus or to walk, and how to get back to the Hauptbahnhof later. The scene is finished when you can repeat the whole route correctly; then thank the driver and say goodbye.",
+        "opener_de": "Moin! Ich bin zum ersten Mal in Hamburg. Wie komme ich von hier zum Hotel Möwe?"
+      }
+    },
+    {
+      "id": "w1d4",
+      "day": 4,
+      "title_de": "Im Bus: Grundwörter",
+      "title_tr": "Otobüste: temel kelimeler",
+      "goal_tr": "Otobüsteki temel şeyleri Almanca adlandırabilir ve yolculara kısa talimatlar verebilirsin. einsteigen, aussteigen, umsteigen gibi ayrılabilen fiilleri doğru kullanabilirsin.",
+      "words": [
+        {"de": "der Fahrgast", "pl": "die Fahrgäste", "tr": "yolcu", "ex_de": "Bitte lassen Sie die Fahrgäste zuerst aussteigen.", "ex_tr": "Lütfen önce yolcuların inmesine izin verin."},
+        {"de": "der Fahrer", "pl": "die Fahrer", "tr": "şoför", "ex_de": "Bitte sprechen Sie den Fahrer während der Fahrt nicht an.", "ex_tr": "Lütfen yolculuk sırasında şoförle konuşmayın."},
+        {"de": "die Tür", "pl": "die Türen", "tr": "kapı", "ex_de": "Vorsicht, die Tür schließt!", "ex_tr": "Dikkat, kapı kapanıyor!"},
+        {"de": "der Halteknopf", "pl": "die Halteknöpfe", "tr": "durak (dur) düğmesi", "ex_de": "Bitte drücken Sie rechtzeitig den Halteknopf.", "ex_tr": "Lütfen dur düğmesine zamanında basın."},
+        {"de": "der Sitzplatz", "pl": "die Sitzplätze", "tr": "oturacak yer, koltuk", "ex_de": "Hinten sind noch Sitzplätze frei.", "ex_tr": "Arkada hâlâ boş koltuklar var."},
+        {"de": "der Stehplatz", "pl": "die Stehplätze", "tr": "ayakta durma yeri", "ex_de": "Morgens gibt es oft nur noch Stehplätze.", "ex_tr": "Sabahları genellikle sadece ayakta yer kalıyor."},
+        {"de": "einsteigen (ist eingestiegen)", "pl": "", "tr": "(araca) binmek", "ex_de": "Bitte steigen Sie zügig ein.", "ex_tr": "Lütfen hızlıca binin."},
+        {"de": "aussteigen (ist ausgestiegen)", "pl": "", "tr": "(araçtan) inmek", "ex_de": "Am Hauptbahnhof steigen viele Fahrgäste aus.", "ex_tr": "Hauptbahnhof'ta birçok yolcu iniyor."},
+        {"de": "umsteigen (ist umgestiegen)", "pl": "", "tr": "aktarma yapmak", "ex_de": "In Barmbek können Sie in die U-Bahn umsteigen.", "ex_tr": "Barmbek'te metroya aktarma yapabilirsiniz."},
+        {"de": "anhalten (hat angehalten)", "pl": "", "tr": "durmak, durdurmak", "ex_de": "Der Bus hält gleich an.", "ex_tr": "Otobüs birazdan duruyor."},
+        {"de": "die Haltestelle", "pl": "die Haltestellen", "tr": "durak", "ex_de": "Die nächste Haltestelle ist Rathausmarkt.", "ex_tr": "Bir sonraki durak Rathausmarkt."},
+        {"de": "der Kinderwagen", "pl": "die Kinderwagen", "tr": "bebek arabası", "ex_de": "Mit dem Kinderwagen stehen Sie bitte in der Mitte.", "ex_tr": "Bebek arabasıyla lütfen ortada durun."}
+      ],
+      "phrases": [
+        {"de": "Bitte einsteigen!", "tr": "Lütfen binin!"},
+        {"de": "Nächste Haltestelle: Jungfernstieg.", "tr": "Sonraki durak: Jungfernstieg."},
+        {"de": "Bitte gehen Sie nach hinten durch.", "tr": "Lütfen arkaya doğru ilerleyin."},
+        {"de": "Bitte halten Sie sich gut fest!", "tr": "Lütfen sıkı tutunun!"},
+        {"de": "Bitte machen Sie die Tür frei.", "tr": "Lütfen kapının önünü boşaltın."},
+        {"de": "Hier können Sie leider nicht aussteigen.", "tr": "Maalesef burada inemezsiniz."}
+      ],
+      "dialog": {
+        "title_tr": "Bebek arabalı yolcu",
+        "lines": [
+          {"who": "Busfahrer", "de": "Moin! Bitte einsteigen und nach hinten durchgehen.", "tr": "Merhaba! Lütfen binin ve arkaya doğru ilerleyin."},
+          {"who": "Fahrgast", "de": "Moin! Wo kann ich mit dem Kinderwagen stehen?", "tr": "Merhaba! Bebek arabasıyla nerede durabilirim?"},
+          {"who": "Busfahrer", "de": "In der Mitte, an der zweiten Tür. Da ist Platz.", "tr": "Ortada, ikinci kapının yanında. Orada yer var."},
+          {"who": "Fahrgast", "de": "Danke. Ich möchte nach Altona. Muss ich umsteigen?", "tr": "Teşekkürler. Altona'ya gitmek istiyorum. Aktarma yapmam gerekiyor mu?"},
+          {"who": "Busfahrer", "de": "Ja. Sie steigen am Hauptbahnhof aus und steigen dort in die S-Bahn um.", "tr": "Evet. Hauptbahnhof'ta inip orada S-Bahn'a aktarma yapıyorsunuz."},
+          {"who": "Fahrgast", "de": "Gibt es hier noch einen Sitzplatz für mich?", "tr": "Burada benim için boş bir koltuk var mı?"},
+          {"who": "Busfahrer", "de": "Leider nicht, es gibt nur noch Stehplätze. Bitte halten Sie sich und den Kinderwagen gut fest.", "tr": "Maalesef yok, sadece ayakta yer kaldı. Lütfen kendinizi ve bebek arabasını sıkı tutun."},
+          {"who": "Fahrgast", "de": "Wie sage ich Ihnen, dass ich aussteigen will?", "tr": "İnmek istediğimi size nasıl söylerim?"},
+          {"who": "Busfahrer", "de": "Drücken Sie einfach rechtzeitig den Halteknopf. Dann halte ich an der nächsten Haltestelle an.", "tr": "Sadece zamanında dur düğmesine basın. O zaman bir sonraki durakta dururum."},
+          {"who": "Busfahrer", "de": "Vorsicht, die Tür schließt!", "tr": "Dikkat, kapı kapanıyor!"}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Ayrılabilen fiiller",
+        "explain_tr": "Bazı fiillerin başında ayrılabilen bir ön ek vardır: ein-, aus-, um-, an-. Normal cümlede ön ek cümlenin en sonuna gider: Ich steige am Hauptbahnhof aus. Modal fiil varsa fiil bölünmez ve sona gider: Sie müssen hier aussteigen. Perfekt'te 'ge' ortaya girer: ausgestiegen, umgestiegen, angehalten. einsteigen, aussteigen ve umsteigen Perfekt'te 'sein' alır, anhalten ise 'haben' alır. Vurgu hep ön ektedir: EINsteigen, AUSsteigen.",
+        "examples": [
+          {"de": "Steigen Sie bitte hinten aus.", "tr": "Lütfen arka kapıdan inin."},
+          {"de": "Wo steige ich in die U-Bahn um?", "tr": "Metroya nerede aktarma yaparım?"},
+          {"de": "Ich halte an der nächsten Haltestelle an.", "tr": "Bir sonraki durakta duracağım."},
+          {"de": "Der Fahrgast ist am Jungfernstieg eingestiegen.", "tr": "Yolcu Jungfernstieg'de bindi."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Akşamüstü yoğun saat, otobüsün dolu. Bebek arabalı bir baba biniyor, aktarma soruyor ve kapının önünde duruyor. Onu kibarca doğru yere yönlendir, nerede inip aktarma yapacağını açıkla ve kapının önünü boşaltmasını rica et.",
+        "ai_brief": "You are Herr Weber, a stressed young father with a baby in a stroller (Kinderwagen), boarding a full bus in Hamburg during rush hour. Speak simple German (A2-B1), use 'Sie' with the driver. You want to get to Altona. Complications: 1) You stay standing in the doorway so the door cannot close; only move when the driver asks you politely and tells you where to go. 2) Ask where you have to change for Altona (accept any plausible answer, e.g. get off at Hauptbahnhof and change to the S-Bahn). 3) A bit later, ask the driver to stop right here between two stops because you are late; accept a polite refusal. React naturally and stay friendly if the driver is polite. The scene is finished when you have a place, know where to get off and change, and say goodbye as you get off.",
+        "opener_de": "Moin! Puh, ist das voll hier. Wo kann ich denn mit dem Kinderwagen hin?"
+      }
+    },
+    {
+      "id": "w1d5",
+      "day": 5,
+      "title_de": "Smalltalk & nachfragen",
+      "title_tr": "Sohbet ve tekrar sorma",
+      "goal_tr": "Yolcularla ve iş arkadaşlarıyla hava ve trafik hakkında kısa bir sohbet yapabilirsin. Anlamadığında kibarca tekrar etmelerini veya daha yavaş konuşmalarını isteyebilirsin.",
+      "words": [
+        {"de": "das Wetter", "pl": "", "tr": "hava (durumu)", "ex_de": "Bei diesem Wetter fahren viele Leute lieber Bus.", "ex_tr": "Bu havada birçok kişi otobüsle gitmeyi tercih ediyor."},
+        {"de": "regnen", "pl": "", "tr": "yağmur yağmak", "ex_de": "In Hamburg regnet es ziemlich oft.", "ex_tr": "Hamburg'da oldukça sık yağmur yağar."},
+        {"de": "der Nieselregen", "pl": "", "tr": "çisenti, ince yağmur", "ex_de": "Heute gibt es den ganzen Tag Nieselregen.", "ex_tr": "Bugün bütün gün yağmur çiseliyor."},
+        {"de": "glatt", "pl": "", "tr": "kaygan", "ex_de": "Vorsicht, die Straßen sind heute glatt.", "ex_tr": "Dikkat, yollar bugün kaygan."},
+        {"de": "ungemütlich", "pl": "", "tr": "kasvetli, hoş olmayan (hava)", "ex_de": "Heute ist es nass und ungemütlich.", "ex_tr": "Bugün hava ıslak ve kasvetli."},
+        {"de": "der Stau", "pl": "die Staus", "tr": "trafik sıkışıklığı", "ex_de": "Morgens gibt es in der Innenstadt oft Stau.", "ex_tr": "Sabahları şehir merkezinde sık sık trafik sıkışıklığı olur."},
+        {"de": "wiederholen (hat wiederholt)", "pl": "", "tr": "tekrarlamak", "ex_de": "Können Sie das bitte wiederholen?", "ex_tr": "Lütfen bunu tekrarlayabilir misiniz?"},
+        {"de": "langsam", "pl": "", "tr": "yavaş", "ex_de": "Bitte sprechen Sie etwas langsamer.", "ex_tr": "Lütfen biraz daha yavaş konuşun."},
+        {"de": "das Missverständnis", "pl": "die Missverständnisse", "tr": "yanlış anlama, yanlış anlaşılma", "ex_de": "Das war nur ein Missverständnis, kein Problem.", "ex_tr": "Bu sadece bir yanlış anlamaydı, sorun değil."},
+        {"de": "die Schicht", "pl": "die Schichten", "tr": "vardiya", "ex_de": "Wie war deine Schicht heute?", "ex_tr": "Bugün vardiyan nasıl geçti?"},
+        {"de": "der Feierabend", "pl": "die Feierabende", "tr": "mesai bitimi, işten sonraki boş zaman", "ex_de": "Um 18 Uhr habe ich Feierabend.", "ex_tr": "Saat 18'de mesaim bitiyor."},
+        {"de": "sich unterhalten (hat sich unterhalten)", "pl": "", "tr": "sohbet etmek", "ex_de": "In der Pause unterhalten wir uns über Fußball.", "ex_tr": "Molada futbol hakkında sohbet ediyoruz."}
+      ],
+      "phrases": [
+        {"de": "Wie bitte?", "tr": "Efendim? / Pardon, ne dediniz?"},
+        {"de": "Können Sie das bitte wiederholen?", "tr": "Lütfen tekrar eder misiniz?"},
+        {"de": "Können Sie bitte etwas langsamer sprechen?", "tr": "Lütfen biraz daha yavaş konuşabilir misiniz?"},
+        {"de": "Was meinen Sie mit …?", "tr": "… derken neyi kastediyorsunuz?"},
+        {"de": "Typisch Hamburg – schon wieder Regen!", "tr": "Tam Hamburg işi – yine yağmur!"},
+        {"de": "Schönen Feierabend!", "tr": "İşten sonra iyi dinlenmeler! / İyi akşamlar!"}
+      ],
+      "dialog": {
+        "title_tr": "Vardiya değişiminde sohbet",
+        "lines": [
+          {"who": "Kollege", "de": "Moin, Emre! Na, wie war deine Schicht?", "tr": "Merhaba Emre! Eee, vardiyan nasıl geçti?"},
+          {"who": "Busfahrer", "de": "Moin! Ganz gut, aber anstrengend. Es regnet seit heute Morgen.", "tr": "Merhaba! Fena değil ama yorucu. Sabahtan beri yağmur yağıyor."},
+          {"who": "Kollege", "de": "Typisch Hamburg. Bei so einem Wetter gibt es überall Stau.", "tr": "Tam Hamburg işi. Böyle havada her yerde trafik sıkışıyor."},
+          {"who": "Busfahrer", "de": "Genau. Ich war fast zehn Minuten verspätet.", "tr": "Aynen. Neredeyse on dakika gecikmeliydim."},
+          {"who": "Kollege", "de": "Am Dammtor war bestimmt wieder alles dicht, oder?", "tr": "Dammtor'da yine her yer tıkanmıştır, değil mi?"},
+          {"who": "Busfahrer", "de": "Wie bitte? Kannst du das wiederholen? Was heißt 'dicht'?", "tr": "Efendim? Tekrar eder misin? 'dicht' ne demek?"},
+          {"who": "Kollege", "de": "Ah, Entschuldigung. 'Alles dicht' heißt: Die Straße war voll, nichts ging mehr.", "tr": "Ah, pardon. 'Alles dicht' şu demek: Yol doluydu, hiçbir şey ilerlemiyordu."},
+          {"who": "Busfahrer", "de": "Ach so, jetzt verstehe ich. Ja, da war wirklich alles dicht!", "tr": "Haa, şimdi anladım. Evet, orada gerçekten her yer tıkalıydı!"},
+          {"who": "Kollege", "de": "Ich habe jetzt Feierabend. Pass auf, die Straßen sind glatt.", "tr": "Benim mesaim bitti. Dikkat et, yollar kaygan."},
+          {"who": "Busfahrer", "de": "Mach ich. Schönen Feierabend!", "tr": "Ederim. İyi akşamlar, iyi dinlenmeler!"}
+        ]
+      },
+      "grammar": {
+        "title_tr": "Modal fiiller: können, müssen, dürfen",
+        "explain_tr": "Modal fiil cümlede ikinci sıradadır, asıl fiil mastar halinde cümlenin sonuna gider: Ich muss jetzt losfahren. 'können' = -ebilmek (yetenek, imkân, kibar rica). 'müssen' = zorunda olmak, -meli. 'dürfen' = izni olmak; 'nicht dürfen' = yasak. ich ve er/sie/es ile sonda -t yoktur: ich kann, er kann; ich muss, er muss; ich darf, er darf. Dikkat: 'nicht müssen' = gerek yok, ama 'nicht dürfen' = yasak!",
+        "examples": [
+          {"de": "Können Sie bitte etwas lauter sprechen?", "tr": "Lütfen biraz daha yüksek sesle konuşabilir misiniz?"},
+          {"de": "Bei Glätte muss ich langsamer fahren.", "tr": "Yollar kayganken daha yavaş sürmem gerekiyor."},
+          {"de": "Darf ich Sie kurz etwas fragen?", "tr": "Size kısaca bir şey sorabilir miyim?"},
+          {"de": "Du musst heute nicht früher kommen, die Schicht beginnt um acht.", "tr": "Bugün erken gelmene gerek yok, vardiya sekizde başlıyor."}
+        ]
+      },
+      "roleplay": {
+        "ai_role_de": "Fahrgast",
+        "user_role_tr": "Otobüs şoförü",
+        "scenario_tr": "Yağmurlu bir akşam, otobüsün Wandsbek'te birkaç dakika bekliyor. Konuşkan, yaşlı bir Hamburglu yolcu hava ve trafik hakkında seninle sohbet ediyor ama hızlı konuşuyor ve yerel kelimeler kullanıyor. Kibarca sohbet et; anlamadığında 'Wie bitte?', 'Können Sie das wiederholen?' veya 'Bitte langsamer' diye sor.",
+        "ai_brief": "You are Herr Petersen, a chatty retired man from Hamburg, in a good mood despite the rain. You sit near the front while the bus waits a few minutes at a stop in Wandsbek. Speak German, a bit fast at first, and use one or two Hamburg expressions such as 'Schietwetter' (bad weather) or 'alles dicht' (traffic jammed). When the learner asks you to repeat or to speak more slowly, do it with simpler words and explain the expression. Always use 'Sie'. Complications: 1) Use 'Schietwetter' early and wait for the learner to ask what it means. 2) Ask friendly smalltalk questions (Wie lange fahren Sie schon Bus? Woher kommen Sie? Gefällt Ihnen Hamburg?). 3) Ask whether the bus will be late because of the rain and the traffic. Be warm and never rude. The scene is finished when the learner has asked for clarification at least twice and used können, müssen or dürfen in their answers; then say goodbye as you get off.",
+        "opener_de": "Moin moin! Na, das ist ja heute wieder ein Schietwetter, nicht? Da kommen Sie bestimmt überall zu spät, oder?"
+      }
+    }
+  ]
+}
